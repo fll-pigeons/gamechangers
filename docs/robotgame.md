@@ -6,11 +6,11 @@ Our Ev3 programs are saved on Github:
 
 # 1. Missions
 
-* [Points Calculator](http://komurobo.com/projets/fll/ville-avenir/)
+* [Points Calculator](http://komurobo.com/projets/fll/city-shaper/)
 * [Strategy Sheet](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
-* See the [Game Guide - starting page 8](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-game-guide-pdf.pdf)
+* [Game Guide](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-game-guide-pdf.pdf)
 
 ### Approaches used by other teams
 
