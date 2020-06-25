@@ -20,7 +20,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 [Western Judging Process](CoachesDayPresentation2019_judging.pdf)
 
-#### 1. [Core Values](valeurs.md)
+#### 1. [Core Values](Core-Values.jpg)
 * [Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)
 * Question and Answer (10 min)
 
