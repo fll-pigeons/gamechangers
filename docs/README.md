@@ -3,7 +3,7 @@
 
 Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western <b>in late November or early December, 2020<b/>.
 
-[Schedule (TBD)](FLLSchedule2019_General_Schedule.pdf)
+[Competition Schedule (TBD)](FLLSchedule2019_General_Schedule.pdf)
 
 [Challenge Resources](challenge.md)
 
