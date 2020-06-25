@@ -11,12 +11,12 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 * [Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
-### A. [Robot Game](jeudurobot.md) (14 Missions)
+### A. [Robot Game](robotgame.md) (14 Missions)
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
 ### B. Judging:
-[Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each présentation)
+[Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each presentation)
 
 [Western Judging Process](CoachesDayPresentation2019_judging.pdf)
 
@@ -33,7 +33,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 #### 3. [Robot Design](robotDesign.md)
 * Presentation of Robot Design Summary (4 min)
-* Question and Answer (15 min) (we have access to a practice table with Challenge set)
+* Question and Answer (11 min) (we have access to a practice table with Challenge set)
 * [Robot Design Executive Summary (RDES)](IO_RDES.pdf)
 * Diagrams showing the robot programs (on paper or computer) 
 
@@ -43,4 +43,5 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 
 # News
-> #### 24 June - New Team set up
+> #### 24 June - Code virtual 3D robots at [Coderz ](https://gocoderz.com/learn/) 
+> ([Amazon's Future Engineer Program offers free access to Coderz](https://gocoderz.com/amazon-future-engineer/?utm_source=Amazon&utm_medium=Blue_Pop_up&utm_campaign=2020) until June 20, $6.25/month thereafter)

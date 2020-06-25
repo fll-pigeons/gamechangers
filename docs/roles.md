@@ -1,20 +1,20 @@
 ## Roles
 
-### A. Jeu de robot
-* Personne en charge de:
-  * connaitre les règles du jeu de robot
-  * chaque mission (missions 1-14)
-* 2 Conducteurs (Jour de compétition)
+### A. Robot game
+* Person in charge of:
+  * knowing the rules of the Robot Game
+  * each mission
+* 2 Drivers (Day of compeititon)
 
-### B. Présentation devant les juges:
-#### 1. Valeurs fondamentales
-* tout le groupe doit faire parti de la présentation
-* Personne en charge de l'affiche des valeurs fondamentales
+### B. Presentations:
+#### 1. Core Values
+* Entire groupe must participate
+* Personne in charge of the Core Values poster
 
-#### 2. Projet de recherche
-* présentation
-* Personne en charge de l'affiche du projet de recherche
+#### 2. Research Project
+* Presentation
+* Personne in charge of the Research Project poster
 
-#### 3. Résumé de conception de robot
-* présentation 
-* Personne en charge du document de conception de robot
+#### 3. Robot Design Executive Summary (RDES)
+* Presentation 
+* Personne in charge of the RDES poster

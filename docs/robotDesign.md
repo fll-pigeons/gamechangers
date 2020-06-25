@@ -1,6 +1,6 @@
-# Conception de robot
+# Robot Design
 
-## Session de jugement Western:
+## Judging session:
 
 ### The following outlines what you can expect in each of the judging sessions.
 
@@ -14,10 +14,10 @@ for the judges to ask your team questions.
 You must bring your robot, its manipulators, and a diagram, printout or a laptop that shows your
 programming to the robot design judges!
 
-### [exemples de questions](2-InterviewSampleQuestions-RobotDesign-Rick.pdf)
+### [Sample Questions](2-InterviewSampleQuestions-RobotDesign-Rick.pdf)
 
-#### [Rubric des juges](rubricsRobotDesign.pdf)
+#### [Robot Design Judging Rubrics](rubricsRobotDesign.pdf)
 
-#### Livrables
-* [Résumé de conception de robot (RDES)](https://drive.google.com/file/d/1VC3oS6zkFRucYmjoOFKwcpcF8nQUieVT/view)
-* diagrams demontrant le programme du robot (sur papier or ordinateur) 
+#### Deliverables
+* [Robot Design Executive Summary (RDES)](https://drive.google.com/file/d/1VC3oS6zkFRucYmjoOFKwcpcF8nQUieVT/view)
+* Diagrams showing the robot program (on paper or computer) 

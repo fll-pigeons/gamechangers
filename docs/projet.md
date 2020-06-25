@@ -1,24 +1,15 @@
-# Projet recherche 
+# Research Project 
 
 # 1. Description
 
-Les architectes conçoivent et construisent des bâtiments. Ils combinent la science et l’art pour créer des bâtiments et des structures pour leurs clients. Parfois, ils en construisent des nouveaux et parfois ils en rénovent des existants.
+In the Innovation Project, your team will:
 
-Comme vous, ils travaillent en équipe. Les ingénieurs civils et les ingénieurs des structures ou en environnement s’assurent qu’un projet convient à un site donné. Quant aux professionnels de la construction tels que les électriciens, les plombiers, les charpentiers et les gestionnaires de projets, ils s’assurent que le travail respecte les délais et les budgets établis. Chaque rôle est important à la réalisation du projet.
+* Identify a problem with a building or public space in your community.
+* Design a solution.
+* Share your solution with others and then refine it.
 
-Nos villes font face à de gros défis, comme le transport, l’accessibilité et même les catastrophes naturelles. Comment pouvons-nous façonner un avenir meilleur pour chacun? Il faudra travailler en équipe et faire preuve d’imagination. Êtes-vous prêt à collaborer pour bâtir un avenir meilleur?
 
-## Pour le projet innovant, on doit:
-* Déterminer un problème dans un <b>bâtiment</b> ou un <b>espace public</b> de votre communauté.
-* Concevoir une solution. 
-* Partager la solution avec d’autres et l’améliorer.
-
-Lors des tournois officiels, on disposera de 5 minutes pour présenter les trois facettes du projet: 
-* le problème, 
-* la solution et 
-* la façon dont vous l’avez partagée.
-
-# 2. Session de jugement Western:
+# 2. Judging Session:
 
 ## The following outlines what you can expect in each of the judging sessions.
 ### Project Judging
@@ -33,26 +24,15 @@ relating to the theme, design an innovative solution to the problem you selected
 solution with others.
 For questions about the Project, visit the Judging FAQ on the FIRST LEGO League website.
 
-### [Rubric des juges](rubricsProject.pdf)
+### [Judging Rubrics](rubricsProject.pdf)
 
-### [exemples de questions](2-InterviewSampleQuestions-Project-Rick.pdf)
+### [Sample Questions](2-InterviewSampleQuestions-Project-Rick.pdf)
 
-# 3. tutoriels
+# 3. Tutorials
 
 [FLLTutorials](http://flltutorials.com/Project.html)
-* [problème](http://flltutorials.com/translations/en-us/Project/Identify.pdf)
-* [solution](http://flltutorials.com/translations/en-us/Project/InnovativeSolution.pdf)
-* [partagée](http://flltutorials.com/translations/en-us/Project/Sharing.pdf)
-* [présentation](http://flltutorials.com/translations/en-us/Project/Presentation.pdf)
+* [Identify Problem](http://flltutorials.com/translations/en-us/Project/Identify.pdf)
+* [Innovative Solutions](http://flltutorials.com/translations/en-us/Project/InnovativeSolution.pdf)
+* [Share](http://flltutorials.com/translations/en-us/Project/Sharing.pdf)
+* [Presentation](http://flltutorials.com/translations/en-us/Project/Presentation.pdf)
 
-# 4. Possibilités
-* [London Childrens Museum](https://www.londonchildrensmuseum.ca/)
-
-# 5. [Gestion de projet](http://flltutorials.com/translations/en-us/Project/ProjectTimeline.pdf)
-* choisir un sujet (6 nov)
-* fair des recheches (6 nov)
-* Proposer une solution innovante (8 nov)
-* Partager la solution (15 nov)
-* Rédiger une présentation pour les juges (20-22 nov)
-* Créer des accessoires et des tableaux d'affichage (27 nov)
-* Pratiquez votre présentation (29 nov)
