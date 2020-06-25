@@ -15,18 +15,18 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
-### B. Presentation to Judges:
+### B. Judging:
 [Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each présentation)
 
 [Western Judging Process](CoachesDayPresentation2019_judging.pdf)
 
-#### 1. [Fundamental Values](valeurs.md)
+#### 1. [Core Values](valeurs.md)
 * [Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)
 * Question and Answer (10 min)
 
 ([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) est non requis a Western)
 
-#### 2. [Research Project](projet.md)
+#### 2. [Project](projet.md)
 * Presentation (5 min - inclus le temps pour s'installer)
 * Question and Answer (10 min)
 * Research Project Poster
