@@ -1,4 +1,4 @@
-# Valeurs fondamentales
+# Core Values
 
 # 1. Description
 ![image](Core-Values.jpg)
@@ -18,7 +18,7 @@ and complete the task?
 The final ten (10) minutes are reserved for the judges to ask the team questions about the activity and/or the
 season.
 
-# [Rubric des juges](rubricsValues.pdf)
+# [Judging Rubrics](rubricsValues.pdf)
 
 ## What is Gracious Professionalism ® ?
 
@@ -31,12 +31,12 @@ crazy but treat one another with respect and kindness in the process.”
 
 We expect all team members, volunteers, coaches, and families to behave as Gracious Professionals.
 
-# 3. [Exemples de questions](2a-InterviewSampleQuestions-CoreValues-Rick.pdf)
+# 3. [Sample Questions](2a-InterviewSampleQuestions-CoreValues-Rick.pdf)
 
-# 4. tutoriels
-* [Activités d'équipe et de valeurs fondamentals](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/corevalues.html) (ev3lessons)
-* [valeurs fondamentals](http://flltutorials.com/CoreValues.html) (flltutorials)
+# 4. Tutorials
+* [Core Values Team Activities](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/corevalues.html) (ev3lessons)
+* [Core Values](http://flltutorials.com/CoreValues.html) (flltutorials)
 * [FLLTutorials](http://flltutorials.com/CoreValues.html)
-    * [Introduction aux valeurs fondamentales](http://flltutorials.com/translations/en-us/CoreValues/IntroductiontoCV.pdf)
-    * [échantillon d'affiche des valeurs fondamentales](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf)
-    * [Comment prendre des décisions](http://flltutorials.com/translations/en-us/CoreValues/MakingDecisions.pdf)
+    * [Intro to Core Values](http://flltutorials.com/translations/en-us/CoreValues/IntroductiontoCV.pdf)
+    * [Sample Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf)
+    * [Decision Making](http://flltutorials.com/translations/en-us/CoreValues/MakingDecisions.pdf)
