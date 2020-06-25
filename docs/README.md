@@ -1,4 +1,4 @@
-# Team Tobedetermined First Lego League - Game Changers 2020
+# Team 'Tobedetermined' First Lego League - Game Changers 2020
 (Community team in London Ontario.)
 
 Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western <b>in late November or early December, 2020<b/>.
