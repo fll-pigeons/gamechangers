@@ -15,13 +15,13 @@ Our Ev3 programs are saved on Github:
 ### Approaches used by other teams
 
 #### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
-* [5 missions séparées](https://www.youtube.com/watch?v=dAlKqZBOkeo)
-* [3 missions combinées](https://www.youtube.com/watch?v=gxRV948MMsE)
+* [5 separate missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
+* [3 separate missions](https://www.youtube.com/watch?v=gxRV948MMsE)
 
 # 2. Robot
 ### Robot Design
 * [sample instructions](http://flltutorials.com/RobotGame.html)
-* [Autres Instructions - Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
+* [Other Instructions - Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
     * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
     * [medium motor driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-medium-motor-driving-base-e66e2fc0d917485ef1aa023e8358e7a7.pdf)
 
@@ -39,7 +39,7 @@ Our Ev3 programs are saved on Github:
 #### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
 
 #### Line follower
-   * [SProportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
+   * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
    * [Tutorial - flltutorials](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
 
 #### Gyro - must use laptop
