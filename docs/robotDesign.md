@@ -18,6 +18,3 @@ programming to the robot design judges!
 
 #### [Robot Design Judging Rubrics](rubricsRobotDesign.pdf)
 
-#### Deliverables
-* [Robot Design Executive Summary (RDES)](https://drive.google.com/file/d/1VC3oS6zkFRucYmjoOFKwcpcF8nQUieVT/view)
-* Diagrams showing the robot program (on paper or computer) 
