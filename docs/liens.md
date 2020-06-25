@@ -5,7 +5,7 @@
 
 <br>
 
-## Free Software
+# Free Software
 ### browser-based block programming languages
 #### [CoderZ](https://gocoderz.com/) 
 * [CoderZ - download to EV3](https://coderz.zendesk.com/hc/en-us/articles/115003632285-How-Do-I-Download-My-CoderZ-Code-to-My-EV3-Robot-) (needs LeJos installed on EV3)
@@ -37,6 +37,8 @@
 * [FLL City Shaper - 515 points - WalkingBot](https://www.youtube.com/watch?v=LAsDQfTq8HU)
 * [HAL-9000 Robotics - 370 Points](https://www.youtube.com/watch?v=zhxjdhFBTmo) (contient des erreurs - peut-tu les trouver?)
 * [2019 City Shaper Missions and Points Explanation Video!!](https://www.youtube.com/watch?v=JL-0YojPWmM) ([M. Hinos](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ) )
+
+<br>
 
 # Other Competitions
 * [WRO - Word Robotics Olympiad](https://wro-association.org/home/)
