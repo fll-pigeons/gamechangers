@@ -7,7 +7,7 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 
 [Challenge Resources](challenge.md)
 
-## Jour de compétition:
+## Day of Competition
 * [Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
@@ -15,7 +15,7 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
-### B. Présentation devant les juges:
+### B. Presentation to Judges:
 [Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each présentation)
 
 [Western Judging Process](CoachesDayPresentation2019_judging.pdf)
