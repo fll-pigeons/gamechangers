@@ -24,10 +24,10 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 * [Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)
 * Question and Answer (10 min)
 
-([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) est non requis a Western)
+([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) not required for Western)
 
 #### 2. [Project](projet.md)
-* Presentation (5 min - inclus le temps pour s'installer)
+* Presentation (5 min - includes installation time)
 * Question and Answer (10 min)
 * Research Project Poster
 
