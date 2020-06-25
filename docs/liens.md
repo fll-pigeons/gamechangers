@@ -15,7 +15,7 @@
 
 ### Lego EV3 programming environments
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
-*[Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+* [Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 * [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/)
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
 
