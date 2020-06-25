@@ -31,8 +31,8 @@ For questions about the Project, visit the Judging FAQ on the FIRST LEGO League 
 # 3. Tutorials
 
 [FLLTutorials](http://flltutorials.com/Project.html)
-* [problème](http://flltutorials.com/translations/en-us/Project/Identify.pdf)
-* [solution](http://flltutorials.com/translations/en-us/Project/InnovativeSolution.pdf)
-* [partagée](http://flltutorials.com/translations/en-us/Project/Sharing.pdf)
-* [présentation](http://flltutorials.com/translations/en-us/Project/Presentation.pdf)
+* [Identify Problem](http://flltutorials.com/translations/en-us/Project/Identify.pdf)
+* [Innovative Solutions](http://flltutorials.com/translations/en-us/Project/InnovativeSolution.pdf)
+* [Share](http://flltutorials.com/translations/en-us/Project/Sharing.pdf)
+* [Presentation](http://flltutorials.com/translations/en-us/Project/Presentation.pdf)
 
