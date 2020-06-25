@@ -34,7 +34,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 #### 3. [Robot Design](robotDesign.md)
 * Presentation of Robot Design Summary (4 min)
 * Question and Answer (15 min) (we have access to a practice table with Challenge set)
-* [Robot Design Executive Summary (RDES)](https://drive.google.com/file/d/1VC3oS6zkFRucYmjoOFKwcpcF8nQUieVT/view)
+* [Robot Design Executive Summary (RDES)](IO_RDES.pdf)
 * Diagrams showing the robot programs (on paper or computer) 
 
 #### [Roles](roles.md)
