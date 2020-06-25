@@ -44,4 +44,4 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 # News
 > #### 24 June - Code virtual 3D robots at [Coderz ](https://gocoderz.com/learn/) 
-> [Amazon's Future Engineer Program offers free access to Coderz](https://gocoderz.com/amazon-future-engineer/?utm_source=Amazon&utm_medium=Blue_Pop_up&utm_campaign=2020)
+> ([Amazon's Future Engineer Program offers free access to Coderz](https://gocoderz.com/amazon-future-engineer/?utm_source=Amazon&utm_medium=Blue_Pop_up&utm_campaign=2020) unitl June 20)
