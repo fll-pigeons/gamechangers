@@ -55,11 +55,11 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 ### Free
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
-
+* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) 
+  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
+  
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month)
-* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) 
-  * [First FLL VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
   
