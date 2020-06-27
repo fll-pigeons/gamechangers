@@ -41,7 +41,6 @@ For more information about Scratch, see:   Scratch 3.0 is in development and sho
 * [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
 
-### browser-based block programming IDE
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/year)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
 Programming can be done with either Blockly or Java programming languages. 
