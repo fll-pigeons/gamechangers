@@ -15,7 +15,7 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
-### B. Judging:
+### B. Presentations:
 [Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each presentation)
 
 [Western Judging Process](CoachesDayPresentation2019_judging.pdf)
