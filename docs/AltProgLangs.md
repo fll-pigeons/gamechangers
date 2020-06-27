@@ -60,6 +60,7 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
 *  [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
+* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
 # 4. Virtual Environments
 ### Free
