@@ -1,19 +1,19 @@
 ## Official Lego EV3 programming environments
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads)
+
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
-* [Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+
+* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython)
+Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
+SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
 
 ## Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
 
-## Research on alternative EV3 programming languages (not completed)
-* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython) - new Lego programming environment
-
+## Research on 3rd party EV3 programming environments/languages (not completed)
 * [RobotC](http://www.robotc.net)
 RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
 Extensive documentation and online support is available. For more information, visit: /.
-
-
 
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
