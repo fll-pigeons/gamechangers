@@ -38,7 +38,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 #### [Roles](roles.md)
 
-#### [Other Links](liens.md)
+#### [Other Links](links.md)
 
 
 # News
