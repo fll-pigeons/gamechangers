@@ -5,22 +5,6 @@
 
 <br>
 
-# Free Software
-### browser-based block programming languages
-#### [CoderZ](https://gocoderz.com/) 
-* [CoderZ - download to EV3](https://coderz.zendesk.com/hc/en-us/articles/115003632285-How-Do-I-Download-My-CoderZ-Code-to-My-EV3-Robot-) (needs LeJos installed on EV3)
-
-#### [Microsoft makecode](https://makecode.mindstorms.com/)
-* [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
-
-### Lego EV3 programming environments
-* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
-* [Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
-* [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/)
-* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
-
-<br>
-
 # Other sites
 
 ## [FLLcasts](https://www.fllcasts.com/)
