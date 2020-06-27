@@ -59,7 +59,7 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month)
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) 
-  * [First VRT 60-day trial](https://www.firstroboticscanada.org/cancode/vrt/)
+  * [First FLL VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
   
