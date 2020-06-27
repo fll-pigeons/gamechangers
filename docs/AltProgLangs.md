@@ -7,9 +7,6 @@
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
 SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
 
-## Other software
-* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
-
 ## Research on 3rd party EV3 programming environments/languages (not finished)
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
@@ -65,3 +62,5 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
   
+# Other software
+* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
