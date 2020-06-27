@@ -54,7 +54,7 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
-### 3rd Party Virtual Machine installable from SD card on EV3 brick (dual booting)
+### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
