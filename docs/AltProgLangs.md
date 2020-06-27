@@ -10,11 +10,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 ## Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
 
-## Research on 3rd party EV3 programming environments/languages (not completed)
-* [RobotC](http://www.robotc.net)
-RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
-Extensive documentation and online support is available. For more information, visit: /.
-
+## Research on 3rd party EV3 programming environments/languages (not finished)
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
@@ -48,25 +44,27 @@ For more information about Scratch, see:   Scratch 3.0 is in development and sho
 * [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
 
+### Paid
+* [RobotC](http://www.robotc.net) ($49USD/seat; $149USD/6seats)
+RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
+Extensive documentation and online support is available. 
+Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
 
 
-
-
-source: [alternative-programming-languages](http://www.legoengineering.com/alternative-programming-languages/)
+see: [alternative-programming-languages](http://www.legoengineering.com/alternative-programming-languages/)
 
 ### Alternate Firmware for the EV3 Brick
-
 * [leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
 
-
-
-
-
-
 # 4. Virtual Environments
-* [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/) - 
-* [Robot Virtual Worlds](http://www.robotvirtualworlds.com/) - RobotC
+### Free
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
 * [CoderZ](https://gocoderz.com/)
+
+### Paid
+* [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/) 
+* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
+  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
+  
