@@ -46,3 +46,7 @@ Our Ev3 programs are saved on Github:
 * [gyroscope](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-gyro-sensor-driving-base-a521f8ebe355c281c006418395309e15.pdf)
 * [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
+
+# 3. EV3 Programming Language options
+* LabView - Lego's language and IDE
+* [Python EV3DEV](https://sites.google.com/site/ev3devpython/) - uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension
