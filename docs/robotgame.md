@@ -49,6 +49,7 @@ Our Ev3 programs are saved on Github:
 
 # 3. EV3 Programming Language options
 * LabView - Lego's language and IDE
-* [Python EV3DEV](https://sites.google.com/site/ev3devpython/) - uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension 
+* [Python EV3DEV](https://sites.google.com/site/ev3devpython/) - uses Microsoft's Vhttps://www.aposteriori.com.sg/Ev3devSim/index.htmlisual Studio Code (VS Code) with the EV3 extension 
   (uses EV3DEV code on SD Card without having to reflash firmware)
+  * [Browser-based Simulator for EV3DEV](https://www.aposteriori.com.sg/Ev3devSim/index.html)
 * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
