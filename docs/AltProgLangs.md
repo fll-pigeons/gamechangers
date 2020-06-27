@@ -28,12 +28,12 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
 The EV3 Software was built in LabVIEW, so LVLM provides a great next step for students who are familiar with that programming language and ready for something more powerful and versatile. 
 
-### browser-based block programming IDE
-* [CoderZ](https://gocoderz.com/)
-CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
-Programming can be done with either Blockly or Java programming languages. 
-For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
+* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
+RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
+Extensive documentation and online support is available. 
+Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
 
+### browser-based block programming IDE
 * [MakeCode](makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
 
@@ -44,14 +44,11 @@ For more information about Scratch, see:   Scratch 3.0 is in development and sho
 * [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
 
-### Paid
-* [RobotC](http://www.robotc.net) ($49USD/seat; $149USD/6seats)
-RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
-Extensive documentation and online support is available. 
-Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
-
-
-see: [alternative-programming-languages](http://www.legoengineering.com/alternative-programming-languages/)
+### browser-based block programming IDE
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month/year)
+CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
+Programming can be done with either Blockly or Java programming languages. 
+For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
 
 ### Alternate Firmware for the EV3 Brick
 * [leJOS](http://www.lejos.org/ev3.php)
@@ -61,9 +58,9 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 ### Free
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
-* [CoderZ](https://gocoderz.com/)
 
 ### Paid
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month)
 * [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/) 
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
