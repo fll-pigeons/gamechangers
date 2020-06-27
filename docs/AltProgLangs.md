@@ -11,9 +11,10 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
+    * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [Python EV3DEV - version 2](https://sites.google.com/site/ev3devpython/) 
   uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension (uses EV3DEV code on SD Card without having to reflash firmware)
-    * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017))
+
   * ~~[EV3Python - version 1 - deprecated](https://sites.google.com/site/ev3python/)~~
   * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
   EV3 Basic is a textual programming language.
