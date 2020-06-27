@@ -1,5 +1,5 @@
 ## Official Lego EV3 programming environments
-* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads)
+* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) (built with [LabVIEW](https://www.ni.com/en-ca/shop/labview.html)
 
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
 
@@ -18,17 +18,18 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   EV3 Basic is a textual programming language.
   * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
-* [leJOS](http://www.lejos.org/ev3.php)
-LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
-
 * [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
-The EV3 Software was built in LabVIEW, so LVLM provides a great next step for students who are familiar with that programming language and ready for something more powerful and versatile. 
+The EV3 Software was built in LabVIEW, LVLM is the base software and is much more powerful.
 
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
-RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
+  * Seems like a visual programming environment 
+  * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
 Extensive documentation and online support is available. 
 Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
+
+* [Java with leJOS](http://www.lejos.org/ev3.php)
+LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
 
 ### browser-based block programming IDE
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
