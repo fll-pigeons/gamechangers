@@ -32,11 +32,10 @@ Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49US
 
 ### browser-based block programming IDE
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
+  * USB cable only; drag code to EV3
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
 
-* [Scratch](https://scratch.mit.edu/)
-Scratch is a very popular visually programming environment. Several extensions have been created to support the NXT and EV3. 
-For more information about Scratch, see:   Scratch 3.0 is in development and should be available in 2019 with continued support for EV3. Scratch can also be used with LEGO WeDo (see Scratch-ing the LEGO WeDo) and WeDo 2.0. For more about using Scratch with WeDo, see: https://scratch.mit.edu/wedo.
+
 
 * [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
@@ -46,6 +45,10 @@ CoderZ is a 3D simulated robot environment using virtual robots that are similar
 Programming can be done with either Blockly or Java programming languages. 
 For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
 
+* ~~[Scratch](https://scratch.mit.edu/)~~
+  * ~~Bluetooth only - can't use in competition~~
+  * ~~Visual programming environment. nned Scratch link to support the EV3. ~~
+  
 ### 3rd Party Firmware for the EV3 Brick
 * [leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
