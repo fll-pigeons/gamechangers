@@ -47,13 +47,5 @@ Our Ev3 programs are saved on Github:
 * [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
-# 3. EV3 Programming Language options
-* LabView - Lego's language and IDE
-* [Python EV3DEV](https://sites.google.com/site/ev3devpython/) - uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension (uses EV3DEV code on SD Card without having to reflash firmware)
-* [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
-* [RobotC](http://www.robotc.net/) 
-* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
-  * [Lego Education Academy](https://elearning.legoeducation.com/ev3)
-# 4. Virtual Environments
-* [Robot Virtual Worlds](http://www.robotvirtualworlds.com/) - RobotC
-* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
+# 3. [EV3 Programming Language options](AltProgLangs)
+
