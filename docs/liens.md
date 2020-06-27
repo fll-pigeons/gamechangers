@@ -9,6 +9,8 @@
 
 ## [LEGORobotics Mr. Hino - YouTube](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ)
 
+## [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
+
 ## [FLLcasts](https://www.fllcasts.com/)
 * [Tips and Tricks City Shaper Challenge 2019](https://www.fllcasts.com/competitions/first-lego-league/2019-city-shaper-challenge/tips-and-tricks-fll-2019)
 
