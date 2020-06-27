@@ -30,8 +30,7 @@ Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO
 [CoderZ](https://gocoderz.com/)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
 Programming can be done with either Blockly or Java programming languages. 
-The benefit is that students can create code at home, extending their learning at school. 
-CoderZ is a commercial product and offers a 14-day free trial.
+For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
 
 * [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
@@ -44,3 +43,4 @@ source: [alternative-programming-languages](http://www.legoengineering.com/alter
 * [Robot Virtual Worlds](http://www.robotvirtualworlds.com/) - RobotC
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
+* [CoderZ](https://gocoderz.com/)
