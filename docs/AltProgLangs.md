@@ -31,7 +31,7 @@ Extensive documentation and online support is available.
 Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
 
 ### browser-based block programming IDE
-* [MakeCode](makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
+* [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
 
 * [Scratch](https://scratch.mit.edu/)
