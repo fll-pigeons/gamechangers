@@ -1,7 +1,7 @@
 ## Official Lego EV3 programming environments
-* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) (built with [LabVIEW](https://www.ni.com/en-ca/shop/labview.html))
+* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
 
-* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
+* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
 
 * [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
