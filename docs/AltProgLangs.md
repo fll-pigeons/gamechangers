@@ -13,7 +13,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
   * [Python EV3DEV - version 2](https://sites.google.com/site/ev3devpython/) 
   uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension (uses EV3DEV code on SD Card without having to reflash firmware)
-    * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github)(https://github.com/sshopov/pyconau2017)
+    * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)
   * ~~[EV3Python - version 1 - deprecated](https://sites.google.com/site/ev3python/)~~
   * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
   EV3 Basic is a textual programming language.
@@ -36,8 +36,6 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
   * USB cable only; drag code to EV3
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
-
-
 
 * [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
