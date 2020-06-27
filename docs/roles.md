@@ -9,12 +9,12 @@
 ### B. Presentations:
 #### 1. Core Values
 * Entire groupe must participate
-* Personne in charge of the Core Values poster
+* Person in charge of the Core Values poster
 
 #### 2. Research Project
 * Presentation
-* Personne in charge of the Research Project poster
+* Person in charge of the Research Project poster
 
 #### 3. Robot Design Executive Summary (RDES)
 * Presentation 
-* Personne in charge of the RDES poster
+* Person in charge of the RDES poster
