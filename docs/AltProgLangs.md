@@ -1,3 +1,10 @@
+## Official Lego EV3 programming environments
+* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
+* [Python with EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+
+## Other software
+* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
+
 ## Research on alternative EV3 programming languages (not completed)
 * [EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
 * [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
@@ -39,8 +46,18 @@ The EV3 Software was built in LabVIEW, so LVLM provides a great next step for st
 
 source: [alternative-programming-languages](http://www.legoengineering.com/alternative-programming-languages/)
 
+# Free Software
+### browser-based block programming languages
+#### [CoderZ](https://gocoderz.com/) 
+* [CoderZ - download to EV3](https://coderz.zendesk.com/hc/en-us/articles/115003632285-How-Do-I-Download-My-CoderZ-Code-to-My-EV3-Robot-) (needs LeJos installed on EV3)
+
+#### [Microsoft makecode](https://makecode.mindstorms.com/)
+* [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
+
+
 
 # 4. Virtual Environments
+* [Virtual Robotics Toolkit (VRT)](https://www.firstroboticscanada.org/cancode/vrt/) - 
 * [Robot Virtual Worlds](http://www.robotvirtualworlds.com/) - RobotC
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
