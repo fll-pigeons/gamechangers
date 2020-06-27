@@ -16,7 +16,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   * ~~[EV3Python - version 1 - deprecated](https://sites.google.com/site/ev3python/)~~
   * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
   EV3 Basic is a textual programming language.
-  * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
+  * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
 * [leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
