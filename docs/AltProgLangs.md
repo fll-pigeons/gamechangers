@@ -27,7 +27,7 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
   * Seems like a visual programming environment 
   * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
 Extensive documentation and online support is available. 
-Includes [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats)
+  * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats - not clear if separate license required or if ROBOTC license includes RVW)
 
 * [Java with leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
