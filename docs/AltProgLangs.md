@@ -1,31 +1,8 @@
-* LabView - Lego's language and IDE
+## Research on alternative EV3 programming languages
+#### [EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
+#### [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
 
-* [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
-
-
-
-
-
-
-Research on alternative EV3 programming languages
-[EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
-* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
-
-LabVIEW (EV3, NXT)
-LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
-The EV3 Software was built in LabVIEW, so LVLM provides a great next step for students who are familiar with that programming language and 
-ready for something more powerful and versatile. Browse all LabVIEW posts on this site.
-
-see [here](http://www.legoengineering.com/alternative-programming-languages/)
-MakeCode (EV3)
-Microsoft MakeCode is an online programming platform that can control the EV3 and others.  
-MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
-
-Swift Playgrounds (EV3)
-Swift Playgrounds is an iPad-only environment designed to help users learn to program using the Swift programming language. In Swift Playground, 
-users can program robots, gather information through sensors, and cause actions via the motos. 
-
-
+* (MakeCode)[https://makecode.mindstorms.com/] - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
 
 [RobotC](http://www.robotc.net)
 RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
@@ -50,14 +27,17 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 [OpenRoberta](https://lab.open-roberta.org/)
 Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
 
-
-CoderZ (EV3)
+[CoderZ](https://gocoderz.com/)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
 Programming can be done with either Blockly or Java programming languages. 
 The benefit is that students can create code at home, extending their learning at school. 
 CoderZ is a commercial product and offers a 14-day free trial.
 
+* [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
+LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
+The EV3 Software was built in LabVIEW, so LVLM provides a great next step for students who are familiar with that programming language and ready for something more powerful and versatile. 
 
+source: [alternative-programming-languages](http://www.legoengineering.com/alternative-programming-languages/)
 
 
 # 4. Virtual Environments
