@@ -1,6 +1,6 @@
 ## Research on alternative EV3 programming languages (not completed)
-#### [EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
-#### [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
+* [EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
+* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
 
 * [MakeCode](makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
 
