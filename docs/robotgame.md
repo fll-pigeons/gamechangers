@@ -53,6 +53,7 @@ Our Ev3 programs are saved on Github:
 * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
 * [RobotC](http://www.robotc.net/) 
 * [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
+  * [Lego Education Academy](https://elearning.legoeducation.com/ev3)
 # 4. Virtual Environments
 * [Robot Virtual Worlds](http://www.robotvirtualworlds.com/) - RobotC
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
