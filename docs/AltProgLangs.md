@@ -1,4 +1,4 @@
-## Research on alternative EV3 programming languages
+## Research on alternative EV3 programming languages (not completed)
 #### [EV3 Software PC](https://www.lego.com/en-ca/themes/mindstorms/downloads)
 #### [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython?fbclid=IwAR0go3PgzBw16JmvvLphNC_KR2sRoZfiBvkew6w2SBzcX4gZzSukVrIeM8I) - new Lego programming environment
 
