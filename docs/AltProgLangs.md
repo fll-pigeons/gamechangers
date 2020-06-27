@@ -9,9 +9,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * EV3 MicroPython runs on top of ev3dev with a new Pybricks MicroPython runtime and library. It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
 
 ## Research on 3rd party EV3 programming environments/languages (not finished)
-* [EV3dev](http://www.ev3dev.org/) 
-(like a dual boot from SD card that does not overwrite firmware on EV3)
-EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
+* [EV3dev](http://www.ev3dev.org/) - debian VM on EV3, bootable from SD card
     * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [Python EV3DEV - version 2](https://sites.google.com/site/ev3devpython/) 
   uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension (uses EV3DEV code on SD Card without having to reflash firmware)
@@ -54,14 +52,19 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
 ### 3rd Party Firmware for the EV3 Brick
 * [leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
+
+### 3rd Party Virtual Machine installable from SD card on EV3 brick (dual booting)
+* [EV3dev](http://www.ev3dev.org/) 
+(like a dual boot from SD card that does not overwrite firmware on EV3)
+EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
 *  [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
 
 # 4. Virtual Environments
 ### Free
+* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - (uses Unity)
+  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
-* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) 
-  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
   
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month)
