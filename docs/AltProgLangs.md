@@ -47,9 +47,10 @@ CoderZ is a 3D simulated robot environment using virtual robots that are similar
 Programming can be done with either Blockly or Java programming languages. 
 For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
 
-### Alternate Firmware for the EV3 Brick
+### 3rd Party Firmware for the EV3 Brick
 * [leJOS](http://www.lejos.org/ev3.php)
 LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
+*  [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
 
 # 4. Virtual Environments
 ### Free
