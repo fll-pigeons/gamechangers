@@ -31,7 +31,7 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
   * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats - not clear if separate license required or if ROBOTC license includes RVW)
 
 * [Java with leJOS](http://www.lejos.org/ev3.php)
-LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
+Tiny Java Virtual Machine that supports Java. 
 
 ### browser-based block programming IDE
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
