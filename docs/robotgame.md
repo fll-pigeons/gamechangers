@@ -18,8 +18,8 @@ Our Ev3 programs are saved on Github:
 * [ALL 2019 City Shaper Missions Completed](https://www.youtube.com/watch?v=w9s9jzWJa7M)
 
 #### Mission Combo Examples
-* [5 missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
 * [3 missions](https://www.youtube.com/watch?v=gxRV948MMsE)
+* [5 missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
 
 <br/>
 
