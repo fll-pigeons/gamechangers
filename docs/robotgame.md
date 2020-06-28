@@ -36,8 +36,9 @@ Our Ev3 programs are saved on Github:
 * [Worm Gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
 * [Dog Gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
 
-
-### [Build Instruction for education robot](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
+### [Build Instructions]
+* [Retail Robot](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
+* [Education Robot](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
 
 <br/>
 
