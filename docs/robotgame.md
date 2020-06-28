@@ -56,7 +56,7 @@ Our Ev3 programs are saved on Github:
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
 ### Programming Language
-* [Lego's new EV3 MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython)
+* [Lego's new EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
   * Needs Visual Studio Code version 1.31 or above with Lego EV3 MicroPython extension installed
   * EV3 MicroPython runs on top of [EV3dev](http://www.ev3dev.org/) with a new [Pybricks MicroPython](https://pybricks.com/) runtime and library. 
   * Includes project templates and documentation to get started: [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
