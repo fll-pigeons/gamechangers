@@ -37,8 +37,8 @@ Our Ev3 programs are saved on Github:
 * [Dog Gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
 
 ### Lego Build Instructions
-* [Retail Robot](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
-* [Education Robot](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
+* [Home Robot (Retail)](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
+* [Educational Robot](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
 
 <br/>
 
