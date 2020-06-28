@@ -9,7 +9,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library. LEGO Education tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application. 
   * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/) virtual machine/runtime 
   * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
-  * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
+  * [Pybricks Documentation](https://pybricks.github.io/ev3-micropython/index.html)
 
 ## Research on 3rd party EV3 programming environments/languages (WIP)
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
