@@ -14,10 +14,10 @@ Our Ev3 programs are saved on Github:
 
 ### Mission Examples
 
-#### Individual Mission Examples
+#### Individual Missions:
 * [ALL 2019 City Shaper Missions Completed](https://www.youtube.com/watch?v=w9s9jzWJa7M)
 
-#### Mission Combo Examples
+#### Mission Combos:
 * [3 missions](https://www.youtube.com/watch?v=gxRV948MMsE)
 * [5 missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
 
