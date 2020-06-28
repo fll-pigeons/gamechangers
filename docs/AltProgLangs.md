@@ -59,7 +59,8 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
-*  [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
+* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  Since your code runs on the hub, rather than being remote controlled from a tablet or PC, it runs super fast.  It can also run autonomously.
+* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
 * [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
 # Virtual Environments
