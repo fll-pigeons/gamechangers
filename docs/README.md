@@ -11,7 +11,7 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 * [2019 Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
-### A. [Robot Game](robotgame.md) (Number of Missions: TBD)
+### A. [Robot Game](robotgame.md) (Number of Missions: 14 in 2019)
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
