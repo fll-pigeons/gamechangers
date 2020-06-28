@@ -1,12 +1,12 @@
 ## Official Lego EV3 programming environments
-* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
+* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
-* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
+* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
 SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
-  * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library. LEGO Education tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application. 
+  * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library (called Brickman on the EV3). LEGO Education tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application. 
   * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/) virtual machine/runtime 
   * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
   * [Pybricks Documentation](https://pybricks.github.io/ev3-micropython/index.html)
