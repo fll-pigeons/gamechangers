@@ -9,7 +9,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * EV3 MicroPython runs on top of ev3dev with a new [Pybricks MicroPython](https://pybricks.com/) runtime and library. It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
   * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
 
-## Research on 3rd party EV3 programming environments/languages (not finished)
+## Research on 3rd party EV3 programming environments/languages (WIP)
 * [EV3dev](http://www.ev3dev.org/) - debian VM on EV3, bootable from SD card
     * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [Python EV3DEV - version 2](https://sites.google.com/site/ev3devpython/) 
