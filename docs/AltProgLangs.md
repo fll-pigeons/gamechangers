@@ -3,10 +3,12 @@
 
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
 
-* [MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+* [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
 SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
-  * EV3 MicroPython runs on top of ev3dev with a new [Pybricks MicroPython](https://pybricks.com/) runtime and library. It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
+  * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library. 
+  * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/) virtual machine/runtime 
+  * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
   * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
 
 ## Research on 3rd party EV3 programming environments/languages (WIP)
@@ -56,10 +58,13 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
+* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  It runs on opt of  [EV3dev](http://www.ev3dev.org/).
+  * Since your code runs on the EV3 brick it runs fast - as opposed to being remote controlled from a tablet or PC.  
+  * It can run programs autonomously.
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
-* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  Since your code runs on the hub, rather than being remote controlled from a tablet or PC, it runs super fast.  It can also run autonomously.
+
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
 * [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
