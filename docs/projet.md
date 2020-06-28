@@ -1,8 +1,16 @@
 # Research Project 
 
-# 1. Description
+# 1. Description (2019 project)
+Architects design and construct buildings. They combine science and art to make buildings and structures for their clients.
+Sometimes they make new buildings and sometimes they redesign old ones.
+They work as part of a larger team, just like yours. Structural, civil and environmental engineers make sure a project suits its
+site. Construction workers like electricians, plumbers and carpenters, and project managers make sure the job
+stays on time and within budget. Every role is important to get the job done.
+Our cities and towns face big issues, like transportation, accessibility and even natural disasters. How can we
+shape a better future for everyone? It will take teamwork and imagination. Are you ready to build a better tomorrow
+together?
 
-In the Innovation Project, your team will:
+For the Innovation Project, your team will:
 
 * Identify a problem with a building or public space in your community.
 * Design a solution.
