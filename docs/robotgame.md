@@ -12,11 +12,16 @@ Our Ev3 programs are saved on Github:
 ### Robot game rules
 * [Game Guide](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-game-guide-pdf.pdf)
 
-### Approaches used by other teams
+### Mission Examples
 
-#### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
-* [5 separate missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
-* [3 separate missions](https://www.youtube.com/watch?v=gxRV948MMsE)
+#### Individual Mission Examples
+* [ALL 2019 City Shaper Missions Completed](https://www.youtube.com/watch?v=w9s9jzWJa7M)
+
+#### Mission Combo Examples
+* [5 missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
+* [3 missions](https://www.youtube.com/watch?v=gxRV948MMsE)
+
+<br/>
 
 # 2. Robot
 ### Robot Design
