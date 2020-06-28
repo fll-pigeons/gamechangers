@@ -44,6 +44,12 @@ Our Ev3 programs are saved on Github:
 
 # 3. Programing
 
+### Programming Language
+* [Lego's new EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+  * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
+  * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
+
+### Sample Programs (using Lego LabView, not Python)
 #### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
 
 #### Line follower
@@ -55,10 +61,7 @@ Our Ev3 programs are saved on Github:
 * [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
-### Programming Language
-* [Lego's new EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
-  * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
-  * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
+
   
 ### [EV3 Programming Language research](AltProgLangs.md)
 
