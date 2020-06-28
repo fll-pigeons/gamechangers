@@ -3,7 +3,7 @@
 
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI)
 
-* [MicroPython](https://education.lego.com/en-us/downloads/mindstorms-ev3/software#MicroPython)
+* [MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
 SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
   * EV3 MicroPython runs on top of ev3dev with a new [Pybricks MicroPython](https://pybricks.com/) runtime and library. It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
