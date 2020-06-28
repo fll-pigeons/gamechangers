@@ -50,7 +50,7 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
 
 * ~~[Scratch](https://scratch.mit.edu/)~~
   * ~~Bluetooth only - can't use in competition~~
-  * ~~Visual programming environment. nned Scratch link to support the EV3. ~~
+  * ~~Visual programming environment. need Scratch link to support the EV3.~~
   
 ### 3rd Party Firmware for the EV3 Brick
 * [leJOS](http://www.lejos.org/ev3.php)
