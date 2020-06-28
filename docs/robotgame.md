@@ -49,10 +49,10 @@ Our Ev3 programs are saved on Github:
   * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
   * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
   * Motor Commands:
-    * definition: [PID motor controller](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) =  Proportional-Integral-Derivative feedback control
     * [DriveBase class - Driving for a given distance or by an angle](https://docs.pybricks.com/en/latest/robotics.html) (uses two PIDs controllers: one to control the heading and one to control the traveled distance.)
     * [Motor class - PID control to accurately track your commanded target angles](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
     * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
+    * advanced: [PID motor controller](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) =  Proportional-Integral-Derivative feedback control
 
 ### Sample Programs (using Lego LabView, not Python)
 #### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
