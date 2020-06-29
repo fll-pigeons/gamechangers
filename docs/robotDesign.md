@@ -18,3 +18,5 @@ programming to the robot design judges!
 
 #### [Robot Design Judging Rubrics](rubricsRobotDesign.pdf)
 
+# Presentation Example
+* [FLL Team Dwagon 2019 Robot Design presentation](https://www.youtube.com/watch?v=XtpxtWPwBHU)
