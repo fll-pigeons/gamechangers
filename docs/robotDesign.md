@@ -2,10 +2,6 @@
 
 ## 1. Judging session:
 
-### The following outlines what you can expect in each of the judging sessions.
-
-#### Robot Design Judging
-
 In the Robot Design Judging area, your team will find a Practice Table with a Challenge Set. The team can use
 the field for explanation and/or demonstration purposes. During this session, your team will spend fifteen (15)
 minutes with the judges. The team is expected to present the Robot Design Executive Summary (as outlined
