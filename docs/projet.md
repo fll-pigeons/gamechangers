@@ -44,3 +44,5 @@ For questions about the Project, visit the Judging FAQ on the FIRST LEGO League 
 * [Share](http://flltutorials.com/translations/en-us/Project/Sharing.pdf)
 * [Presentation](http://flltutorials.com/translations/en-us/Project/Presentation.pdf)
 
+# 4. Examples
+[team 10775 (Fire Breathing Duckies) for the City Shaper 2019 season.](https://www.youtube.com/watch?v=-GY8W_uzA-A)
