@@ -37,3 +37,6 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
     * [Intro to Core Values](http://flltutorials.com/translations/en-us/CoreValues/IntroductiontoCV.pdf)
     * [Sample Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf)
     * [Decision Making](http://flltutorials.com/translations/en-us/CoreValues/MakingDecisions.pdf)
+
+# 5. Examples
+* [Core Values Judging Rowan FLL Championship 2018](https://www.youtube.com/watch?v=RC_mukfEkes)
