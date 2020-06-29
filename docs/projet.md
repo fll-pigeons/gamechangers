@@ -19,9 +19,6 @@ For the Innovation Project, your team will:
 
 # 2. Judging Session:
 
-## The following outlines what you can expect in each of the judging sessions.
-### Project Judging
-
 Your team will spend fifteen (15) minutes with the judges. Your team will have five (5) minutes to deliver your
 Project presentation to the judges – this includes set-up time; the last ten (10) minutes are reserved for the
 judges to ask questions. This presentation should be rehearsed and polished. The judges will wait until your
