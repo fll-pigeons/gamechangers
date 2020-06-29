@@ -1,6 +1,6 @@
 # Robot Design
 
-## Judging session:
+## 1. Judging session:
 
 ### The following outlines what you can expect in each of the judging sessions.
 
@@ -18,5 +18,5 @@ programming to the robot design judges!
 
 #### [Robot Design Judging Rubrics](rubricsRobotDesign.pdf)
 
-# Presentation Example
+## 2. Examples
 * [FLL Team Dwagon 2019 Robot Design presentation](https://www.youtube.com/watch?v=XtpxtWPwBHU)
