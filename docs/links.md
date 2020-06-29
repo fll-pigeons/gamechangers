@@ -11,15 +11,15 @@
 
 ## [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
 
-## [FLLcasts](https://www.fllcasts.com/)
-* [Tips and Tricks City Shaper Challenge 2019](https://www.fllcasts.com/competitions/first-lego-league/2019-city-shaper-challenge/tips-and-tricks-fll-2019)
-
-## [techbricks](https://techbrick.com)
+## [Techbricks Robotics](https://techbrick.com)
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
 * [Fix motor calibration](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
 
 ## [First Washington](http://firstwa.org)
 * [First Steps](http://firstwa.org/wp-content/uploads/2018/10/FIRST%20Steps%20-%20FLL%20Complete%20Guide.pdf)
+
+## [FLLcasts](https://www.fllcasts.com/) - online courses with paid subscr, but with some good free content
+* [Tips and Tricks City Shaper Challenge 2019](https://www.fllcasts.com/competitions/first-lego-league/2019-city-shaper-challenge/tips-and-tricks-fll-2019)
 
 ## Approaches used by other teams
 * [FLL City Shaper - 515 points - WalkingBot](https://www.youtube.com/watch?v=LAsDQfTq8HU)
