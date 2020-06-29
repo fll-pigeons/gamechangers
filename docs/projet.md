@@ -1,6 +1,6 @@
 # Research Project 
 
-# 1. Description (2019 project)
+# 1. Description (2019 City Shaper project)
 Architects design and construct buildings. They combine science and art to make buildings and structures for their clients.
 Sometimes they make new buildings and sometimes they redesign old ones.
 They work as part of a larger team, just like yours. Structural, civil and environmental engineers make sure a project suits its
