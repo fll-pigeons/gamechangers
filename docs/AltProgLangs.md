@@ -80,7 +80,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 ### Free
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - (uses Unity)
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
-* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
+* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2d only (uses Skulpt for in browser python)
 * [OpenRoberta](https://lab.open-roberta.org/)
 * [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
