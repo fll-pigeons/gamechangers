@@ -59,7 +59,7 @@ Tiny Java Virtual Machine that supports Java.
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
-  * https://makecode.mindstorms.com/ website only creates Javascript, but Makecode PXT can also generate [Python](https://github.com/Microsoft/pxt/blob/master/docs/blog/minecraft/python-release.md)!
+  * https://makecode.mindstorms.com/ website only creates Javascript, but Makecode PXT can also generate a subset of [Python](https://makecode.com/python) (not MicroPython).
   
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
 
