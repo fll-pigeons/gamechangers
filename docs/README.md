@@ -7,7 +7,7 @@ Team Tobedetermined is participating at the [FIRST® LEGO® League (FLL) London]
 
 [Challenge Resources](challenge.md)
 
-## Day of Competition
+### Day of Competition
 * [2019 Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
