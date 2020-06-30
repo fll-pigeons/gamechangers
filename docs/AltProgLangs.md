@@ -107,10 +107,15 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [c4ev3](https://c4ev3.github.io/) programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### Visual Editor Toolkits
-[Google Blockly](https://developers.google.com/blockly) A JavaScript library for building visual programming editors.
- * can generate Javscript, Python code
+* [Google Blockly](https://developers.google.com/blockly) A JavaScript library for building visual programming editors.
+  * can generate Javscript, Python code
  
-[Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), PXT is a framework for creating special-purpose programming experiences for beginners, especially focused on computer science education. 
-  * [Blockly](https://developers.google.com/blockly)-based code editor along with converter to the text format
-  * [Monaco code](https://microsoft.github.io/monaco-editor/) editor that powers [VS Code](https://github.com/Microsoft/vscode),
+* [Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), PXT is a framework for creating special-purpose programming experiences for beginners, especially focused on computer science education. 
+   * [Blockly](https://developers.google.com/blockly)-based code editor along with converter to the text format
+   * [Monaco code](https://microsoft.github.io/monaco-editor/) editor that powers [VS Code](https://github.com/Microsoft/vscode),
  
+* [Droplet](https://github.com/PencilCode/droplet) The graphical programming editor that powers [Pencil Code](https://guide.pencilcode.net/home/) - 
+  * teaches programming in Coffeescript
+
+* [Snap](https://snap.berkeley.edu/) Viual Block Editor - no code generation
+  * A Scratch-inspired graphical programming language, it's not a library but is instead a full app with an integrated execution environment.
