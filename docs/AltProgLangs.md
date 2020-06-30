@@ -41,7 +41,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [Documentation](https://makecode.mindstorms.com/about)
   * USB cable only, downloads directly to EV3; experimental support for Bluetooth
   * [can be used offline](https://makecode.mindstorms.com/offline)
-  * Supports [Javascript](https://makecode.mindstorms.com/javascript) on EV3 and and non-EV3 version supports a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython), so No Python on EV3 version of Makecode... yet!
+  * Supports [Javascript](https://makecode.mindstorms.com/javascript) on EV3 and and non-EV3 version of MakeCode supports a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython), therefore No Python on EV3 version of Makecode... yet!
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
 
