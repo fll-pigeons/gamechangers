@@ -88,8 +88,7 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
   * Your code runs on the EV3 brick, so it runs as fast as Legos EV3 Labview (As opposed to other software where the robot is essentially remote controlled from a tablet or PC).  
   * It can run programs autonomously.
 
-* [EV3dev](http://www.ev3dev.org/) 
-(like a dual boot from SD card that does not overwrite firmware on EV3)
+* [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
 
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net):
