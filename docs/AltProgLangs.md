@@ -71,10 +71,8 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
 Tiny Java Virtual Machine that supports Java. 
 
 ### browser-based block programming IDE
-  * [Browser-based IDE Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
+  * [Browser-based IDE Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages may make debugging more difficult)
 
-
-  
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
 
 * [OpenRoberta](https://lab.open-roberta.org/)
