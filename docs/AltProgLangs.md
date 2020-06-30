@@ -3,14 +3,15 @@
 * Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends indivual commands to robot)
 ### Must Have
 * Introduce kids to programming a real language
-* Easy to use
+* Easy to learn and use
 * IDE environment
 * Debugging
 * Program EV3 directly from IDE (no copy and pasting code from IDE to EV3)
 * Performant - program runs on EV3 (not on a client which then sends commands to EV3)
 ### Nice to have
-6. Virtual Robot Simulator
-7. Block Based with simple translation to text based language (e.g. Blockly code that generates MicroPython)
+* Virtual Robot Simulator
+* Block Based with simple translation to text based language (e.g. Blockly code that generates MicroPython)
+* integration with Github (for version control)
 
 ## Official Lego EV3 programming environments
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
