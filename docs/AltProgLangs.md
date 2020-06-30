@@ -111,6 +111,6 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
  * can generate Javscript, Python code
  
 [Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), PXT is a framework for creating special-purpose programming experiences for beginners, especially focused on computer science education. 
-  * Blockly-based code editor along with converter to the text format
+  * [Blockly](https://developers.google.com/blockly)-based code editor along with converter to the text format
   * [Monaco code](https://microsoft.github.io/monaco-editor/) editor that powers [VS Code](https://github.com/Microsoft/vscode),
  
