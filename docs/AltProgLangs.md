@@ -1,5 +1,5 @@
 ## Requirements
-### First COmpetition Must Have
+### First FLL Competition Must Have
 * Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends indivual commands to robot)
 ### Must Have
 * Introduce kids to programming a real language
