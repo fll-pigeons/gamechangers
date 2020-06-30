@@ -20,8 +20,18 @@
 * integration with Github (for version control)
 
 ## Official Lego EV3 programming environments
+### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
+* [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
+  * [Documentation](https://makecode.mindstorms.com/about)
+  * USB cable only, downloads directly to EV3
+  * [can be used offline](https://makecode.mindstorms.com/offline)
+  * Supports [Javascript](https://makecode.mindstorms.com/javascript) and a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython).
+  * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
+  * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
+ 
+### for Education Sets 
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
@@ -34,6 +44,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * Documentation
     * [Getting started with LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
     * [Pybricks (not just for EV3)](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
+
 
 ## 3rd party EV3 programming environments/languages
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
@@ -61,13 +72,9 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
 Tiny Java Virtual Machine that supports Java. 
 
 ### browser-based block programming IDE
-* [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online programming platform that can control the EV3 and others.  MakeCode uses blocks (like Scratch) or JavaScript (text) programming.
-  * USB cable only, download directly to EV3
-  * [can be used offline](https://makecode.mindstorms.com/offline)
-  * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
-  * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
-  * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
-  * https://makecode.mindstorms.com/ website only creates Javascript, but Makecode PXT can also generate a subset of [Python](https://makecode.com/python) (not MicroPython).
+  * [Browser-based IDE Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
+
+
   
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
 
