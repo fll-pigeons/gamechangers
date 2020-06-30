@@ -46,10 +46,10 @@ LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual p
 The EV3 Software was built in LabVIEW, LVLM is the base software and is much more powerful.
 
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
-  * Seems like a visual programming environment 
   * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
+  * Has an entry level block-level programming version of RobotC. 
   * Debugging and lots of documentation and online support. 
-  * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat; $149USD/6seats - not clear if separate license required or if ROBOTC license includes RVW)
+  * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year - not clear if separate license required or if ROBOTC license includes RVW)
 
 * [Java with leJOS](http://www.lejos.org/ev3.php)
 Tiny Java Virtual Machine that supports Java. 
