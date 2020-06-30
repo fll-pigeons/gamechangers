@@ -8,5 +8,7 @@
 Total: $710CAD
 
 less FLL Grant: $500
+
 remainder: $210
+
 per parent cost: $70
