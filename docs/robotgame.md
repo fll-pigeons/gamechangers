@@ -56,10 +56,10 @@ Our Ev3 programs are saved on Github:
     
 ### what is PID?:
   * PID = Proportional-Integral-Derivative feedback control
-  * Examples
-      * [Tutorial - flltutorials](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
+  * Examples using Lego LabVIEW: 
+      * Finding line on the mat: [Tutorial](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
       * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
-      * Example using Lego LabVIEW: [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
+      * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
       * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
 
 #### Gyro - must use laptop
