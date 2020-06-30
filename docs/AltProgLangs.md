@@ -139,7 +139,8 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   * A Scratch-inspired graphical programming language, it's not a library but is instead a full app with an integrated execution environment.
 
 * [Project BIPES - Integrating Blockly, Micropython, WebREPL, much more!](http://www.bipes.net.br/)
-  * Block based Integrated Platform for Embedded Systems.
+  * Browser-based Block Integrated Platform for Embedded Systems.
+  * Server Micropython compilation server
   * should work with EV3 - needs testers
   
 ## Arduino
