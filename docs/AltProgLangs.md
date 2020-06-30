@@ -89,6 +89,9 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat/year; $149USD/6seats/year)
-  
+
+# EV3 C programming environment
+* [c4ev3](https://c4ev3.github.io/) programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
+
 # Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
