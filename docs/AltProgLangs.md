@@ -23,15 +23,7 @@
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
-* [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
-  * [Documentation](https://makecode.mindstorms.com/about)
-  * USB cable only, downloads directly to EV3
-  * [can be used offline](https://makecode.mindstorms.com/offline)
-  * Supports [Javascript](https://makecode.mindstorms.com/javascript) and a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython).
-  * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
-  * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
- 
-### for Education Sets 
+### for Education Sets (but can be used with Home version)
 * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
@@ -45,6 +37,13 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
     * [Getting started with LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
     * [Pybricks (not just for EV3)](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
 
+* [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
+  * [Documentation](https://makecode.mindstorms.com/about)
+  * USB cable only, downloads directly to EV3
+  * [can be used offline](https://makecode.mindstorms.com/offline)
+  * Supports [Javascript](https://makecode.mindstorms.com/javascript) and a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython).
+  * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
+  * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
 
 ## 3rd party EV3 programming environments/languages
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
