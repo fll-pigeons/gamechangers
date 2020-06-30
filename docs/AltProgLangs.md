@@ -21,8 +21,8 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
     * uses Microsoft's Visual Studio Code (VS Code) with the EV3 extension (uses EV3DEV code on SD Card without having to reflash firmware)
     * This is a full Python - not a subset of Python like [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
   * ~~[EV3Python - version 1 - deprecated](https://sites.google.com/site/ev3python/)~~
-  * [EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only
-  EV3 Basic is a textual programming language.
+  * ~~[EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only - developer of this recommends using EV3 Python~~
+    * ~~EV3 Basic is a textual programming language.~~
   * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
 * [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
