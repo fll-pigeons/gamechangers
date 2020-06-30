@@ -1,6 +1,6 @@
 ## Requirements
 ### First FLL Competition Must Haves:
-* Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends indivual commands to robot)
+* Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends individual commands to robot)
 * no Bluetooth allowed
 * Assume no Wifi available 
    * Can Browser based IDE even work without access to Internet (could share phone data plan)
