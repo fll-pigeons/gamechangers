@@ -109,10 +109,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [OpenRoberta](https://lab.open-roberta.org/) 2D in browser virtual environment
 
-* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
+* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - 2D educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
 ### Paid
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month) - the best one currently available
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month) - best Web-based simulator
 
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat/year; $149USD/6seats/year)
