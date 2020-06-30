@@ -40,6 +40,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 #### [Other Links](links.md)
 
+#### [Budget](budget.md)
 
 # News
 > #### 24 June - Code virtual 3D robots at [Coderz ](https://gocoderz.com/learn/) 
