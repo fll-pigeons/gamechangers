@@ -109,7 +109,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 ### Visual Editor Toolkits
 * [Google Blockly](https://developers.google.com/blockly) A JavaScript library for building visual programming editors.
   * can generate Javscript, Python code
- 
+  * Sample implementations
+     * [blockpy](https://blog.ouseful.info/2016/02/18/blockpy-python-blockly-environment/)
+     * [Microsoft's PXT](https://github.com/Microsoft/pxt)
+     
 * [Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), PXT is a framework for creating special-purpose programming experiences for beginners, especially focused on computer science education. 
    * [Blockly](https://developers.google.com/blockly)-based code editor along with converter to the text format
    * [Monaco code](https://microsoft.github.io/monaco-editor/) editor that powers [VS Code](https://github.com/Microsoft/vscode),
