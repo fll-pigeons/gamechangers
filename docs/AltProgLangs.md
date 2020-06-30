@@ -122,3 +122,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [Snap](https://snap.berkeley.edu/) Viual Block Editor - no code generation
   * A Scratch-inspired graphical programming language, it's not a library but is instead a full app with an integrated execution environment.
+
+* [Project BIPES - Integrating Blockly, Micropython, WebREPL, much more!](http://www.bipes.net.br/)
+  * Block based Integrated Platform for Embedded Systems.
+  * should work with EV3 - needs testers
+  
+## Arduino
+* [ardublockly-micropython](https://github.com/immakermatty/ardublockly-micropython)
