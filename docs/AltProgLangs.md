@@ -9,6 +9,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library (called Brickman on the EV3). LEGO Education tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application. 
   * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/) virtual machine/runtime 
   * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
+  * Includes debugging
   * Documentation
     * [Getting started with LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
     * [Pybricks (not just for EV3)](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
@@ -60,15 +61,20 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
-* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  It runs on opt of  [EV3dev](http://www.ev3dev.org/).
-  * Since your code runs on the EV3 brick it runs fast - as opposed to being remote controlled from a tablet or PC.  
+* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  
+  * It runs on top of  [EV3dev](http://www.ev3dev.org/).
+  * Your code runs on the EV3 brick, so it runs as fast as Legos EV3 Labview (As opposed to other software where the robot is essentially remote controlled from a tablet or PC).  
   * It can run programs autonomously.
+
 * [EV3dev](http://www.ev3dev.org/) 
 (like a dual boot from SD card that does not overwrite firmware on EV3)
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
 
-* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) uses an 1. updated EV3 Linux Kernel/firmware; and 2. ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
-* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
+* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net):
+  * uses an updated EV3 Linux Kernel/firmware, and
+  * ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
+  * requires veriable declarations and is thus wordier than MicroPython
+
 
 # Virtual Environments
 ### Free
@@ -76,11 +82,13 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV
 * [OpenRoberta](https://lab.open-roberta.org/)
-  
+* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
+
 ### Paid
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month)
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month) - the best one currently available
+
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
-  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat; $149USD/6seats)
+  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat/year; $149USD/6seats/year)
   
 # Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
