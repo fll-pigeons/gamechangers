@@ -48,25 +48,21 @@ Our Ev3 programs are saved on Github:
 * [Lego's new EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
   * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
   * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
-  * Motor Commands:
+ 
+ * MicroPython Motor Commands:
     * [DriveBase class - Driving for a given distance or by an angle](https://docs.pybricks.com/en/latest/robotics.html) (uses two PIDs controllers: one to control the heading and one to control the traveled distance.)
     * [Motor class - PID control to accurately track your commanded target angles](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
     * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
     
 ### what is PID?:
   * PID = Proportional-Integral-Derivative feedback control
-  * Example using Lego LabVIEW: [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
-  * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
-
-### Sample Programs (using Lego LabView, not Python)
-#### [LEGORobotics Mr. Hino](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ/videos)
-
-#### Line follower
-   * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
-   * [Tutorial - flltutorials](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
+  * Examples
+      * [Tutorial - flltutorials](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
+      * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
+      * Example using Lego LabVIEW: [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
+      * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
 
 #### Gyro - must use laptop
-* [gyroscope](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-gyro-sensor-driving-base-a521f8ebe355c281c006418395309e15.pdf)
 * [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
