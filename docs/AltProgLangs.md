@@ -39,7 +39,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
   * [Documentation](https://makecode.mindstorms.com/about)
-  * USB cable only, downloads directly to EV3
+  * USB cable only, downloads directly to EV3; experimental support for Bluetooth
   * [can be used offline](https://makecode.mindstorms.com/offline)
   * Supports [Javascript](https://makecode.mindstorms.com/javascript) and a subset of [Python](https://makecode.mindstorms.com/python) (not MicroPython).
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
