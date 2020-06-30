@@ -23,7 +23,7 @@
 
 ## Approaches used by other teams
 * [FLL City Shaper - 515 points - WalkingBot](https://www.youtube.com/watch?v=LAsDQfTq8HU)
-* [HAL-9000 Robotics - 370 Points](https://www.youtube.com/watch?v=zhxjdhFBTmo) (there are errors - can you find them?)
+* [HAL-9000 Robotics - 370 Points](https://www.youtube.com/watch?v=zhxjdhFBTmo) (there are mistakes - can you find them?)
 * [2019 City Shaper Missions and Points Explanation Video!!](https://www.youtube.com/watch?v=JL-0YojPWmM) ([M. Hinos](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ) )
 
 <br>
