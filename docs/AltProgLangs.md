@@ -43,8 +43,11 @@ Tiny Java Virtual Machine that supports Java.
   * USB cable only; drag code to EV3
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
+  
 * [OpenRoberta](https://lab.open-roberta.org/)
-Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
+  * Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
+  * have an in browser 2d virtual environment
+  * block-based programming that translates to EV3Python
 
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/year)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
@@ -81,7 +84,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - (uses Unity)
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) - uses EV3 programming environment, but is finicky to set up
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2d only (uses [Skulpt](https://skulpt.org/) for in browser python)
-* [OpenRoberta](https://lab.open-roberta.org/)
+* [OpenRoberta](https://lab.open-roberta.org/) 2D in browser virtual environment
 * [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - This is a free, educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
 ### Paid
