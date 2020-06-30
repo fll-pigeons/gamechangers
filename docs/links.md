@@ -32,3 +32,5 @@
 * [WRO - Word Robotics Olympiad](https://wro-association.org/home/)
     * [WRO Canada - zone01](http://www.zone01.ca/index.php/en-ca/)
 * [Coderz League](https://coderzleague.com/) (formerly CRCC) is a virtual robotics competition for students of all levels to participate and learn about STEM, robotics, coding.
+  *  CoderZ League Junior - grades 5-8, using Blockly; Recommended Background Course: Cyber Robotics 101
+  *  CoderZ League Pro - grades 7-12, using Blockly or Python; Recommended Background Course: Cyber Robotics 101 & 102
