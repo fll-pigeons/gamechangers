@@ -48,7 +48,8 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
   * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
   * Has an entry level block-level programming version of RobotC. 
-  * Debugging and lots of documentation and online support. 
+  * Lots of documentation and online support. 
+  * requires variable declarations and is thus wordier than MicroPython  
   * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year - not clear if separate license required or if ROBOTC license includes RVW)
 
 * [Java with leJOS](http://www.lejos.org/ev3.php)
@@ -93,10 +94,7 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 EV3dev isn’t actually a programming language, but rather a Debian Linux-based operating system that can run almost all languages that any other linux distribution can run, including C++, Node.js, and Python. 
 
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net):
-  * uses an updated EV3 Linux Kernel/firmware, and
-  * ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
-  * requires veriable declarations and is thus wordier than MicroPython
-
+  * need to install ROBOTC Virtual Machine (VM) on an updated EV3 Linux Kernel/firmware, to enable you to program your EV3 with ROBOTC. 
 
 # Virtual Environments
 ### Free
