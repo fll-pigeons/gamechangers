@@ -43,6 +43,7 @@ Tiny Java Virtual Machine that supports Java.
   * USB cable only; drag code to EV3
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
+  * powered by [Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), Microsoft's visual editor toolkit
   
 * [OpenRoberta](https://lab.open-roberta.org/)
   * Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
@@ -78,9 +79,6 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   * ROBOTC Virtual Machine (VM) to enable you to program your EV3 with ROBOTC. 
   * requires veriable declarations and is thus wordier than MicroPython
 
-### Tookits
-[Google Blockly](https://developers.google.com/blockly) A JavaScript library for building visual programming editors.
- * can generate Javscript, Python code
 
 # Virtual Environments
 ### Free
@@ -105,3 +103,14 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 # Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
+
+# Developer Notes
+
+### Visual Editor Toolkits
+[Google Blockly](https://developers.google.com/blockly) A JavaScript library for building visual programming editors.
+ * can generate Javscript, Python code
+ 
+[Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), PXT is a framework for creating special-purpose programming experiences for beginners, especially focused on computer science education. 
+  * Blockly-based code editor along with converter to the text format
+  * [Monaco code](https://microsoft.github.io/monaco-editor/) editor that powers [VS Code](https://github.com/Microsoft/vscode),
+ 
