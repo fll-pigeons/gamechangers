@@ -31,4 +31,4 @@
 # Other Competitions
 * [WRO - Word Robotics Olympiad](https://wro-association.org/home/)
     * [WRO Canada - zone01](http://www.zone01.ca/index.php/en-ca/)
-* [Coderz League](https://coderzleague.com/) Virtual Cyber Robotics Competition
+* [Coderz League](https://coderzleague.com/) (formerly CRCC) is a virtual robotics competition for students of all levels to participate and learn about STEM, robotics, coding.
