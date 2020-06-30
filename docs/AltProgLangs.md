@@ -6,7 +6,6 @@
    * Some Browser based IDE can work without access to Internet(e.g. MakeCode)
    
 ### Must Have:
-* Introduce kids to programming a real language
 * Easy to learn and use
 * IDE environment
 * Debugging
@@ -17,6 +16,7 @@
 ### Nice to have:
 * Virtual Robot Simulator
 * Block Based with simple translation to text based language (e.g. Blockly code that generates MicroPython)
+* Introduce kids to programming a real language
 * integration with Github (for version control)
 
 ## Official Lego EV3 programming environments
