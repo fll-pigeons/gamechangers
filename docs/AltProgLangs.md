@@ -1,6 +1,10 @@
 ## Requirements
 ### First FLL Competition Must Haves:
 * Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends indivual commands to robot)
+* no Bluetooth allowed
+* Assume no Wifi available 
+   * Can Browser based IDE even work without access to Internet (could share phone data plan)
+   
 ### Must Have:
 * Introduce kids to programming a real language
 * Easy to learn and use
@@ -9,6 +13,7 @@
 * Program EV3 directly from IDE (no copy and pasting code from IDE to EV3)
 * Performant - program runs on EV3 (not on a client which then sends commands to EV3)
 * Free or very low cost
+
 ### Nice to have:
 * Virtual Robot Simulator
 * Block Based with simple translation to text based language (e.g. Blockly code that generates MicroPython)
