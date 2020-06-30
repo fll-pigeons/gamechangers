@@ -59,7 +59,9 @@ Tiny Java Virtual Machine that supports Java.
   * [Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages make debugging more difficult)
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft Programming Experience Toolkit (PXT)](https://github.com/Microsoft/pxt), Microsoft's visual editor toolkit
-  
+ 
+* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
+
 * [OpenRoberta](https://lab.open-roberta.org/)
   * Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
   * have an in browser 2d virtual environment
@@ -69,8 +71,6 @@ Tiny Java Virtual Machine that supports Java.
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
 Programming can be done with either Blockly or Java programming languages. 
 For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
-
-* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
 
 * ~~[Scratch](https://scratch.mit.edu/)~~
   * ~~Bluetooth only - can't use in competition~~
