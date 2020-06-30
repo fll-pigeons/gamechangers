@@ -8,6 +8,7 @@
 * Debugging
 * Program EV3 directly from IDE (no copy and pasting code from IDE to EV3)
 * Performant - program runs on EV3 (not on a client which then sends commands to EV3)
+* Free or very low cost
 ### Nice to have
 * Virtual Robot Simulator
 * Block Based with simple translation to text based language (e.g. Blockly code that generates MicroPython)
