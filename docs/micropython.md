@@ -3,8 +3,6 @@
 ### Documentation
 
   * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
-    * Specific to EV3
-
  
 # Motors:
   * [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
