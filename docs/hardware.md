@@ -33,6 +33,12 @@ On EV3:
         > {PC-Name} 
            > Connect on the brick.
 
+(Going to Bluetooth device and connecting does not work... need to go to All Network Connections to reconnect)
+
+In VSCode
+
+    EV3DEV Device Browser
+      > reconnect
 EV3 should now show up in VSCode.
 
 see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
