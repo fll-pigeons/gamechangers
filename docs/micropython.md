@@ -39,12 +39,18 @@
                 * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
                 * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target)
                 * [run_until_stalled(speed, then=Stop.COAST, duty_limit=None)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_until_stalled)
-# PID - Advanced   
-   * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
 
-## what is PID?:
-
-  * PID = Proportional-Integral-Derivative feedback control
+# Sensors
+  * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
+    * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html)
+    * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html)
+    * [classUltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor)
+    * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
+    
+    
+# Advanced   
+  * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
+     * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
   * Examples using Lego LabVIEW: 
       * Finding line on the mat: [Tutorial](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
       * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
