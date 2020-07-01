@@ -67,7 +67,7 @@ Our Ev3 programs are saved on Github:
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
 # 4. Hardware
-* [hardware](hardware.md)
+* [EV3 Brick](hardware.md)
 
 # 5. Build/Programming Resources
 * [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
