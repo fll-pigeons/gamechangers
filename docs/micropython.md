@@ -14,9 +14,6 @@
         * Drive forever
             * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)
             * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop)
-        * Advanced Settings (see PID section)
-            * distance_controlheading_control
-            * heading_control
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
     * [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors) - for accurate control of attachment motor
         * control motors with built-in rotation sensors
