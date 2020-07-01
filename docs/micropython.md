@@ -4,15 +4,7 @@
 
   * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
     * Specific to EV3
-    * Many sample programs
-      * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
-        * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
-        * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
-        * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
-      * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
-      * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
-  * ~~[Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)~~
-    *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
+
  
 # Motors:
   * [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
@@ -48,7 +40,14 @@
     * [classUltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor)
     * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     
-    
+# Sample programs
+  * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
+    * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
+    * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
+    * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+  * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
+  * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
+      
 # Advanced   
   * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
      * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
@@ -57,3 +56,7 @@
       * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
       * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
       * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
+
+# other
+  * ~~[Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)~~
+    *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
