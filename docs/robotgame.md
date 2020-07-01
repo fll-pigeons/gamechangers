@@ -66,7 +66,10 @@ Our Ev3 programs are saved on Github:
 * [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
 * [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
 
-# 4. Build/Programming Resources
+# 4. Hardware
+* [hardware](hardware.md)
+
+# 5. Build/Programming Resources
 * [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
 * [LEGORobotics Mr. Hino - YouTube](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ)
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
