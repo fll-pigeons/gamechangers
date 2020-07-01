@@ -19,12 +19,12 @@
     * [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html)
         *  Driving for a given distance or by an angle
            * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
-           * turn(angle)
-           * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
+           * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn)
+           * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings)
         * Drive forever
-            * drive(drive_speed, turn_rate)
-            * stop()
-        * Advanced Settings
+            * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)
+            * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop)
+        * Advanced Settings (see PID section)
             * distance_controlheading_control
             * heading_control
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
