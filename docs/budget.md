@@ -12,3 +12,6 @@ less FLL Grant: $500
 remainder: $210
 
 per parent cost: $70
+
+Other possible costs:
+* Coderz @ 6.95/month*2 months?
