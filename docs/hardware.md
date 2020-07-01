@@ -9,16 +9,18 @@
 Setup to pair ev3dev with Windows 10 using bluetooth.
 
 on EV3:
-  Wireless and Networks
-    > Bluetooth
+
+    Wireless and Networks
+      > Bluetooth
          > Powered X
          > Visible  X
          > Devices kmaclean-laptop
 
 on Windows: 
-Settings
-  > Bluetooth & Other Devices
-     > Bluetooth On
+
+    Settings
+      > Bluetooth & Other Devices
+        > Bluetooth On`
 
 #### B. Network Connection - each time you want to use your device in Visual Studio
 
