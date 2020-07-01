@@ -6,7 +6,7 @@ Our Ev3 programs are saved on Github:
 
 # 1. Missions
 
-* [Points Calculator](http://komurobo.com/projets/fll/city-shaper/) - can display indivual missions
+* [Points Calculator](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
 * [Strategy Sheet](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
