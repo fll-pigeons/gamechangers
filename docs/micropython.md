@@ -1,10 +1,10 @@
-# MicroPython - Cheat sheet (Work in progess)
+# MicroPython - Cheat sheet
 
-### Documentation
+## Documentation
 
   * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html)
  
-# Motors:
+## Motors:
   * [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
     * [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html) - for driving the robot
         *  Driving for a given distance or by an angle
@@ -31,14 +31,14 @@
                 * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target)
                 * [run_until_stalled(speed, then=Stop.COAST, duty_limit=None)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_until_stalled)
 
-# Sensors
+## Sensors
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
     * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
     * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
     * [classUltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor)
     * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     
-# Sample programs
+## Sample programs
   * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
     * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
     * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
@@ -46,7 +46,7 @@
   * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/color_sorter.html)
   * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/elephant.html)
       
-# Advanced   
+## Advanced   
   * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
      * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
   * Examples using Lego LabVIEW: 
@@ -55,6 +55,6 @@
       * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
       * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
 
-# other
+## other
   * ~~[Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)~~
     *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
