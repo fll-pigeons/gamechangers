@@ -42,8 +42,8 @@
 
 # Sensors
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
-    * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html)
-    * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html)
+    * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
+    * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
     * [classUltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor)
     * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     
