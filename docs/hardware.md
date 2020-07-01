@@ -20,7 +20,7 @@ on Windows:
 
     Settings
       > Bluetooth & Other Devices
-        > Bluetooth On`
+        > Bluetooth On
 
 #### B. Network Connection - each time you want to use your device in Visual Studio
 
