@@ -1,6 +1,7 @@
 # MicroPython - Cheat sheet (Work in progess)
 
-* Documentation
+### Documentation
+
   * [Getting started with LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
   * [Pybricks (not just for EV3)](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
 
@@ -11,6 +12,7 @@
    * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
 
 ### what is PID?:
+
   * PID = Proportional-Integral-Derivative feedback control
   * Examples using Lego LabVIEW: 
       * Finding line on the mat: [Tutorial](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
