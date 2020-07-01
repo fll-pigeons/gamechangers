@@ -14,7 +14,7 @@
   * ~~[Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)~~
     *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
  
-# MicroPython Motor Commands:
+# Motors:
   * [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
     * [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html) - for driving the robot
         *  Driving for a given distance or by an angle
