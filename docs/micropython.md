@@ -45,8 +45,8 @@
     * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
     * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
     * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
-  * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
-  * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
+  * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/color_sorter.html)
+  * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/elephant.html)
       
 # Advanced   
   * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
