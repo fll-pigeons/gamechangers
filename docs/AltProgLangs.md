@@ -33,9 +33,6 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/).
   * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
   * Includes debugging
-  * Documentation
-    * [Getting started with LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
-    * [Pybricks (not just for EV3)](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
 
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
   * [Documentation](https://makecode.mindstorms.com/about)
