@@ -5,12 +5,12 @@
   * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html) (pybricks github.io documentation)
     * Specific to EV3
     * Many sample programs
-      * ROBOT EDUCATOR PROGRAMS
+      * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
         * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
         * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
         * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
-      * CORE SET PROGRAMS
-      * EXPANSION SET PROGRAMS
+      * [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
+      * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
   * [Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
     *  not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is not support for [Lego's Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit)
  
