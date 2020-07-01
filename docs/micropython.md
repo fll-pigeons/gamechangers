@@ -47,8 +47,9 @@
       
 ## Advanced   
   * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
-     * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
-  * [MicroPython Tutorial XI - Mark Lucking](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65) (right-click, use incognito/private window)
+      * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
+  * Example using Micropython ([by Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) )
+      * [MicroPython Tutorial XI - Mark Lucking](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) (right-click, open in incognito/private window)
   * Examples using Lego LabVIEW: 
       * [Finding line on the mat](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
       * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
