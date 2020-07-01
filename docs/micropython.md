@@ -14,12 +14,12 @@
   * [Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)
     *  not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is not support for [Lego's Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit)
  
-* MicroPython Motor Commands:
+# MicroPython Motor Commands:
    * [DriveBase class - Driving for a given distance or by an angle](https://docs.pybricks.com/en/latest/robotics.html) (uses two PIDs controllers: one to control the heading and one to control the traveled distance.)
    * [Motor class - PID control to accurately track your commanded target angles](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
    * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
 
-### what is PID?:
+## what is PID?:
 
   * PID = Proportional-Integral-Derivative feedback control
   * Examples using Lego LabVIEW: 
