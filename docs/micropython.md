@@ -28,9 +28,17 @@
             * distance_controlheading_control
             * heading_control
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
-    * [Motor class - control motors with built-in rotation sensors](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
-   
-   
+    * [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
+        * control motors with built-in rotation sensors
+            * Stopping
+               * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop)
+               * [brake()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.brake)
+            * Action
+                * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
+                * [run_time(speed, time, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_time)
+                * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
+                * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target)
+                * [run_until_stalled(speed, then=Stop.COAST, duty_limit=None)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_until_stalled)
 # PID - Advanced   
    * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
 
