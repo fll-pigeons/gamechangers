@@ -27,6 +27,7 @@ on Windows:
 EV3 still does not show up  Visual Studio Code (VSCode), need to 'Connect' EV3 with computer each time you restart VSCode.
 
 On EV3:
+
     Wireless and Networks 
       > All Network Connections 
         > {PC-Name} 
