@@ -5,7 +5,9 @@
   * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html)
  
 ## Motors:
+
 ### [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
+
 * [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html) - for driving the robot
     *  Driving for a given distance or by an angle
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
@@ -16,6 +18,7 @@
         * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop)
 
 ### [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
+
 * [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors) - for accurate control of attachment motor
   * control motors with built-in rotation sensors
     * Stopping
@@ -30,6 +33,7 @@
         * [run_until_stalled(speed, then=Stop.COAST, duty_limit=None)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_until_stalled)
 
 ## Sensors
+
   * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
     * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
     * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
@@ -39,6 +43,7 @@
        * [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
 
 ## Sample programs
+
   * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
     * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
     * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
@@ -47,6 +52,7 @@
   * [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/elephant.html)
       
 ## Advanced   
+
   * PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
       * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
   * Example using Micropython ([by Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) ) (right-click, open in incognito/private window)
