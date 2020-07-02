@@ -6,13 +6,13 @@
 * bank costs 5months*1.95 = $10 (community Bank account required by First Canada in order to obtain new team grant)
 * 12 rechargeable batteries: $30-$40
 
-Total: $710CAD
+Total: $750CAD
 
 less FLL Grant: $500
 
-remainder: $210
+remainder: $250
 
-per parent cost: $70
+per parent cost: $87
 
 Other possible costs:
 * Coderz @ 6.95/month*2 months?
