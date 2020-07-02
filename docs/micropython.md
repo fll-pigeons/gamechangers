@@ -8,7 +8,8 @@
 
 ### [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
 
-* [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html) - for driving the robot
+#### Driving the Robot [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html)
+
     *  Driving for a given distance or by an angle
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
        * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn)
@@ -21,7 +22,8 @@ ___________________
 
 ### [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
 
-* [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors) - for accurate control of attachment motor
+#### Attachment motor control [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
+
   * control motors with built-in rotation sensors
     * Stopping
        * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop)
