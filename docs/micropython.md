@@ -8,7 +8,7 @@
 
 ### [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
 
-#### Driving the Robot [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html)
+* Driving the Robot [DriveBase class](https://docs.pybricks.com/en/latest/robotics.html)
 
     *  Driving for a given distance or by an angle
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
@@ -16,13 +16,13 @@
        * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings)
     * Drive forever
         * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)
-        * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop)
+        * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
 
-___________________
+
 
 ### [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
 
-#### Attachment motor control [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
+* Attachment motor control [Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
 
   * control motors with built-in rotation sensors
     * Stopping
