@@ -40,3 +40,11 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
 
 # 5. Examples
 * [Core Values Judging Rowan FLL Championship 2018](https://www.youtube.com/watch?v=RC_mukfEkes)
+
+--------------------
+
+# Decisions
+> #### 2 July - Decision Making 
+> 1. Each person has a chance to speak on the issue
+> 2. Everyone listens
+> 3. Vote, majority wins
