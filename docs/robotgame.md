@@ -63,5 +63,7 @@ Our Ev3 programs are saved on Github:
 * [LEGORobotics Mr. Hino - YouTube](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ)
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
 
-
+# Learning Points
+> #### 2 July - Maze nagivator
+> Learned how to navigate robot out and back, and through simple maze, using Micropython's wheel turn steering
 
