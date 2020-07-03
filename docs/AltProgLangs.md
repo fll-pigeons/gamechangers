@@ -29,8 +29,9 @@
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
 SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Performance Class A1
-  * uses new [Pybricks MicroPython](https://pybricks.com/) runtime and library (called Brickman on the EV3).  LEGO Education has tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application. 
-  * [Pybricks MicroPython](https://pybricks.com/) is a program included with [EV3dev](http://www.ev3dev.org/).
+  * Uses the [Pybricks](https://pybricks.com/) dialect of [MicroPython](https://micropython.org/) for EV3.  [MicroPython](https://micropython.org/) is a subset of [Python](https://www.python.org) used in [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller).
+  * LEGO Education has tested and approved version 2.0 of [Pybricks MicroPython](https://pybricks.com/)  as the official EV3 MicroPython application.   
+  * [Pybricks MicroPython](https://pybricks.com/) is a runtime and library (called Brickman on the EV3), and is also included with [EV3dev](http://www.ev3dev.org/). 
   * It also comes with a dedicated Visual Studio Code extension that includes project templates and documentation to get started. 
   * Includes debugging
 
