@@ -44,7 +44,7 @@ Our Ev3 programs are saved on Github:
 
 ### Programming Language
 * [Lego's EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
-  * This is Lego's dialect of [MicroPython](https://micropython.org/) (which is a Python for [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller)) with EV3 bindings
+  * Uses the [Pybricks](https://pybricks.com/) dialect of [MicroPython](https://micropython.org/) (which is a Python for [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller)) for EV3
   * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
   * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
 
