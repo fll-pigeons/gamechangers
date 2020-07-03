@@ -65,5 +65,5 @@ Our Ev3 programs are saved on Github:
 
 # Learning Points
 > #### 2 July - Maze nagivator
-> Learned how to navigate robot out and back, and through simple maze, using Micropython's wheel turn steering
+> Learned how to navigate robot out and back, and through simple maze, using Micropython's straight() and turn() commands.
 
