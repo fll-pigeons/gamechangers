@@ -61,6 +61,8 @@
     * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
 * Example using Micropython ([by Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) ) (right-click, open in incognito/private window)
     * [use the giro to correct any drift when driving in a straight line ](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51)
+    * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
+    * [J. Sluka's: A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) (very detailed, uses pseudocode)
 * Examples using Lego LabVIEW: 
     * [Finding line on the mat](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
     * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
