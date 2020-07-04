@@ -9,7 +9,7 @@
 
 ### [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
 
-* Driving the Robot - dual motor control ([DriveBase class](https://docs.pybricks.com/en/latest/robotics.html))
+* Driving the Robot - Dual Motor Control ([DriveBase class](https://docs.pybricks.com/en/latest/robotics.html))
 
     *  Driving for a given distance or by an angle
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
