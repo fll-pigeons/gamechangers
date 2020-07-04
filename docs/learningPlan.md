@@ -5,6 +5,8 @@
  
 * Drive straight
 * Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
+  * using individual motor control - experiment with different power ratios
+  * using DriveBase
 * Navigate maze
     
 ### Using sensors
@@ -41,20 +43,22 @@
     
 * Gyro sensor
   * Proportional Logic
-    * Straight line
+    * Straight line ( [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
   
-    
-    
-    * [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
-----------
+## 3. Most Accurate Nagivation
 
-  * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
-## Advanced   
-
-* PID = Proportional-Integral-Derivative feedback control - more accurate travel or line following
-    * [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) 
+  * Proportional Integral line follower
+    * Straight line
+    * Turns
+    * Navigate line maze   
+    
+  * PID (Proportional Integral Derivative) line follower ( [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) )
+    * Straight line
+    * Turns
+    * Navigate line maze
+    
 * Example using Micropython
 
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
@@ -66,9 +70,10 @@
     * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
     * [EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s)
 
+## Resources    
 
-
-
+* ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
+* [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 
 
 
