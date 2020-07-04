@@ -62,6 +62,8 @@
 ## 4 Using Better Algorithms - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
+### Color sensor
+
 * Proportional Integral line follower
   * Straight line
   * Turns
@@ -81,7 +83,14 @@
     * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
     * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
     * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
-    * [EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s)
+    * 
+
+### Gyro sensor
+
+  * PID (Proportional Integral Derivative) line follower 
+    * Straight line ([EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))
+    * Turns
+    * Navigate line maze
 
 ## Resources    
 
