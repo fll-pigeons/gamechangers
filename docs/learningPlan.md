@@ -73,7 +73,7 @@
 
 ## Resources    
 
-* ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
+* [Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials
 * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 
 
