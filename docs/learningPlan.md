@@ -1,6 +1,6 @@
 # Learning Plan
 
-## 1. Basic Movement
+## 1. Basic Navigation
 ### No Feedback - No sensors 
  
 * Drive straight
@@ -21,7 +21,7 @@
   * Turns
   * Navigate maze
 
-## 2. Using Improved Feedback - More Accurate Movement Using Sensors
+## 2. Using Improved Feedback - More Accurate Navigation Using Sensors
 
 ### Simple programming
 
