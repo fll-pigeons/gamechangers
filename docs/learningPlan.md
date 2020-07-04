@@ -9,7 +9,7 @@
   * using DriveBase
 * Navigate maze
     
-### Using sensors
+### Using Basic Sensors
  
 * Touch sensor
   * Drive straight
