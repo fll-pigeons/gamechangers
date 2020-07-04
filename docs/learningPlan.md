@@ -1,35 +1,42 @@
 # Learning Plan
 
 ## 1. Basic Movement
- ### no sensors 
-    * Drive straight
-    * Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
-    * Navigate maze
+### no sensors 
+ 
+* Drive straight
+* Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
+* Navigate maze
     
- ### with sensor
-    * Touch
-      * Drive straight
-      * Turns
-      * Navigate maze    
-    
-    * Ultrasonic
-      * Drive straight
-      * Turns
-      * Navigate maze
+### with sensor
+ 
+* Touch
+  * Drive straight
+  * Turns
+  * Navigate maze    
+
+* Ultrasonic
+  * Drive straight
+  * Turns
+  * Navigate maze
 
 ## 2. More Accurate Movement
-    * Gyro
-      * Drive straight
-          * [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4)
-          * [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
-      * Turns
-      * Navigate maze
 
-    * Color
-      * Simple Line following
-        * Straight line
-        * Turns
-        * Navigate line maze
+* Gyro
+  * Drive straight
+    * [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4)
+    * [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
+  * Turns
+  * Navigate maze
+
+* Color
+  * Simple Line following
+    * Straight line
+    * Turns
+    * Navigate line maze
+
+
+
+----------
 
   * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 ## Advanced   
