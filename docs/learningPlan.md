@@ -1,41 +1,53 @@
 # Learning Plan
 
 ## 1. Basic Movement
-### no sensors 
+### No sensors 
  
 * Drive straight
 * Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
 * Navigate maze
     
-### with sensor
+### Using sensors
  
-* Touch
+* Touch sensor
   * Drive straight
   * Turns
   * Navigate maze    
 
-* Ultrasonic
+* Ultrasonic sensor
   * Drive straight
   * Turns
   * Navigate maze
 
-## 2. More Accurate Movement
+## 2. More Accurate Movement Using Sensors
 
-* Gyro
-  * Drive straight
-    * [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4)
-    * [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
-  * Turns
-  * Navigate maze
+### Simple programming
 
-* Color
-  * Simple Line following
+* Color sensor
+  * 2-level line follower
     * Straight line
     * Turns
     * Navigate line maze
 
-
-
+  * 3-level line follower
+    * Straight line
+    * Turns
+    * Navigate line maze
+    
+  * Proportional line follower
+    * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
+    * Turns
+    * Navigate line maze    
+    
+* Gyro sensor
+  * Proportional Logic
+    * Straight line
+    * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
+    * Navigate line maze   
+  
+    
+    
+    * [Use the giro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) ([Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials)
 ----------
 
   * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
