@@ -1,15 +1,15 @@
 # Learning Plan
 
 ## 1. Basic Movement
-### No sensors 
+### No Feedback -No sensors 
  
 * Drive straight
 * Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
   * using individual motor control - experiment with different power ratios
   * using DriveBase
 * Navigate maze
-    
-### Using Basic Sensors
+     
+### With Rudimentary Feedback - Using Basic Sensors
  
 * Touch sensor
   * Drive straight
@@ -21,7 +21,7 @@
   * Turns
   * Navigate maze
 
-## 2. More Accurate Movement Using Sensors
+## 2. Using Improved Feedback - More Accurate Movement Using Sensors
 
 ### Simple programming
 
@@ -47,22 +47,23 @@
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
   
-## 3. Most Accurate Nagivation
+## 3. Using Algorithm And Sensors - Most Accurate Nagivation
+(see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
-  * Proportional Integral line follower
-    * Straight line
-    * Turns
-    * Navigate line maze   
+* Proportional Integral line follower
+  * Straight line
+  * Turns
+  * Navigate line maze   
     
-  * PID (Proportional Integral Derivative) line follower ( [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) )
-    * Straight line
-    * Turns
-    * Navigate line maze
+* PID (Proportional Integral Derivative) line follower 
+( [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) )
+  * Straight line
+  * Turns
+  * Navigate line maze
     
-* Example using Micropython
-
+* Examples using Micropython
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
-    * [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) (J. Sluka; very detailed, uses pseudocode)
+    
 * Examples using Lego LabVIEW: 
     * [Finding line on the mat](http://flltutorials.com/translations/en-us/RobotGame/FindingLines.pdf)
     * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
