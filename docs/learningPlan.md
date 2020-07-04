@@ -1,4 +1,4 @@
-# Learning Plan
+# Learning Plan (Work In Progress)
 
 ## 1. Basic Navigation
 ### No Feedback - No sensors 
@@ -83,7 +83,6 @@
     * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
     * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
     * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
-    * 
 
 ### Gyro sensor
 
