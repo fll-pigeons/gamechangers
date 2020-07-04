@@ -21,9 +21,7 @@
   * Turns
   * Navigate maze
 
-## 2. Using Improved Feedback - Improve Navigation Accuracy Using Sensors
-
-### Simple programming
+## 2. Using Improved Feedback - Using Better Sensor
 
 * Color sensor
   * 2-level line follower
@@ -35,8 +33,19 @@
     * Straight line
     * Turns
     * Navigate line maze
+    
+* Gyro sensor (think of it as a virtual line follower)
+  * 2-level Logic
+    * Straight line
+    * Turns
+    * Navigate line maze
 
-## 3. Using Simple Algorithms And Sensors - More Accurate Nagivation
+  * 3-level Logic
+    * Straight line
+    * Turns
+    * Navigate line maze
+    
+## 3. Using Simple Algorithm - More Accurate Nagivation
 
 * Color sensor
   * Proportional line follower
@@ -44,13 +53,13 @@
     * Turns
     * Navigate line maze    
     
-* Gyro sensor (think of it as a virtual line follower)
+* Gyro sensor
   * Proportional Logic
     * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
   
-## 4 Using Algorithms And Sensors - Most Accurate Nagivation
+## 4 Using Better Algorithms - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
 * Proportional Integral line follower
