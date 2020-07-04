@@ -1,12 +1,12 @@
 # Learning Plan
 
 ## 1. Basic Movement
-### No Feedback -No sensors 
+### No Feedback - No sensors 
  
 * Drive straight
-* Turns; [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
-  * using individual motor control - experiment with different power ratios
-  * using DriveBase
+* Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
+  * Using individual motor control - experiment with different power ratios
+  * Using DriveBase
 * Navigate maze
      
 ### With Rudimentary Feedback - Using Basic Sensors
