@@ -9,7 +9,7 @@
   * Using individual motor control - experiment with different power ratios
   * Using DriveBase
 * Navigate maze
-     
+
 ### With Rudimentary Feedback - Using Basic Sensors
 * Math: tables and plotting them on graph
 * ~~Touch sensor~~
@@ -33,7 +33,7 @@
     * Straight line
     * Turns
     * Navigate line maze
-    
+
 * Gyro sensor (think of it as a virtual line follower)
 
   * Math: slope functions and plotting them on graph
@@ -46,7 +46,7 @@
     * Straight line
     * Turns
     * Navigate line maze
-    
+
 ## 3. Using Simple Algorithm - More Accurate Nagivation
 
 * Color sensor
