@@ -39,7 +39,7 @@
 
 ## Navigation - Gyro sensor
 * Gyro sensor (think of it as a virtual line follower)
-  * Math: functions, slopes and graphs
+  * Math: functions, graphs and slope 
   * 2-level and 3-level Logic
     * Straight line
     * Turns
@@ -47,6 +47,7 @@
 
 ## Using Simple Algorithm - More Accurate Nagivation
 * Color sensor
+  * Math: explain P-follower using functions, slopes and graphs
   * Proportional line follower
     * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
     * Turns
