@@ -157,3 +157,4 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   
 ## Arduino
 * [ardublockly-micropython](https://github.com/immakermatty/ardublockly-micropython)
+* [Arduino - SparkFun Inventor's Kit for RedBot](https://docs.idew.org/code-robotics/)
