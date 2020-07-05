@@ -7,9 +7,9 @@
  
 ## Motors:
 
-### [robotics module:](https://docs.pybricks.com/en/latest/robotics.html)
+### [robotics module:](https://pybricks.github.io/ev3-micropython/robotics.html)
 
-* Driving the Robot - Dual Motor Control ([DriveBase class](https://docs.pybricks.com/en/latest/robotics.html))
+* Driving the Robot - Dual Motor Control ([DriveBase class](https://pybricks.github.io/ev3-micropython/robotics.html))
 
     *  Driving for a given distance or by an angle
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
@@ -57,5 +57,5 @@
 
 
 ## other
-* ~~[Pybricks](https://docs.pybricks.com/en/latest/index.html) (pybricks.com documentation)~~
+* ~~[Pybricks](https://pybricks.github.io/ev3-micropython/index.html) (pybricks.com documentation)~~
   *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
