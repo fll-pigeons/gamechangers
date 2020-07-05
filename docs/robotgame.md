@@ -26,13 +26,10 @@ Our Ev3 programs are saved on Github:
 # 2. Robot
 ### Robot Design
 * [sample instructions](http://flltutorials.com/RobotGame.html)
-* [Other Instructions - Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
+* [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
     * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
     * [medium motor driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-medium-motor-driving-base-e66e2fc0d917485ef1aa023e8358e7a7.pdf)
-
-### Lego Build Instructions
 * [Home Robot (Retail)](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
-* [Educational Robot](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
 
 <br/>
 
