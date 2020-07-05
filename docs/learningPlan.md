@@ -46,8 +46,8 @@
     * Navigate line maze
 
 ## Using Simple Algorithm - More Accurate Nagivation
+* Math: explain P-follower using functions, slopes and graphs
 * Color sensor
-  * Math: explain P-follower using functions, slopes and graphs
   * Proportional line follower
     * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
     * Turns
@@ -57,7 +57,12 @@
     * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
-  
+* Ultrasonic/Touch sensor navigation (revisited)
+  * Proportional Logic
+    * Straight line
+    * Turns
+    * Navigate line maze    
+
 ## Using Better Algorithms - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
