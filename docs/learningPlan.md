@@ -3,26 +3,26 @@
 ## 1. Basic Navigation
 ### No Feedback - No sensors 
  
-* Drive straight
+* ~~Drive straight~~
+* Curved turns using radius
 * Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
   * Using individual motor control - experiment with different power ratios
   * Using DriveBase
 * Navigate maze
      
 ### With Rudimentary Feedback - Using Basic Sensors
- 
-* Touch sensor
-  * Drive straight
-  * Turns
-  * Navigate maze    
-
+* Math: tables and plotting them on graph
+* ~~Touch sensor~~
+* what is a robot?: using feedback and reacting to it
+* Python: if statement
 * Ultrasonic sensor
   * Drive straight
   * Turns
   * Navigate maze
 
 ## 2. Using Improved Feedback - Using Better Sensor
-
+* Math: functions and plotting them on graph
+* Python: Loop statement
 * Color sensor
   * 2-level line follower
     * Straight line
@@ -35,6 +35,8 @@
     * Navigate line maze
     
 * Gyro sensor (think of it as a virtual line follower)
+
+  * Math: slope functions and plotting them on graph
   * 2-level Logic
     * Straight line
     * Turns
