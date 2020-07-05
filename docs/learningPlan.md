@@ -10,6 +10,7 @@
 
 ## Basic Navigation: No Feedback - No sensors 
 * Math: tables and plotting them on graph
+* [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html)
 * MicroPython: 
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
