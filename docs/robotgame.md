@@ -26,10 +26,11 @@
 ### Robot Design
 * [First Lego League Tutorials](http://flltutorials.com/RobotGame.html)
 * [EV3 Lessons](http://ev3lessons.com/en/RobotDesigns.html)
-* [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
-    * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
-    * [medium motor driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-medium-motor-driving-base-e66e2fc0d917485ef1aa023e8358e7a7.pdf)
-* [Home Robot (Retail)](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
+* Lego
+   * [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
+     * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
+     * [medium motor driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-medium-motor-driving-base-e66e2fc0d917485ef1aa023e8358e7a7.pdf)
+   * [Lego Home Robot (Retail)](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
 
 <br/>
 
