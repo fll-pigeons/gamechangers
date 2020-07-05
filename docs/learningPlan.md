@@ -3,7 +3,7 @@
 ## 1. Basic Navigation
 ### No Feedback - No sensors 
  
-* ~~Drive straight~~
+* Drive straight
 * Curved turns using radius
 * Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
   * Using individual motor control - experiment with different power ratios
