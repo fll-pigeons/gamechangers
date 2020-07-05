@@ -26,6 +26,7 @@
   * Drive straight
   * Turns
   * Navigate maze
+  * Combo navigation: Ultrasonic to follow wall; touch to initiate turn
 
 ## Navigation Using Improved Feedback - Color sensor
 * Math:  functions and plotting them on graph (and understanding slope)
