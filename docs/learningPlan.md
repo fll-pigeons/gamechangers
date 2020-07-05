@@ -20,10 +20,9 @@
 
 ## Navigation: Using Basic Sensors
 * Math: simple functions and plotting them on graph
-* ~~Touch sensor~~
 * what is a robot?: using feedback and reacting to it
 * MicroPython: if statement
-* Ultrasonic sensor
+* Touch and Ultrasonic sensor
   * Drive straight
   * Turns
   * Navigate maze
@@ -32,11 +31,7 @@
 * Math:  functions and plotting them on graph (and understanding slope)
 * MicroPython: Loop statement
 * Color sensor
-  * 2-level line follower
-    * Straight line
-    * Turns
-    * Navigate line maze
-  * 3-level line follower
+  * 2-level & 3-level line follower
     * Straight line
     * Turns
     * Navigate line maze
@@ -44,11 +39,7 @@
 ## Navigation - Gyro sensor
 * Gyro sensor (think of it as a virtual line follower)
   * Math: functions, slopes and graphs
-  * 2-level Logic
-    * Straight line
-    * Turns
-    * Navigate line maze
-  * 3-level Logic
+  * 2-level and 3-level Logic
     * Straight line
     * Turns
     * Navigate line maze
