@@ -2,24 +2,22 @@
 
 # A. Software
 
-## 1. Basic Navigation: No Feedback - No sensors 
+## Basic Navigation: No Feedback - No sensors 
 * MicroPython: straight(), turn()
 * Drive straight
 * Turns Using DriveBase
 * Navigate maze
 
-## 1. Basic Navigation: No Feedback - No sensors 
+## Basic Navigation: No Feedback - No sensors 
 * Math: tables and plotting them on graph
-* MicroPython: straight(), turn()
-* Drive straight
-* Curved turns using radius
+* MicroPython: settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
+* Drive straight - faster
 * Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
-  * Using individual motor control - experiment with different power ratios
-  * Using DriveBase
+  * Curved turns
 * Navigate maze
 
-## 2. Navigation: Using Basic Sensors
-* Math: tables and plotting them on graph
+## Navigation: Using Basic Sensors
+* Math: simple functions and plotting them on graph
 * ~~Touch sensor~~
 * what is a robot?: using feedback and reacting to it
 * MicroPython: if statement
@@ -28,8 +26,8 @@
   * Turns
   * Navigate maze
 
-## 3. Navigation Using Improved Feedback - Color sensor
-* Math: simple functions and plotting them on graph
+## Navigation Using Improved Feedback - Color sensor
+* Math:  functions and plotting them on graph (and understanding slope)
 * MicroPython: Loop statement
 * Color sensor
   * 2-level line follower
@@ -41,9 +39,9 @@
     * Turns
     * Navigate line maze
 
-## 4. Navigation - Gyro sensor
+## Navigation - Gyro sensor
 * Gyro sensor (think of it as a virtual line follower)
-  * Math: functions and plotting them on graph (and understanding slope)
+  * Math: functions, slopes and graphs
   * 2-level Logic
     * Straight line
     * Turns
@@ -53,7 +51,7 @@
     * Turns
     * Navigate line maze
 
-## 5. Using Simple Algorithm - More Accurate Nagivation
+## Using Simple Algorithm - More Accurate Nagivation
 * Color sensor
   * Proportional line follower
     * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
@@ -65,7 +63,7 @@
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
   
-## 6. Using Better Algorithms - Most Accurate Nagivation
+## Using Better Algorithms - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
 ### Color sensor
@@ -99,7 +97,7 @@
 
 # B. Hardware
 
-### 7. Attachements
+### Attachements
 * [Worm Gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
 * [Dog Gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
 
