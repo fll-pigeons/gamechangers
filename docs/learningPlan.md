@@ -20,41 +20,37 @@
   * Turns
   * Navigate maze
 
-## 2. Using Improved Feedback - Using Better Sensor
-* Math: functions and plotting them on graph
+## 2. Using Improved Feedback - Color sensor
+* Math: functions and plotting them on graph (1)
 * Python: Loop statement
 * Color sensor
   * 2-level line follower
     * Straight line
     * Turns
     * Navigate line maze
-
   * 3-level line follower
     * Straight line
     * Turns
     * Navigate line maze
 
+## 3. Using Improved Feedback - Gyro sensor
 * Gyro sensor (think of it as a virtual line follower)
-
-  * Math: slope functions and plotting them on graph
+  * Math: slope functions and plotting them on graph (2)
   * 2-level Logic
     * Straight line
     * Turns
     * Navigate line maze
-
   * 3-level Logic
     * Straight line
     * Turns
     * Navigate line maze
 
 ## 3. Using Simple Algorithm - More Accurate Nagivation
-
 * Color sensor
   * Proportional line follower
     * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
     * Turns
     * Navigate line maze    
-    
 * Gyro sensor
   * Proportional Logic
     * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
@@ -65,12 +61,11 @@
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
 ### Color sensor
-
 * Proportional Integral line follower
   * Straight line
   * Turns
   * Navigate line maze   
-    
+  
 * PID (Proportional Integral Derivative) line follower 
 ( [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) )
   * Straight line
