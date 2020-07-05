@@ -28,6 +28,9 @@
 
 <br>
 
+# Other Lego Kits
+* [Spike Prime Lessons](http://primelessons.org/en/index.html)
+
 # Other Competitions
 * [WRO - Word Robotics Olympiad](https://wro-association.org/home/)
     * [WRO Canada - zone01](http://www.zone01.ca/index.php/en-ca/)
