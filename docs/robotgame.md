@@ -51,18 +51,15 @@ Our Ev3 programs are saved on Github:
 
 * [EV3 Programming Language research](AltProgLangs.md)
 
-#### Gyro
-* [drive straight with gyroscope](https://www.youtube.com/watch?v=qPE4YNsTad4) ( [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g) )
-* [Block Gyro](https://www.lego.com/cdn/cs/set/assets/blt8da4f23ee86f8986/Gyro.ev3b) ( [See Lego download page](https://www.lego.com/en-us/themes/mindstorms/downloads) )
-
 <br/>
 
 # 4. [Learning Plan](learningPlan.md)
 
 <br/>
 
-# 5. Hardware
-* [EV3 Brick](hardware.md)
+# 5. [Hardware](hardware.md)
+
+<br/>
 
 # 6. Build/Programming Resources
 * [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
