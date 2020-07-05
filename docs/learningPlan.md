@@ -3,6 +3,14 @@
 # A. Software
 
 ## 1. Basic Navigation: No Feedback - No sensors 
+* MicroPython: straight(), turn()
+* Drive straight
+* Turns Using DriveBase
+* Navigate maze
+
+## 1. Basic Navigation: No Feedback - No sensors 
+* Math: tables and plotting them on graph
+* MicroPython: straight(), turn()
 * Drive straight
 * Curved turns using radius
 * Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
@@ -14,7 +22,7 @@
 * Math: tables and plotting them on graph
 * ~~Touch sensor~~
 * what is a robot?: using feedback and reacting to it
-* Python: if statement
+* MicroPython: if statement
 * Ultrasonic sensor
   * Drive straight
   * Turns
@@ -22,7 +30,7 @@
 
 ## 3. Navigation Using Improved Feedback - Color sensor
 * Math: simple functions and plotting them on graph
-* Python: Loop statement
+* MicroPython: Loop statement
 * Color sensor
   * 2-level line follower
     * Straight line
