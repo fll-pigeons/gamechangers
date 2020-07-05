@@ -38,7 +38,7 @@
     * Navigate line maze
 
 ## Navigation - Gyro sensor
-* Gyro sensor (think of it as a virtual line follower)
+* Gyro sensor
   * Math: functions, graphs and slope 
   * 2-level and 3-level Logic
     * Straight line
