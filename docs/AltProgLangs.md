@@ -94,7 +94,7 @@ LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Jav
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
-* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Logo's EV3.  
+* [Pybricks](https://pybricks.com/) Pybricks builds on [MicroPython](http://www.micropython.org/), which is a super-efficient version of Python that can run on the microcontrollers inside smart hubs like Lego's EV3.  
   * It runs on top of  [EV3dev](http://www.ev3dev.org/).
   * Your code runs on the EV3 brick, so it runs as fast as Legos EV3 Labview (As opposed to other software where the robot is essentially remote controlled from a tablet or PC).  
   * It can run programs autonomously.
