@@ -15,8 +15,8 @@
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Drive straight - faster
-* Turns - [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
-  * Curved turns
+* Curved turns 
+  * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
 * Navigate maze
 
 ## Navigation: Using Basic Sensors
