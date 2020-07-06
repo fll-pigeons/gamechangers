@@ -27,7 +27,7 @@
   * Drive straight
   * Turns
   * Navigate maze
-  * Combo navigation: Ultrasonic to follow wall; touch to initiate turn
+  * Combo navigation: [Ultrasonic to follow wall](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html#obstacle-avoidance); touch to initiate turn
 
 ## Navigation Using Improved Feedback - Color sensor
 * Math:  functions and plotting them on graph (and understanding slope)
