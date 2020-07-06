@@ -38,6 +38,20 @@
     * Turns
     * Navigate curvy loops
 
+## Using Simple Algorithm - More Accurate Nagivation
+* Math: explain Proportional follower using functions, slopes and graphs
+* Color sensor
+  * Proportional line follower
+    * Straight line 
+    * Turns
+    * Navigate line maze    
+
+* Ultrasonic/Touch sensor navigation (revisited)
+  * Proportional Logic
+    * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
+    * Turns
+    * Navigate line maze    
+
 ## Navigation - Gyro sensor
 * Gyro sensor
   * Math: functions, graphs and slope 
@@ -45,31 +59,10 @@
     * Move straight
     * Turns
     * Navigate board maze
-
-## Using Simple Algorithm - More Accurate Nagivation
-* Math: explain Proportional follower using functions, slopes and graphs
-* Color sensor
-  * Proportional line follower
-    * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
-    * Turns
-    * Navigate line maze    
-* Gyro sensor
   * Proportional Logic
     * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
-* Ultrasonic/Touch sensor navigation (revisited)
-  * Proportional Logic
-    * Straight line
-    * Turns
-    * Navigate line maze    
-
-
-
-
-***NOT FINSIHED***
-
-
 
 
 ## Understanding PyBrick MicroPython PID algorithm - Most Accurate Nagivation
