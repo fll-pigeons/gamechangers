@@ -63,7 +63,8 @@ The EV3 Software was built in LabVIEW, LVLM is the base software and is much mor
   * Has an entry level block-level programming version of RobotC. 
   * Lots of documentation and online support. 
   * requires variable declarations and is thus wordier than MicroPython  
-  * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year - not clear if separate license required or if ROBOTC license includes RVW)
+  * Can be used with [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) (at additional cost of $49USD/seat/year; $149USD/6seats/year)
+    * License cost depends on whether you run RobotC in virtual vs physical EV3.  If only use RVW, then can use RobotC with no need for additional RobotC license, but if want to run code on a physical EV3, then need a Physical RobotC license.
 
 * [Java with leJOS](http://www.lejos.org/ev3.php)
 Tiny Java Virtual Machine that supports Java. 
@@ -121,8 +122,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month) - best Web-based simulator
 
-* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) - RobotC 
-  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) ($49USD/seat/year; $149USD/6seats/year)
+* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) 
+  * Includes RobotC IDE at no additional cost.  
+  * If want to run RobotC on a physical EV3, need to pay for an additional RobotC license ($49USD/seat/year; $149USD/6seats/year)!
+  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) 
 
 # Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
