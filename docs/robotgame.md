@@ -39,7 +39,8 @@
 ### Programming Language
 * [Lego's EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
   * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
-  * [Documentation](https://pybricks.github.io/ev3-micropython/index.html)
+  * [Lego's Documentation](https://pybricks.github.io/ev3-micropython/index.html)
+  * [PyBrick's MicroPython Documentation](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
 
 * [EV3 MicroPython Cheat Sheet](micropython.md)
 
