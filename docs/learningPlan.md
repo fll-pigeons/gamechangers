@@ -22,7 +22,7 @@
 ## Navigation: Using Basic Sensors
 * Math: simple functions and plotting them on graph
 * what is a robot?: using feedback and reacting to it
-* MicroPython: if statement
+* MicroPython: looping & conditionals (while and if statements)
 * Touch and Ultrasonic sensor
   * Drive straight
   * Turns
@@ -31,23 +31,23 @@
 
 ## Navigation Using Improved Feedback - Color sensor
 * Math:  functions and plotting them on graph (and understanding slope)
-* MicroPython: Loop statement
+* MicroPython: looping & conditionals (while and if statements)
 * Color sensor
   * 2-level & 3-level line follower
     * Straight line
     * Turns
-    * Navigate line maze
+    * Navigate curvy loops
 
 ## Navigation - Gyro sensor
 * Gyro sensor
   * Math: functions, graphs and slope 
   * 2-level and 3-level Logic
-    * Straight line
+    * Move straight
     * Turns
-    * Navigate line maze
+    * Navigate board maze
 
 ## Using Simple Algorithm - More Accurate Nagivation
-* Math: explain P-follower using functions, slopes and graphs
+* Math: explain Proportional follower using functions, slopes and graphs
 * Color sensor
   * Proportional line follower
     * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
@@ -64,7 +64,15 @@
     * Turns
     * Navigate line maze    
 
-## Using Better Algorithms - Most Accurate Nagivation
+
+
+
+***NOT FINSIHED***
+
+
+
+
+## Understanding PyBrick MicroPython PID algorithm - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
 ### Color sensor
