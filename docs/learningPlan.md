@@ -37,6 +37,7 @@
     * Straight line
     * Turns
     * Navigate curvy loops
+  * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 
 ## Using Simple Algorithm - More Accurate Nagivation
 * Math: explain Proportional follower using functions, slopes and graphs
