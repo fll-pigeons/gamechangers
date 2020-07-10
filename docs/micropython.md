@@ -42,7 +42,7 @@
 * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
   * Basic:
     * [classTouchSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.TouchSensor)
-    * [class UltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/nxtdevices.html#nxt-ultrasonic-sensor) ([nxtdevices](https://pybricks.github.io/ev3-micropython/nxtdevices.html))
+    * ([nxtdevices module](https://pybricks.github.io/ev3-micropython/nxtdevices.html)) [class UltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/nxtdevices.html#nxt-ultrasonic-sensor) 
     * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
   * More accurate
     * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
