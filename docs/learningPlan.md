@@ -2,13 +2,13 @@
 
 # A. Software
 
-## Basic Navigation: No Feedback - No sensors (July 2)
+## Basic Navigation: No Feedback - No sensors
 * MicroPython: straight(), turn()
 * Drive straight
 * Turns Using DriveBase
 * Navigate maze
 
-## Basic Navigation: No Feedback - No sensors (July 10)
+## Basic Navigation: No Feedback - No sensors
 * [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset)
 * MicroPython: 
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
@@ -16,11 +16,17 @@
 * Drive straight - faster
 * Curved turns 
   * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
+* Smooth turns with:
+  * While loop and robot.reset(), robot.distance() and robot.drive()
 * Navigate maze
 
 ## Navigation: Using Basic Sensors
 * Math: tables, simple functions and plotting them on graph
 * what is a robot?: using feedback and reacting to it
+* basic sensors
+  * robot.distance()
+  * class UltrasonicSensor(port)
+  * class TouchSensor(port)
 * MicroPython: looping & conditionals (while and if statements)
 * Touch and Ultrasonic sensor
   * Drive straight
@@ -29,7 +35,7 @@
   * Combo navigation: [Ultrasonic to follow wall](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html#obstacle-avoidance); touch to initiate turn
 
 ## Navigation Using Improved Feedback - Color sensor
-* Math:  functions and plotting them on graph (and understanding slope)
+* Math: functions and plotting them on graph (and understanding slope)
 * MicroPython: looping & conditionals (while and if statements)
 * Color sensor
   * 2-level & 3-level line follower
