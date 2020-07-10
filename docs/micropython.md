@@ -40,15 +40,15 @@
 ## Sensors
 
 * [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
-  * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-  * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
-  * [classUltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor) (does not work with NXT2 Ultrasonic)
-  * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-    * [Gyro Following - More Accurately Control your FLL Robot](https://www.youtube.com/watch?v=WR_gy0NIBOs)
-    * [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
-* [nxtdevices](https://pybricks.github.io/ev3-micropython/nxtdevices.html)
-    * [class UltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/nxtdevices.html#nxt-ultrasonic-sensor)
-
+  * Basic:
+    * [classTouchSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.TouchSensor)
+    * [class UltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/nxtdevices.html#nxt-ultrasonic-sensor) ([nxtdevices](https://pybricks.github.io/ev3-micropython/nxtdevices.html))
+    * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
+  * More accurate
+    * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
+    * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
+      * [Gyro Following - More Accurately Control your FLL Robot](https://www.youtube.com/watch?v=WR_gy0NIBOs)
+      * [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
 
 ## Sample programs
 
