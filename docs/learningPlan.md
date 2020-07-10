@@ -2,13 +2,13 @@
 
 # A. Software
 
-## Basic Navigation: No Feedback - No sensors
+## LP01 - Basic Navigation: No Feedback - No sensors
 * MicroPython: straight(), turn()
 * Drive straight
 * Turns Using DriveBase
 * Navigate maze
 
-## Basic Navigation: No Feedback - No sensors
+## LP02 - Basic Navigation: No Feedback - No sensors
 * [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset)
 * MicroPython: 
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
@@ -20,7 +20,7 @@
   * While loop and robot.reset(), robot.distance() and robot.drive()
 * Navigate maze
 
-## Navigation: Using Basic Sensors
+## LP03 - Navigation: Using Basic Sensors
 * Math: tables, simple functions and plotting them on graph
 * what is a robot?: using feedback and reacting to it
 * basic sensors
@@ -34,7 +34,7 @@
   * Navigate maze
   * Combo navigation: [Ultrasonic to follow wall](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html#obstacle-avoidance); touch to initiate turn
 
-## Navigation Using Improved Feedback - Color sensor
+## LP04 - Navigation Using Improved Feedback - Color sensor
 * Math: functions and plotting them on graph (and understanding slope)
 * MicroPython: looping & conditionals (while and if statements)
 * Color sensor
@@ -44,7 +44,7 @@
     * Navigate curvy loops
   * [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 
-## Using Simple Algorithm - More Accurate Nagivation
+## LP06 - Using Simple Algorithm - More Accurate Nagivation
 * Math: explain Proportional follower using functions, slopes and graphs
 * Color sensor
   * Proportional line follower
@@ -58,7 +58,7 @@
     * Turns
     * Navigate line maze    
 
-## Navigation - Gyro sensor
+## LP07 - Navigation - Gyro sensor
 * Gyro sensor
   * Math: functions, graphs and slope 
   * 2-level and 3-level Logic
@@ -71,7 +71,7 @@
     * Navigate line maze   
 
 
-## Understanding PyBrick MicroPython PID algorithm - Most Accurate Nagivation
+## LP08 - Understanding PyBrick MicroPython PID algorithm - Most Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
 
 ### Color sensor
