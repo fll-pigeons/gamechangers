@@ -2,31 +2,37 @@
 
 # A. Software
 
-## LP01 - Basic Navigation: No Feedback - No sensors
+## LP01 - Basic Navigation: No Feedback - No sensors -> done
 * MicroPython: straight(), turn()
 * Drive straight
 * Turns Using DriveBase
 * Navigate maze
 
-## LP02 - Basic Navigation: No Feedback - No sensors
+## LP02a - Basic Navigation: No Feedback - No sensors -> done
 * [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset)
 * MicroPython: 
-  * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
+  * Fix DriveBase settings: 
+    * wheel_diameter=55.5, 
+    * axle_track=104
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Drive straight - faster
 * Curved turns 
   * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
-* Smooth turns with:
+* Navigate maze
+
+## LP02b - Basic Navigation: Minimal Feedback - Use wheels as sensors
+* Math: tables and plotting them on graph
+* what is a robot?: using feedback and reacting to it
+* Smooth turns with robot.drive():
+  * debug robot.distance() with print statements
   * While loop and robot.reset(), robot.distance() and robot.drive()
 * Navigate maze
 
 ## LP03 - Navigation: Using Basic Sensors
 * Math: tables, simple functions and plotting them on graph
-* what is a robot?: using feedback and reacting to it
-* basic sensors
-  * robot.distance()
-  * class UltrasonicSensor(port)
-  * class TouchSensor(port)
+* basic sensors:
+  * UltrasonicSensor
+  * TouchSensor
 * MicroPython: looping & conditionals (while and if statements)
 * Touch and Ultrasonic sensor
   * Drive straight
@@ -52,12 +58,6 @@
     * Turns
     * Navigate line maze    
 
-* Ultrasonic/Touch sensor navigation (revisited)
-  * Proportional Logic
-    * Straight line ( [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4) )
-    * Turns
-    * Navigate line maze    
-
 ## LP07 - Navigation - Gyro sensor
 * Gyro sensor
   * Math: functions, graphs and slope 
@@ -66,6 +66,7 @@
     * Turns
     * Navigate board maze
   * Proportional Logic
+    * [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4)
     * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
     * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
     * Navigate line maze   
