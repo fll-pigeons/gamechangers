@@ -40,7 +40,7 @@
   * Navigate maze
   * Combo navigation: [Ultrasonic to follow wall](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html#obstacle-avoidance); touch to initiate turn
 
-## LP04 - Navigation Using Improved Feedback - Color sensor
+## LP04 - Simple Algorithm: Color sensor
 * Math: functions and plotting them on graph (and understanding slope)
 * MicroPython: looping & conditionals (while and if statements)
 * Color sensor
@@ -50,43 +50,14 @@
     * Navigate curvy loops
   * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf)
 
-## LP06 - Using Simple Algorithm - More Accurate Nagivation
+## LP05 - Using Built-In PID Algorithm - More Accurate Nagivation
+(see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html))
 * Math: explain Proportional follower using functions, slopes and graphs
 * Color sensor
   * Proportional line follower
     * Straight line 
     * Turns
     * Navigate line maze    
-
-## LP07 - Navigation - Gyro sensor
-* Gyro sensor
-  * Math: functions, graphs and slope 
-  * 2-level and 3-level Logic
-    * Move straight
-    * Turns
-    * Navigate board maze
-  * Proportional Logic
-    * [EV3-G - How to Make your Robot Drive Straight with the EV3 Gyro using proportional logic](https://www.youtube.com/watch?v=qPE4YNsTad4)
-    * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
-    * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
-    * Navigate line maze   
-
-
-## LP08 - Understanding PyBrick MicroPython PID algorithm - Most Accurate Nagivation
-(see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) )
-
-### Color sensor
-* Proportional Integral line follower
-  * Straight line
-  * Turns
-  * Navigate line maze   
-  
-* PID (Proportional Integral Derivative) line follower 
-( [Control class - Class to interact with PID controller and settings.](https://pybricks.github.io/ev3-micropython/motors.html) )
-  * Straight line
-  * Turns
-  * Navigate line maze
-    
 * Examples using Micropython
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
     
@@ -95,8 +66,14 @@
     * [Proportional line follower - Builderdude35](https://www.youtube.com/watch?v=uPFfevfpMxs)
     * [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
     * [What is the Best EV3 Line Follower For You?](https://www.youtube.com/watch?v=P50CE0xwhvo)
+    
+## LP06 - Simple algorithm: Gyro sensor
+* 2-level & 3-level logic
+  * Straight line ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
+  * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
+  * Navigate line maze   
 
-### Gyro sensor
+### LP07 - Gyro sensor & Proportional Algorithm
   * PID (Proportional Integral Derivative) line follower 
     * Straight line 
       * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4) 
