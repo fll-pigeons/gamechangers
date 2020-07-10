@@ -1,6 +1,6 @@
 # Pigeons First Lego League Challenge - Game Changers 2020
 
-![image](pigeon.png)
+![image](pigeons-logo.png)
 
 The [Pigeons](https://fll-pigeons.github.io/gamechangers/) community team, based in London, Ontario, is participating at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November or early December, 2020.
 
