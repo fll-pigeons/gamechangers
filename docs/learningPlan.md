@@ -9,7 +9,6 @@
 * Navigate maze
 
 ## Basic Navigation: No Feedback - No sensors 
-* Math: tables and plotting them on graph
 * [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset)
 * MicroPython: 
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
@@ -20,7 +19,7 @@
 * Navigate maze
 
 ## Navigation: Using Basic Sensors
-* Math: simple functions and plotting them on graph
+* Math: tables, simple functions and plotting them on graph
 * what is a robot?: using feedback and reacting to it
 * MicroPython: looping & conditionals (while and if statements)
 * Touch and Ultrasonic sensor
@@ -119,3 +118,5 @@
 # Log
 > #### 2 July - Maze nagivator
 > Learned how to navigate robot out and back, and through simple maze, using Micropython's straight() and turn() commands.
+> #### 10 July - Basic Movement
+> Measured and validated robot dimensions; Drove faster using Micropython's settings() command combined with straight() and turn(); started curved turns with drive() command and introduced Python loops.
