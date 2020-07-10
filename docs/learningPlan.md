@@ -2,13 +2,13 @@
 
 # A. Software
 
-## Basic Navigation: No Feedback - No sensors 
+## Basic Navigation: No Feedback - No sensors (July 2)
 * MicroPython: straight(), turn()
 * Drive straight
 * Turns Using DriveBase
 * Navigate maze
 
-## Basic Navigation: No Feedback - No sensors 
+## Basic Navigation: No Feedback - No sensors (July 10)
 * [Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset)
 * MicroPython: 
   * Fix DriveBase settings: wheel_diameter=55.5, axle_track=104
