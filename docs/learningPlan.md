@@ -10,11 +10,12 @@ A. Navigation
    b. squaring on lines - using color sensor and gyro
 5. Other sensors (touch, ultrasonic, infrared)
 
-#################################################################################################
+-----
 
 # A. Navigation
 ## LP01 - Basic
-* MicroPython: straight(), turn()
+* MicroPython: 
+  * robot.straight(), robot.turn()
 * Drive straight
 * Turns Using DriveBase - using 90degree turns
 * Navigate maze
@@ -22,34 +23,48 @@ A. Navigation
 ## LP02a - Faster
 * MicroPython: 
   * Fix DriveBase settings ([Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset))
-    * wheel_diameter=55.5, 
-    * axle_track=104
+    * class DriveBase(left_motor, right_motor, wheel_diameter, axle_track)
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Faster
-  * Going straight - using settings()
+  * Going straight - using robot.settings()
   * Turns - using gradual turns ([Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU))
   * Maze
 
 ## LP02b - Faster Turns, Straight using acceleration and deceleration
-* Turns: Gradual turns turns with robot.drive():
-  * debug robot.distance() with print statements
-  * While loop and robot.reset(), robot.distance() and robot.drive()
-* Navigate maze
+* MicroPython: 
+  * while loop 
+  * robot.reset(), robot.distance() and robot.drive()
+  * print statements to debug robot.distance()
+  * robot.angle()
+* Faster2  
+  * robot.drive()
+    * Turns: Gradual turns turns 
+    * acceleration and deceleration
+  * Navigate maze
 * using Motor sensor to introducing looping: robot.angle()
+    
+## LP03a - Accurate    
+* MicroPython: 
+  * gyro.angle()
+* Turns
+  * 90 degree
+  * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
+  * gradual turns
+* Straight line 
+  * Micropython [fix gyro drift when driving a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51)
+  * EV3-G:
+    * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
+    * [EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))  
+* Navigate maze/line maze
 
-## LP03 - Accurate
-* Gyro sensor: gyro.angle()
+## LP03b - Make Gyro More Accurate 
+* MicroPython: 
+  * gyro.angle()
+* Gyro sensor: 
 * [Calibration vs Reset](https://www.youtube.com/watch?v=7V16AEW3GG4)
 * [lag](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroTurn.pdf) vs [drift](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroDrift.pdf)
-* Straight line 
-  * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
-  * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
-  * ([EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))
-* Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
-  * 90 degree
-  * follow the perimiter of square
-  * gradual turns
-* Navigate maze/line maze
+  * lag = gyro sensor readings lag behind the true value	
+  * drift = readings keep changing even when the robot is still (calibrate gyro to fix)
 
 ## LP04a - Line Following
 * Color sensor
@@ -70,7 +85,7 @@ A. Navigation
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
   
 ## LP04c - Squaring on lines
-* [Squaring on lines](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
+* [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
 ## LP05 - Other Sensors
 * basic sensors:
