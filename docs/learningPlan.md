@@ -65,6 +65,11 @@ A. Navigation
 * [lag](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroTurn.pdf) vs [drift](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroDrift.pdf)
   * lag = gyro sensor readings lag behind the true value	
   * drift = readings keep changing even when the robot is still (calibrate gyro to fix)
+    * [using Odometry](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65)
+
+## LP03c - Motor Calibration
+  * Hardware
+  * Software
 
 ## LP04a - Line Following
 * Color sensor
