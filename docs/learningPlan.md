@@ -45,7 +45,8 @@ A. Navigation
   * ([EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))
 * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
   * 90 degree
-  * gradual
+  * follow the perimiter of square
+  * gradual turns
 * Navigate maze/line maze
 
 ## LP04a - Line Following
