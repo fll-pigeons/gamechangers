@@ -32,16 +32,29 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=54.6, axle_track=104.1
 gyro = GyroSensor(Port.S1)
 
 
+
+#################################################################################
+# this should be a separate program to run at beginning of competition
+# https://ev3lessons.com/en/ProgrammingLessons/advanced/Gyro.pdf
+# Gyro returns NaN until calibrated
+def recalibrateGyro():
+    ev3.speaker.beep()
+    # recalibrate gyro
+    gyro.speed()
+    wait(3)
+
+    # need to wait until angle set to zero, then recalibrated
+    # have not tested this...
+    while abs(gyro.angle()) != 0
+        gyro.reset_angle(0)
+
+    ev3.speaker.beep()
+    ev3.speaker.beep()
+    
 #################################################################################
 
 ev3.screen.draw_text(50, 60, "Pigeons!")
-ev3.speaker.beep()
-# recalibrate gyro
-gyro.speed()
-wait(2)
-gyro.angle()
-ev3.speaker.beep()
-ev3.speaker.beep()
+recalibrateGyro()
 
 while robot.distance() < 500:
     robot.drive(1000, 0)
