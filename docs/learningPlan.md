@@ -35,17 +35,17 @@ A. Navigation
   * while loop 
   * robot.reset(), robot.distance() and robot.drive()
   * print statements to debug robot.distance()
-  * robot.angle()
 * Faster2  
   * robot.drive()
     * Turns: Gradual turns turns 
     * acceleration and deceleration
   * Navigate maze
-* using Motor sensor to introducing looping: robot.angle()
-    
+ 
 ## LP03a - Accurate    
 * MicroPython: 
+  * robot.angle()
   * gyro.angle()
+* using Motor sensor to introducing looping: robot.angle()  
 * Turns
   * 90 degree
   * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
@@ -74,18 +74,19 @@ A. Navigation
     * Navigate curvy loops
   * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf)
 
-## LP04b - Using Built-In EV3 Micropython PID Algorithm - More Accurate Nagivation
+## LP04b - EV3 Micropython Proportional Algorithm
 * Color sensor
-  * Calibration
   * Proportional line follower
     * Straight line 
     * Turns
     * Navigate line maze    
-* Examples using Micropython
+* Example using Micropython
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
   
 ## LP04c - Squaring on lines
-* [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
+* Color sensor
+  * Calibration
+  * [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
 ## LP05 - Other Sensors
 * basic sensors:
