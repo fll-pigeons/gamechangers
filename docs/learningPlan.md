@@ -37,7 +37,7 @@ A. Navigation
 * Navigate maze
 
 ## LP03 - Accurate
-* Motor sensor: robot.angle()
+* using Motor sensor to introducing looping: robot.angle()
 * Gyro sensor: gyro.angle()
 * Straight line 
   * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
@@ -46,7 +46,7 @@ A. Navigation
 * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
   * 90 degree
   * gradual
-* Navigate line maze
+* Navigate maze/line maze
 
 ## LP04a - Line Following
 * Color sensor
