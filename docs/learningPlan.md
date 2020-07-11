@@ -48,7 +48,7 @@ A. Navigation
   * gradual
 * Navigate line maze
 
-## LP04 - Line Following
+## LP04a - Line Following
 * Color sensor
   * 2-level & 3-level line follower
     * Straight line
@@ -56,7 +56,7 @@ A. Navigation
     * Navigate curvy loops
   * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf)
 
-## LP05 - Using Built-In PID Algorithm - More Accurate Nagivation
+## LP04b - Using Built-In EV3 Micropython PID Algorithm - More Accurate Nagivation
 * Color sensor
   * Proportional line follower
     * Straight line 
@@ -64,26 +64,11 @@ A. Navigation
     * Navigate line maze    
 * Examples using Micropython
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
-    
   
-## LP06 - Squaring on lines
+## LP04c - Squaring on lines
+* [Squaring on lines](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
-
-
-not finished... see: https://ev3lessons.com/en/Lessons.html?tab=advanced
-
-
-
-
-
-[learningPlanResearch](learningPlanResearch.md)
-
-
-
-
-##########################################################3
-
-## LP03 - Other Sensors
+## LP05 - Other Sensors
 * basic sensors:
   * UltrasonicSensor
   * TouchSensor
@@ -94,6 +79,11 @@ not finished... see: https://ev3lessons.com/en/Lessons.html?tab=advanced
   * Navigate maze
   * Combo navigation: [Ultrasonic to follow wall](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html#obstacle-avoidance); touch to initiate turn
 
+-------
+
+[learningPlanResearch](learningPlanResearch.md)
+
+--------
 
 # Log
 > #### 2 July - Maze nagivator
