@@ -1,6 +1,12 @@
 # LP Research
 
 
+
+
+see: https://ev3lessons.com/en/Lessons.html?tab=advanced
+
+
+
 ## LP05 - Using Built-In PID Algorithm - More Accurate Nagivation
 (see: J. Sluka's [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html))
 * Math: explain Proportional follower using functions, slopes and graphs
