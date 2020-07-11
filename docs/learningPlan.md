@@ -39,7 +39,8 @@ A. Navigation
 
 ## LP03 - Accurate
 * Gyro sensor: gyro.angle()
-* Calibration vs Reset
+* [Calibration vs Reset](https://www.youtube.com/watch?v=7V16AEW3GG4)
+* [lag](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroTurn.pdf) vs [drift](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroDrift.pdf)
 * Straight line 
   * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
   * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
