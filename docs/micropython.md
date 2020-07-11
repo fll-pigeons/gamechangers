@@ -1,4 +1,4 @@
-# MicroPython - Cheat sheet
+# Pybricks (MicroPython for EV3) - Cheat sheet
 
 ## Documentation
 
