@@ -35,9 +35,9 @@ A. Navigation
   * debug robot.distance() with print statements
   * While loop and robot.reset(), robot.distance() and robot.drive()
 * Navigate maze
+* using Motor sensor to introducing looping: robot.angle()
 
 ## LP03 - Accurate
-* using Motor sensor to introducing looping: robot.angle()
 * Gyro sensor: gyro.angle()
 * Straight line 
   * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
