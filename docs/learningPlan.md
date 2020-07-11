@@ -41,14 +41,14 @@ A. Navigation
   * robot.angle()
 * using Gyro sensor
   * gyro.angle()
-  * Straight line 
-    * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
-    * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
-    * ([EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))
-  * Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
-    * 90 degree
-    * gradual
-  * Navigate line maze
+* Straight line 
+  * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
+  * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
+  * ([EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))
+* Turns ( [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs) )
+  * 90 degree
+  * gradual
+* Navigate line maze
 
 ## LP04 - Line Following
 * Color sensor
@@ -89,6 +89,8 @@ not finished... see: https://ev3lessons.com/en/Lessons.html?tab=advanced
 
 
 
+[learningPlanResearch](learningPlanResearch.md)
+
 
 
 
@@ -108,20 +110,6 @@ not finished... see: https://ev3lessons.com/en/Lessons.html?tab=advanced
 
 
 
-# B. Hardware
-
-### Attachements
-* [Worm Gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
-* [Dog Gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
-
-
-
--------------
-
-## Resources    
-
-* [Mark Lucking](https://medium.com/@marklucking/micropython-mix-9012b79e91f3?source=rss-------1) tutorials
-* [Line Following Tiles](https://robotsquare.com/2012/11/28/line-following/)
 
 
 
