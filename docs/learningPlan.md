@@ -19,7 +19,7 @@
 * Curved turns 
   * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
 * Navigate maze
-
+ 
 ## LP02b - Basic Navigation: Minimal Feedback - Use wheels as sensors
 * Math: tables and plotting them on graph
 * what is a robot?: using feedback and reacting to it
