@@ -39,6 +39,7 @@ A. Navigation
 
 ## LP03 - Accurate
 * Gyro sensor: gyro.angle()
+* Calibration vs Reset
 * Straight line 
   * ( [Use the gyro to correct any drift when driving in a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51) )
   * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
@@ -59,6 +60,7 @@ A. Navigation
 
 ## LP04b - Using Built-In EV3 Micropython PID Algorithm - More Accurate Nagivation
 * Color sensor
+  * Calibration
   * Proportional line follower
     * Straight line 
     * Turns
