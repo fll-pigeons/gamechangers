@@ -72,6 +72,8 @@ A. Navigation
   * Software
 
 ## LP04a - Line Following
+* MicroPython: 
+  * loops and more elaborate conditionals
 * Color sensor
   * 2-level & 3-level line follower
     * Straight line
