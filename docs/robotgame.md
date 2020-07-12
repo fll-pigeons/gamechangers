@@ -5,6 +5,8 @@
 
 # 1. Missions
 
+* [2020 Game Changers Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
+
 * [Points Calculator](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
 * [Strategy Sheet](CityShaperStrategySheet.pdf)
 
