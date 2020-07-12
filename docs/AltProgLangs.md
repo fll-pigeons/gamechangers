@@ -54,7 +54,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
     * ~~EV3 Basic is a textual programming language.~~
   * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
-* [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d)
+* [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) (based on EV3Dev)
   * [BluPants Studio](http://blupants.org/)
 
 * [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
