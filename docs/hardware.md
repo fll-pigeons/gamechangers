@@ -62,7 +62,11 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
   * And change the line:
     * ExecStartPre=/bin/sleep 10
 
-### 2. shutdown, then remove batteries, and put them back in (if batteries have over 6-7volts left)
+### 3. Use USB for initial setup then use Bluetooth
+
+* [LaiYanKai Bluetooth Instructions](https://github.com/ev3dev/ev3dev/files/3353782/Instructions.for.Bluetooth.Connection.pdf)
+
+### 3. Shutdown, then remove batteries, and put them back in (if batteries have over 7volts left)
 
 ## Hardware solutions
 
