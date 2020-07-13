@@ -46,9 +46,11 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 
 # Troubleshooting
 
-### 1. replace batteries
+### 1. shutdown, then remove batteries, and put them back in (if batteries have over 6-7volts left)
 
-### 2. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
+### 2. replace batteries
+
+### 3. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
 * remove pairing
   *  Windows > System Settings > Bluetooth & other devices
      * delete pairing
