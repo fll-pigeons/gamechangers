@@ -44,6 +44,47 @@ EV3 should now show up in VSCode.
 see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 
 
+# Troubleshooting
+
+### 1. replace batteries
+
+### 2. When all else failes... remove Bluetooth pairing on Windows and Ev3dev
+*  Windows > System Settings > Bluetooth & other devices
+   * delete pairing
+   * turn off Bluetooth
+
+* EV3 > Wireless Networks > Bluetooth > delete laptop device
+
+* Restart Windows and Ev3dev
+
+* re-pair devices
+  * Windows  > System Settings > Bluetooth & other devices
+    * Bluetooth On
+  * EV3 > Wireless Networks > Bluetooth
+    * Visible - on
+    * scan start
+  * Windows  > System Settings > Bluetooth & other devices
+    * Add a Device
+      * ev3dev - select
+      *   connecting
+      * Press Connct if the PIB on the ev3dec matches this one
+  * EV3 > Wireless Networks > Bluetooth
+    * Accept PIN
+  * Windows  > System Settings > Bluetooth & other devices
+    * Connect
+      * Setting up device
+      * Device is ready
+      * Done
+
+* Bluetooth connect
+  * EV3 > Wireless Networks > Bluetooth
+    * laptop (whatever name of you Win device is)
+    
+* Windows > Visual Studio > EV3Dev Device Browser > connect
+  * select ev3dev Bluetooth Netowrk connection2
+  
+
+
 # EV3's successor
 
 [LEGO reveals new Mindstorms 51515 Robot Inventor](https://www.brothers-brick.com/2020/06/12/lego-reveals-new-mindstorms-51515-robot-inventor-a-5-in-1-robotics-and-coding-set-news/)
