@@ -46,21 +46,29 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 
 # Troubleshooting
 
-### 1. Ev3dev LInux commands
+## Software solutions
+
+### 1. Ev3dev Linux commands
+
+* Ev3dev troubleshooting commands
+  * $ ev3dev-sysinfo
+  * $ sudo systemctl --no-pager status ev3-bluetooth
 
 (see here: https://github.com/ev3dev/ev3dev/issues/1314)
 
-* sudo systemctl restart bluetooth
+* $ sudo systemctl restart bluetooth
 * try experimenting with the sleep time to see if making it longer makes a difference.
-  * sudo nano /lib/systemd/system/ev3-bluetooth.service
+  * $ sudo nano /lib/systemd/system/ev3-bluetooth.service
   * And change the line:
     * ExecStartPre=/bin/sleep 10
 
-### 1. shutdown, then remove batteries, and put them back in (if batteries have over 6-7volts left)
+### 2. shutdown, then remove batteries, and put them back in (if batteries have over 6-7volts left)
 
-### 2. replace batteries
+## Hardware solutions
 
-### 3. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
+### 1. replace batteries
+
+### 2. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
 * remove pairing
   *  Windows > System Settings > Bluetooth & other devices
      * delete pairing
@@ -95,7 +103,9 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
   * Windows > Visual Studio > EV3Dev Device Browser > connect
     * select ev3dev Bluetooth Netowrk connection2
   
+### 3. Re-image sd card
 
+* sometimes fixes things
 
 # EV3's successor
 
