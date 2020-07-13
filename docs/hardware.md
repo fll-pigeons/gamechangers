@@ -71,6 +71,7 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 ## Hardware solutions
 
 ### 1. Disconnect Motors and sensors, then restarting
+* [It helps if you unplug all sensors during boot, the most of the time, Bluetooth will be available.](https://github.com/ev3dev/ev3dev/issues/855)
 
 ### 2. replace batteries
 
