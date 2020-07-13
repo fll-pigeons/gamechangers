@@ -46,6 +46,16 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 
 # Troubleshooting
 
+### 1. Ev3dev LInux commands
+
+(see here: https://github.com/ev3dev/ev3dev/issues/1314)
+
+* sudo systemctl restart bluetooth
+* try experimenting with the sleep time to see if making it longer makes a difference.
+  * sudo nano /lib/systemd/system/ev3-bluetooth.service
+  * And change the line:
+    * ExecStartPre=/bin/sleep 10
+
 ### 1. shutdown, then remove batteries, and put them back in (if batteries have over 6-7volts left)
 
 ### 2. replace batteries
