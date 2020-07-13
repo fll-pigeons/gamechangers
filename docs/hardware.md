@@ -48,7 +48,7 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 
 ### 1. replace batteries
 
-### 2. When all else failes... remove Bluetooth pairing on Windows and Ev3dev
+### 2. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
 *  Windows > System Settings > Bluetooth & other devices
    * delete pairing
    * turn off Bluetooth
@@ -79,9 +79,8 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 * Bluetooth connect
   * EV3 > Wireless Networks > Bluetooth
     * laptop (whatever name of you Win device is)
-    
-* Windows > Visual Studio > EV3Dev Device Browser > connect
-  * select ev3dev Bluetooth Netowrk connection2
+  * Windows > Visual Studio > EV3Dev Device Browser > connect
+    * select ev3dev Bluetooth Netowrk connection2
   
 
 
