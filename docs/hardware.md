@@ -49,15 +49,16 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 ### 1. replace batteries
 
 ### 2. When all else fails... remove Bluetooth pairing on Windows and Ev3dev
-*  Windows > System Settings > Bluetooth & other devices
-   * delete pairing
-   * turn off Bluetooth
+* remove pairing
+  *  Windows > System Settings > Bluetooth & other devices
+     * delete pairing
+     * turn off Bluetooth
 
-* EV3 > Wireless Networks > Bluetooth > delete laptop device
+  * EV3 > Wireless Networks > Bluetooth > delete laptop device
 
 * Restart Windows and Ev3dev
 
-* re-pair devices
+* re-pair EV3 to laptop
   * Windows  > System Settings > Bluetooth & other devices
     * Bluetooth On
   * EV3 > Wireless Networks > Bluetooth
