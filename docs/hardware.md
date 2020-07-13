@@ -53,6 +53,7 @@ see: https://github.com/ev3dev/vscode-ev3dev-browser/issues/85
 * Ev3dev troubleshooting commands
   * $ ev3dev-sysinfo
   * $ sudo systemctl --no-pager status ev3-bluetooth
+  * $ connmanctl 
 
 (see here: https://github.com/ev3dev/ev3dev/issues/1314)
 
