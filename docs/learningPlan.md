@@ -17,12 +17,12 @@ A. Navigation
 * MicroPython: 
   * robot.straight(), robot.turn()
 * Drive straight
-* Turns Using DriveBase - using 90degree turns
+* Turns: 90degree
 * Navigate maze
 
 ## LP02a - Faster
 * MicroPython: 
-  * Fix DriveBase settings ([Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset))
+  * Fix DriveBase wheel_diameter and axle_track settings ([Measuring and validating the robot dimensions](https://docs.pybricks.com/en/latest/robotics.html#pybricks.robotics.DriveBase.reset))
     * class DriveBase(left_motor, right_motor, wheel_diameter, axle_track)
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Faster
