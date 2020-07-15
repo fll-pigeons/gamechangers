@@ -38,6 +38,7 @@ robot.reset()
 while robot.distance() < 700:
     robot.drive(300 ,0)
 
+# turn left
 robot.reset()
 while robot.distance() < 600:
     robot.drive(300 ,87)
@@ -47,6 +48,7 @@ robot.reset()
 while robot.distance() < 325:
     robot.drive(300 ,0)
 
+# turn right
 robot.reset()
 while robot.distance() < 600:
     robot.drive(300, -87)
