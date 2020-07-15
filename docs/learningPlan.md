@@ -40,7 +40,12 @@ A. Navigation
     * Turns: Gradual turns turns 
     * acceleration and deceleration
   * Navigate maze
- 
+
+## LP02c - Faster Turns, 
+  * acceleration and deceleration
+    * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
+  * robot.drive() without while loop - use 'wait(seconds)'
+  
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle()
