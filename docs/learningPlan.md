@@ -47,9 +47,8 @@ A. Navigation
   * gyro.angle()
 * using Motor sensor to introducing looping: robot.angle()  
 * Turns
-  * 90 degree
+  * 90 degree (dual wheel counter-rotation; outside wheel only turn)
   * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
-  * gradual turns
 * Straight line 
   * Micropython [fix gyro drift when driving a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51)
   * EV3-G:
