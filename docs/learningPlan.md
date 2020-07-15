@@ -117,5 +117,5 @@ A. Navigation
 > Learned how to navigate robot out and back, and through simple maze, using Micropython's straight() and turn() commands.
 > #### 10 July - Basic Movement
 > Measured and validated robot dimensions; Drove faster using Micropython's settings() command combined with straight() and turn(); started curved turns with drive() command and introduced Python loops.  Had problems with making while loop conditional on robot.distance() < n, where n was desired distance - did not run reset() command immediately before while loop conditional (otherwise measures distance from start of program).
-> #### 14 July - Faster Maze nagivator with smooth turns
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BTB1U915fSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> #### 14 July - [Faster Maze nagivator with smooth turns](https://www.youtube.com/embed/BTB1U915fSM)
+
