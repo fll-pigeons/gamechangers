@@ -52,6 +52,7 @@ A. Navigation
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle()
+  * update [LP02_smoothTurns.py](/programs/LP02_smoothTurns.py) with robot.angle and functions
 * using Motor sensor to introducing looping: robot.angle()  
 * Turns
   * 90 degree (spin turn (dual wheel counter-rotation); outside wheel only turn)
