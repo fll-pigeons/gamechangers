@@ -36,17 +36,17 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=54.6, axle_track=104.1
 ev3.screen.draw_text(50, 60, "Pigeons!")
 
 x=0
-while x < 8:
+while x < 16:
     # straight (if run motor faster, must adjust distance)
-    robot.reset()
+    robot.reset()   
     while robot.distance() < 250:
         robot.drive(200 ,0)
 
     print ("gyro")
     # turn (if run motor faster, must adjust angle)
     gyro.reset_angle(0)
-    while gyro.angle() > -70:
-        print ("angle: " + str(gyro.angle()))
+    while abs(gyro.angle()) < 66:
+        print ("angle: " + str(abs(gyro.angle())))
         robot.drive(200 ,150)
     x = x + 1
 robot.stop()
