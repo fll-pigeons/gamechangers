@@ -42,6 +42,8 @@ A. Navigation
   * Navigate maze
 
 ## LP02c - Variable Speed Navigation
+   * MicroPython: 
+     * introduce functions
   * Acceleration and decceleration
     * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
     * where used: push stacks of legos to a circle
