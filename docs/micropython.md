@@ -19,7 +19,7 @@
         * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) (to be used in a [loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) (non-blocking - goes to next command without waiting for this one to complete)
         * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
         * ([Tools Module](https://pybricks.github.io/ev3-micropython/tools.html)) [wait()](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (blocking - wait in miliseconds) 
-        * [reset](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) Value to which the angle should be reset.
+        * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) Value to which the angle should be reset.
 
 ### [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
 
