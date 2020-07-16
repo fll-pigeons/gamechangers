@@ -50,8 +50,9 @@ A. Navigation
 
 ## LP03a - Accurate    
 * MicroPython: 
-  * robot.angle()
+  * robot.angle() - Accumulated angle since last reset
     * update [LP03_squarePerimeter.py](/programs/LP03_squarePerimeter.py) with while loop and robot.angle()
+  * robot.reset() - Resets the estimated driven distance and angle to 0.
   * functions - replace duplicate code
 * Turns
   * 90 degree (spin turn (dual wheel counter-rotation); outside wheel only turn)
@@ -59,7 +60,8 @@ A. Navigation
 
 ## LP03b - Gyro    
 * MicroPython: 
-  * gyro.angle()
+  * gyro.angle() - Rotation angle. (with lag)
+  * gyro.reset_angle(angle) - Value to which the angle should be reset. 
 * Turns
   * 90 degree (spin turn; outside wheel only turn)
   * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
@@ -73,22 +75,18 @@ A. Navigation
 * Navigate maze/line maze
 
 ## LP03c - Make Gyro More Accurate 
-* MicroPython: 
-  * gyro.angle()
-* Gyro sensor: 
 * [Calibration vs Reset](https://www.youtube.com/watch?v=7V16AEW3GG4)
 * [lag](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroTurn.pdf) vs [drift](https://ev3lessons.com/en/ProgrammingLessons/advanced/GyroDrift.pdf)
   * lag = gyro sensor readings lag behind the true value	
   * drift = readings keep changing even when the robot is still (calibrate gyro to fix)
-    * [using Odometry](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65)
 
-## LP03c - Motor Calibration
+## LP03d - Motor Calibration
   * Hardware - how to see if there is an issue
     * drive straight for long distance
     * attach each motor to each other and see if they rotate in synch or not
   * Software 
     * [How to Make your FLL Robot Drive Straight - EV3 Motor Encoders](https://www.youtube.com/watch?v=b2jkjiY-HQA)
-
+    
 ## LP04a - Line Following
 * MicroPython: 
   * loops and more elaborate conditionals
