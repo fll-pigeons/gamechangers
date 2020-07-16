@@ -65,7 +65,9 @@ A. Navigation
   * 90 degree (spin turn; outside wheel only turn)
   * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
 * Straight line 
-  * Micropython [XI](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65)  [XII fix gyro drift when driving a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51)
+  * Micropython 
+    * [XI use odometry to figure how much your robot strayed from straight line](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65)  
+    * [XII fix gyro drift when driving a straight line](https://medium.com/@marklucking/micropython-tutorial-xii-15b1cf4d7a51)
   * EV3-G:
     * [How to Make your Robot Drive Straight with the EV3 Gyro](https://www.youtube.com/watch?v=qPE4YNsTad4)
     * [EV3 Gyro Sensor + PID Algorithm = Extremely Accurate Drive Straight Program](https://www.youtube.com/watch?v=U-LdBQ-vBkg&t=140s))  
