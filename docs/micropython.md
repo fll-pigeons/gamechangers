@@ -46,7 +46,7 @@
   * More accurate
     * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
     * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-      * Only plug in gyro then stationary start EV3 - never plug in gyro to a powered up EV3 - messes up the calibration
+      * Only plug in gyro into a powered down EV3, then start EV3 with no movement.  Never plug in gyro to a powered up EV3 it messes up the calibration.
       * [Gyro Following - More Accurately Control your FLL Robot](https://www.youtube.com/watch?v=WR_gy0NIBOs)
       * [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
 
