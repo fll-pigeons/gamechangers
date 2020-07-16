@@ -19,6 +19,7 @@
         * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) (to be used in a [loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) (non-blocking - goes to next command without waiting for this one to complete)
         * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
         * ([Tools Module](https://pybricks.github.io/ev3-micropython/tools.html)) [wait()](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (blocking - wait in miliseconds) 
+        * [reset](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) Value to which the angle should be reset.
 
 ### [ev3devices module:](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors)
 
@@ -36,6 +37,7 @@
        * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop)
        * [brake()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.brake)
        * [hold()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.hold)
+       * [reset_angle()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - Value to which the angle should be reset
 
 ## Sensors
 
@@ -47,6 +49,7 @@
   * More accurate
     * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
     * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
+      * [reset_angle()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - Value to which the angle should be reset
       * Only plug in gyro into a powered down EV3, then start EV3 with no movement.  Never plug in gyro to a powered up EV3 it messes up the calibration.
       * [Gyro Following - More Accurately Control your FLL Robot](https://www.youtube.com/watch?v=WR_gy0NIBOs)
       * [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
