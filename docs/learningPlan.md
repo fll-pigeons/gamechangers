@@ -80,8 +80,11 @@ A. Navigation
     * [using Odometry](https://medium.com/@marklucking/micropython-tutorial-xi-26799f151c65)
 
 ## LP03c - Motor Calibration
-  * Hardware
-  * Software
+  * Hardware - how to see if there is an issue
+    * drive straight for long distance
+    * attach each motor to each other and see if they rotate in synch or not
+  * Software 
+    * [How to Make your FLL Robot Drive Straight - EV3 Motor Encoders](https://www.youtube.com/watch?v=b2jkjiY-HQA)
 
 ## LP04a - Line Following
 * MicroPython: 
