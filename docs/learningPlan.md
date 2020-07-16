@@ -38,7 +38,6 @@ A. Navigation
 * Faster2  
   * robot.drive()
     * Turns: Gradual turns turns 
-    * acceleration and deceleration
   * Navigate maze
 
 ## LP02c - Variable Speed Navigation
@@ -46,17 +45,16 @@ A. Navigation
      * introduce functions
   * Acceleration and decceleration
     * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
-    * where used: push stacks of legos to a circle
-  * robot.drive() without while loop - using 'wait(seconds)'
-  
+    * test: push stacks of legos to a circle
+  * robot.drive() without while loop - using 'wait(milliseonds)'
+
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle()
-  * update [LP02_smoothTurns.py](/programs/LP02_smoothTurns.py) with robot.angle and functions
-* using Motor sensor to introducing looping: robot.angle()  
+    * update [LP03_squarePerimeter.py](/programs/LP03_squarePerimeter.py) with robot.angle()
+  * functions - replace duplicate code
 * Turns
   * 90 degree (spin turn (dual wheel counter-rotation); outside wheel only turn)
-* Straight line 
 * follow the perimiter of square
 
 ## LP03b - Gyro    
