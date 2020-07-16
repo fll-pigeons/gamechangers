@@ -51,7 +51,7 @@ A. Navigation
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle()
-    * update [LP03_squarePerimeter.py](/programs/LP03_squarePerimeter.py) with robot.angle()
+    * update [LP03_squarePerimeter.py](/programs/LP03_squarePerimeter.py) with while loop and robot.angle()
   * functions - replace duplicate code
 * Turns
   * 90 degree (spin turn (dual wheel counter-rotation); outside wheel only turn)
