@@ -1,5 +1,6 @@
 # Actual
 * FLL registration: $363CDN ($225USD + $42USD ship and handling) = $267USD (July 13, 2020)
+* FLL challenge set: $110CDN + shipping andjuly17, 2020)
 
 
 # Cost estimates
