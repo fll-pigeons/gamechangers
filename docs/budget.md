@@ -4,8 +4,8 @@
 
 
 # Cost estimates
-* FLL registration: $300 ($225USD)
-* Challenge set:  $150
+* ~~FLL registration: $300 ($225USD)~~
+* ~~Challenge set:  $150~~
 * Tournament costs: $150
 * Challenge Table: $100 (4' * 8' plywood with 2.5 inch borders; 2 * metal saw horses)
 * bank costs 5months*1.95 = $10 (community Bank account required by First Canada in order to obtain new team grant)
