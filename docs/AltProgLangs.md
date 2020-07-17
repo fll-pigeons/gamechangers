@@ -87,6 +87,8 @@ CoderZ is a 3D simulated robot environment using virtual robots that are similar
 Programming can be done with either Blockly or Java programming languages. 
 For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
 
+* [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev & starting on PyBricks
+
 * ~~[Scratch](https://scratch.mit.edu/)~~
   * ~~Bluetooth only - can't use in competition~~
   * ~~Visual programming environment. need Scratch link to support the EV3.~~
