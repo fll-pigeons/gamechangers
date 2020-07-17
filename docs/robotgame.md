@@ -47,7 +47,6 @@
 * [EV3 MicroPython Cheat Sheet](micropython.md)
 
 * [EV3 Programming Language research](AltProgLangs.md)
-  * [EV3dev Python v2 (similar to Legos EV3 MicroPython)](https://sites.google.com/site/ev3devpython/introduction)
 
 <br/>
 
