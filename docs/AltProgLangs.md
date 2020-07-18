@@ -110,6 +110,8 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net):
   * need to install ROBOTC Virtual Machine (VM) on an updated EV3 Linux Kernel/firmware, to enable you to program your EV3 with ROBOTC. 
 
+* [C-STEM Studio](https://c-stem.ucdavis.edu/studio/)
+
 # Virtual Environments
 ### Free
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
@@ -118,11 +120,15 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
     * is finicky to set up
     * graphics intensive - sluggish on slower computers
 
-* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - 2D Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
+#### 2D simulators
+* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
 
 * [OpenRoberta](https://lab.open-roberta.org/) 2D in browser virtual environment
 
-* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - 2D educational, real-time WindowsTM based graphical simulator that accurately models a QEV3Bot running any RobotC program 
+* [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - educational, real-time Windows based graphical simulator that accurately models a QEV3Bot running any RobotC program 
+
+* [roboblockly](https://www.roboblockly.org/about.php) - C/C++ interpreter
+
 
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month) - best Web-based simulator
