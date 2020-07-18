@@ -114,6 +114,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 # Virtual Environments
 ### Free
+#### 3D simulators
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
     * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
@@ -128,7 +129,6 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [QEV3Bot Simulator](https://sites.google.com/site/qev3bot/qev3bot-simulator) - educational, real-time Windows based graphical simulator that accurately models a QEV3Bot running any RobotC program 
 
 * [roboblockly](https://www.roboblockly.org/about.php) - C/C++ interpreter
-
 
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month) - best Web-based simulator
