@@ -27,7 +27,14 @@ A. Navigation
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Faster
   * Going straight - using robot.settings()
-  * Turns - using gradual turns ([Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU))
+  * Turns - using smooth/swing turns (gradual) vs spin/point turns (90deg)
+    * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
+      * spin - rotate on point between wheels (counter-rotating wheels)
+      * pivot - one wheel stationary
+      * smooth 
+        * both wheels turn, one turns faster.
+        * rotates about a point outside itself
+        * bigger difference in power makes for a sharrper turn
   * Maze
 
 ## LP02b - Faster Turns, Straight using acceleration and deceleration
@@ -37,7 +44,7 @@ A. Navigation
   * print statements to debug robot.distance()
 * Faster2  
   * robot.drive()
-    * Turns: Gradual turns turns 
+    * Turns: swing turns 
   * Navigate maze
 
 ## LP02c - Variable Speed Navigation
@@ -55,7 +62,7 @@ A. Navigation
   * robot.reset() - Resets the estimated driven distance and angle to 0.
   * functions - replace duplicate code
 * Turns
-  * 90 degree (spin turn (dual wheel counter-rotation); outside wheel only turn)
+  * 90 degree (point turn - dual wheel counter-rotation; swing turn - outside wheel only turn)
 * follow the perimiter of square
 
 ## LP03b - Gyro    
@@ -63,7 +70,7 @@ A. Navigation
   * gyro.angle() - Rotation angle. (with lag)
   * gyro.reset_angle(angle) - Value to which the angle should be reset. 
 * Turns
-  * 90 degree (spin turn; outside wheel only turn)
+  * 90 degree (swing turn; outside wheel only turn)
   * follow the perimiter of square  [Program Accurate 90 Degree Turns with the EV3 Gyro Sensor](https://www.youtube.com/watch?v=8B1LwzkLKXs)
 * Straight line 
   * Micropython 
