@@ -35,6 +35,7 @@ A. Navigation
         * both wheels turn, one turns faster.
         * rotates about a point outside itself
         * bigger difference in power makes for a sharrper turn
+    * [Radius Turns](https://sites.google.com/site/ev3basic/ev3-basic-programming/going-further/writerbot-v1/drawing-arcs)
   * Maze
 
 ## LP02b - Faster Turns, Straight using acceleration and deceleration
