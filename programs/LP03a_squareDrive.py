@@ -43,7 +43,7 @@ print ("gyro")
 
 ### turn
 robot.reset()   
-while abs(robot.angle()) < 66:
+while abs(robot.angle()) < 90:
     robot.drive(200, 150)
 
 ## 2. 
@@ -56,7 +56,7 @@ print ("gyro")
 
 ### turn
 robot.reset()   
-while abs(robot.angle()) < 66:
+while abs(robot.angle()) < 90:
     robot.drive(200, 150)
 
 ## 3. 
@@ -69,7 +69,7 @@ print ("gyro")
 
 ### turn
 robot.reset()   
-while abs(robot.angle()) < 66:
+while abs(robot.angle()) < 90:
     robot.drive(200, 150)
 
 ## 4.
@@ -80,5 +80,5 @@ while robot.distance() < 250:
 
 ### turn
 robot.reset()   
-while abs(robot.angle()) < 66:
+while abs(robot.angle()) < 90:
     robot.drive(200, 150)    
