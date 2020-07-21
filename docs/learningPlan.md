@@ -27,7 +27,7 @@ A. Navigation
   * settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)
 * Faster
   * Going straight - using robot.settings()
-  * Turns - using smooth/swing turns (gradual) vs spin/point turns (90deg)
+  * Turns - using arc (smooth/swing) turns (gradual) vs spin (point) turns (90deg)
     * [Types of turn](https://www.youtube.com/watch?v=_1r6sVXjClU)
       * spin - rotate on point between wheels (counter-rotating wheels)
       * pivot - one wheel stationary
