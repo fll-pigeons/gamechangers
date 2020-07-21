@@ -13,7 +13,7 @@
 
     *  Driving for a given distance or by an angle, and then stop
        * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight) (blocking - waits for command to complete before going to next command)
-       * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) (blocking)
+       * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) - turn in place (blocking)
        * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings)
     * Drive forever (until a stop() or another drive() command, or until program ends)
         * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) (to be used in a [loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) (non-blocking - goes to next command without waiting for this one to complete)
