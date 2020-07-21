@@ -40,7 +40,7 @@ while x < 8:
 
     ### turn (if run motor faster, must adjust angle)
     robot.reset()   
-    while abs(robot.angle()) < 66:
+    while abs(robot.angle()) < 90:
         print ("angle: " + str(abs(robot.angle())))
         robot.drive(200 ,150)
     x = x + 1
