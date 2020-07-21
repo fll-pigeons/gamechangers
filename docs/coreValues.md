@@ -43,7 +43,7 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
 
 --------------------
 
-# Decisions
+# Log
 > #### 2 July - Decision Making 
 > 1. Each person has a chance to speak on the issue
 > 2. Everyone listens
