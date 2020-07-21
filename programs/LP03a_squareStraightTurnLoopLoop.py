@@ -35,8 +35,11 @@ ev3.screen.draw_text(50, 60, "Pigeons!")
 
 robot.settings(300 ,250 ,150 ,100)
 
-x=0
-while x < 3:
-    while x < 4:
+x_ddddd=0
+while x_ddddd < 3:
+    samIsAnnoying=0
+    while samIsAnnoying < 4:
         robot.straight(340)
         robot.turn(88)
+        samIsAnnoying = samIsAnnoying + 1
+    x_ddddd = x_ddddd + 1
