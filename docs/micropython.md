@@ -10,16 +10,16 @@
 ### [robotics module:](https://pybricks.github.io/ev3-micropython/robotics.html)
 
 * Driving the Robot - Dual Motor Control ([DriveBase class](https://pybricks.github.io/ev3-micropython/robotics.html))
-
-    *  Driving for a given distance or by an angle, and then stop
-       * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight) (blocking - waits for command to complete before going to next command)
-       * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) - turn in place (blocking)
-       * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings)
+    * Driving straight for a given distance or by gradual turn, then stop
+      * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings)
+      * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight) (blocking - waits for command to complete before going to next command)
+    * Turn in place, then stop   
+      * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) - turn in place (blocking)
     * Drive forever (until a stop() or another drive() command, or until program ends)
-        * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) (to be used in a [loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) (non-blocking - goes to next command without waiting for this one to complete)
-        * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
-        * ([Tools Module](https://pybricks.github.io/ev3-micropython/tools.html)) [wait()](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (blocking - wait in miliseconds) 
-        * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) Value to which the angle should be reset.
+      * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) (to be used in a [loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) (non-blocking - goes to next command without waiting for this one to complete)
+      * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
+      * ([Tools Module](https://pybricks.github.io/ev3-micropython/tools.html)) [wait()](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (blocking - wait in miliseconds) 
+      * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) Value to which the angle should be reset.
     * Measuring
       * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
       * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)
