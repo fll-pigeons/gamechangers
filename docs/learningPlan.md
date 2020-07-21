@@ -6,8 +6,8 @@ A. Navigation
 2. Faster: straight, gradual turns, maze
 3. Accurate: motor and gyro sensors
 4. Line Following: 
-   a. straight, turns and maze using - color sensor
-   b. squaring on lines - using color sensor and gyro
+   * straight, turns and maze using - color sensor
+   * squaring on lines - using color sensor and gyro
 5. Other sensors (touch, ultrasonic, infrared)
 
 -----
