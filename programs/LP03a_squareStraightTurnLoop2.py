@@ -39,3 +39,4 @@ x=0
 while x < 4:
     robot.straight(340)
     robot.turn(88)
+    x = x + 1
