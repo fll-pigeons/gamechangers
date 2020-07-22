@@ -30,7 +30,7 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=54.6, axle_track=104.1
 # drive straight, no stopping
 def driveStraight(distance, drive_speed = 200):
     robot.reset()    
-    print ("driveStraight: distance: " + str(distance) + " drive_speed " + str(drive_speed))  
+    print ("driveStraight: distance: " + str(distance) + "mm;  drive_speed " + str(drive_speed) + "mm/s")  
     while robot.distance() < distance:
         robot.drive(drive_speed, 0)
 
@@ -38,19 +38,22 @@ def driveStraight(distance, drive_speed = 200):
 # drive with turn, no stopping
 def driveRadiusTurn(radius, drive_speed = 200):
     robot.reset()       
-    print ("driveRadiusTurn: radius: " + str(radius) + " drive_speed " + str(drive_speed))  
-    turn_rate = radius / ((drive_speed * 2 * math.pi ) * 360)
-    print ("driveRadiusTurn: turn_rate: " + str(turn_rate))  
+    print ("driveRadiusTurn: radius: " + str(radius) + "mm; drive_speed " + str(drive_speed) + "mm/s")  
+    #turn_rate = radius / ((drive_speed * 2 * math.pi ) * 360)
+    turn_rate = (180 * drive_speed) / (radius * math.pi)
+    print ("driveRadiusTurn: turn_rate: " + str(turn_rate) + " deg/s")  
 
-    #while abs(robot.angle()) < 180:
+    #while abs(robot.angle()) < 120:
     #    print ("angle: " + str(abs(robot.angle())))        
     #    robot.drive(drive_speed, turn_rate)
+    
     robot.drive(drive_speed, turn_rate)
-    wait(2000) # for debugging, will use a loop in prod...
+    wait(1000) # for debugging, will use a loop in prod...
 
 #################################################################################
 
 ev3.screen.draw_text(50, 60, "Pigeons!")
 
 driveStraight(50)
-driveRadiusTurn(1000)
+driveRadiusTurn(50)
+driveStraight(50)
