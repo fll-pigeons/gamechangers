@@ -48,15 +48,33 @@ def driveRadiusDriveTurn(radius, drive_speed = 200):
     while abs(robot.angle()) < 180:
         #print ("angle: " + str(abs(robot.angle())))        
         robot.drive(drive_speed, turn_rate)
- 
+
+# not working
+def driveRadiusDriveTurn2(radius, drive_speed = 200):
+    arc_angle = (180 * drive_speed) / (radius * math.pi)
+
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
+    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
+    diameter = radius * 2
+    arc_length = (math.pi * diameter) * (arc_angle / 360)
+    print ("                 arc_length: " + str(arc_length/10) + "cm")  
+
+    turn_rate = arc_angle
+    robot.reset()      
+    while robot.distance() < arc_length:
+        #print ("distance: " + str(robot.distance()))        
+        robot.drive(drive_speed, turn_rate)
+
+# not working
 def driveRadiusStraightTurn(radius, drive_speed = 200):
     robot.reset()       
     arc_angle = (180 * drive_speed) / (radius * math.pi)
     diameter = radius * 2
-    arc_length = (math.pi * diameter) * (arc_angle / 360)
+    radians =  (arc_angle / 360)
+    arc_length = (math.pi * diameter) * radians
 
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
-    print ("               arc_length: " + arc_angle_str + "; arc_length" + str(arc_length/10) + "cm")      
+    print ("               arc_angle: " + arc_angle_str + "; arc_length" + str(arc_length/10) + "cm")      
 
     robot.stop()
     turn_rate = arc_angle
@@ -73,7 +91,7 @@ ev3.speaker.beep()
 radius = 200
 print("radius " + str(radius))
 # driveRadiusDriveTurn(radius) # works
-driveRadiusStraightTurn(radius)
+driveRadiusDriveTurn2(radius)
 ev3.speaker.beep()
 
 driveStraight(300)
