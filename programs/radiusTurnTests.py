@@ -41,19 +41,20 @@ def driveRadiusTurn(radius, drive_speed = 200):
     print ("driveRadiusTurn: radius: " + str(radius) + "mm; drive_speed " + str(drive_speed) + "mm/s")  
     #turn_rate = radius / ((drive_speed * 2 * math.pi ) * 360)
     turn_rate = (180 * drive_speed) / (radius * math.pi)
-    print ("driveRadiusTurn: turn_rate: " + str(turn_rate) + " deg/s")  
+    turn_rate_str = str(round(turn_rate, 2))
+    print ("driveRadiusTurn: turn_rate: " + turn_rate_str + " deg/s")  
 
-    #while abs(robot.angle()) < 120:
-    #    print ("angle: " + str(abs(robot.angle())))        
-    #    robot.drive(drive_speed, turn_rate)
+    while abs(robot.angle()) < 180:
+        print ("angle: " + str(abs(robot.angle())))        
+        robot.drive(drive_speed, turn_rate)
     
-    robot.drive(drive_speed, turn_rate)
-    wait(1000) # for debugging, will use a loop in prod...
+    #robot.drive(drive_speed, turn_rate)
+    #wait(1000) # for debugging, will use a loop in prod...
 
 #################################################################################
 
 ev3.screen.draw_text(50, 60, "Pigeons!")
 
-driveStraight(50)
-driveRadiusTurn(50)
-driveStraight(50)
+driveStraight(70)
+driveRadiusTurn(100)
+driveStraight(70)
