@@ -82,7 +82,7 @@ Tiny Java Virtual Machine that supports Java.
   * have an in browser 2d virtual environment
   * block-based programming that translates to EV3Python
 
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month/year)
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
 Programming can be done with either Blockly or Java programming languages. 
 For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS](http://www.lejos.org/ev3.php) on your EV3 Brick.
@@ -131,7 +131,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [roboblockly](https://www.roboblockly.org/about.php) - C/C++ interpreter
 
 ### Paid
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month) - best Web-based simulator
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
 
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) 
   * Includes RobotC IDE at no additional cost.  
