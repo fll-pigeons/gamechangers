@@ -29,7 +29,7 @@ gyro = GyroSensor(Port.S3)
 gyro.reset_angle(0)
 
 # Initialize the drive base.
-robot = DriveBase(left_motor, right_motor, wheel_diameter=54.6, axle_track=104.1)
+robot = DriveBase(left_motor, right_motor, wheel_diameter=68.8, axle_track=104.1)
 
 #################################################################################
 # straight (if run motor faster, must adjust distance)
