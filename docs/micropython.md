@@ -18,7 +18,7 @@
     * Drive forever (until a stop() or another drive() command, or until program ends)
       * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)  (non-blocking - goes to next command without waiting for this one to complete)
          * [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
-         * ([while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)) conditional on:
+         * [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html), conditional on:
            * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
            * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
            * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
