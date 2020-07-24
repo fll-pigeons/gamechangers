@@ -19,7 +19,7 @@
       * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)  (non-blocking - goes to next command without waiting for this one to complete)
          * drive then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
          * call drive many times within [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
-           * while loop can call drive() command repeatedly with same parameters, or modify parameters based on motor or external sensors.
+           * while loop can call drive() command repeatedly with same parameters, or modify parameters based on robotics or external sensors.
            * make loop conditional on:
              * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
              * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
