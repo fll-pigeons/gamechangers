@@ -130,7 +130,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [roboblockly](https://www.roboblockly.org/about.php) - C/C++ interpreter
 
-* [TRIK Studio](https://trikset.com/en#ts) - supports EV3
+* [TRIK Studio](https://trikset.com/en#ts) - supports EV3 ([on Github](https://github.com/trikset/trik-studio))
 
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
