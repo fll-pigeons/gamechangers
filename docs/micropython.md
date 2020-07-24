@@ -20,9 +20,10 @@
          * drive then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
          * call drive many times within [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
            * while loop can call drive() command repeatedly with same parameters, or modify parameters based on motor or external sensors.
-           * conditional on:
+           * make loop conditional on:
              * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
              * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
+             * any other sensor (e.g gyro or light sensor)
            * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
       * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     
