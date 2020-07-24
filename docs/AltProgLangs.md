@@ -146,6 +146,9 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 # Developer Notes
 
+### papers
+* [Simulating Lego Mindstorms EV3 robots using Unity and Python](https://www.cs.ru.nl/bachelors-theses/2018/Leo_Cornelissen___4606566___Simulating_Lego_Mindstorms_EV3_robits_using_Unity_and_Python.pdf)
+
 ### EV3 C programming environment
 * [c4ev3](https://c4ev3.github.io/) programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
@@ -175,3 +178,5 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 ## Arduino
 * [ardublockly-micropython](https://github.com/immakermatty/ardublockly-micropython)
 * [Arduino - SparkFun Inventor's Kit for RedBot](https://docs.idew.org/code-robotics/)
+
+
