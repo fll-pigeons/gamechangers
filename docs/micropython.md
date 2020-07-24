@@ -17,10 +17,12 @@
       * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) - turn in place (blocking)
     * Drive forever (until a stop() or another drive() command, or until program ends)
       * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)  (non-blocking - goes to next command without waiting for this one to complete)
-         * [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
-         * [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html), conditional on:
-           * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
-           * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
+         * drive then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
+         * call drive many times within [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
+           * while loop can call drive() command repeatedly with same parameters, or modify parameters based on motor or external sensors.
+           * conditional on:
+             * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
+             * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
            * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
       * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     
