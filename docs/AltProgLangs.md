@@ -144,6 +144,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 # Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
 
+
+---------
+---------
+
 # Developer Notes
 
 ### papers
