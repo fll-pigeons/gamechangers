@@ -24,7 +24,7 @@ left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
 
 # Initialize the drive base.
-robot = DriveBase(left_motor, right_motor, wheel_diameter=54.6, axle_track=104.1)
+robot = DriveBase(left_motor, right_motor, wheel_diameter=68.8, axle_track=110)
 
 # Functions
 # drive straight, no stopping
@@ -45,7 +45,8 @@ def driveRadiusDriveTurn(radius, drive_speed = 200):
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
 
     turn_rate = arc_angle
-    while abs(robot.angle()) < 180:
+    # less than 180deg because of measurement lag
+    while abs(robot.angle()) < 170: 
         #print ("angle: " + str(abs(robot.angle())))        
         robot.drive(drive_speed, turn_rate)
 
@@ -90,8 +91,8 @@ driveStraight(150)
 ev3.speaker.beep()
 radius = 200
 print("radius " + str(radius))
-# driveRadiusDriveTurn(radius) # works
-driveRadiusDriveTurn2(radius)
+driveRadiusDriveTurn(radius) # works
+#driveRadiusDriveTurn2(radius)
 ev3.speaker.beep()
 
 driveStraight(300)
