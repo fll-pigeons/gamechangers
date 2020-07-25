@@ -179,4 +179,6 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [ardublockly-micropython](https://github.com/immakermatty/ardublockly-micropython)
 * [Arduino - SparkFun Inventor's Kit for RedBot](https://docs.idew.org/code-robotics/)
 
+## Raspberry Pi
+* [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) - compatible with RaspberryPi and Beaglebone
 
