@@ -55,7 +55,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
 * [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) (based on EV3Dev)
-  * [BluPants Studio](http://blupants.org/)
+  * [BluPants Studio](http://blupants.org/) - 3 levels of codeing: basic movement blocks, blockly type programming blocks and python.  requires a robot to be connected - no virtual environment.
 
 * [LabVIEW for LEGO MINDSTORMS ](https://www.ni.com/en-ca/support/downloads/software-products/download.labview-for-lego-mindstorms.html)
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
