@@ -8,7 +8,8 @@ A. Navigation
 4. Line Following: 
    * straight, turns and maze using - color sensor
    * squaring on lines - using color sensor and gyro
-5. Other sensors (touch, ultrasonic, infrared)
+5. Reliability & attachments
+6. Other sensors (touch, ultrasonic, infrared)
 
 -----
 
@@ -120,7 +121,11 @@ A. Navigation
   * Calibration
   * [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
-## LP05 - Other Sensors
+## LP05- Reliability and attachments
+* Reliability
+  * [Robot Design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
+
+## LP06- Other Sensors
 * basic sensors:
   * UltrasonicSensor
   * TouchSensor
