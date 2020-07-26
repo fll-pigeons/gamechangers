@@ -90,12 +90,7 @@ A. Navigation
   * lag = gyro sensor readings lag behind the true value	
   * drift = readings keep changing even when the robot is still (calibrate gyro to fix)
 
-## LP03d - Motor Calibration
-  * Hardware - how to see if there is an issue
-    * drive straight for long distance
-    * attach each motor to each other and see if they rotate in synch or not
-  * Software 
-    * [How to Make your FLL Robot Drive Straight - EV3 Motor Encoders](https://www.youtube.com/watch?v=b2jkjiY-HQA)
+
     
 ## LP04a - Line Following
 * MicroPython: 
@@ -124,8 +119,16 @@ A. Navigation
 ## LP05- Reliability and attachments
 * Reliability
   * [Robot Design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
-  * [Calibrate wheels](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
-
+  * Motor Calibration
+    * Hardware - how to see if there is an issue
+      * drive straight for long distance; travel around a square many time in both directions
+      * [Calibrate wheels](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
+    * Software 
+      * [How to Make your FLL Robot Drive Straight - EV3 Motor Encoders](https://www.youtube.com/watch?v=b2jkjiY-HQA)
+* Attachments
+  * [Worm gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
+  * [Dog gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
+    
 ## LP06- Other Sensors
 * basic sensors:
   * UltrasonicSensor
