@@ -52,10 +52,14 @@ so you can make a function that takes as input 2 of either speed, radius, degree
 I assume you would want to input speed and radius and receive turning rate, so use the last equation
 
 ## Pi
-  *  pi is a mathematical constant, defined as the ratio of a circle's circumference to its diameter.
-     * 2 pi = c / r, where pi = 3.14...
+  *  pi is a mathematical constant (3.14...), defined as the ratio of a circle's circumference to its diameter:
+     * pi = circumference / diameter 
+     then
+     * c = circumference = diameter * pi
+     since r = radius = 2 * d
+     * 2 pi = c / r
 
-  * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then the arc_length is 
+  * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then arc_length is 
     circumference of entire circle (i.e.`2 pi * r`)
     * θ = arc_angle
     * arc_length = **2 pi * r * (θ / 360)**
