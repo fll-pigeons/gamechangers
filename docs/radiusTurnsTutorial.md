@@ -18,9 +18,8 @@ turn, so a smaller angle is required.
 The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
 given velocity v and turn rate Δθ (delta theta)
-
-arc_length = v * time
-arc_angle = Δθ * time
+  * arc_length = v * time
+  * arc_angle = Δθ * time
 
 circumference = arc_length * (360/arc_angle)  #For example, if arc_angle is 360, then the circumference of the circle is just arc_length
 
