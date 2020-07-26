@@ -40,9 +40,9 @@ def driveStraight(distance, drive_speed = 200):
 
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
     print ("                 arc_length: " + str(arc_length/10) + "cm")  
 
@@ -54,6 +54,7 @@ def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
 def radiusTurnMotorAngle(radius, drive_speed = 200):
     robot.reset()       
     arc_angle = (180 * drive_speed) / (radius * math.pi)
+
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
 
@@ -65,9 +66,9 @@ def radiusTurnMotorAngle(radius, drive_speed = 200):
 
 def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"  
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"  
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
     print ("                 arc_length: " + str(arc_length/10) + "cm")  
 
