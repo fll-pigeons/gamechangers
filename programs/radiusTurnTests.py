@@ -37,62 +37,47 @@ def driveStraight(distance, drive_speed = 200):
 # radius in mm
 # drive with turn, no stopping
 # see: https://www.w3resource.com/python-exercises/math/python-math-exercise-7.php
-def driveRadiusDriveTurn(radius, drive_speed = 200):
+def driveRadiusTurnWithMotorAngle(radius, drive_speed = 200):
     robot.reset()       
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
 
     turn_rate = arc_angle
     # less than 180deg because of measurement lag
-    while abs(robot.angle()) < 170: 
+    while abs(robot.angle()) < 150: 
         #print ("angle: " + str(abs(robot.angle())))        
         robot.drive(drive_speed, turn_rate)
 
-# not working
-def driveRadiusDriveTurn2(radius, drive_speed = 200):
+def driveRadiusDriveTurn2(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-    diameter = radius * 2
-    arc_length = (math.pi * diameter) * (arc_angle / 360)
+
+    arc_length = 2 * math.pi * radius * (turn_angle / 360)
     print ("                 arc_length: " + str(arc_length/10) + "cm")  
 
     turn_rate = arc_angle
     robot.reset()      
     while robot.distance() < arc_length:
-        #print ("distance: " + str(robot.distance()))        
+   
         robot.drive(drive_speed, turn_rate)
 
-# not working
-def driveRadiusStraightTurn(radius, drive_speed = 200):
-    robot.reset()       
-    arc_angle = (180 * drive_speed) / (radius * math.pi)
-    diameter = radius * 2
-    radians =  (arc_angle / 360)
-    arc_length = (math.pi * diameter) * radians
 
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
-    print ("               arc_angle: " + arc_angle_str + "; arc_length" + str(arc_length/10) + "cm")      
-
-    robot.stop()
-    turn_rate = arc_angle
-    robot.settings(drive_speed, drive_speed, turn_rate, drive_speed)
-    robot.straight(arc_length)
 
 #################################################################################
 
 ev3.screen.draw_text(50, 60, "Pigeons!")
-
-driveStraight(150)
+distance = 300
+speed = 300
+#driveStraight(distance, speed)
 
 ev3.speaker.beep()
-radius = 200
+
+radius = 100
 print("radius " + str(radius))
-driveRadiusDriveTurn(radius) # works
-#driveRadiusDriveTurn2(radius)
+#driveRadiusTurnWithMotorAngle(radius, speed) # works
+driveRadiusDriveTurn2(radius, speed, 90)
 ev3.speaker.beep()
 
-driveStraight(300)
+driveStraight(distance, speed)
