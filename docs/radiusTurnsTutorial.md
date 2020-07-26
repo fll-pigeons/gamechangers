@@ -20,8 +20,8 @@ turn, so a smaller angle is required.
 The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
 given: 
-  * v = velocity v and 
-  * Δθ (delta theta) = turn_rate 
+  * v = velocity ; and 
+  * Δθ = turn_rate (Δθ: delta theta)
   
 then:  
   * arc_length = v * time
