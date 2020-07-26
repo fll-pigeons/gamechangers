@@ -21,7 +21,8 @@ The solution requires simple arc math with the [drive(drive_speed, turn_rate)](h
 
 given: 
   * v = velocity ; and 
-  * Δθ = turn_rate (Δθ: delta theta)
+  * Δθ = turn_rate 
+    * (where Δθ is delta theta)
   
 then:  
   * arc_length = v * time
