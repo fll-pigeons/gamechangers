@@ -15,6 +15,8 @@ turn, so a smaller angle is required.
 ## Solution:
 (big thank you to Liam MacLean, FRC alumnus, [team 5483 GD-Bots](https://github.com/Team-5483) for this information)
 
+![image](circleArcMath.jpg)
+
 The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
 given velocity v and turn rate Δθ (delta theta)
