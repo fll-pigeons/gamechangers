@@ -70,7 +70,7 @@ def driveRadiusDriveTurn2(radius, drive_speed = 200, turn_angle=180):
 ev3.screen.draw_text(50, 60, "Pigeons!")
 distance = 300
 speed = 300
-#driveStraight(distance, speed)
+driveStraight(10, speed)
 
 ev3.speaker.beep()
 
