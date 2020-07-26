@@ -43,8 +43,8 @@ cancel out time
     * v = (r *  Δθ * 2 * pi) / 360 = (r *  Δθ * pi) / 180
 or
 
-  * turn_rate
-    * Δθ = 360v / r * 2 pi = 180v / r * pi 
+  * arc_angle (turn_rate)
+    * Δθ = 360v / r * 2 pi = **180 * v / r * pi **
 
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
 I assume you would want to input speed and radius and receive turning rate, so use the last equation
@@ -55,13 +55,14 @@ I assume you would want to input speed and radius and receive turning rate, so u
 
   * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then the arc_length of a circle is just `2 pi * r`
     * θ = arc_angle
-    * arc_length = 2 pi * r * (θ / 360)
+    * arc_length = **2 pi * r * (θ / 360)**
   
 ## radiusTurnMotorDistance:
 
 ```
 # v = drive_speed
 # r = radius
+# θ = turn_angle
 # turn_angle: corresponds to how far around the circumference of the imaginary circle (of radius r) you want robot to travel
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
