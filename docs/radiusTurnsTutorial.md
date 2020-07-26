@@ -73,13 +73,13 @@ I assume you would want to input speed and radius and receive turning rate, so u
 # θ = turn_angle (which corresponds to how far around the circumference of the imaginary circle, 
 # of radius r, you want robot to travel)
 
-def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
+def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
     turn_rate = (180 * drive_speed) / (radius * math.pi)
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
     robot.reset()      
     while robot.distance() < arc_length:
-        robot.drive(speed = drive_speed, turn_rate = turn_rate)
+        robot.drive(speed=drive_speed, turn_rate=turn_rate)
 ```
 
 See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
