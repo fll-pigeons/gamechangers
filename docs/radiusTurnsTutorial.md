@@ -45,7 +45,7 @@ cancel out time
     * v = (r *  Δθ * 2 * pi) / 360 = (r *  Δθ * pi) / 180
 or
 
-  * arc_angle (turn_rate)
+  * turn_rate
     * Δθ = 360v / r * 2 pi = **180 * v / r * pi**
 
 So you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one.
@@ -74,12 +74,12 @@ I assume you would want to input speed and radius and receive turning rate, so u
 # of radius r, you want robot to travel)
 
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
-    arc_angle = (180 * drive_speed) / (radius * math.pi)
+    turn_rate = (180 * drive_speed) / (radius * math.pi)
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
     robot.reset()      
     while robot.distance() < arc_length:
-        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = turn_rate)
 ```
 
 See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
