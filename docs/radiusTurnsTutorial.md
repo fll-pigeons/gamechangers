@@ -48,7 +48,7 @@ or
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
 I assume you would want to input speed and radius and receive turning rate, so use the last equation
 
-# function that we created:
+## radiusTurnMotorDistance:
 
 ```
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
@@ -64,3 +64,6 @@ def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     while robot.distance() < arc_length:
         robot.drive(drive_speed, turn_rate)
 ```
+
+See [radiusTurnApproaches.py](programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
+
