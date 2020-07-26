@@ -49,23 +49,23 @@ def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
 
     robot.reset()      
     while robot.distance() < arc_length:
-        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = arc_angle)
 
 def printToConsole(message, arc_angle, arc_length):
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
     print (message + " arc_angle: " + arc_angle_str)  
     print ("           arc_length: " + str(arc_length/10) + "cm")  
 
-def radiusTurnMotorAngle(radius, drive_speed = 200):
+# turn_angle less than 180deg because of measurement lag
+def radiusTurnMotorAngle(radius, drive_speed = 200, turn_angle=150):
     robot.reset()       
     arc_angle = (180 * drive_speed) / (radius * math.pi)
 
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
     
-    # less than 180deg because of measurement lag
-    while abs(robot.angle()) < 150: 
-        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
+    while abs(robot.angle()) < turn_angle: 
+        robot.drive(speed = drive_speed, turn_rate = arc_angle)
 
 def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
@@ -75,7 +75,7 @@ def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
 
     robot.reset()      
     while abs(gyro.angle()) < turn_angle: 
-        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = arc_angle)
 
 #################################################################################
 ev3.screen.draw_text(50, 60, "Pigeons!")
@@ -83,6 +83,6 @@ ev3.screen.draw_text(50, 60, "Pigeons!")
 speed = 200
 driveStraight(distance = 200, drive_speed = speed)
 ev3.speaker.beep()
-radiusTurnGyro(radius = 300, drive_speed = speed, turn_angle=180)
+radiusTurnMotorDistance(radius = 300, drive_speed = speed, turn_angle=180)
 ev3.speaker.beep()
 driveStraight(distance = 200, drive_speed = speed)
