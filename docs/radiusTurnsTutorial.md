@@ -1,17 +1,21 @@
-## Problem: 
+## Problem Statement: 
 
-Want a function that lets you tell the robot to turn using just the radius of a circle, and it then calculates the turning rate (or angle of turn) 
-and the arc length to get the robot around an wall or object.  All you do is get the robot to the point of turning, give the block the distance to 
-the object you want to avoid, and it travels in a half circle using the distance given as the radius of the circle.
+Wanted a function that lets you tell the robot to turn using just the radius of a circle.
 
-I'd like to create a similar micropython function for Sam's team where all they need is to give the radius, and the robot will make the nice 
-turn - conceptually simple once they understand circles and has less trial and error when trying to measure the angle and distance, and 
-then try to make the robot speed up - which affects the angle and distance traveled.
+The function would then calculates the turning rate (or angle of turn) and the arc length to get the robot around 
+a wall or object.  All you do is get the robot to the point of turning, give the distance to 
+the object you want to avoid, and it travels in a half circle using the distance given as the radius of an circle.
+
+This is conceptually simpler for kids to understand once they understand radius, arc_angle and arc_length in a circles 
+and has less trial and error when trying to measure the angle and distance for a turn.
+
+Hoping that this function can automatically adjust turn rate if speed changes - faster turns usually mean more lag in the
+turn, so a smaller angle is required.
 
 ## Solution:
 (big thank you to Liam MacLean, FRC alumnus, [team 5483 GD-Bots](https://github.com/Team-5483) for this information)
 
-The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function
+The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
 given velocity v and turn rate Δθ (delta theta)
 
