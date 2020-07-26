@@ -42,8 +42,8 @@ def driveStraight(distance, drive_speed = 200):
 # the imaginary circle, of radius r, you want robot to travel
 # see: https://github.com/fll-pigeons/gamechangers/blob/master/docs/radiusTurnsTutorial.md
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
-    arc_angle = (180 * drive_speed) / (radius * math.pi)
-    turn_rate = 2 * math.pi * radius * (turn_angle / 360)
+    turn_rate = (180 * drive_speed) / (radius * math.pi)
+    arc_length  = 2 * math.pi * radius * (turn_angle / 360)
 
     printToConsole("radiusTurnMotorDistance", arc_angle, arc_length)
 
@@ -68,8 +68,8 @@ def radiusTurnMotorAngle(radius, drive_speed = 200, turn_angle=150):
         robot.drive(speed = drive_speed, turn_rate = turn_rate)
 
 def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
-    arc_angle = (180 * drive_speed) / (radius * math.pi)
-    turn_rate = 2 * math.pi * radius * (turn_angle / 360)
+    turn_rate = (180 * drive_speed) / (radius * math.pi)
+    arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
     printToConsole("radiusTurnGyro", arc_angle, arc_length)
 
