@@ -124,6 +124,7 @@ A. Navigation
 ## LP05- Reliability and attachments
 * Reliability
   * [Robot Design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
+  * [Calibrate wheels](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
 
 ## LP06- Other Sensors
 * basic sensors:
