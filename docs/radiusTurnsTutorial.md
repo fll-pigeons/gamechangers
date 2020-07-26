@@ -22,6 +22,7 @@ The solution requires simple arc math with the [drive(drive_speed, turn_rate)](h
 given: 
   * v = velocity v and 
   * Δθ (delta theta) = turn_rate 
+  
 then:  
   * arc_length = v * time
   * arc_angle = Δθ * time
