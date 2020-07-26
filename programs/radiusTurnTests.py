@@ -49,7 +49,7 @@ def driveRadiusTurnWithMotorAngle(radius, drive_speed = 200):
         #print ("angle: " + str(abs(robot.angle())))        
         robot.drive(drive_speed, turn_rate)
 
-def driveRadiusDriveTurn2(radius, drive_speed = 200, turn_angle=180):
+def driveRadiusDriveTurn(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
@@ -66,18 +66,13 @@ def driveRadiusDriveTurn2(radius, drive_speed = 200, turn_angle=180):
 
 
 #################################################################################
-
+speed = 200
 ev3.screen.draw_text(50, 60, "Pigeons!")
-distance = 300
-speed = 300
-driveStraight(10, speed)
-
+driveStraight(distance = 200, drive_speed = speed)
 ev3.speaker.beep()
 
-radius = 100
-print("radius " + str(radius))
 #driveRadiusTurnWithMotorAngle(radius, speed) # works
-driveRadiusDriveTurn2(radius, speed, 90)
-ev3.speaker.beep()
+driveRadiusDriveTurn(radius = 400, drive_speed = speed, turn_angle=60)
 
-driveStraight(distance, speed)
+ev3.speaker.beep()
+driveStraight(distance = 200, drive_speed = speed)
