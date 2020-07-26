@@ -23,21 +23,35 @@ ev3 = EV3Brick()
 left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
 
+# Initialize gyro.
+gyro = GyroSensor(Port.S3)
+gyro.reset_angle(0)
+
 # Initialize the drive base.
 robot = DriveBase(left_motor, right_motor, wheel_diameter=68.8, axle_track=110)
 
 # Functions
-# drive straight, no stopping
+# if speed > 300, wheels spin - need to gradually increase speed
 def driveStraight(distance, drive_speed = 200):
     robot.reset()    
     print ("driveStraight: distance: " + str(distance/10) + "cm;  drive_speed " + str(drive_speed/10) + "cm/s")  
     while robot.distance() < distance:
         robot.drive(drive_speed, 0)
 
-# radius in mm
-# drive with turn, no stopping
-# see: https://www.w3resource.com/python-exercises/math/python-math-exercise-7.php
-def driveRadiusTurnWithMotorAngle(radius, drive_speed = 200):
+def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
+    arc_angle = (180 * drive_speed) / (radius * math.pi)
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
+    arc_length = 2 * math.pi * radius * (turn_angle / 360)
+
+    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
+    print ("                 arc_length: " + str(arc_length/10) + "cm")  
+
+    turn_rate = arc_angle
+    robot.reset()      
+    while robot.distance() < arc_length:
+        robot.drive(drive_speed, turn_rate)
+
+def radiusTurnMotorAngle(radius, drive_speed = 200):
     robot.reset()       
     arc_angle = (180 * drive_speed) / (radius * math.pi)
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
@@ -49,30 +63,25 @@ def driveRadiusTurnWithMotorAngle(radius, drive_speed = 200):
         #print ("angle: " + str(abs(robot.angle())))        
         robot.drive(drive_speed, turn_rate)
 
-def driveRadiusDriveTurn(radius, drive_speed = 200, turn_angle=180):
+def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
-    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"  
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
+
+    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
     print ("                 arc_length: " + str(arc_length/10) + "cm")  
 
     turn_rate = arc_angle
     robot.reset()      
-    while robot.distance() < arc_length:
-   
-        robot.drive(drive_speed, turn_rate)
-
-
+    while abs(gyro.angle()) < turn_angle: 
+      robot.drive(drive_speed, turn_rate)
 
 #################################################################################
-speed = 200
 ev3.screen.draw_text(50, 60, "Pigeons!")
+
+speed = 200
 driveStraight(distance = 200, drive_speed = speed)
 ev3.speaker.beep()
-
-#driveRadiusTurnWithMotorAngle(radius, speed) # works
-driveRadiusDriveTurn(radius = 400, drive_speed = speed, turn_angle=60)
-
+radiusTurnGyro(radius = 300, drive_speed = speed, turn_angle=180)
 ev3.speaker.beep()
 driveStraight(distance = 200, drive_speed = speed)
