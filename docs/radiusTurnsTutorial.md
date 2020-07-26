@@ -38,11 +38,11 @@ cancel out time
 ## which can be rearranged as
 
   * velocity
-    * v = (r *  Δθ * 2 * pi) / 360
+    * v = (r *  Δθ * 2 * pi) / 360 = (r *  Δθ * pi) / 180
 or
 
   * turn_rate
-    * Δθ = 360v / r * 2 pi
+    * Δθ = 360v / r * 2 pi = 180v / r * pi 
 
 
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
