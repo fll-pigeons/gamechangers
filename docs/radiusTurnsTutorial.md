@@ -38,16 +38,11 @@ or
 
 Δθ = 360v / r * 2 pi
 
-should actually rearrange to:
-
-Δθ = 360v / r * 2 pi
 
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
 I assume you would want to input speed and radius and receive turning rate, so use the last equation
 
-let me know if it doesn't work
-
-function that we created:
+# function that we created:
 
 ```
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
