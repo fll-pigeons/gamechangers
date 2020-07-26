@@ -55,7 +55,8 @@ I assume you would want to input speed and radius and receive turning rate, so u
   *  pi is a mathematical constant, defined as the ratio of a circle's circumference to its diameter.
      * 2 pi = c / r, where pi = 3.14...
 
-  * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then the arc_length of a circle is just `2 pi * r`
+  * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then the arc_length is 
+    circumference of entire circle (i.e.`2 pi * r`)
     * θ = arc_angle
     * arc_length = **2 pi * r * (θ / 360)**
   
