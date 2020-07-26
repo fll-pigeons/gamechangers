@@ -32,15 +32,18 @@ radius = ((v * time) * (360/( Δθ * time)) ) / 2*pi
 
 cancel out time
 
-radius = 360v / ( Δθ * 2 * pi)
+## Final formula
+  * radius
+    * r = 360v / ( Δθ * 2 * pi)
 
-which can be rearranged as
+## which can be rearranged as
 
-v = (r *  Δθ * 2 * pi) / 360
-
+  * velocity
+    * v = (r *  Δθ * 2 * pi) / 360
 or
 
-Δθ = 360v / r * 2 pi
+  * turn_rate
+    * Δθ = 360v / r * 2 pi
 
 
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
