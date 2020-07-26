@@ -21,14 +21,13 @@ The solution requires simple arc math with the [drive(drive_speed, turn_rate)](h
 
 given: 
   * v = velocity ; and 
+    * (note: velocity has magnitude and direction; as opposed to speed which only has magnitude)
   * Δθ = turn_rate 
     * (where Δθ is delta theta)
   
 then:  
   * arc_length = v * time
   * arc_angle = Δθ * time
-
-(note: velocity has magnitude and direction; as opposed to speed which only has magnitude)
 
 circumference = arc_length * (360/arc_angle)  #For example, if arc_angle is 360, then the circumference of the circle is just arc_length
 
