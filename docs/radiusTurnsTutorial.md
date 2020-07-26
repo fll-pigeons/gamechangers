@@ -72,5 +72,5 @@ def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
         robot.drive(drive_speed, turn_rate)
 ```
 
-See [radiusTurnApproaches.py](programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
+See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
 
