@@ -41,7 +41,7 @@ def driveStraight(distance, drive_speed = 200):
 # turn_angle corresponds to how far around the circumference of 
 # the imaginary circle, of radius r, you want robot to travel
 # see: https://github.com/fll-pigeons/gamechangers/blob/master/docs/radiusTurnsTutorial.md
-def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
+def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
     turn_rate = (180 * drive_speed) / (radius * math.pi)
     arc_length  = 2 * math.pi * radius * (turn_angle / 360)
 
@@ -57,7 +57,7 @@ def printToConsole(message, arc_angle, arc_length):
     print ("           arc_length: " + str(arc_length/10) + "cm")  
 
 # turn_angle less than 180deg because of measurement lag
-def radiusTurnMotorAngle(radius, drive_speed = 200, turn_angle=150):
+def radiusTurnMotorAngle(radius, drive_speed=200, turn_angle=150):
     robot.reset()       
     turn_rate = (180 * drive_speed) / (radius * math.pi)
 
@@ -67,7 +67,7 @@ def radiusTurnMotorAngle(radius, drive_speed = 200, turn_angle=150):
     while abs(robot.angle()) < turn_angle: 
         robot.drive(speed = drive_speed, turn_rate = turn_rate)
 
-def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
+def radiusTurnGyro(radius, drive_speed=200, turn_angle=180):
     turn_rate = (180 * drive_speed) / (radius * math.pi)
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
@@ -81,8 +81,8 @@ def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
 ev3.screen.draw_text(50, 60, "Pigeons!")
 
 speed = 200
-driveStraight(distance = 200, drive_speed = speed)
+driveStraight(distance=200, drive_speed=speed)
 ev3.speaker.beep()
-radiusTurnMotorDistance(radius = 300, drive_speed = speed, turn_angle=180)
+radiusTurnMotorDistance(radius=300, drive_speed=speed, turn_angle=180)
 ev3.speaker.beep()
-driveStraight(distance = 200, drive_speed = speed)
+driveStraight(distance=200, drive_speed=speed)
