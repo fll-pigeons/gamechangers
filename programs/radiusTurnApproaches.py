@@ -38,18 +38,23 @@ def driveStraight(distance, drive_speed = 200):
     while robot.distance() < distance:
         robot.drive(drive_speed, 0)
 
+# turn_angle corresponds to how far around the circumference of 
+# the imaginary circle, of radius r, you want robot to travel
+# see: https://github.com/fll-pigeons/gamechangers/blob/master/docs/radiusTurnsTutorial.md
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
-    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-    print ("                 arc_length: " + str(arc_length/10) + "cm")  
+    printToConsole("radiusTurnMotorDistance", arc_angle, arc_length)
 
-    turn_rate = arc_angle
     robot.reset()      
     while robot.distance() < arc_length:
-        robot.drive(drive_speed, turn_rate)
+        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
+
+def printToConsole(message, arc_angle, arc_length):
+    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
+    print (message + " arc_angle: " + arc_angle_str)  
+    print ("           arc_length: " + str(arc_length/10) + "cm")  
 
 def radiusTurnMotorAngle(radius, drive_speed = 200):
     robot.reset()       
@@ -57,25 +62,20 @@ def radiusTurnMotorAngle(radius, drive_speed = 200):
 
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-
-    turn_rate = arc_angle
+    
     # less than 180deg because of measurement lag
     while abs(robot.angle()) < 150: 
-        #print ("angle: " + str(abs(robot.angle())))        
-        robot.drive(drive_speed, turn_rate)
+        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
 
 def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
 
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"  
-    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-    print ("                 arc_length: " + str(arc_length/10) + "cm")  
+    printToConsole("radiusTurnGyro", arc_angle, arc_length)
 
-    turn_rate = arc_angle
     robot.reset()      
     while abs(gyro.angle()) < turn_angle: 
-      robot.drive(drive_speed, turn_rate)
+        robot.drive(drive_speed = drive_speed, turn_rate = arc_angle)
 
 #################################################################################
 ev3.screen.draw_text(50, 60, "Pigeons!")
