@@ -21,6 +21,8 @@ given velocity v and turn rate Δθ (delta theta)
   * arc_length = v * time
   * arc_angle = Δθ * time
 
+(note: velocity has magnitude and direction; as opposed to speed which only has magnitude)
+
 circumference = arc_length * (360/arc_angle)  #For example, if arc_angle is 360, then the circumference of the circle is just arc_length
 
 radius = circumference/ 2*pi
@@ -44,20 +46,24 @@ or
   * turn_rate
     * Δθ = 360v / r * 2 pi = 180v / r * pi 
 
-
 so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
 I assume you would want to input speed and radius and receive turning rate, so use the last equation
 
+## Pi
+  *  pi is a mathematical constant, defined as the ratio of a circle's circumference to its diameter.
+     * 2 pi = c / r
+
+  * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then the arc_length of a circle is just `2 pi * r`
+    * arc_length = 2 pi * r * (θ / 360)
+  
 ## radiusTurnMotorDistance:
 
 ```
+# v = drive_speed
+#  r = radius
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
     arc_length = 2 * math.pi * radius * (turn_angle / 360)
-
-    print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
-    print ("                 arc_length: " + str(arc_length/10) + "cm")  
 
     turn_rate = arc_angle
     robot.reset()      
