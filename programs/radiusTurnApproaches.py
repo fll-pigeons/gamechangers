@@ -43,13 +43,13 @@ def driveStraight(distance, drive_speed = 200):
 # see: https://github.com/fll-pigeons/gamechangers/blob/master/docs/radiusTurnsTutorial.md
 def radiusTurnMotorDistance(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_length = 2 * math.pi * radius * (turn_angle / 360)
+    turn_rate = 2 * math.pi * radius * (turn_angle / 360)
 
     printToConsole("radiusTurnMotorDistance", arc_angle, arc_length)
 
     robot.reset()      
     while robot.distance() < arc_length:
-        robot.drive(speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = turn_rate)
 
 def printToConsole(message, arc_angle, arc_length):
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"    
@@ -59,23 +59,23 @@ def printToConsole(message, arc_angle, arc_length):
 # turn_angle less than 180deg because of measurement lag
 def radiusTurnMotorAngle(radius, drive_speed = 200, turn_angle=150):
     robot.reset()       
-    arc_angle = (180 * drive_speed) / (radius * math.pi)
+    turn_rate = (180 * drive_speed) / (radius * math.pi)
 
     arc_angle_str = str(round(arc_angle, 2)) + " deg/s"      
     print ("driveRadiusTurn: arc_angle: " + arc_angle_str)  
     
     while abs(robot.angle()) < turn_angle: 
-        robot.drive(speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = turn_rate)
 
 def radiusTurnGyro(radius, drive_speed = 200, turn_angle=180):
     arc_angle = (180 * drive_speed) / (radius * math.pi)
-    arc_length = 2 * math.pi * radius * (turn_angle / 360)
+    turn_rate = 2 * math.pi * radius * (turn_angle / 360)
 
     printToConsole("radiusTurnGyro", arc_angle, arc_length)
 
     robot.reset()      
     while abs(gyro.angle()) < turn_angle: 
-        robot.drive(speed = drive_speed, turn_rate = arc_angle)
+        robot.drive(speed = drive_speed, turn_rate = turn_rate)
 
 #################################################################################
 ev3.screen.draw_text(50, 60, "Pigeons!")
