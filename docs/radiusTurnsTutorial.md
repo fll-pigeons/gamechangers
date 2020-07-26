@@ -48,8 +48,9 @@ or
   * arc_angle (turn_rate)
     * Δθ = 360v / r * 2 pi = **180 * v / r * pi**
 
-so you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one
-I assume you would want to input speed and radius and receive turning rate, so use the last equation
+So you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one.
+
+I assume you would want to input speed and radius and receive turning rate, so use the last equation.
 
 ## Pi
   *  pi is a mathematical constant (3.14...), defined as the ratio of a circle's circumference to its diameter:
