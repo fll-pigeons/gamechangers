@@ -68,8 +68,8 @@ I assume you would want to input speed and radius and receive turning rate, so u
 ```
 # drive_speed = v
 # radius = r
-# turn_angle = θ (which corresponds to how far around the circumference of the imaginary circle, 
-# of radius r, you want robot to travel)
+# turn_angle corresponds to how far around the circumference of the imaginary circle, 
+# of radius r, you want robot to travel
 
 def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
     turn_rate = (180 * drive_speed) / (radius * math.pi)
