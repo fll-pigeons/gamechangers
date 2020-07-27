@@ -27,13 +27,14 @@ then:
   * arc_length = v * time
   * arc_angle = Δθ * time
 
-circumference = arc_length * (360/arc_angle)  #For example, if arc_angle is 360, then the circumference of the circle is just arc_length
+given
+  * circumference = arc_length * (360/arc_angle)  
+    * (For example, if arc_angle is 360, then the circumference of the circle is just arc_length)
 
-radius = circumference/ 2*pi
+  * radius = circumference/ 2*pi
 
 therefore
-
-radius = ((v * time) * (360/( Δθ * time)) ) / 2*pi
+  * radius = ((v * time) * (360/( Δθ * time)) ) / 2*pi
 
 cancel out time
 
