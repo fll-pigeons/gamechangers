@@ -1,21 +1,19 @@
 ## Problem Statement: 
 
-Wanted a function that lets you tell the robot to turn using just the radius of a circle.
+Want to be able to navigate around a wall or object by only giving the distance the brick is from the wall or object.
 
-The function would then calculates the turning rate (or angle of turn) and the arc length to get the robot around 
-a wall or object.  All you do is get the robot to the point of turning, give the distance to 
-the object you want to avoid, and it travels in a half circle using the distance given as the radius of an circle.
+The function would use the distance parameter as the radius of an imaginary circle that would direct the robot to travel 
+in a half circle around the wall or object.
 
-This is conceptually simpler for kids to understand once they understand radius, arc_angle and arc_length in a circle
-and has less trial and error when trying to measure the angle and distance for a turn.
-
-Hoping that this function can automatically adjust turn rate if speed changes - faster turns usually mean more lag in the
-turn, so a smaller angle is required.
+Therefore, given the radius as a parameter, the function calculates the 'turning rate' and the distance the robot
+needs to travel (i.e. 'arc length' on the imaginary circle) to get the robot around a wall or object.  All you 
+do is get the robot to the point of turning, give the distance to the object you want to avoid, and it travels 
+in a half circle using the distance given as the radius of an circle.
 
 ## Solution:
 ![image](circleArcMath.jpg)
 
-(big thank you to Liam MacLean, FRC alumnus, [team 5483 GD-Bots](https://github.com/Team-5483) for given us most of the background for this tutorial)
+(big thank you to Liam MacLean (FRC [team 5483 GD-Bots](https://github.com/Team-5483 alumnus) for given us most of the background for this tutorial)
 
 The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
