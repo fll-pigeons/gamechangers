@@ -8,7 +8,7 @@ in a half circle around the wall or object.
 Therefore, given the radius as a parameter, the function calculates the 'turning rate' and the distance the robot
 needs to travel (i.e. 'arc length' on the imaginary circle) to get the robot around a wall or object.  All you 
 do is get the robot to the point of turning, give the distance to the object you want to avoid, and it travels 
-in a half circle using the distance given as the radius of an circle.
+in a half circle using the distance given as the radius.
 
 ## Solution:
 ![image](circleArcMath.jpg)
