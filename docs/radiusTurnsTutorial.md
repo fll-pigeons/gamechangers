@@ -13,7 +13,8 @@ in a half circle using the distance given as the radius.
 ## Solution:
 ![image](circleArcMath.jpg)
 
-Big thank you to Liam MacLean (FRC [team 5483 GD-Bots](https://github.com/Team-5483) alumnus) for working-out most of the math for this tutorial.
+Big thank you to Liam MacLean (FRC [team 5483 GD-Bots](https://github.com/Team-5483) alumnus) for working-out most of the 
+math for this tutorial.  Liam says:
 
 The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
