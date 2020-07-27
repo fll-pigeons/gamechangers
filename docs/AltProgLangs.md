@@ -188,4 +188,4 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) - compatible with RaspberryPi and Beaglebone
 
 ## VEX
-* [VEXcode VR](https://vr.vex.com/) - free online blockly type code with 3D simulation environment; can use Python
+* [VEXcode VR](https://vr.vex.com/) - free online blockly type code (or Python) with 3D simulation environment; no line following attachment
