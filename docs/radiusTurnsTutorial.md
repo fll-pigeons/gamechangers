@@ -6,7 +6,7 @@ The function would then calculates the turning rate (or angle of turn) and the a
 a wall or object.  All you do is get the robot to the point of turning, give the distance to 
 the object you want to avoid, and it travels in a half circle using the distance given as the radius of an circle.
 
-This is conceptually simpler for kids to understand once they understand radius, arc_angle and arc_length in a circles 
+This is conceptually simpler for kids to understand once they understand radius, arc_angle and arc_length in a circle
 and has less trial and error when trying to measure the angle and distance for a turn.
 
 Hoping that this function can automatically adjust turn rate if speed changes - faster turns usually mean more lag in the
@@ -86,5 +86,5 @@ def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
         robot.drive(speed=drive_speed, turn_rate=turn_rate)
 ```
 
-See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robots.angle() or gyro.angle()
+See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robot.angle() or gyro.angle()
 
