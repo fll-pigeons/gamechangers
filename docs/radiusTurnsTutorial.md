@@ -13,25 +13,19 @@ in a half circle using the distance given as the radius.
 ## Solution:
 ![image](circleArcMath.jpg)
 
-Big thank you to Liam MacLean (FRC [team 5483 GD-Bots](https://github.com/Team-5483) alumnus) for working-out most of the 
-math for this tutorial.  Liam says:
+The solution requires arc math with the EV3 Micropython [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
 
-The solution requires simple arc math with the [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function,
-
-given: 
-  * v = velocity ; and 
-    * (note: velocity is not the same as speed... velocity has magnitude and direction; whereas speed only has magnitude)
+variables: 
+  * v = velocity
+    * (note: velocity is usually not the same as speed... velocity has magnitude and direction; whereas speed only has magnitude)
   * Δθ = turn_rate 
     * (Δθ is pronounced delta theta)
   
-then:  
+given:  
   * arc_length = v * time
   * arc_angle = Δθ * time
-
-given
   * circumference = arc_length * (360/arc_angle)  
     * (For example, if arc_angle is 360, then the circumference of the circle is just arc_length)
-
   * radius = circumference/ 2*pi
 
 therefore
@@ -72,9 +66,9 @@ I assume you would want to input speed and radius and receive turning rate, so u
 ## radiusTurnMotorDistance:
 
 ```
-# v = drive_speed
-# r = radius
-# θ = turn_angle (which corresponds to how far around the circumference of the imaginary circle, 
+# drive_speed = v
+# radius = r
+# turn_angle = θ (which corresponds to how far around the circumference of the imaginary circle, 
 # of radius r, you want robot to travel)
 
 def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
@@ -85,6 +79,9 @@ def radiusTurnMotorDistance(radius, drive_speed=200, turn_angle=180):
     while robot.distance() < arc_length:
         robot.drive(speed=drive_speed, turn_rate=turn_rate)
 ```
+
+Big thank you to Liam MacLean (FRC [team 5483 GD-Bots](https://github.com/Team-5483) alumnus) for working-out most of the 
+math for this tutorial.  
 
 See [radiusTurnApproaches.py](/programs/radiusTurnApproaches.py) for additional approaches using robot.angle() or gyro.angle()
 
