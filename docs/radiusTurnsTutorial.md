@@ -44,7 +44,8 @@ cancel out time
 or
 
   * turn_rate
-    * Δθ = 360v / r * 2 pi = **180 * v / r * pi**
+    * Δθ = 360v / r * 2 pi
+    * **Δθ = 180 * v / r * pi**    
 
 So you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one.
 
@@ -61,7 +62,7 @@ I assume you would want to input speed and radius and receive turning rate, so u
   * arc_length is proportional to the arc_angle, therefore if if arc_angle is 360, then arc_length is 
     circumference of entire circle (i.e.`2 pi * r`)
     * θ = arc_angle
-    * arc_length = **2 pi * r * (θ / 360)**
+    * **arc_length = 2 pi * r * (θ / 360)**
   
 ## radiusTurnMotorDistance:
 
