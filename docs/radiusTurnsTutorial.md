@@ -40,7 +40,8 @@ cancel out time
 ## which can be rearranged as
 
   * velocity
-    * v = (r *  Δθ * 2 * pi) / 360 = (r *  Δθ * pi) / 180
+    * v = (r *  Δθ * 2 * pi) / 360
+    * v = (r *  Δθ * pi) / 180    
 or
 
   * turn_rate
