@@ -1,4 +1,4 @@
-# Programming Language Research
+# EV3 Brick Programming Language Research
 ## Requirements
 ### First FLL Competition Must Haves:
 * Program must be able to run autonomously on EV3 (cannot have program run on laptop or tablet that sends individual commands to robot)
