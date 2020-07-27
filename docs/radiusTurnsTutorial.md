@@ -1,6 +1,6 @@
 ## Problem Statement: 
 
-Want to be able to navigate around a wall or object by only giving the distance the brick is from the wall or object.
+Want to be able to navigate around a wall or object by only giving the distance the robot is from the wall or object.
 
 The function would use the distance parameter as the radius of an imaginary circle that would direct the robot to travel 
 in a half circle around the wall or object.
