@@ -101,7 +101,7 @@ A. Navigation
     * Turns
     * Navigate curvy loops
 * Basic Line Follower
-  *[ev3lessons](https://ev3lessons.com/en/ProgrammingLessons/beginner/BasicLineFollower.pdf)
+  * [ev3lessons](https://ev3lessons.com/en/ProgrammingLessons/beginner/BasicLineFollower.pdf)
 * Challenge
   * stop after
     * a certain distance
