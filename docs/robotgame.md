@@ -55,6 +55,7 @@
 <br/>
 
 # 5. [Hardware](hardware.md)
+* [ev3dev.org device drivers](http://docs.ev3dev.org/projects/lego-linux-drivers/en/ev3dev-stretch/ev3.html#in-port-nxt-color-mode)
 
 <br/>
 
