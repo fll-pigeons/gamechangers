@@ -124,6 +124,7 @@ A. Navigation
   * Builderdude35
     * [Proportional](https://www.youtube.com/watch?v=uPFfevfpMxs&t=1s)
   * Micropython
+    * [Pybricks Line Follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
   
 ## LP04c - Squaring on lines
