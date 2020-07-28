@@ -100,7 +100,7 @@ A. Navigation
     * Straight line
     * Turns
     * Navigate curvy loops
-  * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf)
+  * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf) (pdf)
 
 ## LP04b - EV3 Micropython Proportional Algorithm
 * Color sensor
