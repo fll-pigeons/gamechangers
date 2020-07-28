@@ -100,6 +100,14 @@ A. Navigation
     * Straight line
     * Turns
     * Navigate curvy loops
+* Basic Line Follower
+  *[ev3lessons](https://ev3lessons.com/en/ProgrammingLessons/beginner/BasicLineFollower.pdf)
+* Challenge
+  * stop after
+    * a certain distance
+    * touch sensor pressed
+    * certain angle has been reached
+* Resources  
   * [Line Following Tiles](https://pybricks.github.io/ev3-micropython/_downloads/linefollowtiles.pdf) (pdf)
 
 ## LP04b - EV3 Micropython Proportional Algorithm
@@ -108,7 +116,14 @@ A. Navigation
     * Straight line 
     * Turns
     * Navigate line maze    
-* Example using Micropython
+* Proportional Line Follower
+  * ev3lessons
+    * [Proportional](https://ev3lessons.com/en/ProgrammingLessons/advanced/ProportionalLineFollower.pdf)
+    * [PID](https://ev3lessons.com/en/ProgrammingLessons/advanced/PID.pdf)
+    * [Compare](https://ev3lessons.com/en/ProgrammingLessons/advanced/LineFollower.pdf)
+  * Builderdude35
+    * [Proportional](https://www.youtube.com/watch?v=uPFfevfpMxs&t=1s)
+  * Micropython
     * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
   
 ## LP04c - Squaring on lines
