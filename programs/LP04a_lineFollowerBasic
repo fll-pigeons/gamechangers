@@ -28,6 +28,6 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 
 # Start following the line endlessly.
 while True:
-    # Set the drive base speed and turn rate.
+
     robot.drive(speed=100, turn_rate=0)
 
