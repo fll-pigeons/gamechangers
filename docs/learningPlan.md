@@ -144,7 +144,8 @@ A. Navigation
 * Attachments
   * [Worm gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
   * [Dog gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
-    
+* Micropython program startup lag - see issue #6
+
 ## LP06- Other Sensors
 * basic sensors:
   * UltrasonicSensor
