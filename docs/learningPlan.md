@@ -144,7 +144,9 @@ A. Navigation
 * Attachments
   * [Worm gear](https://www.youtube.com/watch?v=TQ9hQ_ZXwmM)
   * [Dog gear](https://www.youtube.com/watch?v=NZbt3tnySyI)
-* [Micropython program startup lag](https://github.com/fll-pigeons/gamechangers/issues/6)
+* How to organize your programs on the EV3 for competition
+  * master/sequencer program?
+  * [Micropython program startup lag](https://github.com/fll-pigeons/gamechangers/issues/6)
 
 ## LP06- Other Sensors
 * basic sensors:
