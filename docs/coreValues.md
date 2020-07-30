@@ -44,11 +44,14 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
 --------------------
 
 # Log
+
+> #### 30 July - [Book Shelf](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/BookShelf.pdf)
+
+> #### 21 July - Modified [Stack Theme](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/StackThem.pdf) using blocks
+
+> #### 14 July - [Paper Tower Building](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/PaperTowerBuilding.pdf)
+
 > #### 2 July - Decision Making 
 > 1. Each person has a chance to speak on the issue
 > 2. Everyone listens
 > 3. Vote, majority wins
-
-> #### 14 July - [Paper Tower Building](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/PaperTowerBuilding.pdf)
-
-> #### 21 July - Modified [Stack Theme](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/StackThem.pdf) using blocks
