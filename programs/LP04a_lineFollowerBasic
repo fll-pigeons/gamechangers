@@ -36,7 +36,13 @@ ev3.screen.clear()
 while True:
     ev3.screen.print( str(line_sensor.reflection()) )
 
-    if line_sensor.reflection()  > 75: # white
-        robot.drive(speed=100, turn_rate=35)
-    else: # black
-        robot.drive(speed=100, turn_rate=-35)
+    if line_sensor.reflection()  > 80: # white
+        robot.drive(speed=75, turn_rate=-40)
+    
+    else: 
+        if line_sensor.reflection()  < 15: # black
+            robot.drive(speed=75, turn_rate=40)
+        else: #straight
+            robot.drive(speed=75, turn_rate=0)
+            
+            
