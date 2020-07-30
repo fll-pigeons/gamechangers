@@ -1,5 +1,9 @@
 # Developer Notes
 
+
+### Other software
+* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
+
 ### papers
 * [Simulating Lego Mindstorms EV3 robots using Unity and Python](https://www.cs.ru.nl/bachelors-theses/2018/Leo_Cornelissen___4606566___Simulating_Lego_Mindstorms_EV3_robits_using_Unity_and_Python.pdf)
 
