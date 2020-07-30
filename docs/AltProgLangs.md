@@ -143,9 +143,5 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   * If want to run RobotC on a physical EV3, need to pay for an additional RobotC license ($49USD/seat/year; $149USD/6seats/year)!
   * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) 
 
-# Other software
-* [Lego Digital Designer](https://www.lego.com/en-us/ldd)
-
-
 # [Developer Notes](/docs/developerNotes.md)
 
