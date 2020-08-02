@@ -166,7 +166,7 @@ A. Navigation
 --------
 
 # Log
-> #### 30 July - 3-level line following; intro to PID line following
+> #### 30 July - 3-level line following; intro to PID line following; did not work as expected - forgot to update DriveBase parms with new larger wheels 
 > #### 28 July - Finish second robot; Basic 2-level line following
 > #### 23 July - Review micropython gyro code; continue build of 2d robot
 > #### 21 July - Build 2nd robot; review Micropython Navigation
