@@ -11,7 +11,7 @@
 * [Strategy Sheet](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
-* [Game Guide](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-game-guide-pdf.pdf)
+* [RePLAY Rule Book](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
 
 ### Mission Examples
 
