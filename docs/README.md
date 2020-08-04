@@ -12,7 +12,7 @@ The [Pigeons](https://fll-pigeons.github.io/gamechangers/) community team (team 
 * [2019 Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
-### A. [Robot Game](robotgame.md) (Number of Missions: 14 in 2019)
+### A. [Robot Game](robotgame.md) (14 Missions)
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
