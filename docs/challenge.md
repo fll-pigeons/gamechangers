@@ -11,7 +11,7 @@
 
 * [RePlay Challenge Overview](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-challenge.pdf)
 * [Robot Game Rulebook](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
-* [Challenge Updates](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-challenge-updates.pdf)
+* [Challenge Updates](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/replay-challenge-updates.pdf)
 * [RePLAY Judging Rubrics](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Rubrics.pdf)
 * [Team Event Guide - 2019](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
 
