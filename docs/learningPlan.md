@@ -166,6 +166,7 @@ A. Navigation
 --------
 
 # Log
+> #### 4 Aug - watched kickoff; read mission rules; started mission M14_health_units 
 > #### 30 July - 3-level line following; intro to PID line following; did not work as expected - forgot to update DriveBase parms with new larger wheels 
 > #### 28 July - Finish second robot; Basic 2-level line following
 > #### 23 July - Review micropython gyro code; continue build of 2d robot
