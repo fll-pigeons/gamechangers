@@ -2,16 +2,16 @@
 
 ## Schedule
 
-* [Team Schedule](FLLSchedule2019_Team49360.pdf)
-* [General Schedule](FLLSchedule2019_General_Schedule.pdf)
-* [Judges Schedule](FLLSchedule2019_JudgingSchedule.pdf)
-* [Match Schedule](FLLSchedule2019_MatchSchedule.pdf)
+* [Team Schedule - 2019](FLLSchedule2019_Team49360.pdf)
+* [General Schedule - 2019](FLLSchedule2019_General_Schedule.pdf)
+* [Judges Schedule - 2019](FLLSchedule2019_JudgingSchedule.pdf)
+* [Match Schedule] - 2019(FLLSchedule2019_MatchSchedule.pdf)
 
 ## [Resource Library](https://www.firstinspires.org/resource-library/fll/challenge-and-resources)
 
-* [Challenge](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-challenge.pdf)
-* [Game Guide](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-game-guide-pdf.pdf)
+* [RePlay Challenge Overview](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-challenge.pdf)
+* [Robot Game Rulebook](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
 * [Challenge Updates](https://firstinspiresst01.blob.core.windows.net/fll/2020/city-shaper-challenge-updates.pdf)
-* [Judging Rubrics](https://firstinspiresst01.blob.core.windows.net/fll/2020/first-lego-league-rubrics.pdf)
-* [Team Event Guide](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
+* [RePLay Judging Rubrics](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Rubrics.pdf)
+* [Team Event Guide - 2019](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
 
