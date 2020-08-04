@@ -5,10 +5,10 @@
 
 # 1. Missions
 
-* [2020 Game Changers Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
+* [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
 
-* [Points Calculator](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
-* [Strategy Sheet](CityShaperStrategySheet.pdf)
+* [Points Calculator - 2019](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
+* [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
 * [RePLAY Rule Book](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
@@ -16,11 +16,11 @@
 ### Mission Examples
 
 #### Individual:
-* [ALL 2019 City Shaper Missions Completed](https://www.youtube.com/watch?v=w9s9jzWJa7M)
+* [All Missions Completed - 2019](https://www.youtube.com/watch?v=w9s9jzWJa7M)
 
 #### Combos:
-* [3 missions](https://www.youtube.com/watch?v=gxRV948MMsE)
-* [5 missions](https://www.youtube.com/watch?v=dAlKqZBOkeo)
+* [3 missions - 2019](https://www.youtube.com/watch?v=gxRV948MMsE)
+* [5 missions - 2019](https://www.youtube.com/watch?v=dAlKqZBOkeo)
 
 <br/>
 
