@@ -15,3 +15,4 @@
 * [RePLAY Judging Rubrics](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Rubrics.pdf)
 * [Team Event Guide - 2019](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
 
+* [RePLAY Build Instructions](https://www.firstlegoleague.org/season#resources)
