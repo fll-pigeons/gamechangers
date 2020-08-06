@@ -44,9 +44,9 @@
   * [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
   * [PyBrick's MicroPython Documentation - pdf](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
 
-* [EV3 MicroPython Cheat Sheet](micropython.md)
+* [Lego EV3 MicroPython Cheat Sheet](micropython.md)
 
-* [EV3 Programming Language research](AltProgLangs.md)
+* [Lego EV3 Programming Language research](AltProgLangs.md)
 
 <br/>
 
