@@ -16,4 +16,4 @@
 
 ### Build
 * [RePLAY Build Instructions](https://www.firstlegoleague.org/season#resources)
-  (click plus sign on First Lego League Challenge (the *red* block); then look for 'Mission Model Build Instructions' tab and click plus to see list of PDFs)
+  (click First Lego League Challenge block (*red*); then look for 'Mission Model Build Instructions' tab and click plus to see list of PDFs)
