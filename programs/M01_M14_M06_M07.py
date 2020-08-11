@@ -1,5 +1,8 @@
 #!/usr/bin/env pybricks-micropython
-
+# M01_Equipment Inspection
+# M14_Health Units
+# M06 Pull-up bar
+# M07 Robot Dance
 """
 Example LEGO® MINDSTORMS® EV3 Robot Educator Driving Base Program
 -----------------------------------------------------------------
