@@ -1,5 +1,10 @@
 # Hardware - EV3 Brick
 
+
+
+# Update
+* giving up on bluetooth - wasted too much time reconnecting the ev3 brick, even with new batteries.  Likely because we are using an older laptop (HP Elitebook 8460p)/  Purchased a WIFI dongle (Edimax N150) - works like a charm.  Will monitor battery usage - read some posts stating that it uses way more battery than Bluetooth...
+
 ## Bluetooth - Win10 -> Ev3
 
 ### 2 steps to set up Bluetooth for EV3
