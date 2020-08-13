@@ -21,7 +21,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 
 [Western Judging Process - 2019](CoachesDayPresentation2019_judging.pdf)
 
-[Consolidated judging](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
+[Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
 
 #### 1. [Core Values](coreValues.md)
 * [Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)
