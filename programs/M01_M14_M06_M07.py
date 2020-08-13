@@ -1,8 +1,5 @@
 #!/usr/bin/env pybricks-micropython
-# M01_Equipment Inspection
-# M14_Health Units
-# M06 Pull-up bar
-# M07 Robot Dance
+
 """
 Example LEGO® MINDSTORMS® EV3 Robot Educator Driving Base Program
 -----------------------------------------------------------------
@@ -28,23 +25,24 @@ right_motor = Motor(Port.C)
 lift_motor = Motor(Port.A)
 
 # Initialize the drive base.
-robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=60)
+robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=110)
 
-robot.settings (620, 620, 620, 620)
+robot.settings (300, 620, 620, 300)
 ev3.screen.draw_text(50, 60, "Pigeons!")
 ev3.speaker.beep()
 
 
 robot.straight(669)
 robot.straight(-270)
-robot.turn (70)
-robot.straight(250)
-robot.turn (-70)
+robot.turn (30)
+robot.straight(200)
+robot.turn (-30)
 robot.straight(400)
-robot.turn(-170)
-robot.straight(550)
-robot.turn(-100)
+robot.turn(-90)
+robot.straight(400)
+robot.turn(-30)
 robot.straight(300)
+
 robot.straight(50)
 robot.straight(-50)
 robot.straight(50)
@@ -57,3 +55,7 @@ robot.straight(50)
 robot.straight(-50)
 robot.straight(50)
 robot.straight(-50)
+robot.straight(50)
+robot.straight(-50)
+
+
