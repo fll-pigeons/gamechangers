@@ -22,7 +22,7 @@
         wait(1000) # wait one second
         stop() # not required if program ends after wait command
       ```
------
+
      * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
       ```
          reset() # reset distance and angle
