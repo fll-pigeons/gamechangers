@@ -60,30 +60,31 @@
 
 * More accurate
   * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-    * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic)
+    * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic):
     
     ```
-    line_sensor = ColorSensor(Port.S1)    
-    
-    while True:
-       if line_sensor.reflection()  > 80: # white
-           robot.drive(speed=75, turn_rate=-40)
-       else: 
-           if line_sensor.reflection()  < 15: # black
-               robot.drive(speed=75, turn_rate=40)
-           else: #straight
-               robot.drive(speed=75, turn_rate=0)
+        line_sensor = ColorSensor(Port.S1)    
+
+        while True:
+           if line_sensor.reflection()  > 80: # white
+               robot.drive(speed=75, turn_rate=-40)
+           else: 
+               if line_sensor.reflection()  < 15: # black
+                   robot.drive(speed=75, turn_rate=40)
+               else: #straight
+                   robot.drive(speed=75, turn_rate=0)
     ```
-    
+     * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+     
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
   
     ```
-      gyro = GyroSensor(Port.S3)
-      
-      gyro.reset_angle(0)
-      while abs(gyro.angle()) < 66:
-        robot.drive(200 ,150)
+        gyro = GyroSensor(Port.S3)
+
+        gyro.reset_angle(0)
+        while abs(gyro.angle()) < 66:
+          robot.drive(200 ,150)
     ```
   
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - reset gyro angle before using it as a test in a loop
