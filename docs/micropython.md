@@ -7,10 +7,8 @@
  
 ## Motors:
 
-### Driving the Robot (Dual Motor Control)
-* ([DriveBase class](https://pybricks.github.io/ev3-micropython/robotics.html))
-
-* Driving straight then stop
+### Driving the Robot (Dual Motor Control) ([DriveBase class](https://pybricks.github.io/ev3-micropython/robotics.html))
+* Drive straight then stop
   * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings) (modifies next straight() command)
   * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight) (blocking - waits for command to complete before going to next command)
   * Turn in place, then stop   
@@ -30,22 +28,21 @@
     
 ----- 
 
-# Single Motor/Attachment motor control 
-* ([Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors))
-
+# Single Motor/Attachment motor control ([Motor class](https://pybricks.github.io/ev3-micropython/ev3devices.html#motors))
 * control motors with built-in rotation sensors
-  * Action
-    * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
-      * Runs the motor at a constant speed, no stopping
-    * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
-      * moves the wheels X degrees relative to their current angle.
-    * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target) 
-      * moves the wheels X degrees until they reach an absolute angle you specify.       
-  * Stopping
-      * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop) - glide to a stop
-      * [brake()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.brake) - motor friction stop
-      * [hold()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.hold) - stop motor rotation and actively hold
-  * [reset_angle()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - Value to which the angle should be reset
+* Action
+  * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
+    * Runs the motor at a constant speed, no stopping
+  * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
+    * moves the wheels X degrees relative to their current angle.
+  * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target) 
+    * moves the wheels X degrees until they reach an absolute angle you specify.       
+
+* Stopping
+  * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop) - glide to a stop
+  * [brake()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.brake) - motor friction stop
+   * [hold()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.hold) - stop motor rotation and actively hold
+* [reset_angle()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - Value to which the angle should be reset
 
 ----- 
 
