@@ -16,14 +16,12 @@
     
 * Drive forever (until a stop() or another drive() command, or until program ends)
   * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)  (non-blocking - goes to next command without waiting for this one to complete)
-    * drive then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait) (from [Tools Module](https://pybricks.github.io/ev3-micropython/tools.html))
-    * call drive many times within [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
-      * while loop can call drive() command repeatedly with same parameters, or modify parameters based on sensors.
-      * loop can be conditional on:
-        * [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance)
-        * [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle)    
-        * any other sensor (e.g gyro or light sensor)
-      * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
+  * How to call drive:
+    * drive then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait)
+    * call drive many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
+      * while ([distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance < n or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle) < 90):
+        drive()
+  * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
     * [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     
 ----- 
