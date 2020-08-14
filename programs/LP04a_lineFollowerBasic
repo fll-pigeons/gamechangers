@@ -30,8 +30,7 @@ line_sensor = ColorSensor(Port.S1)
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 
 # your modifications start here:
-# white = 75
-# black = 10
+
 ev3.screen.clear()
 while True:
     ev3.screen.print( str(line_sensor.reflection()) )
