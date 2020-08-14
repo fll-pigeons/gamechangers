@@ -62,7 +62,7 @@
   * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
     * 3-level line follower using color sensor
     
-    '''
+    ```
     line_sensor = ColorSensor(Port.S1)    
     
     while True:
@@ -73,18 +73,18 @@
                robot.drive(speed=75, turn_rate=40)
            else: #straight
                robot.drive(speed=75, turn_rate=0)
-    '''
+    ```
     
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     * How to turn using gyro.angle:
   
-  '''
+    ```
       gyro = GyroSensor(Port.S3)
       
       gyro.reset_angle(0)
       while abs(gyro.angle()) < 66:
         robot.drive(200 ,150)
-  '''
+    ```
   
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - reset gyro angle before using it as a test in a loop
     * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
