@@ -18,16 +18,17 @@
   * How to call drive:
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
       ```
-        drive(300,0)
+        drive(300,0) # drive for 30cm, in straight line
         wait(1000) # wait one second
         stop() # not required if program ends after wait command
       ```
 -----
      * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
       ```
-         reset()
+         reset() # reset distance and angle
+         # keep driving until either robot has travelled 100cm or covered a 45degree angle
          while (distance() < 1000 or angle() < 45):
-            drive(300,15)
+            drive(300,30) # drive for 30cm, while turning left at 20 degree angle
       ```
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - remember reset distance and angle before testing in while loop  
 
@@ -47,8 +48,7 @@
 * Stopping
   * [stop()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop) - glide to a stop
   * [brake()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.brake) - motor friction stop
-   * [hold()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.hold) - stop motor rotation and actively hold
-* [reset_angle()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - Value to which the angle should be reset
+  * [hold()](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.hold) - stop motor rotation and actively hold
 
 ----- 
 
