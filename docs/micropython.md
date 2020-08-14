@@ -60,7 +60,7 @@
 
 * More accurate
   * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-    * 3-level line follower using color sensor
+    * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic)
     
     ```
     line_sensor = ColorSensor(Port.S1)    
@@ -76,7 +76,7 @@
     ```
     
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-    * How to turn using gyro.angle:
+    * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
   
     ```
       gyro = GyroSensor(Port.S3)
