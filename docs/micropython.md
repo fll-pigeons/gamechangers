@@ -18,7 +18,7 @@
   * How to call drive:
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     ```  
-        drive(300,0) # drive for 30cm, in straight line
+        drive(300, 0) # drive for 30cm, in straight line (because turn_rate=0)
         wait(1000) # wait one second
         stop() # not required if program ends after wait command 
     ```
@@ -27,7 +27,7 @@
          reset()
          # keep driving until either robot has travelled 100cm or covered a 45degree angle
          while (distance() < 1000 or angle() < 45):
-            drive(300,30) # drive for 30cm, while turning left at 20 degree angle 
+            drive(300,30) # drive for 30cm, while turning left at 30degree angle 
       ```
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
 
