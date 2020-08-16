@@ -6,14 +6,16 @@
 
 # 2. Judging Session:
 
-Your team will spend fifteen (15) minutes with the judges. During the first five (5) minutes, your team will be
-given a surprise teamwork activity to complete in front of the judges. The judges will be looking for evidence of
+Your team will spend ten (10) minutes with the judges. In past years, during the first five (5) minutes, teams were given a surprise teamwork activity to complete in front of the judges. The judges will be looking for evidence of
 your team dynamics: How well does your team communicate? Do they respect each other? Do they
 incorporate each other’s ideas into the solution? Does your team have leaders? Do they incorporate elements
 of Gracious Professionalism ® in the way they communicate with each other? Are they able to solve the problem
 and complete the task?
-The final ten (10) minutes are reserved for the judges to ask the team questions about the activity and/or the
+
+The final five (5) minutes were reserved for the judges to ask the team questions about the activity and/or the
 season.
+
+Not sure how this will look in 2020, with consolidated judging.
 
 ### [Judging Rubrics](rubricsValues.pdf)
 
