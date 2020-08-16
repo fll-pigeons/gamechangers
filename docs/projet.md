@@ -1,26 +1,39 @@
-# Research Project 
+# Innovation Project 
 
-# 1. Description (2019 City Shaper project)
-Architects design and construct buildings. They combine science and art to make buildings and structures for their clients.
-Sometimes they make new buildings and sometimes they redesign old ones.
-They work as part of a larger team, just like yours. Structural, civil and environmental engineers make sure a project suits its
-site. Construction workers like electricians, plumbers and carpenters, and project managers make sure the job
-stays on time and within budget. Every role is important to get the job done.
-Our cities and towns face big issues, like transportation, accessibility and even natural disasters. How can we
-shape a better future for everyone? It will take teamwork and imagination. Are you ready to build a better tomorrow
-together?
+# 1. Description (2020 RePlay project)
 
-For the Innovation Project, your team will:
 
-* Identify a problem with a building or public space in your community.
-* Design a solution.
-* Share your solution with others and then refine it.
+## Challenge Story:
+
+All around us, there are opportunities to play and be active — from open parks to cement courts, in our classrooms, and even when we’re waiting in line. But more and more people are not active enough.
+
+How and where can we help people be more active?
+* How
+  * Reward them!
+  * Get them motivated
+  * ...
+
+* Where
+  * The Park Bench
+  * on the bus
+  * ...
+
+So how are we going to solve these challenges?
+* ask people we know!
+
+
+## For the Innovation Project, your team will:
+
+* Identify a problem to solve.
+* Design a solution to the problem for your community.
+* Share your ideas, learn from others, and improve your solution.
+* Pitch your solution at an event.
 
 
 # 2. Judging Session:
 
-Your team will spend fifteen (15) minutes with the judges. Your team will have five (5) minutes to deliver your
-Project presentation to the judges – this includes set-up time; the last ten (10) minutes are reserved for the
+Your team will spend ten (10) minutes with the judges. Your team will have five (5) minutes to deliver your
+Project presentation to the judges – this includes set-up time; the last ten (5) minutes are reserved for the
 judges to ask questions. This presentation should be rehearsed and polished. The judges will wait until your
 presentation is over to ask questions. Please stick to the five (5) minute time limit! Props and costumes are
 permitted, and judges will look for creativity in the presentation style.
