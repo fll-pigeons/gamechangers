@@ -33,13 +33,15 @@ So how are we going to solve these challenges?
 # 2. Judging Session:
 
 Your team will spend ten (10) minutes with the judges. Your team will have five (5) minutes to deliver your
-Project presentation to the judges – this includes set-up time; the last ten (5) minutes are reserved for the
+Project presentation to the judges; the last ten (5) minutes are reserved for the
 judges to ask questions. This presentation should be rehearsed and polished. The judges will wait until your
 presentation is over to ask questions. Please stick to the five (5) minute time limit! Props and costumes are
 permitted, and judges will look for creativity in the presentation style.
+
 Remember, to be eligible for a FIRST LEGO League Project award, your team needed to identify a problem
 relating to the theme, design an innovative solution to the problem you selected, and share your problem and
 solution with others.
+
 For questions about the Project, visit the Judging FAQ on the FIRST LEGO League website.
 
 ### [Judging Rubrics](rubricsProject.pdf)
