@@ -1,3 +1,10 @@
+# Team Info
+
+#### [Roles](roles.md)
+
+#### [Budget](budget.md)
+
+
 # Tutorials
 * [FLL Tutorials](http://flltutorials.com) (Robot resources, Project, Core Values)
     * [Beginners Guide](http://flltutorials.com/translations/en-us/Worksheets/BeginnersGuide.pdf)
