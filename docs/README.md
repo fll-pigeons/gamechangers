@@ -22,21 +22,21 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 [Western Judging Process - 2019](CoachesDayPresentation2019_judging.pdf)
 
 [Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
-#### 1. Team Welcome
+#### Team Welcome
 * Introductory conversation as team sets up any materials they have brought (2min)
 
-#### 2. [Innovation Project](projet.md)
+#### 1. [Innovation Project](projet.md)
 * Presentation (5 min)
 * Question and Answer (5 min)
 * Research Project Poster
 
-#### 3. [Robot Design](robotDesign.md)
+#### 2. [Robot Design](robotDesign.md)
 * Explanation (5 min) (do we have access to a practice table with Challenge set?)
 * Question and Answer (5 min) 
 * [Robot Design Executive Summary (RDES)](IO_RDES.pdf)
 * Can we use diagrams showing the robot programs
 
-#### 4. [Core Values](coreValues.md)
+#### 3. [Core Values](coreValues.md)
 * ~~[Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)~~
 * Reflection (3 min)
 * Feedback (5 min)
