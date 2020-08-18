@@ -40,7 +40,7 @@ robot.turn (-30)
 robot.straight(400)
 robot.turn(-90)
 robot.straight(450)
-robot.turn(-60)
+robot.turn(-50)
 robot.straight(400)
 
 robot.straight(50)
