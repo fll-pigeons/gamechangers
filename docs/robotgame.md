@@ -68,4 +68,11 @@
 * [LEGORobotics Mr. Hino - YouTube](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ)
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
 
+--------
 
+# Log
+> #### 18 Aug - started mission M02_step_counter
+> #### 13 Aug - working on combined M01_M14_M06_M07 missions; lots of problems with BlueTooth
+> #### 11 Aug - working on combined M01_innovation_project, M14_health_units, M06_pull_up_bar, M07_tobot_dance
+> #### 6 Aug - continued on mission M14_health_units and combined with M06_pull_up_bar
+> #### 4 Aug - watched kickoff; read mission rules; started mission M14_health_units 
