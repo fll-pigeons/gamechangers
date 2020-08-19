@@ -6,8 +6,9 @@
 # 1. Missions
 
 * [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
-* [RePLAY Strategey Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
-* [FLLTutorials - Strategy Planner](https://docs.google.com/presentation/d/1PnNn2YYXbGBRo8o1VmTJxActQOz501SqhTqJsjvCo5c/edit#slide=id.p10)
+* FLLTutorial resources
+  * [RePLAY Strategey Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
+  * [FLLTutorials - Wroksheets](https://docs.google.com/presentation/d/1PnNn2YYXbGBRo8o1VmTJxActQOz501SqhTqJsjvCo5c/edit#slide=id.p10)
 
 * Last Year
   * [Points Calculator - 2019](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
