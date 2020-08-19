@@ -6,10 +6,12 @@
 # 1. Missions
 
 * [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
-
-* [Points Calculator - 2019](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
 * [RePLAY Strategey Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
-* [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
+* [FLLTutorials - Strategy Planner](https://docs.google.com/presentation/d/1PnNn2YYXbGBRo8o1VmTJxActQOz501SqhTqJsjvCo5c/edit#slide=id.p10)
+
+* Last Year
+  * [Points Calculator - 2019](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
+  * [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
 * [RePLAY Rule Book](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
