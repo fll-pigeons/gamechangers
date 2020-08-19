@@ -8,6 +8,7 @@
 * [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
 
 * [Points Calculator - 2019](http://komurobo.com/projets/fll/city-shaper/) - can display video of each individual mission
+* [RePLAY Strategey Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
 * [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
 
 ### Robot game rules
