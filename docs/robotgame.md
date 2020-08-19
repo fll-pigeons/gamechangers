@@ -7,7 +7,7 @@
 
 * [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
 * FLLTutorial resources
-  * [RePLAY Strategey Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
+  * [RePLAY Strategy Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
   * [FLLTutorials - Worksheets](https://docs.google.com/presentation/d/1PnNn2YYXbGBRo8o1VmTJxActQOz501SqhTqJsjvCo5c/edit#slide=id.p10)
 
 * Last Year
