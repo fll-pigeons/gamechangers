@@ -1,12 +1,5 @@
 # First Lego League Links
 
-## Schedule
-
-* [Team Schedule - 2019](FLLSchedule2019_Team49360.pdf)
-* [General Schedule - 2019](FLLSchedule2019_General_Schedule.pdf)
-* [Judges Schedule - 2019](FLLSchedule2019_JudgingSchedule.pdf)
-* [Match Schedule - 2019](FLLSchedule2019_MatchSchedule.pdf)
-
 ## [Resource Library](https://www.firstinspires.org/resource-library/fll/challenge-and-resources)
 * [RePLAY Challenge Overview](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/replay-challenge-overview-letter.pdf)
 * [RePLAY Robot Game Rulebook](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
