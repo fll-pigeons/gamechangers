@@ -2,10 +2,9 @@
 
 ![image](pigeon-logo.png)
 
-The [Pigeons](https://fll-pigeons.github.io/gamechangers/) community team (team #50697), based in London, Ontario, ~~was plaaning to participate at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November or early December, 2020.~~
-~~[2019 Competition Schedule (TBD)](FLLSchedule2019_General_Schedule.pdf)~~
+The [Pigeons](https://fll-pigeons.github.io/gamechangers/) community team (team #50697), based in London, Ontario, ~~was plaaning to participate at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November, 2020.~~
 
-Will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
+The Pigeons will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
   * November 30 – December 5
     *FIRST LEGO League Challenge Remote Practice events
 
