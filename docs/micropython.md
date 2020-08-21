@@ -8,12 +8,12 @@
 ## Motors:
 
 ### Driving the Robot - Dual Motor Control ([DriveBase class](https://pybricks.github.io/ev3-micropython/robotics.html))
-* Drive straight, or turn in place, then stop
+* Drive straight or turn in place - then stop
   * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings) (modifies next straight() command)
   * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight)
   * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) in place, then stop   
     
-* Drive straight, or turn, forever (until a stop() or another drive() command, or until program ends)
+* Drive straight or turn - forever (until a stop() or another drive() command, or until program ends)
   * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)
   * How to call drive:
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
@@ -26,7 +26,7 @@
       ```
          reset()
          # keep driving until either robot has travelled 100cm or covered a 45degree angle
-         while (distance() < 1000 or angle() < 45):
+         while (robot.distance() < 1000 or robot.angle() < 45):
             robot.drive(300,30) # drive for 30cm, while turning left at 30degree angle 
       ```
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
