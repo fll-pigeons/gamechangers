@@ -13,7 +13,6 @@ They will be participating in the [following events](https://www.firstroboticsca
 [Challenge Resources](challenge.md)
 
 ### Day of Competition
-* [2019 Team Schedule (TBD)](FLLSchedule2019_Team49360.pdf)
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
 
 ### A. [Robot Game](robotgame.md) (14 Missions)
