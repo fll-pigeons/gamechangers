@@ -6,14 +6,9 @@ The [Pigeons](https://fll-pigeons.github.io/gamechangers/) is a small community 
 
 They will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
 
-  * November 30 – December 5
-    * FIRST LEGO League Challenge Remote Practice events
-
-  * December 12
-    * FIRST LEGO League Explore Festival
-
-  * January 23 – February 13
-    *  FIRST LEGO League Challenge Remote Qualifying Events
+  * November 30 – December 5:  FIRST LEGO League Challenge Remote Practice events
+  * December 12: FIRST LEGO League Explore Festival
+  * January 23 – February 13: FIRST LEGO League Challenge Remote Qualifying Events
 
 [Challenge Resources](challenge.md)
 
