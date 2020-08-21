@@ -69,9 +69,10 @@
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
 
 --------
-
 # Log
-> #### 18 Aug - started mission M02_step_counter
+
+> #### 20 Aug - experimented with using robot.drive() and wait() on mission M02_step_counter; team discovered that this approach not the best because if you change the speed of the robot, need to also change the running time - good learning experience.  Reverted to using odometryPerfo in robot.straight() for distance calculations.  Did run through of M02 mission and combined M01_M14_M06_M07 missions.
+> #### 18 Aug - started mission M02_step_counter; wifi works like a dream.
 > #### 13 Aug - working on combined M01_M14_M06_M07 missions; lots of problems with BlueTooth
 > #### 11 Aug - working on combined M01_innovation_project, M14_health_units, M06_pull_up_bar, M07_tobot_dance
 > #### 6 Aug - continued on mission M14_health_units and combined with M06_pull_up_bar
