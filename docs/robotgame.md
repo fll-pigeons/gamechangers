@@ -71,7 +71,7 @@
 --------
 # Log
 
-> #### 26 Aug - working on combined M01 & M14.
+> #### 26 Aug - working on combined M01 Innovation Project & M14 Health Units
 clarified with First that, for mission M01, we can attach the 3 'home' health units to our innovation project and have the robot move this as one object to the RePLAY logo, and have this also count for 3 M14 Health Unit points.  
 Their response: "Great idea, and since the Units do not require that they not touch equipment and since the innovation project does not require it to be standalone, this combination would work and earn points for both missions at the same time."
 > #### 20 Aug - experimented with using robot.drive() and wait() on mission M02_step_counter; 
