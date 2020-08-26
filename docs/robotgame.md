@@ -71,7 +71,11 @@
 --------
 # Log
 
-> #### 20 Aug - experimented with using robot.drive() and wait() on mission M02_step_counter; team discovered that this approach not the best because if you change the speed of the robot, need to also change the running time - good learning experience.  Reverted to using odometryPerfo in robot.straight() for distance calculations.  Did run through of M02 mission and combined M01_M14_M06_M07 missions.
+> #### 26 Aug - working on combined M01 & M14.
+clarified with First that, for mission M01, we can attach the 3 'home' health units to our innovation project and have the robot move this as one object to the RePLAY logo, and have this also count for 3 M14 Health Unit points.  
+Their response: "Great idea, and since the Units do not require that they not touch equipment and since the innovation project does not require it to be standalone, this combination would work and earn points for both missions at the same time."
+> #### 20 Aug - experimented with using robot.drive() and wait() on mission M02_step_counter; 
+team discovered that this approach not the best because if you change the speed of the robot, need to also change the running time - good learning experience.  Reverted to using odometryPerfo in robot.straight() for distance calculations.  Did run through of M02 mission and combined M01_M14_M06_M07 missions.
 > #### 18 Aug - started mission M02_step_counter; wifi works like a dream.
 > #### 13 Aug - working on combined M01_M14_M06_M07 missions; lots of problems with BlueTooth
 > #### 11 Aug - working on combined M01_innovation_project, M14_health_units, M06_pull_up_bar, M07_tobot_dance
