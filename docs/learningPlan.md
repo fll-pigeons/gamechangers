@@ -132,6 +132,9 @@ A. Navigation
   * Calibration
   * [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
+## LP04d - combining line following and gyro
+* [Line Assisted Gyro Steering - Brickwolves Waring FLL](https://www.youtube.com/watch?v=WQH720LQAB0)
+
 ## LP05- Reliability and attachments
 * Reliability
   * [Robot Design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
@@ -148,7 +151,10 @@ A. Navigation
   * master/sequencer program?
   * [Micropython program startup lag](https://github.com/fll-pigeons/gamechangers/issues/6)
 
-## LP06- Other Sensors
+## LP06 - Robot Design
+* [Our World Record Robot (680 points!) - Brickwolves Waring FLL](https://www.youtube.com/watch?v=9DzS0jlQDBM&feature=youtu.be)
+
+## LP07- Other Sensors
 * basic sensors:
   * UltrasonicSensor
   * TouchSensor
