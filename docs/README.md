@@ -42,7 +42,7 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 * Feedback (5 min)
 * ([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) is this required?)
 
-#### Presentation Resource
+#### Presentation Resources
 * [Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
 
 * 2019
