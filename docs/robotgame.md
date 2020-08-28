@@ -72,12 +72,12 @@
 --------
 # Log
 > #### 27 Aug - First test run of 3 Mission groups
-M00 Inspection Bonus (20)
-M02_step_counter.py (15)
-M04_M08_bench_boccia.py: M08 Bocci (15); Bench (10)
-M01_M14_M06_M07.py: M01 Innovation (20); M14 Healt Units (3*5=15); M06 under pull up bar (15); M07 Robot Dance (20)
-M15 Precision (60)
-total 190 points in 2 min.
+M00 Inspection Bonus (20);
+M02_step_counter.py (15);
+M04_M08_bench_boccia.py: M08 Bocci (15); Bench (10);
+M01_M14_M06_M07.py: M01 Innovation (20), M14 Healt Units (3*5=15), M06 under pull up bar (15), M07 Robot Dance (20);
+M15 Precision (60).
+For a total *190* points in 2 min.
 > #### 25 Aug - working on combined M08 Boccia & M04 Bench
 Confirmed with First that for mission M01 Innovation Project, we can attach the 3 'home' health units to our 
 innovation project and have the robot move this as one object to the RePLAY logo, so this will also count for 
