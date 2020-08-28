@@ -21,11 +21,7 @@ We will be participating in the [following events](https://www.firstroboticscana
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
 
 ### B. Presentations:
-[Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each presentation)
 
-[Western Judging Process - 2019](CoachesDayPresentation2019_judging.pdf)
-
-[Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
 #### Team Welcome
 * Introductory conversation as team sets up any materials they have brought (2min)
 
@@ -45,6 +41,17 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 * Reflection (3 min)
 * Feedback (5 min)
 * ([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) is this required?)
+
+#### Presentation Resource
+* [Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
+
+* 2019
+
+  * [Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each presentation)
+
+  * [Western Judging Process - 2019](CoachesDayPresentation2019_judging.pdf)
+
+
 
 #### [Other Links](links.md)
 
