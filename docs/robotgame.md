@@ -4,8 +4,9 @@
 [Our MicroPython programs](https://github.com/tobedetermined123/gamechangers/tree/master/programs)
 
 # 1. Missions
-
-* [Game Changers - RePlay Teaser](https://www.youtube.com/watch?v=Azlq4bWumxI&feature=emb_logo)
+* Robot game rules
+  * [RePLAY Rule Book](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
+  * [RePLAY Challenge Updates](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/replay-challenge-updates.pdf)
 
 * FLLTutorial resources
   * [RePLAY Strategy Planner](https://flltutorials.com/Resources/2020/drawplan/index.html)
@@ -17,9 +18,6 @@
   
 * Last Year
   * [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
-
-### Robot game rules
-* [RePLAY Rule Book](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/FLL-Challenge-RGR-Final-ONA.pdf)
 
 ### Mission Examples
 
