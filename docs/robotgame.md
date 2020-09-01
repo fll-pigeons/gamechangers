@@ -79,7 +79,7 @@
 M00 Inspection Bonus (20);
 M02_step_counter.py (15);
 M04_M08_bench_boccia.py: M08 Bocci (15); Bench (10);
-M01_M14_M06_M07.py: M01 Innovation (20), M14 Healt Units (3*5=15), M06 under pull up bar (15), M07 Robot Dance (20);
+M01_M14_M06_M07.py: M01 Innovation (20), M14 Healt Units (3 x 5=15), M06 under pull up bar (15), M07 Robot Dance (20);
 M15 Precision (60).
 For a total *190* points in 2 min.
 > #### 25 Aug - working on combined M08 Boccia & M04 Bench
