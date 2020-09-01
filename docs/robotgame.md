@@ -54,7 +54,7 @@
 
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
-### Simulator
+### Simulator - EV3 Micropython Blockly Programming with Virtual Environment
 * [Gears Pybricks draft implementation](https://kendmaclean.github.io/gears_pybricks/public/)
 
 <br/>
