@@ -54,6 +54,9 @@
 
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
+### Simulator
+* [Gears Pybricks draft implementation](https://kendmaclean.github.io/gears_pybricks/public/)
+
 <br/>
 
 # 4. [Learning Plan](learningPlan.md)
