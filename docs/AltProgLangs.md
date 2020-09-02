@@ -88,9 +88,13 @@ Native C/C++ Programming for the LEGO® EV3
   * block-based programming that translates to EV3Python
 
 * [VEXcode VR](https://vr.vex.com/)
-* Block-based and Python IDE programming
-* 3D virtual environment
-* activities
+  * Block-based and Python IDE programming
+  * 3D virtual environment
+  * lots of activities and examples
+  * good option to expose student to programmatic/algorithmic thinking
+  * cons: 
+    * VEX centric robot
+    * no pybricks micropython    
 
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly)
 CoderZ is a 3D simulated robot environment using virtual robots that are similar to the EV3 robot.
