@@ -34,6 +34,8 @@
 ### Robot Design
 * [First Lego League Tutorials](http://flltutorials.com/RobotGame.html)
 * [EV3 Lessons](http://ev3lessons.com/en/RobotDesigns.html)
+* [highlandersfrc - robot design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
+
 * Lego
    * [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
      * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
