@@ -35,7 +35,7 @@
 * [First Lego League Tutorials](http://flltutorials.com/RobotGame.html)
 * [EV3 Lessons](http://ev3lessons.com/en/RobotDesigns.html)
 * [highlandersfrc - robot design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
-* [Calibrating motors](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
+  * [Calibrating motors](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
 
 * Lego
    * [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
