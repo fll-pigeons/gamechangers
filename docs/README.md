@@ -15,10 +15,11 @@ We will be participating in the [following events](https://www.firstroboticscana
 
 ### Day of Competition
 * [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
-* [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
+
 ### A. [Robot Game](robotgame.md) (14 Missions)
 
 Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
+* [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
 
 ### B. Presentations:
 
