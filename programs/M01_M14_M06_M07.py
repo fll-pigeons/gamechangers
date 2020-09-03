@@ -43,17 +43,8 @@ robot.straight(450)
 robot.turn(-50)
 robot.straight(350)
 
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
-robot.straight(50)
-robot.straight(-50)
+x=0
+while x < 7:
+    robot.straight(50)
+    robot.straight(-50)
+    x = x + 1
