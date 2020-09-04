@@ -45,8 +45,8 @@ cancel out time
 or
 
   * turn_rate
-    * Δθ = 360v / r * 2 pi
-    * **Δθ = 180 * v / r * pi**    
+    * Δθ = 360v / (r * 2 pi)
+    * **Δθ = 180 * v / (r * pi)**    
 
 So you can make a function that takes as input 2 of either speed, radius, degrees/second and spits out the other one.
 
