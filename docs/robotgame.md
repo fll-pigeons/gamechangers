@@ -57,7 +57,7 @@
 
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
-### Robot Virutal Environment Simulator
+### Robot Virtual Environment Simulator
 * Free to use, closed source
   * [VEXcode VR](https://vr.vex.com/) - free to use (closed source)
     * lots of Educational videos and tutorials
