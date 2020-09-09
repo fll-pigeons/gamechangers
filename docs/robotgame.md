@@ -57,10 +57,22 @@
 
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
-### Simulator
-* [VEXcode VR](https://vr.vex.com/) - free
-* EV3 Micropython Blockly Programming with 3D Virtual Environment
-  * [Gears Pybricks draft implementation](https://kendmaclean.github.io/gears_pybricks/public/) (work in progress)
+### Robot Virutal Environment Simulator
+* Free, closed source
+  * [VEXcode VR](https://vr.vex.com/) - free to use (closed source)
+    * lots of Educational videos and tutorials
+    * Block Language can be used to teach programming/algorithms
+    * disadvantages
+      * not a Lego robot
+      * not EV3 Micropython
+
+* Free, open source
+  * [Generic Educational Autonomous Robotics Simulator](https://gears.aposteriori.com.sg/)
+    * EV3DEV2 Python (not Lego EV3 MicroPython)
+    * FLL Challenge RePLAY mat (no mission models)
+    * disadvantages
+      * not EV3 Micropython    
+  * [Gears]((https://gears.aposteriori.com.sg/)) fork to support Lego EV3 Micropython: [Gears Pybricks](https://kendmaclean.github.io/gears_pybricks/public/) (work in progress)
 
 <br/>
 
