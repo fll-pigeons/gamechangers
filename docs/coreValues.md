@@ -47,6 +47,8 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
 
 # Log
 
+> #### 3 Sept - [Cup Stacking](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/StackThem.pdf) - to welcome nes team member
+
 > #### 30 July - [Book Shelf](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/BookShelf.pdf)
 
 > #### 21 July - Modified [Stack Theme](http://archive.ev3lessons.com/web/ev3lessons-v4.9.0/translations/en-us/CoreValues/StackThem.pdf) using blocks
