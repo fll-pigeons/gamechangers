@@ -32,11 +32,12 @@ ev3.screen.draw_text(50, 60, "Pigeons!")
 ev3.speaker.beep()
 
 
-robot.straight(800)
+robot.straight(750)
 robot.stop()
 robot.settings (-25, 50, -310, -150)
-robot.straight(150)
+robot.straight(100)
+robot.straight(-20)
+robot.stop()
 robot.settings (-300, -300, -310, -150)
 robot.straight(-850)
 robot.stop()
-
