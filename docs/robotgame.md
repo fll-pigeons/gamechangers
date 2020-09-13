@@ -21,12 +21,9 @@
 
 ### Mission Examples
 
-#### Individual:
-* [All Missions Completed - 2019](https://www.youtube.com/watch?v=w9s9jzWJa7M)
-
-#### Combos:
-* [3 missions - 2019](https://www.youtube.com/watch?v=gxRV948MMsE)
-* [5 missions - 2019](https://www.youtube.com/watch?v=dAlKqZBOkeo)
+* Wordynerd48
+  * [215 points](https://www.youtube.com/watch?v=2juRHtQFIrA)
+  * [510 points](https://www.youtube.com/watch?v=BmS7GUrksZs)
 
 <br/>
 
