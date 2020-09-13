@@ -33,6 +33,7 @@
 * [EV3 Lessons](http://ev3lessons.com/en/RobotDesigns.html)
 * [highlandersfrc - robot design](http://www.highlandersfrc.com/NewsEventPages/FLL%20Programming%20and%20Design.pdf)
   * [Calibrating motors](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
+* [MOC - Super Small Box Robot by FLL Team Moscow](https://rebrickable.com/mocs/MOC-10638/DLuders/super-small-box-robot-by-fll-team-moscow/#comments)
 
 * Lego
    * [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
