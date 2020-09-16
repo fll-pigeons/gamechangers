@@ -3,7 +3,7 @@
 
 ![image](pigeon-logo.png)
 
-[Pigeons](https://fll-pigeons.github.io/gamechangers/) are a small community-based rookie team, in London, Ontario, ~~were planning to participate at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November, 2020.~~
+[Pigeons](https://fll-pigeons.github.io/gamechangers/) are a small community-based rookie team, in London, Ontario, ~~we were planning to participate at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November, 2020.~~
 
 We will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
 
