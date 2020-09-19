@@ -147,6 +147,8 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 * [TRIK Studio](https://trikset.com/en#ts) - supports EV3 ([on Github](https://github.com/trikset/trik-studio))
   * uses graphical block environment to program and downloads standard VM bytecode to EV3 (ASM like language) ([paper](https://www.researchgate.net/publication/320662310_TRIK_studio_Technical_introduction))
 
+* [Google's Blockly Games](https://blockly.games/?lang=en)
+
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
 
