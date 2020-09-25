@@ -87,6 +87,8 @@
 
 --------
 # Log
+> #### 19 & 20 Sept - moved to shorter Sat/Sun meetings; started working on box robot
+> #### 12 Sept - School started - moved to Saturday meetings; more trial and error with robot
 > #### 1 & 3 Sept - working on 3rd iteration of robot so that the wheels are more rigid and swapping attachments is easier.
 > #### 27 Aug - First test run of 3 Mission groups
 M00 Inspection Bonus (20);
