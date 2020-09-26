@@ -42,11 +42,11 @@
   * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
     * Runs the motor at a constant speed, no stopping.  If it is the only command, make sure you use a wait 
       command, otherwise the program will end for run command can execute:
-          ```
-             left_motor = Motor(Port.B)
-             lift_motorA.run(500)
-             wait(2000) # run the lift motor command for 2 seconds
-          ```
+     ```
+        left_motor = Motor(Port.B)
+        lift_motorA.run(500)
+        wait(2000) # run the lift motor command for 2 seconds
+     ```
   * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
     * moves the wheels X degrees relative to their current angle.
   * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target) 
