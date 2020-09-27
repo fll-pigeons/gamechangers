@@ -58,7 +58,7 @@
 ### Robot Virtual Environment Simulator
 * Free, open source
   * [Gears Pybricks](https://kendmaclean.github.io/gears_pybricks/public/)
-    * partial implementation of Lego EV3 Micropython (PyBricks) -  fork of [Gears]((https://gears.aposteriori.com.sg/))
+    * partial implementation of Lego EV3 Micropython (PyBricks) -  fork of [Gears](https://gears.aposteriori.com.sg/)
    
   * [Gears](https://gears.aposteriori.com.sg/) (Generic Educational Autonomous Robotics Simulator)
     * EV3DEV2 Python (not Lego EV3 MicroPython, support is planned)
