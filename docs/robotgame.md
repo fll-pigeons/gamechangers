@@ -56,18 +56,23 @@
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
 ### Robot Virtual Environment Simulator
+* Free, open source
+ * [Gears Pybricks](https://kendmaclean.github.io/gears_pybricks/public/)
+   * partial implementation of Lego EV3 Micropython (PyBricks) -  fork of [Gears]((https://gears.aposteriori.com.sg/))
+   
+ * [Gears](https://gears.aposteriori.com.sg/) (Generic Educational Autonomous Robotics Simulator)
+   * EV3DEV2 Python (not Lego EV3 MicroPython, support is planned)
+   * FLL Challenge RePLAY mat (no mission models)
+   * not EV3 Micropython 
+
 * Free to use, closed source
   * [VEXcode VR](https://vr.vex.com/) - free to use (closed source)
     * lots of Educational videos and tutorials
     * Block Language can be used to teach programming/algorithms
     * not EV3 Micropython
 
-* Free, open source
-  * [Gears](https://gears.aposteriori.com.sg/) (Generic Educational Autonomous Robotics Simulator)
-    * EV3DEV2 Python (not Lego EV3 MicroPython, support is planned)
-    * FLL Challenge RePLAY mat (no mission models)
-    * not EV3 Micropython    
-  * [Gears]((https://gears.aposteriori.com.sg/)) fork to support Lego EV3 Micropython: [Gears Pybricks](https://kendmaclean.github.io/gears_pybricks/public/) (work in progress)
+
+   
 
 <br/>
 
