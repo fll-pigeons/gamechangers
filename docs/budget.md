@@ -1,23 +1,15 @@
-# Actual
+# Costs
 * FLL registration: $363CDN ($225USD + $42USD ship and handling) = $267USD (July 13, 2020)
-* FLL challenge set: $110CDN + shipping and tax (July 17, 2020)
+* FLL challenge set: $155.94 (Aug 4, 2020)
+* Challenge table: $9  (using 2by3s cut to size) (Aug 4, 2020)
+* Tournament costs:  $25  (now only $25 for the remote qualifying events - originally at $150)
+* Bank costs = $29.70 (6months*4.95 community Bank account required by First Canada in order to obtain new team grant)
 
-
-# Cost estimates
-* ~~FLL registration: $300 ($225USD)~~
-* ~~Challenge set:  $150~~
-* Tournament costs: $150
-* Challenge Table: $100 (4' * 8' plywood with 2.5 inch borders; 2 * metal saw horses)
-* bank costs 5months*1.95 = $10 (community Bank account required by First Canada in order to obtain new team grant)
-* 12 rechargeable batteries: $30-$40
-
-Total: $750CAD
+Total: $582.64
 
 less FLL Grant: $500
 
-remainder: $250
+remainder: $82.64
 
-per parent cost: $87
+per parent cost: $41.32
 
-Other possible costs:
-* Coderz @ 6.95/month*2 months?
