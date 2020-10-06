@@ -43,6 +43,9 @@ We expect all team members, volunteers, coaches, and families to behave as Graci
 # 5. Examples
 * [Core Values Judging Rowan FLL Championship 2018](https://www.youtube.com/watch?v=RC_mukfEkes)
 
+# 6. On-line core values exercises
+* [lets-go-build-a](https://dr-d-king.itch.io/lets-go-build-a) - simple random online lego challenges
+
 --------------------
 
 # Log
