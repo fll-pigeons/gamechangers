@@ -18,7 +18,7 @@
   * How to call drive:
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     ```  
-        robot.drive(300, 0) # drive for 30cm, in straight line (because turn_rate=0)
+        robot.drive(300, 0) # drive at 300mm/sec, in straight line (because turn_rate=0)
         wait(1000) # wait one second
         robot.stop() # not required if program ends after wait command 
     ```
