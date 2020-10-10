@@ -93,7 +93,8 @@
 --------
 # Log
 > #### 10 Oct - testing new robot with old programs; No meeting on Oct 11 - Thanksgiving
-Not enough to just change axle sizes, need to reprogram.  Drivebase class makes it seem like you only need to change axle sizes it you build new robot without changing you programs, not the case for us.  Change of direction of motors and changing settings speed and acceleration parameters to negative numbers should  be the only required change... maybe we are issing something.
+- Not enough to just change axle sizes, need to reprogram.  Drivebase class makes it seem like you only need to change axle sizes it you build new robot without changing you programs, not the case for us.  Change of direction of motors and changing settings speed parameters to negative numbers should  be the only required change... maybe we are missing something.
+- Confirmed with First re:strategy of attaching the health units to our innovation project - no equipment rule only applies to pull-up bar, so our strategy OK as long as health unit 'touching'  RePLAY logo - i.e. on bottom of our innovation project 
 > #### 3 & 4 Oct - working on forklift attachment
 > #### 26 & 27 Sept - working on box robot
 > #### 19 & 20 Sept - moved to shorter Sat/Sun meetings; started working on box robot
