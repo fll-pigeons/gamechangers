@@ -95,12 +95,13 @@
   
     ```
         gyro_sensor = GyroSensor(Port.S3)
-
-        gyro_sensor.reset_angle(0)
-        while robot.distance() < 1000:
+        
+        robot.reset() # reset robot.distance counter
+        gyro_sensor.reset_angle(0) # reset angle to zero
+        while robot.distance() < 1000: # robot to travell 1000mm
           angle_correction = -1 * gyro_sensor.angle() # calculate angle to turn robot in opposite direction of robot deviation from zero angle
-          robot.drive(drive_speed=200, turn_rate=angle_correction)
-        robot.stop()                
+          robot.drive(drive_speed=200, turn_rate=angle_correction) # plug in angle_correction to turn rate so robot drive opposite direction of angle error
+        robot.stop() # tell robot to stop, otherwise it will continue to drive until program stops
     ```  
     
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
