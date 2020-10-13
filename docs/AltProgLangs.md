@@ -151,6 +151,8 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [Roboblockly](https://www.roboblockly.org)
 
+* [ev3dev2simulator](https://github.com/ev3dev-python-tools/ev3dev2simulator)
+
 ### Paid
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
 
