@@ -44,7 +44,7 @@
 * Action
   * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
     * Runs the motor at a constant speed, no stopping.  If it is the only command, make sure you use a wait 
-      command, otherwise the program will end for run command can execute:
+      command, otherwise the program will end before run command can execute:
       
      ```
         left_motor = Motor(Port.B)
