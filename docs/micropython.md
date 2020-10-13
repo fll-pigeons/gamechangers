@@ -91,14 +91,27 @@
      * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
      
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
+    * How to drive straight using gyro.angle:
+  
+    ```
+        gyro_sensor = GyroSensor(Port.S3)
+
+        gyro_sensor.reset_angle(0)
+        while robot.distance() < 1000:
+          angle_correction = -1 * gyro_sensor.angle() # calculate angle to turn robot in opposite direction of robot deviation from zero angle
+          robot.drive(drive_speed=200, turn_rate=angle_correction)
+        robot.stop()                
+    ```  
+    
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
   
     ```
-        gyro = GyroSensor(Port.S3)
+        gyro_sensor = GyroSensor(Port.S3)
 
-        gyro.reset_angle(0)
-        while abs(gyro.angle()) < 66:
-          robot.drive(200 ,150)
+        gyro_sensor.reset_angle(0)
+        while gyro_sensor.angle() < 45:
+          robot.drive(drive_speed=200, turn_rate=90)
+        robot.stop()          
     ```
   
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - reset gyro angle before using it as a test in a loop
