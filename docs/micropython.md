@@ -17,20 +17,23 @@
   * [drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive)
   * How to call drive:
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
+    
     ```  
         robot.drive(300, 0) # drive at 300mm/sec, in straight line (because turn_rate=0)
         wait(1000) # wait one second
         robot.stop() # not required if program ends after wait command 
-    ```
-     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
+    ```  
+
+    * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
+     
       ```
          reset()
          # keep driving until either robot has travelled 100cm or covered a 45degree angle
          while (robot.distance() < 1000 and robot.angle() < 45):
             robot.drive(300,30) # drive for 300mm/s, while turning left at 30deg/sec 
             wait(10) # wait for a short time or do something else
-    
       ```
+      
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
 
     
@@ -42,11 +45,13 @@
   * [run(speed)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run)
     * Runs the motor at a constant speed, no stopping.  If it is the only command, make sure you use a wait 
       command, otherwise the program will end for run command can execute:
+      
      ```
         left_motor = Motor(Port.B)
         lift_motorA.run(500)
         wait(2000) # run the lift motor command for 2 seconds
      ```
+     
   * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
     * moves the wheels X degrees relative to their current angle.
   * [run_target(speed, target_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target) 
@@ -82,6 +87,7 @@
                else: #straight
                    robot.drive(speed=75, turn_rate=0)
     ```
+    
      * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
      
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
