@@ -23,6 +23,7 @@
     wait(1000) # wait one second
     robot.stop() # not required if program ends after wait command 
     ```  
+    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste it under Python tab)
     
     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
@@ -35,6 +36,7 @@
           wait(10) # wait for a short time or do something else
       robot.stop()
       ```
+      
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste it under Python tab)
     
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
@@ -54,6 +56,7 @@
      wait(500) # run the lift motor command for half a second
      motorC.stop()
      ```
+     
      --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Tow Truck robot)
     
   * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
@@ -70,14 +73,8 @@
 
 ## Sensors
 
-* Basic:
-  * [classTouchSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.TouchSensor)
-  * [class UltrasonicSensor(port)](https://pybricks.github.io/ev3-micropython/nxtdevices.html#nxt-ultrasonic-sensor) (from [nxtdevices module](https://pybricks.github.io/ev3-micropython/nxtdevices.html))
-  * [classInfraredSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.InfraredSensor)
-
-* More accurate
-  * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-    * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic):
+* [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
+  * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic):
     
     ```
     line_sensor = ColorSensor(Port.S1)    
@@ -91,23 +88,40 @@
            else: #straight
                robot.drive(speed=75, turn_rate=0)
     ```
-    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot)
+    
+    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot; and select Line Following Challenges from Worlds, under the Simulator tab)
 
-     * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+  * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
      
+    ```
+    BLACK = 10
+    WHITE = 95
+    threshold = (BLACK + WHITE) / 2
+    PROPORTIONAL_GAIN = 1.5
+    while True:
+        deviation = color_sensor_in1.reflection() - threshold
+        angle_correction = PROPORTIONAL_GAIN * deviation
+        robot.drive(drive_speed=100, turn_rate=angle_correction)
+        wait(10)     
+    ```
+     
+   --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot)   
+   
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-    * How to drive straight using gyro.angle(angle_correction calculates angle to turn robot in opposite direction of angle error):
+    * How to drive straight using gyro.angle (angle_correction calculates angle to turn robot in opposite direction of angle error):
   
     ```
     gyro_sensor = GyroSensor(Port.S4)
 
     robot.reset() 
     gyro_sensor.reset_angle(0)
+    PROPORTIONAL_GAIN = 1.1    
     while robot.distance() < 1000:
-      angle_correction = -1 * gyro_sensor.angle() # 
+      angle_correction = -PROPORTIONAL_GAIN * gyro_sensor.angle()
       robot.drive(drive_speed=200, turn_rate=angle_correction) 
     robot.stop()
-    ```  
+    ``` 
+    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Single Sensor Line Robot; and select Gyro Challenges from Worlds under the Simulator tab)
     
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
@@ -120,10 +134,11 @@
       robot.drive(drive_speed=200, turn_rate=90)
     robot.stop()          
     ```
+    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste in under Python tab)
 
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - reset gyro angle before using it as a test in a loop
-    * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
+  * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
 
 ## Sample programs
 
@@ -131,11 +146,6 @@
   * [Basic Movement](https://pybricks.github.io/ev3-micropython/examples/robot_educator_basic.html)
   * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
   * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
-* [CORE SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/color_sorter.html)
-* [EXPANSION SET PROGRAMS](https://pybricks.github.io/ev3-micropython/examples/elephant.html)
-      
+ 
 
 
-## other
-* ~~[Pybricks](https://pybricks.github.io/ev3-micropython/index.html) (pybricks.com documentation)~~
-  *  ~~not just for EV3 - Docs for [Lego Technics Power Up](https://racingbrick.com/lego-powered-up-summary/) - beta only! (this is *not* support for Lego's new [Mindstorms Robot Inventor](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/) kit, which is scheduled for release Aug 2020)~~
