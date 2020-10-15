@@ -74,22 +74,24 @@
   * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic):
     
     ```
-    line_sensor = ColorSensor(Port.S1)    
+    color_sensor_in1 = ColorSensor(Port.S1)    
 
     while True:
-       if line_sensor.reflection()  > 80: # white
-           robot.drive(speed=75, turn_rate=-40)
+       if color_sensor_in1.reflection()  > 95: # white
+           robot.drive(drive_speed=75, turn_rate=-60)
        else: 
-           if line_sensor.reflection()  < 15: # black
-               robot.drive(speed=75, turn_rate=40)
+           if color_sensor_in1.reflection()  < 10: # black
+               robot.drive(drive_speed=75, turn_rate=60)
            else: #straight
-               robot.drive(speed=75, turn_rate=0)
+               robot.drive(drive_speed=75, turn_rate=0)
     ```
-    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot; and select Line Following Challenges from Worlds, under the Simulator tab)
+    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
 
   * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
      
     ```
+    color_sensor_in1 = ColorSensor(Port.S1)
+    
     BLACK = 10
     WHITE = 95
     threshold = (BLACK + WHITE) / 2
@@ -100,7 +102,7 @@
         robot.drive(drive_speed=100, turn_rate=angle_correction)
         wait(10)     
     ```
-    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot)   
+    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
    
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     * How to drive straight using gyro.angle (angle_correction calculates angle to turn robot in opposite direction of angle error):
@@ -116,7 +118,7 @@
       robot.drive(drive_speed=200, turn_rate=angle_correction) 
     robot.stop()
     ``` 
-    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Single Sensor Line Robot; and select Gyro Challenges from Worlds under the Simulator tab)
+    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
     
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
   
