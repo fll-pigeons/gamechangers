@@ -106,7 +106,7 @@
     * How to drive straight using gyro.angle (angle_correction calculates angle to turn robot in opposite direction of angle error):
   
     ```
-    gyro_sensor = GyroSensor(Port.S4)
+    gyro_sensor = GyroSensor(Port.S3)
 
     robot.reset() 
     gyro_sensor.reset_angle(0)
