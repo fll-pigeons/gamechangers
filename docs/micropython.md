@@ -27,11 +27,12 @@
     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
      
       ```
-         reset()
-         # keep driving until either robot has travelled 100cm or covered a 45degree angle
-         while (robot.distance() < 1000 and robot.angle() < 45):
+        robot.reset()
+        # keep driving until either robot has travelled 100cm or turned 45degrees
+        while (robot.distance() < 1000 and robot.angle() < 180):
             robot.drive(300,30) # drive for 300mm/s, while turning left at 30deg/sec 
             wait(10) # wait for a short time or do something else
+        robot.stop()
       ```
       
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
