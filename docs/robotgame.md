@@ -35,44 +35,20 @@
   * [Calibrating motors](https://techbrick.com/techbrick/Lego/TechBrick/TechTips/NXTCalibration/)
 * [MOC - Super Small Box Robot by FLL Team Moscow](https://rebrickable.com/mocs/MOC-10638/DLuders/super-small-box-robot-by-fll-team-moscow/#comments)
 
-* Lego
-   * [Lego Education](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions)
-     * [driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf)
-     * [medium motor driving base](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-medium-motor-driving-base-e66e2fc0d917485ef1aa023e8358e7a7.pdf)
-   * [Lego Home Robot (Retail)](https://www.lego.com/en-ca/themes/mindstorms/buildarobot)
-
 <br/>
 
 # 3. Programing
 
 ### Programming Language
-* [Lego's EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
-  * Needs Microsoft's [Visual Studio Code](https://code.visualstudio.com/) version 1.31 or above with Lego EV3 MicroPython extension installed
-  * [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
-  * [PyBrick's MicroPython Documentation - pdf](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
-
 * [Lego EV3 MicroPython Cheat Sheet](micropython.md)
+* [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
+* [PyBrick's MicroPython Documentation - pdf](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
 
+### Robot Virtual Environment Simulator (test your Micropythoncode in a 3d environment)
+* [Gears Pybricks - Lego EV3 Micropython (Pybricks) 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of [Gears](https://gears.aposteriori.com.sg/))
+
+### Other
 * [Lego EV3 Programming Language research](AltProgLangs.md)
-
-### Robot Virtual Environment Simulator
-* Free, open source
-  * [Gears Pybricks - Lego EV3 Micropython (Pybricks) 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) 
-    * partial implementation (fork of [Gears](https://gears.aposteriori.com.sg/))
-   
-  * [Gears](https://gears.aposteriori.com.sg/) (Generic Educational Autonomous Robotics Simulator)
-    * EV3DEV2 Python
-    * FLL Challenge RePLAY mat (no mission models)
-    * not EV3 Micropython (support is planned)
-
-* Free to use, closed source
-  * [VEXcode VR](https://vr.vex.com/) - free to use (closed source)
-    * lots of Educational videos and tutorials
-    * Block Language can be used to teach programming/algorithms
-    * not EV3 Micropython
-
-
-   
 
 <br/>
 
