@@ -19,11 +19,12 @@
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
     
     ```  
-        robot.drive(300, 0) # drive at 300mm/sec, in straight line (because turn_rate=0)
-        wait(1000) # wait one second
-        robot.stop() # not required if program ends after wait command 
+    robot.drive(300, 0) # drive at 300mm/sec, in straight line (because turn_rate=0)
+    wait(1000) # wait one second
+    robot.stop() # not required if program ends after wait command 
     ```  
-
+      [try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste in under Python tab)
+    
     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
      
       ```
