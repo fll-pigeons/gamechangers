@@ -23,7 +23,6 @@
     wait(1000) # wait one second
     robot.stop() # not required if program ends after wait command 
     ```  
-    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste it under Python tab)
     
     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
@@ -36,8 +35,7 @@
           wait(10) # wait for a short time or do something else
       robot.stop()
       ```
-      
-    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste it under Python tab)
+      --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste it under Python tab)
     
   * [reset()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset) - distance is calculated from start of program, so reset() it before using distance in a while loop
 
@@ -56,7 +54,6 @@
      wait(500) # run the lift motor command for half a second
      motorC.stop()
      ```
-     
      --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Tow Truck robot)
     
   * [run_angle(speed, rotation_angle, then=Stop.HOLD, wait=True)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle)
@@ -88,7 +85,6 @@
            else: #straight
                robot.drive(speed=75, turn_rate=0)
     ```
-    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot; and select Line Following Challenges from Worlds, under the Simulator tab)
 
   * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
@@ -104,8 +100,7 @@
         robot.drive(drive_speed=100, turn_rate=angle_correction)
         wait(10)     
     ```
-     
-   --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot)   
+    --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot)   
    
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     * How to drive straight using gyro.angle (angle_correction calculates angle to turn robot in opposite direction of angle error):
@@ -121,7 +116,6 @@
       robot.drive(drive_speed=200, turn_rate=angle_correction) 
     robot.stop()
     ``` 
-    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (use Single Sensor Line Robot; and select Gyro Challenges from Worlds under the Simulator tab)
     
     * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
@@ -134,7 +128,6 @@
       robot.drive(drive_speed=200, turn_rate=90)
     robot.stop()          
     ```
-    
     --->[try it out in Pybricks Gears](https://kendmaclean.github.io/gears_pybricks/public/)  (copy code and paste in under Python tab)
 
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - reset gyro angle before using it as a test in a loop
