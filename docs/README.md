@@ -14,7 +14,7 @@ We will be participating in the [following events](https://www.firstroboticscana
 
 ### A. [Robot Game](robotgame.md) (14 Missions)
 
-One 2.5 min remote competition match: [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
+One 2.5 min video recorded remote competition match: [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
 
 ### B. Presentations:
 
