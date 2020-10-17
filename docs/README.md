@@ -1,5 +1,4 @@
-# Team 50697 Pigeons - Game Changers: RePLAY 2020
-## (First Lego League Challenge Team)
+# First Lego League Game Changers: RePLAY 2020
 
 ![image](pigeon-logo.png)
 
