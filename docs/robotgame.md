@@ -65,6 +65,7 @@
 * [Builderdude35](https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g)
 * [LEGORobotics Mr. Hino - YouTube](https://www.youtube.com/channel/UCvuw_UluXNRPKhqK5GU8SrQ)
 * [FLL resources](https://techbrick.com/fll-resources/fll2019)
+* [Other Links](links.md)
 
 --------
 # Log
