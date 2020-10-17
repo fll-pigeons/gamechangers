@@ -41,8 +41,7 @@
 
 ### [Lego EV3 MicroPython Cheat Sheet](micropython.md)
 ### [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) 
-
-(fork of [Gears](https://github.com/QuirkyCort/gears))
+* (fork of QuirkyCort's [Gears](https://github.com/QuirkyCort/gears))
 
 ### Docs
 
