@@ -26,10 +26,10 @@ One 2.5 min video recorded remote competition match: [Remote Reffing Guidance](h
 * Research Project Poster
 
 #### 2. [Robot Design](robotDesign.md)
-* Explanation (5 min) (do we have access to a practice table with Challenge set?)
+* Explanation (5 min)
 * Question and Answer (5 min) 
 * [Robot Design Executive Summary (RDES)](IO_RDES.pdf)
-* Can we use diagrams showing the robot programs
+* Can we use diagrams showing the robot programs?
 
 #### 3. [Core Values](coreValues.md)
 * Reflection (3 min)
