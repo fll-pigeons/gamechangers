@@ -1,5 +1,5 @@
-# Pybricks Cheat sheet
-## (Lego EV3 MicroPython)
+# Lego EV3 MicroPython Cheat sheet
+## (Pybricks)
 
 ## Documentation
 
