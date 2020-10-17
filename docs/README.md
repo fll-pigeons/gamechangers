@@ -3,23 +3,18 @@
 
 ![image](pigeon-logo.png)
 
-[Pigeons](https://fll-pigeons.github.io/gamechangers/) are a small community-based rookie team, in London, Ontario, ~~we were planning to participate at the [FIRST® LEGO® League (FLL) Challenge competition](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) at the University of Western in late November, 2020.~~
+[Pigeons](https://fll-pigeons.github.io/gamechangers/) are a small community-based rookie team, in London, Ontario.
 
 We will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
 
   * November 30 – December 5:  FIRST LEGO League Challenge Remote Practice events
-  * December 12: FIRST LEGO League Explore Festival
   * January 23 – February 13: FIRST LEGO League Challenge Remote Qualifying Events
 
 [Challenge Resources](challenge.md)
 
-### Day of Competition
-* [Checklist](checklistWestern2019.pdf) (no Bluetooth allowed!)
-
 ### A. [Robot Game](robotgame.md) (14 Missions)
 
-Two training matches and three competition matches of 2.5 min each; possibility of only having 5 min between each match!
-* [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
+One 2.5 min remote competition match: [Remote Reffing Guidance](https://info.firstinspires.org/hubfs/Education_Resources/thinkscape/PD/FLL%20Explore%20and%20Challenge/RePLAY%20Remote%20Reffing%20Guidance.pdf)
 
 ### B. Presentations:
 
@@ -38,7 +33,6 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 * Can we use diagrams showing the robot programs
 
 #### 3. [Core Values](coreValues.md)
-* ~~[Team activity before the judges](http://flltutorials.com/translations/en-us/CoreValues/CVJudging.pdf) (5 min)~~
 * Reflection (3 min)
 * Feedback (5 min)
 * ([Core Values Poster](http://flltutorials.com/translations/en-us/CoreValues/CVPoster.pdf) is this required?)
@@ -46,15 +40,6 @@ Two training matches and three competition matches of 2.5 min each; possibility 
 #### Presentation Resources
 * [Consolidated judging (new for 2020)](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/Judging-Session-for-Teams.pdf)
 
-* 2019
-
-  * [Team Information Sheet](TeamInfoSheet_FL005_Fillable.pdf) (3 copies, one for each presentation)
-
-  * [Western Judging Process - 2019](CoachesDayPresentation2019_judging.pdf)
-
-
-
-#### [Other Links](links.md)
 
 # News
 > #### 2 July - Team Name selected: Pigeons
