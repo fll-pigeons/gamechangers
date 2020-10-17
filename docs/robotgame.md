@@ -39,15 +39,13 @@
 
 # 3. Programing
 
-### Programming Language
-* [Lego EV3 MicroPython Cheat Sheet](micropython.md)
+### [Lego EV3 MicroPython Cheat Sheet](micropython.md)
+### [Gears Pybricks - Lego EV3 Micropython (Pybricks) 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of [Gears](https://gears.aposteriori.com.sg/))
+
+### Docs
+
 * [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
 * [PyBrick's MicroPython Documentation - pdf](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
-
-### Robot Virtual Environment Simulator (test your Micropython code in a 3d environment)
-* [Gears Pybricks - Lego EV3 Micropython (Pybricks) 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of [Gears](https://gears.aposteriori.com.sg/))
-
-### Other
 * [Lego EV3 Programming Language research](AltProgLangs.md)
 
 <br/>
