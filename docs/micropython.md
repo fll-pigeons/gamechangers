@@ -106,7 +106,7 @@
         gyro_sensor.reset_angle(0)
         PROPORTIONAL_GAIN = 1.1    
         while robot.distance() < 1000:
-          angle_correction = -PROPORTIONAL_GAIN * gyro_sensor.angle()
+          angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
           robot.drive(drive_speed=200, turn_rate=angle_correction) 
         robot.stop()
         ``` 
