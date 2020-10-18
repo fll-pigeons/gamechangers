@@ -68,6 +68,7 @@
 
 --------
 # Log
+> #### 16 & 18 Oct - incorporated Challenge set wheels to even out robot height (old wheels were too tall causing the robot to lean forward); fixed cabling issues: cables were rubbing on wheels causing random direction changes, this coupled with some loose fittings made for a very erratic robot - seemed like we went backward in terms of robot development.  But once those issues were resolved, robot ran cleanly and kids started working on missions once again.
 > #### 10 Oct - testing new robot with old programs; No meeting on Oct 11 - Thanksgiving
 - Not enough to just change axle sizes, need to reprogram.  Drivebase class makes it seem like you only need to change axle sizes it you build new robot without changing you programs, not the case for us.  Change of direction of motors and changing settings speed parameters to negative numbers should  be the only required change... maybe we are missing something.
 - Confirmed with First re:strategy of attaching the health units to our innovation project - no equipment rule only applies to pull-up bar, so our strategy OK as long as health unit 'touching'  RePLAY logo - i.e. on bottom of our innovation project 
