@@ -20,14 +20,14 @@
 * Introduce kids to programming a real language
 * integration with Github (for version control)
 
-### Pigeons' selection:
+## Pigeons' selection:
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3) install on bootable SD card on EV3 brick.
 * [Visual Studio Code](https://code.visualstudio.com/) and the [LEGO® MINDSTORMS® EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) extension 
 * [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 * Edimax N150 - WiFi Nano USB Adapter - for direct download from laptop to brick
 
 -------------------
-
+# Research
 ## Official Lego EV3 programming environments
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
