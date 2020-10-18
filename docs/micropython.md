@@ -93,7 +93,7 @@
           angle_correction = PROPORTIONAL_GAIN * deviation
           robot.drive(drive_speed=100, turn_rate=angle_correction)
           wait(10)     
-      '''
+      ```
       --->[try it out in Gears_Pybricks](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
    
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
