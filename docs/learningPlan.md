@@ -11,6 +11,7 @@ A. Navigation
 5. Reliability & attachments
 6. Other sensors (touch, ultrasonic, infrared)
 
+[Code](https://github.com/fll-pigeons/gamechangers/tree/master/programs/LearningPlanCode)
 -----
 
 # A. Navigation
