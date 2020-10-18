@@ -1,10 +1,4 @@
-# Lego EV3 MicroPython Cheat sheet
-## (Pybricks)
-
-## Documentation
-
-  * [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html)
-  * see also: [pybricks cheatsheet By FLL TechTacos](https://cheatography.com/flltech2019/cheat-sheets/pybricks-cheatsheet-by-fll-techtacos-sugarland/pdf/)
+# Lego EV3 MicroPython (Pybricks) Cheat sheet
  
 ## Drive the Robot (Dual Motor Control)
 * **Move then stop** (drive straight or pivot turn)
@@ -140,5 +134,7 @@
   * [Obstacle Avoidance](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html)
   * [Line Following](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
  
-
+## Documentation
+* [LEGO® MINDSTORMS Education EV3 MicroPython](https://pybricks.github.io/ev3-micropython/index.html)
+* see also: [pybricks cheatsheet By FLL TechTacos](https://cheatography.com/flltech2019/cheat-sheets/pybricks-cheatsheet-by-fll-techtacos-sugarland/pdf/)
 
