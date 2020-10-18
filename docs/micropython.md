@@ -94,7 +94,7 @@
             robot.drive(drive_speed=100, turn_rate=angle_correction)
             wait(10)     
         ```
-    --->[try it out in Gears_Pybricks](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
+        --->[try it out in Gears_Pybricks](https://kendmaclean.github.io/gears_pybricks/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
    
   * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
     * How to drive straight using gyro.angle (angle_correction calculates angle to turn robot in opposite direction of angle error):
