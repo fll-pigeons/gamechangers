@@ -20,6 +20,11 @@
 * Introduce kids to programming a real language
 * integration with Github (for version control)
 
+### Pigeons' selection:
+* [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
+* [Visual Studio Code](https://code.visualstudio.com/) and the [LEGO® MINDSTORMS® EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) extension 
+* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+
 ## Official Lego EV3 programming environments
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
@@ -79,8 +84,10 @@ Native C/C++ Programming for the LEGO® EV3
 
 ### browser-based block programming IDE
   * [Browser-based IDE Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages may make debugging more difficult)
+  
+* [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
-* [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based EV3DEv Python IDE with 2D Virtual Robot Simulator
+* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [OpenRoberta](https://lab.open-roberta.org/)
   * Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
@@ -134,6 +141,9 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
     * graphics intensive - sluggish on slower computers
 
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
+
+* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+
 
 #### 2D simulators
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
