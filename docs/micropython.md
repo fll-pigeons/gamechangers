@@ -63,7 +63,7 @@
 ## Sensors
 
 * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-  * [3-level line follower using color sensor](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP04a_lineFollowerBasic):
+  * 3-level line follower using color sensor:
     
       ```
       color_sensor_in1 = ColorSensor(Port.S1)    
