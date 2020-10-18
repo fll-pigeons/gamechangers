@@ -60,7 +60,7 @@ A. Navigation
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle() - Accumulated angle since last reset
-    * update [LP03_squarePerimeter.py](/programs/LP03_squarePerimeter.py) with while loop and robot.angle()
+    * update [LearningPlanCode/LP03_squarePerimeter.py](LearningPlanCode/LP03_squarePerimeter.py) with while loop and robot.angle()
   * robot.reset() - Resets the estimated driven distance and angle to 0.
   * functions - replace duplicate code
 * Turns
@@ -177,7 +177,7 @@ A. Navigation
 > #### 28 July - Finish second robot; Basic 2-level line following
 > #### 23 July - Review micropython gyro code; continue build of 2d robot
 > #### 21 July - Build 2nd robot; review Micropython Navigation
-> #### 14 July - [Faster Maze nagivator with smooth turns](https://www.youtube.com/embed/BTB1U915fSM) - [Updated program: LP02_smoothTurns.py](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP02_smoothTurns.py)
+> #### 14 July - [Faster Maze nagivator with smooth turns](https://www.youtube.com/embed/BTB1U915fSM) - [Updated program: LP02_smoothTurns.py]LearningPlanCode/LP02_smoothTurns.py)
 > #### 10 July - Basic Movement
 > Measured and validated robot dimensions; Drove faster using Micropython's settings() command combined with straight() and turn(); started curved turns with drive() command and introduced Python loops.  Had problems with making while loop conditional on robot.distance() < n, where n was desired distance - did not run reset() command immediately before while loop conditional (otherwise measures distance from start of program).
 > #### 2 July - Maze nagivator
