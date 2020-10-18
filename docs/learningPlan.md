@@ -60,7 +60,6 @@ A. Navigation
 ## LP03a - Accurate    
 * MicroPython: 
   * robot.angle() - Accumulated angle since last reset
-    * update [LearningPlanCode/LP03_squarePerimeter.py](LearningPlanCode/LP03_squarePerimeter.py) with while loop and robot.angle()
   * robot.reset() - Resets the estimated driven distance and angle to 0.
   * functions - replace duplicate code
 * Turns
