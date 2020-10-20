@@ -38,10 +38,9 @@
 <br/>
 
 # 3. Programing
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
 ### [Lego EV3 MicroPython Cheat Sheet](micropython.md)
-   <button color=#FFD43B type="button"  
-    onclick="window.location.href = 'micropython.md';"> 
+   <button type="button"  
+    onclick="window.location.href = 'https://github.com/fll-pigeons/gamechangers/blob/master/docs/micropython.md';"> 
         Lego EV3 MicroPython Cheat Sheet 
     </button>
 ### [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) 
