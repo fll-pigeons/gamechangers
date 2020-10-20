@@ -147,7 +147,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
-* [robocatz]([https://www.robocatz.com/simulation-launcher.htm]) - RobotC simulator
+* [robocatz](https://www.robocatz.com/simulation-launcher.htm) - RobotC simulator
 
 #### 2D simulators
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
