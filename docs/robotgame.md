@@ -39,10 +39,6 @@
 
 # 3. Programing
 ### [Lego EV3 MicroPython Cheat Sheet](micropython.md)
-   <button type="button"  
-    onclick="window.location.href = 'https://github.com/fll-pigeons/gamechangers/blob/master/docs/micropython.md';"> 
-        Lego EV3 MicroPython Cheat Sheet 
-    </button>
 ### [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) 
 * (fork of QuirkyCort's [Gears](https://github.com/QuirkyCort/gears))
 
