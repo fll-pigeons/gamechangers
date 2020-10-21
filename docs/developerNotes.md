@@ -47,7 +47,7 @@
   * based on [Webots](https://cyberbotics.com/#download) (1.5GB!)
   * QT based
   
-[Webots](https://cyberbotics.com/#download)  
+*[Webots](https://cyberbotics.com/#download)  
   * [robotbenchmark](https://robotbenchmark.net/) - Program simulated robots online (uses Webots on backend)
   
 * [VEXcode VR](https://vr.vex.com/) - free online blockly type code (or Python) with 3D simulation environment; no line following attachment
