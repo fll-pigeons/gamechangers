@@ -171,7 +171,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
   
 ### Desktop-based/paid
 #### 3D simulators - desktop
-* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
+* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity) - by [Cogmation Robotics](https://cogmation.com/)
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
     * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
     * can import LDD student designed robots into VRT
