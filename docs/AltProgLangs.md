@@ -137,22 +137,16 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [C-STEM Studio](https://c-stem.ucdavis.edu/studio/)
 
-# Virtual Environments
-### Free
-#### 3D simulators
-* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
-  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
-    * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
-    * is finicky to set up
-    * graphics intensive - sluggish on slower computers
-
+# Simulation Environments
+## free/browser-based
+### 3D simulators
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
 * [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [robocatz](https://www.robocatz.com/simulation-launcher.htm) - Browser based RobotC simulator
 
-#### 2D simulators
+### 2D simulators
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
 
 * [OpenRoberta](https://lab.open-roberta.org/) 2D in browser virtual environment
@@ -172,13 +166,24 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [reeborg](https://reeborg.ca/reeborg.html) - 2D browser environment (Python/Javascript)
 
-### Paid
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
+## Paid/browser-based
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly)
+  
+## Desktop-based/paid
+#### 3D simulators - desktop
+* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
+  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
+    * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
+    * can import LDD student designed robots into VRT
+    * is finicky to set up
+    * graphics intensive - sluggish on slower computers
 
 * [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) 
   * Includes RobotC IDE at no additional cost.  
   * If want to run RobotC on a physical EV3, need to pay for an additional RobotC license ($49USD/seat/year; $149USD/6seats/year)!
-  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) 
+  * [Virtual Brick for MINDSTORMS - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) - using RobotC
+  
+--------
 
 # [Developer Notes](developerNotes.md)
 
