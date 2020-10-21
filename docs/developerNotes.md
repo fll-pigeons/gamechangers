@@ -43,9 +43,11 @@
 
 ## Other 3D Robotics Simulators
 * [Student Robotics Competition Simulator](https://studentrobotics.org/docs/competition-simulator/) - not for EV3, but Python based 3D robotics simulator
-  * can pick up objects and move them in virutal environment
+  * can pick up objects and move them in virtual environment
   * based on [Webots](https://cyberbotics.com/#download) (1.5GB!)
   * QT based
-  * see also: [robotbenchmark](https://robotbenchmark.net/)
+  
+[Webots](https://cyberbotics.com/#download)  
+  * [robotbenchmark](https://robotbenchmark.net/) - Program simulated robots online (uses Webots on backend)
   
 * [VEXcode VR](https://vr.vex.com/) - free online blockly type code (or Python) with 3D simulation environment; no line following attachment
