@@ -114,10 +114,13 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
 * ~~[Scratch](https://scratch.mit.edu/)~~
   * ~~Bluetooth only - can't use in competition~~
   * ~~Visual programming environment. need Scratch link to support the EV3.~~
-  
-### 3rd Party Firmware for the EV3 Brick
+
+## Alternative Brick Operating Systems
+* two different approaches: replace the Lego EV3 firware with a 3rd party version or boot another O/S from SD card
+
+### 3rd Party Firmware for the EV3 Brick (Flash Brick with new firmware)
 * [leJOS](http://www.lejos.org/ev3.php)
-LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
+  * tiny Java Virtual Machine that supports Java. 
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
