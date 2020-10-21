@@ -28,7 +28,7 @@
 
 -------------------
 # Research
-## Official Lego EV3 programming environments
+## A. Official Lego EV3 programming environments
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
@@ -53,7 +53,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
 
-## 3rd party EV3 programming environments/languages
+## B. 3rd party EV3 programming environments/languages
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
     * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [EV3DEV Python v2](https://sites.google.com/site/ev3devpython/) 
@@ -115,7 +115,7 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
   * ~~Bluetooth only - can't use in competition~~
   * ~~Visual programming environment. need Scratch link to support the EV3.~~
 
-## Alternative Brick Operating Systems
+## C. Alternative Brick Operating Systems
 * two different approaches: replace the Lego EV3 firware with a 3rd party version or boot another O/S from SD card
 
 ### 3rd Party Firmware for the EV3 Brick (Flash Brick with new firmware)
@@ -137,16 +137,16 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [C-STEM Studio](https://c-stem.ucdavis.edu/studio/)
 
-# Simulation Environments
-## free/browser-based
-### 3D simulators
+## D. Simulation Environments
+### free/browser-based
+#### 3D simulators
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
 * [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [robocatz](https://www.robocatz.com/simulation-launcher.htm) - Browser based RobotC simulator
 
-### 2D simulators
+#### 2D simulators
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
 
 * [OpenRoberta](https://lab.open-roberta.org/) 2D in browser virtual environment
@@ -166,10 +166,10 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [reeborg](https://reeborg.ca/reeborg.html) - 2D browser environment (Python/Javascript)
 
-## Paid/browser-based
+### Paid/browser-based
 * [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly)
   
-## Desktop-based/paid
+### Desktop-based/paid
 #### 3D simulators - desktop
 * [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
   * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
