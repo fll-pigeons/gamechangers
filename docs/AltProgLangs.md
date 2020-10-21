@@ -71,7 +71,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
 The EV3 Software was built in LabVIEW, LVLM is the base software and is much more powerful.
 
-* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
+* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats) - by [Robomatter](https://www.robomatter.com/)
   * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
   * Has an entry level block-level programming version of RobotC. 
   * Lots of documentation and online support. 
@@ -178,7 +178,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
     * is finicky to set up
     * graphics intensive - sluggish on slower computers
 
-* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) 
+* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) - by [Robomatter](https://www.robomatter.com/)
   * Includes RobotC IDE at no additional cost.  
   * If want to run RobotC on a physical EV3, need to pay for an additional RobotC license ($49USD/seat/year; $149USD/6seats/year)!
   * [Virtual Brick for MINDSTORMS - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) - using RobotC
