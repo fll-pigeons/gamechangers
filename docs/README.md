@@ -1,6 +1,6 @@
 # Pigeons: FLL RePLAY 2020
 
-![image](pigeon-logo.png)
+[![image](pigeon-logo.png)](https://fll-pigeons.github.io/gamechangers/)
 
 [Pigeons](https://fll-pigeons.github.io/gamechangers/) are a small community-based First Lego League rookie team, based in London, Ontario.
 

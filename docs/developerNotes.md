@@ -3,6 +3,7 @@
 
 ### Other software
 * [Lego Digital Designer](https://www.lego.com/en-us/ldd)
+* [Bricklink - Studio](https://www.bricklink.com/v2/build/studio.page) - web based
 
 ### papers
 * [Simulating Lego Mindstorms EV3 robots using Unity and Python](https://www.cs.ru.nl/bachelors-theses/2018/Leo_Cornelissen___4606566___Simulating_Lego_Mindstorms_EV3_robits_using_Unity_and_Python.pdf)
@@ -40,5 +41,13 @@
 ## Raspberry Pi
 * [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) - compatible with RaspberryPi and Beaglebone
 
-## VEX
+## Other 3D Robotics Simulators
+* [Student Robotics Competition Simulator](https://studentrobotics.org/docs/competition-simulator/) - not for EV3, but Python based 3D robotics simulator
+  * can pick up objects and move them in virtual environment
+  * based on [Webots](https://cyberbotics.com/#download) (1.5GB!)
+  * QT based
+  
+*[Webots](https://cyberbotics.com/#download)  
+  * [robotbenchmark](https://robotbenchmark.net/) - Program simulated robots online (uses Webots on backend)
+  
 * [VEXcode VR](https://vr.vex.com/) - free online blockly type code (or Python) with 3D simulation environment; no line following attachment

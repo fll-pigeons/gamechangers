@@ -28,7 +28,7 @@
 
 -------------------
 # Research
-## Official Lego EV3 programming environments
+## A. Official Lego EV3 programming environments
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
 
@@ -53,7 +53,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
 
-## 3rd party EV3 programming environments/languages
+## B. 3rd party EV3 programming environments/languages
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
     * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [EV3DEV Python v2](https://sites.google.com/site/ev3devpython/) 
@@ -71,7 +71,7 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
 LabVIEW for LEGO MINDSTORMS (LVLM) and LabVIEW for Education (LV4E) are visual programming environments. 
 The EV3 Software was built in LabVIEW, LVLM is the base software and is much more powerful.
 
-* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats)
+* [ROBOTC for LEGO MINDSTORMS 4.x](http://www.robotc.net) ($49USD/year/seat; $149USD/year/6seats) - by [Robomatter](https://www.robomatter.com/)
   * RobotC is a C-based programming language with a fully integrated software debugger that supports a range of different hardware platforms. 
   * Has an entry level block-level programming version of RobotC. 
   * Lots of documentation and online support. 
@@ -114,10 +114,13 @@ For CoderZ to work with LEGO® MINDSTORMS® EV3 You will need to install [leJOS]
 * ~~[Scratch](https://scratch.mit.edu/)~~
   * ~~Bluetooth only - can't use in competition~~
   * ~~Visual programming environment. need Scratch link to support the EV3.~~
-  
-### 3rd Party Firmware for the EV3 Brick
+
+## C. Alternative Brick Operating Systems
+* two different approaches: replace the Lego EV3 firware with a 3rd party version or boot another O/S from SD card
+
+### 3rd Party Firmware for the EV3 Brick (Flash Brick with new firmware)
 * [leJOS](http://www.lejos.org/ev3.php)
-LeJOS (pronounced like the Spanish word “lejos” for “far”) is a tiny Java Virtual Machine that supports Java. 
+  * tiny Java Virtual Machine that supports Java. 
 * [c4ev3](https://c4ev3.github.io/) is a software package for programming stock-firmware LEGO® Mindstorms® EV3 in C/C++. 
 
 ### 3rd Party Virtual Machine installable from SD card on EV3 brick (boot from SD Card Linux image)
@@ -134,19 +137,14 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [C-STEM Studio](https://c-stem.ucdavis.edu/studio/)
 
-# Virtual Environments
-### Free
+## D. Simulation Environments
+### free/browser-based
 #### 3D simulators
-* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity)
-  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
-    * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
-    * is finicky to set up
-    * graphics intensive - sluggish on slower computers
-
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
 * [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
+* [robocatz](https://www.robocatz.com/simulation-launcher.htm) - Browser based RobotC simulator
 
 #### 2D simulators
 * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV (uses [Skulpt](https://skulpt.org/) for in browser python)
@@ -166,13 +164,26 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 
 * [ev3dev2simulator](https://github.com/ev3dev-python-tools/ev3dev2simulator)
 
-### Paid
-* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly) - best Web-based simulator
+* [reeborg](https://reeborg.ca/reeborg.html) - 2D browser environment (Python/Javascript)
 
-* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) 
+### Paid/browser-based
+* [CoderZ](https://gocoderz.com/) ($6.25USD/month/paid yearly)
+  
+### Desktop-based/paid
+#### 3D simulators - desktop
+* [Virtual Robotics Toolkit (VRT)](https://www.virtualroboticstoolkit.com/) - 3D Simulator (uses Unity) - by [Cogmation Robotics](https://cogmation.com/)
+  * [First Robotics Canada VRT free license](https://www.firstroboticscanada.org/cancode/vrt/) 
+    * use Lego EV3 LabView natively - open both programs and LabView communicates with VRT as if were a real lego robot.
+    * can import LDD student designed robots into VRT
+    * is finicky to set up
+    * graphics intensive - sluggish on slower computers
+
+* [Robot Virtual Worlds (RVW)](http://www.robotvirtualworlds.com/) ($49USD/seat/year; $149USD/6seats/year) - by [Robomatter](https://www.robomatter.com/)
   * Includes RobotC IDE at no additional cost.  
   * If want to run RobotC on a physical EV3, need to pay for an additional RobotC license ($49USD/seat/year; $149USD/6seats/year)!
-  * [Virtual Brick - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) 
+  * [Virtual Brick for MINDSTORMS - EV3 simulator](http://www.robotvirtualworlds.com/virtualbrick/) - using RobotC
+  
+--------
 
 # [Developer Notes](developerNotes.md)
 
