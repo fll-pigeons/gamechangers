@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-{% seo %}
+    {% seo %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
@@ -15,26 +16,27 @@
 
   </head>
   <body>
-
       <header>
-        
-        <h1><a href="https://fll-pigeons.github.io/gamechangers/">
+        <h1><a href="/">
               <img src="pigeon-logo_30_40.png" alt="Home" />
             </a>  Team 50697 Pigeons</h1>
          <p>First Lego League Challenge Team</p>
       </header>
 
       <div id="banner">
-        <span id="logo"></span>
-        <a href="https://fll-pigeons.github.io/gamechangers/" class="button fork"><strong>Home</strong></a>
-
+          <div class="menu">          
+            <!--<a href="https://fll-pigeons.github.io/gamechangers/" class="button fork"><strong>Home</strong></a>-->
+            <a href="/" class="button"><strong>Home</strong></a>
+            <a href="/micropython.html" class="button"><strong>Cheat Sheet</strong></a>            
+            <a href="https://kendmaclean.github.io/gears_pybricks/public/" class="button"><strong>3D Simulator</strong></a>            
+          </div><!-- end menu -->
       </div><!-- end banner -->
+
 
     <div class="wrapper">
 
       <section>
         {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
