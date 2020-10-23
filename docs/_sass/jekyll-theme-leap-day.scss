@@ -223,18 +223,6 @@ header {
     margin: auto;
   }
 
-
-  .fork {
-    position:fixed;
-    left:50%;
-    margin-left:-325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    background-color: #FFE788;
-  }
-
   .downloads {
     float: right;
     margin:0 45px 0 0;
@@ -254,7 +242,7 @@ header {
     height:40px;
     padding:0;
     float: left;
-    margin-left:10px;
+    margin-left:3px;
 
     li {
       display:inline;
@@ -358,6 +346,12 @@ footer {
   line-height: 16px;
 }
 
+// !!!!!!
+ul {
+  padding: 0 0 0 12px;
+}
+// !!!!!!
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
@@ -387,9 +381,6 @@ footer {
     .downloads {
         margin-right: 60px;
       }
-
-    .fork {
-    }
 
     #logo {
       margin-right: 15px;
@@ -439,14 +430,6 @@ footer {
 
   #banner {
     top: 80px;
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-      position:fixed;
-      left:20px;
-      }
   }
 
   section {
@@ -456,9 +439,11 @@ footer {
     width: auto;
   }
 
-  header ul, header p.view {
+  //header ul, header p.view {
+  header header p.view {
     position:static;
   }
+
 }
 
 @media print, screen and (max-width: 480px) {
