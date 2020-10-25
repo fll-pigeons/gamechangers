@@ -1,0 +1,65 @@
+#arenaFrame {
+  background-color: white;
+  border: solid 40px;
+
+  .row {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+  }
+  .row.header {
+    background-color: lightgray;
+  }
+  #enable {
+    margin-right: 1.5em;
+  }
+  #player {
+    font-size: 200%;
+    font-weight: bold;
+  }
+}
+
+#arenaFrame.bot0 { border-color: #00FFFF; }
+#arenaFrame.bot1 { border-color: #00FF00; }
+#arenaFrame.bot2 { border-color: #FFFF00; }
+#arenaFrame.bot3 { border-color: #FF0000; }
+
+#arenaFrame.bot0.disabled { border-color: #446666; #player { color: gray; } }
+#arenaFrame.bot1.disabled { border-color: #446644; #player { color: gray; } }
+#arenaFrame.bot2.disabled { border-color: #666644; #player { color: gray; } }
+#arenaFrame.bot3.disabled { border-color: #664444; #player { color: gray; } }
+
+.botsPanel {
+  background: white;
+
+  .botsRow {
+    display: flex;
+    width: 100%;
+    height: 50%;
+
+    .bot {
+      width: 50%;
+
+      iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.console {
+  .player0 {
+    color: #00FFFF;
+  }
+  .player1 {
+    color: #00FF00;
+  }
+  .player2 {
+    color: #FFFF00;
+  }
+  .player3 {
+    color: #FF0000;
+  }
+}

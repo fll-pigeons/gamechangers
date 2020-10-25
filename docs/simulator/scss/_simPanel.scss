@@ -1,0 +1,348 @@
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.runSim {
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  top: 2em;
+  left: 2em;
+  font-size: 200%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.world {
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  top: 2em;
+  left: 4em;
+  font-size: 200%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.reset {
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  top: 2em;
+  left: 8em;
+  font-size: 200%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.camera {
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  top: 2em;
+  right: 2em;
+  font-size: 200%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.console {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 150%;
+  height: 2em;
+  overflow: hidden;
+  transition: height 0.5s;
+
+  .chevron {
+    position: absolute;
+    right: 0;
+    font-size: 200%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .chevron::before {
+    content: "\2303";
+  }
+
+  .clear {
+    position: absolute;
+    right: .15em;
+    font-size: 180%;
+    cursor: pointer;
+    user-select: none;
+    top: 1em;
+  }
+
+  .content {
+    position: absolute;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 1em;
+    right: 2em;
+    margin: 0px;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: pre-wrap;
+
+    .error {
+      color: red;
+    }
+  }
+}
+
+.console.open {
+  height: 10em;
+
+  .chevron {
+    top: -0.5em;
+  }
+
+  .chevron::before {
+    content: "\2304";
+  }
+
+  .content {
+    overflow-y: scroll;
+  }
+}
+
+.dialogWindow {
+  .selectWorld {
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    .description {
+      display: flex;
+      border: solid 1px white;
+      margin-top: 0.5em;
+
+      .thumbnail {
+        width: 200px;
+        height: 200px;
+      }
+
+      .text {
+        border-left: solid 1px white;
+        padding: 0 1em;
+        flex-shrink: 1;
+      }
+    }
+
+    .configurations {
+      border: solid 1px white;
+      margin-top: 0.5em;
+      padding: 0 0.5em;
+      overflow-y: auto;
+      max-height: 20em;
+
+      .configuration {
+        padding: 0.5em 0em;
+
+        input[type=text], input[type=file] {
+          font-size: 100%;
+          background: none;
+          border: solid 1px white;
+          color: white;
+        }
+
+        .configurationTitle {
+          color: lightgray;
+          margin-bottom: 0.1em;
+        }
+
+        .slider {
+          display: flex;
+
+          input[type=range] {
+            flex-grow: 1;
+          }
+          input[type=text] {
+            width: 3em;
+            text-align: right;
+          }
+        }
+
+        .text {
+          input[type=text] {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+.tooltip .tooltiptext {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  padding: 0.2em 0.5em;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  max-width: 18em;
+  width: max-content;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.tooltip.bottom {
+  .tooltiptext {
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tooltiptext::after {
+    margin-left: -5px;
+    bottom: 100%;
+    left: 50%;
+    border-color: transparent transparent white transparent;
+  }
+}
+
+.tooltip.right {
+  .tooltiptext {
+    top: 50%;
+    left: 100%;
+    transform: translate(0.5em,-50%);
+  }
+
+  .tooltiptext::after {
+    margin-top: -5px;
+    right: 100%;
+    top: 50%;
+    border-color: transparent white   transparent transparent;
+  }
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sensors {
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  top: 2em;
+  right: 8em;
+  font-size: 200%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sensorReadings {
+  position: absolute;
+  color: black;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  top: 9em;
+  right: 4em;
+  font-size: 100%;
+  width: 14em;
+  max-height: 70%;
+  overflow-y: auto;
+
+  .sensorReading {
+    margin-bottom: 0.5em;
+
+    .sensorType {
+      text-align: center;
+    }
+
+    table.sensorValues {
+      width: 100%;
+      border-collapse: collapse;
+
+      td {
+        border: solid 2px #bbbbbb;
+      }
+
+      td.sensorValue {
+        text-align: right;
+        width: 30%;
+      }
+    }
+  }
+}
+
+.sensorReadings.hide {
+  display: none;
+}
+
+@keyframes flash {
+  0%   {transform: scale(1);}
+  50%  {transform: scale(1.5);}
+  100%  {transform: scale(1);}
+}
+
+.worldInfo {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25em;
+  padding: 0.5em;
+  top: 0.5em;
+  left: 50%;
+  width: 14em;
+  margin-left: -7em;
+  font-size: 200%;
+  max-height: 20%;
+  overflow: hidden;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mono {
+    font-family: monospace;
+  }
+
+  .center {
+    width: 100%;
+    text-align: center;
+  }
+
+  .animate {
+    animation-name: flash;
+    animation-duration: 0.5s;
+  }
+
+  .red.animate {
+    color: #ff0000;
+  }
+
+  .green.animate {
+    color: #00ff00;
+  }
+}
+
+.worldInfo.hide {
+  display: none;
+}

@@ -1,0 +1,828 @@
+[{ "type": "when_started",
+  "message0": "When Started",
+  "nextStatement": null,
+  "colour": 65,
+  "tooltip": "",
+  "helpUrl": ""
+},
+
+{ "type": "py_robot_straight",
+  "message0": "move straight for %1 mm, then stop",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "distance",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "drive straight for a given distance (in millimetres) and then stop",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight"
+},
+
+{ "type": "py_robot_turn",
+  "message0": "turn in place by %1 degrees, then stop",
+  "args0": [
+     {
+      "type": "input_value",
+      "name": "angle",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "turns in place by a given angle and then stops.",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn"
+},
+
+{ "type": "py_robot_settings",
+  "message0": "Settings: straight_speed (mm/s) %1 straight_acceleration (mm/s/s) %2 turn_rate (deg/s) %3",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "straight_speed",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "straight_acceleration",
+      "check": "Number"
+    },    
+    {
+      "type": "input_value",
+      "name": "turn_rate",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Settings: configures the speed and acceleration used by straight() and turn().",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings"
+},
+
+{ "type": "py_robot_drive",
+  "message0": "drive at speed %1 mm/s and turn rate of %2 deg/s",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "drive_speed",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "turn_rate",
+      "check": "Number"
+    }    
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "start driving at the specified speed (mm/sec) and turn rate (rotational speed: deg/s", 
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive"
+},
+
+{ "type": "py_robot_stop",
+  "message0": "Robot stop",
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 225,
+  "tooltip": "stops the robot by letting the motors spin freely",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop"
+},
+
+{ "type": "py_robot_distance",
+  "message0": "Robot distance (mm)",
+  "inputsInline": false,
+  "output": "Number",
+  "colour": 225,
+  "tooltip": "estimated driven distance of robot in millimetres",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance"
+},
+
+{ "type": "py_robot_angle",
+  "message0": "Robot angle (deg)",
+  "inputsInline": false,
+  "output": "Number",
+  "colour": 225,
+  "tooltip": "estimated rotation angle of the robot drive base in degrees",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle"
+},
+
+{ "type": "py_robot_state",
+  "message0": "State of robot",
+  "inputsInline": false,
+  "output": "Number",
+  "colour": 225,
+  "tooltip": "returns current distance(), drive speed and turn rate (angle() not supported).",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.state"
+},
+
+{ "type": "py_robot_reset",
+  "message0": "Reset robot",
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 225,
+  "tooltip": "reset robot drive distance and angle to 0",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.reset"
+},
+
+{ "type": "py_motor_run",
+  "message0": "run: port %1 speed %2 deg/s",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]        
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "speed",
+      "check": "Number"
+    }
+   ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "runs motor at a constant speed (in degrees per second) for a given amount of time (in milliseconds)",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run"
+},
+
+{ "type": "py_motor_run_time",
+  "message0": "run_time: port %1 speed %2 deg/s; time %3 ms; then %4 wait %5",
+  "args0": [
+    { 
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "speed",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "time",
+      "check": "Number"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "then",
+      "options": [
+        [
+          "COAST",
+          "Stop.COAST"
+        ],
+        [
+          "BRAKE",
+          "Stop.BRAKE"
+        ],
+        [
+          "HOLD",
+          "Stop.HOLD"
+        ]
+      ]
+    },    
+    {
+      "type": "input_value",
+      "name": "wait",
+      "check": "Boolean"
+    }        
+   ],
+  "inputsInline": true,   
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "runs motor at a constant speed (degrees per second) for a given amount of time (in milliseconds)",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_time"
+},
+
+{ "type": "py_motor_run_angle",
+  "message0": "run_angle: port %1 speed %2 deg/s; relative angle %3 degs; then %4 wait %5",
+  "args0": [
+    { 
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "speed",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "rotation_angle",
+      "check": "Number"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "then",
+      "options": [
+        [
+          "COAST",
+          "Stop.COAST"
+        ],
+        [
+          "BRAKE",
+          "Stop.BRAKE"
+        ],
+        [
+          "HOLD",
+          "Stop.HOLD"
+        ]
+      ]
+    },    
+    {
+      "type": "input_value",
+      "name": "wait",
+      "check": "Boolean"
+    }        
+   ],
+  "inputsInline": true,   
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "run motor at a constant speed (degrees per second) by given angle (in degrees)",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_angle"
+},
+
+{ "type": "py_motor_run_target",
+  "message0": "run_target: port %1 speed %2 deg/s; absolute angle %3 degs; then %4 wait %5",
+  "args0": [
+    { 
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "speed",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "target_angle",
+      "check": "Number"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "then",
+      "options": [
+        [
+          "COAST",
+          "Stop.COAST"
+        ],
+        [
+          "BRAKE",
+          "Stop.BRAKE"
+        ],
+        [
+          "HOLD",
+          "Stop.HOLD"
+        ]
+      ]
+    },    
+    {
+      "type": "input_value",
+      "name": "wait",
+      "check": "Boolean"
+    }        
+   ],
+  "inputsInline": true,   
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "run motor at a constant speed (in degrees per second) towards a given target angle (in degrees) - Note: zero angle is the position of the motor at the start of the program - which means it may change each time you restart your program; but is the same each time you reset the World",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_target"
+},
+
+{ "type": "py_motor_run_until_stalled",
+  "message0": "run_until_stalled: port %1 speed of %2 deg/s; until stalled; then %3 duty limit %4",
+  "args0": [
+    { 
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "speed",
+      "check": "Number"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "then",
+      "options": [
+        [
+          "COAST",
+          "Stop.COAST"
+        ],
+        [
+          "BRAKE",
+          "Stop.BRAKE"
+        ],
+        [
+          "HOLD",
+          "Stop.HOLD"
+        ]
+      ]
+    },    
+    {
+      "type": "input_value",
+      "name": "duty_limit",
+      "check": "Number"
+    }        
+   ],
+  "inputsInline": true,   
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Runs the motor at a constant speed (in degrees per second) until it stalls",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.run_until_stalled"
+},
+
+{ "type": "py_motor_dc",
+  "message0": "dc: run motor on port %1 at a power: %2 %",
+  "args0": [
+    { 
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "power",
+      "check": "Number"
+    }
+   ],
+  "inputsInline": true,   
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Rotates motor at a given duty cycle (i.e. 'power') between -100.0 and 100",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.dc"
+},
+
+{ "type": "py_motor_speed",
+  "message0": "speed: port %1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    }
+  ],
+  "output": "Number",
+  "colour": 230,
+  "tooltip": "gets the speed of the motor (in degrees per second)",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.speed"
+},
+
+{ "type": "py_motor_angle",
+  "message0": "angle: port %1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    }
+  ],
+  "output": "Number",
+  "colour": 230,
+  "tooltip": "gets the rotation angle of the motor in degrees",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.angle"
+},
+
+{ "type": "py_motor_reset_angle",
+  "message0": "reset_angle: port %1 to %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "angle",
+      "check": "Number"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "sets the accumulated rotation angle of the motor to a desired (in degrees)",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle"
+},
+
+{ "type": "py_motor_stop",
+  "message0": "stop: port %1 and %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ]   
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "stop_action",
+      "options": [
+        [
+          "Brake",
+          "BRAKE"
+        ],
+        [
+          "Coast",
+          "COAST"
+        ],
+        [
+          "Hold",
+          "HOLD"
+        ]
+      ]
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Stop(): let motor it spin freely. Brake(): passively brake  motor. Hold(): actively hold at current angle.",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.stop"
+},
+
+{ "type": "py_gyro",
+  "message0": "gyro %1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "type",
+      "options": [
+        [
+          "angle",
+          "ANGLE"
+        ],
+        [
+          "speed (angular velocity)",
+          "SPEED"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 160,
+  "tooltip": "returns the speed (angular velocity) of the sensor or accumulated angle of the sensor",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#gyroscopic-sensor"
+},
+
+{ "type": "py_reset_gyro",
+  "message0": "reset gyro",
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 160,
+  "tooltip": "",
+  "helpUrl": ""
+},
+
+{ "type": "py_color",
+  "message0": "color sensor %1 on port %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "type",
+      "options": [
+        [
+          "color",
+          "COLOR"
+        ],   
+        [
+          "reflection",
+          "REFLECTION"
+        ],
+        [
+          "rgb (list)",
+          "RGB"
+        ]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "port",
+      "options": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "3",
+          "3"
+        ],
+        [
+          "4",
+          "4"
+        ],
+        [
+          "5",
+          "5"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 160,
+  "tooltip": "color sensor",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor"
+},
+
+{ "type": "py_color_name",
+  "message0": "parameter: color name %1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "color_name",
+      "options": [
+        [
+          "Black",
+          "Color.BLACK"
+        ],   
+        [
+          "White",
+          "Color.White"
+        ],
+        [
+          "Red",
+          "Color.RED"
+        ],               
+        [
+          "Yellow",
+          "Color.YELLOW"
+        ],           
+        [
+          "Green",
+          "Color.GREEN"
+        ],
+        [
+          "Blue",
+          "Color.BLUE"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 160,
+  "tooltip": "Name of color to be used with Color sensor color() detector",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/parameters.html#pybricks.parameters.Color"
+},
+
+{ "type": "py_ultrasonic",
+  "message0": "ultrasonic distance",
+  "inputsInline": false,
+  "output": null,
+  "colour": 160,
+  "tooltip": "measure distance between sensor and object using ultrasonic sound waves",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.UltrasonicSensor"
+},
+
+{ "type": "py_wait",
+  "message0": "wait for %1 millseconds",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "wait_time",
+      "check": "Number"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 65,
+  "tooltip": "pause program for a specified amount of time",
+  "helpUrl": "https://pybricks.github.io/ev3-micropython/tools.html#pybricks.tools.wait"
+}
+
+]
