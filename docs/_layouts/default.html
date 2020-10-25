@@ -17,7 +17,7 @@
   </head>
   <body>
       <header>
-        <h1><a href="/gamechangers/">
+        <h1><a href="{{ '/' | relative_url }}">
               <img src="pigeon-logo_30_40.png" alt="Home" />
             </a>  Team 50697 Pigeons</h1>
          <p>First Lego League Challenge Team</p>
@@ -26,9 +26,9 @@
       <div id="banner">
           <div class="menu">          
             <!--<a href="https://fll-pigeons.github.io/gamechangers/" class="button"><strong>Home</strong></a>-->
-            <a href="/gamechangers/" class="button"><strong>Home</strong></a>
-            <a href="/gamechangers/micropython.html" class="button" title="Lego EV3 MicroPython (Pybricks) Cheat Sheet"><strong>Cheat Sheet</strong></a>            
-            <a href="https://kendmaclean.github.io/gears_pybricks/public/" class="button" title="Gears Pybricks - Lego EV3 Micropython 3D simulator"><strong>3D Simulator</strong></a>            
+            <a href="{{ '/' | relative_url }}" class="button"><strong>Home</strong></a>
+            <a href="{{ '/micropython.html' | relative_url }}" class="button" title="Lego EV3 MicroPython (Pybricks) Cheat Sheet"><strong>Cheat Sheet</strong></a>            
+            <a href="{{ '/simulator/public/' | relative_url }}" class="button" title="Lego EV3 Micropython (Pybricks) simulator"><strong>Simulator</strong></a>            
           </div><!-- end menu -->
       </div><!-- end banner -->
 

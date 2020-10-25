@@ -1,2 +1,4 @@
 theme: jekyll-theme-leap-day
-
+include:  
+- "__*__.py"  
+- "__*__"

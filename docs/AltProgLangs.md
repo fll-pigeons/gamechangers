@@ -23,7 +23,7 @@
 ## Pigeons' selection:
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3) install on bootable SD card on EV3 brick.
 * [Visual Studio Code](https://code.visualstudio.com/) and the [LEGO® MINDSTORMS® EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) extension 
-* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+* [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 * Edimax N150 - WiFi Nano USB Adapter - for direct download from laptop to brick
 
 -------------------
@@ -90,7 +90,7 @@ Native C/C++ Programming for the LEGO® EV3
   
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
-* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+* [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [OpenRoberta](https://lab.open-roberta.org/)
   * Open Roberta is a free, drag and drop, cloud-based platform for programming LEGO EV3 and NXT robots. 
@@ -142,7 +142,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 #### 3D simulators
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
-* [Gears Pybricks - Lego EV3 Micropython 3D simulator](https://kendmaclean.github.io/gears_pybricks/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+* [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [robocatz](https://www.robocatz.com/simulation-launcher.htm) - Browser based RobotC simulator
 
