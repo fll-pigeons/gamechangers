@@ -67,7 +67,8 @@
 
 --------
 # Log
-> #### 22 & 24, 25 Oct - Finally figured out basketball lift issue - the basketball hoop was getting caught at junction between blue vertical beam and black vertical beam.  There were many, many varied attempts/modifications to correct the robot fork lift attachment, when it was the mission design/construction that was the problem.  Good lesson learned: make sure all mission pieces fit snuggly after every attempt at trying the mission.
+> #### 22 & 24, 25 Oct - Finally figured out basketball hoop lift issue
+The basketball hoop was getting caught at junction between blue vertical beam and black vertical beam.  There were many, many varied attempts/modifications to correct the robot fork lift attachment, when it was the mission design/construction that was the problem.  Good lesson learned: make sure all mission pieces fit snuggly after every attempt at trying the mission.
 > #### 16 & 18 Oct - fixed problems which caused robot to drive erratically
 incorporated Challenge set wheels to even out robot height (old wheels were too tall causing the robot to lean forward); fixed cabling issues: cables were rubbing on wheels causing random direction changes, this coupled with some loose fittings made for a very erratic robot - seemed like we went backward in terms of robot development.  But once these issues were resolved, robot ran cleanly and kids started working on missions once again.
 > #### 10 Oct - testing new robot with old programs; No meeting on Oct 11 - Thanksgiving
