@@ -17,10 +17,10 @@ forklift_motor = Motor(Port.D)
 # Initialize the drive base.
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 
-ev3.screen.draw_text(50, 60, "lmao you've been stickbugged")
+ev3.screen.draw_text(50, 60, "NUKE INCOMING")
 
 ev3.speaker.beep()
-#forklift_motor.run_angle(speed=100, rotation_angle=650)
-#forklift_motor.run_angle(speed=100, rotation_angle=-650)
+forklift_motor.run_angle(speed=99, rotation_angle=650)
+forklift_motor.run_angle(speed=99, rotation_angle=-650)
 
 ev3.speaker.beep()
