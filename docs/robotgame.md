@@ -40,7 +40,7 @@
 # 3. Programing
 ### [Lego EV3 MicroPython Cheat Sheet](micropython.md)
 ### [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) 
-
+    * [Simulator Tutorial Vidoes](/tutorial/simulatorIntro.md) (work in progress)
 ### Docs
 
 * [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
