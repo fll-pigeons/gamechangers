@@ -17,7 +17,7 @@ forklift_motor = Motor(Port.D)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=150 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-ev3.screen.draw_text(50, 60, "Sam da big gay")
+
 ev3.speaker.beep()
 
 robot.straight(470)
