@@ -32,8 +32,3 @@ forklift_motor.run_angle(speed=100, rotation_angle=650)
 forklift_motor.run_angle(speed=100, rotation_angle=-650)
 ev3.speaker.beep()
 
-
-
-
-
-#Minecraft is better than Fortnite
