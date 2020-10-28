@@ -1,7 +1,7 @@
 #  LEGO® EV3 MicroPython (Pybricks) Cheat sheet
  
 ## Drive the Robot (Control two motors at same time)
-* **Move then stop** (drive straight or pivot turn)
+* **Move then stop** (drive straight or spin turn)
   * [settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.settings) (modifies next straight or turn command)
   * [straight(distance)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.straight), then stop 
   * [turn(angle)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.turn) in place, then stop   
