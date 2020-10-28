@@ -62,7 +62,6 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * ~~[EV3Python - version 1 - deprecated](https://sites.google.com/site/ev3python/)~~
   * ~~[EV3 BASIC](https://sites.google.com/site/ev3basic/) - Windows only - developer of this recommends using EV3 Python~~
     * ~~EV3 Basic is a textual programming language.~~
-  * [Ev3devSim](https://www.aposteriori.com.sg/Ev3devSim/index.html) - Browser-based Simulator for EV3DEV - 2D only
 
 * [BluPants Robot](https://www.hackster.io/blupantsrobot/coding-with-lego-ev3-and-blupants-e70c3d) (based on EV3Dev)
   * [BluPants Studio](http://blupants.org/) - 3 levels of codeing: basic movement blocks, blockly type programming blocks and python.  requires a robot to be connected - no virtual environment.
@@ -142,7 +141,7 @@ EV3dev isn’t actually a programming language, but rather a Debian Linux-based 
 #### 3D simulators
 * [gearsbot](https://gears.aposteriori.com.sg/) - Blockly to Python-evedev &  PyBricks support soon
 
-* [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+* [Lego EV3 Micropython (Pybricks) simulator](https://fll-pigeons.github.io/gamechangers/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 
 * [robocatz](https://www.robocatz.com/simulation-launcher.htm) - Browser based RobotC simulator
 
