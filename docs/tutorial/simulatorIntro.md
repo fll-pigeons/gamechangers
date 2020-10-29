@@ -1,4 +1,4 @@
-# Lego EV3 Micrpython Video Tutorials
+# Lego EV3 Micropython (Pybricks) Video Tutorials
 (work in progress)
 
 ## Intro to Simulator 
