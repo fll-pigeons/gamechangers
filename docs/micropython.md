@@ -120,7 +120,8 @@
       gyro_sensor = GyroSensor(Port.S3)
 
       angle = 45 # degrees
-
+      speed = 150 # mm/s
+      
       gyro_sensor.reset_angle()
       while gyro_sensor.angle() < angle:
         motorA.run(speed=speed)
