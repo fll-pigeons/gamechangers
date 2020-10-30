@@ -131,17 +131,19 @@
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
 
-  * [How to turn using gyro.angle](https://github.com/fll-pigeons/gamechangers/blob/master/programs/LP03b_squareGyroDriveLoop.py):
+  * Gradual Turn Using Gyro:
 
     ```
     gyro_sensor = GyroSensor(Port.S3)
 
-    angle = 45 # degrees
+    angle = 90 # degrees
+    rotational_speed = 90 # degrees per second
+    speed = 150 # mm/s
 
     gyro_sensor.reset_angle(0)
     while gyro_sensor.angle() < angle:
-      robot.drive(drive_speed=200, turn_rate=90)
-    robot.stop()          
+      robot.drive(drive_speed=speed, turn_rate=rotational_speed)
+    robot.stop()       
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
 
