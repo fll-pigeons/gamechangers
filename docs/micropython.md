@@ -134,23 +134,23 @@
   ```
   --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
 
-* [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+  * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
 
-  ```
-  color_sensor_in1 = ColorSensor(Port.S1)
+    ```
+    color_sensor_in1 = ColorSensor(Port.S1)
 
-  BLACK = 10
-  WHITE = 95
-  threshold = (BLACK + WHITE) / 2
-  PROPORTIONAL_GAIN = 1.5
-  while True:
-      deviation = color_sensor_in1.reflection() - threshold
-      angle_correction = PROPORTIONAL_GAIN * deviation
-      robot.drive(drive_speed=100, turn_rate=angle_correction)
-      wait(10)     
-  ```
-  --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
-  
+    BLACK = 10
+    WHITE = 95
+    threshold = (BLACK + WHITE) / 2
+    PROPORTIONAL_GAIN = 1.5
+    while True:
+        deviation = color_sensor_in1.reflection() - threshold
+        angle_correction = PROPORTIONAL_GAIN * deviation
+        robot.drive(drive_speed=100, turn_rate=angle_correction)
+        wait(10)     
+    ```
+    --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
+
 ## Sample programs
 
 * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
