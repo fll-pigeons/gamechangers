@@ -117,16 +117,16 @@
     * Spin Turn Using Gyro
   
       ```
-        gyro_sensor = GyroSensor(Port.S3)
-        
-        angle = 45 # degrees
-        
-        gyro_sensor.reset_angle()
-        while gyro_sensor.angle() < angle:
-          motorA.run(speed=speed)
-          motorB.run(speed=(-1 * speed))
-        motorA.brake()
-        motorB.brake()      
+      gyro_sensor = GyroSensor(Port.S3)
+
+      angle = 45 # degrees
+
+      gyro_sensor.reset_angle()
+      while gyro_sensor.angle() < angle:
+        motorA.run(speed=speed)
+        motorB.run(speed=(-1 * speed))
+      motorA.brake()
+      motorB.brake()      
       ```
       --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
       
