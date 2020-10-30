@@ -62,40 +62,6 @@
 
 ## Sensors
 
-* [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-  * 3-level line follower using color sensor:
-    
-  ```
-  color_sensor_in1 = ColorSensor(Port.S1)    
-
-  while True:
-      if color_sensor_in1.reflection()  > 95: # white
-          robot.drive(drive_speed=75, turn_rate=-60)
-      else: 
-          if color_sensor_in1.reflection()  < 10: # black
-              robot.drive(drive_speed=75, turn_rate=60)
-          else: #straight
-              robot.drive(drive_speed=75, turn_rate=0)
-  ```
-  --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
-
-* [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
-
-  ```
-  color_sensor_in1 = ColorSensor(Port.S1)
-
-  BLACK = 10
-  WHITE = 95
-  threshold = (BLACK + WHITE) / 2
-  PROPORTIONAL_GAIN = 1.5
-  while True:
-      deviation = color_sensor_in1.reflection() - threshold
-      angle_correction = PROPORTIONAL_GAIN * deviation
-      robot.drive(drive_speed=100, turn_rate=angle_correction)
-      wait(10)     
-  ```
-  --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
-
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
   * Drive Straight Using Gyro (angle_correction calculates angle to turn robot in opposite direction of angle error):
 
@@ -150,7 +116,41 @@
   * Notes:
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - remember to reset gyro angle before using it as a test in a loop
     * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
+    
+* [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
+  * 3-level line follower using color sensor:
+    
+  ```
+  color_sensor_in1 = ColorSensor(Port.S1)    
 
+  while True:
+      if color_sensor_in1.reflection()  > 95: # white
+          robot.drive(drive_speed=75, turn_rate=-60)
+      else: 
+          if color_sensor_in1.reflection()  < 10: # black
+              robot.drive(drive_speed=75, turn_rate=60)
+          else: #straight
+              robot.drive(drive_speed=75, turn_rate=0)
+  ```
+  --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
+
+* [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+
+  ```
+  color_sensor_in1 = ColorSensor(Port.S1)
+
+  BLACK = 10
+  WHITE = 95
+  threshold = (BLACK + WHITE) / 2
+  PROPORTIONAL_GAIN = 1.5
+  while True:
+      deviation = color_sensor_in1.reflection() - threshold
+      angle_correction = PROPORTIONAL_GAIN * deviation
+      robot.drive(drive_speed=100, turn_rate=angle_correction)
+      wait(10)     
+  ```
+  --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab) 
+  
 ## Sample programs
 
 * [ROBOT EDUCATOR PROGRAMS](https://pybricks.github.io/ev3-micropython/index.html)
