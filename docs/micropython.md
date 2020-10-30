@@ -63,7 +63,12 @@
 ## Sensors
 
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-  * Drive Straight Using Gyro (angle_correction calculates angle to turn robot in opposite direction of angle error):
+  * Drive Straight Using Gyro:
+    * if gyro_sensor.angle() 
+      * is zero, robot drives straight
+      * is more than zero, this tells you how much the robot is driving in the wrong direction, therefore need to tell robot to turn in opposite direction (multiply angle_correction by minus 1)
+      * is less than zero, tell robot to turn in opposite direction   
+      * we use a fudge factor (called PROPORTIONAL_GAIN) to make robot turn a little more than angle error, because it takes time for robot to react to commands
 
     ```
     gyro_sensor = GyroSensor(Port.S3)
