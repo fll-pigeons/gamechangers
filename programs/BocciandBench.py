@@ -17,17 +17,19 @@ forklift_motor = Motor(Port.D)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-
+ev3.screen.draw_text(50, 60, "SCP Foundation")
 ev3.speaker.beep()
 
-robot.straight(470)
-robot.turn(-150)
-robot.straight(480)
+robot.straight(422)
+robot.turn(-95)
+robot.straight(490)
 forklift_motor.run_angle(speed=100, rotation_angle=150)
 robot.straight(-150)
-forklift_motor.run_angle(speed=300, rotation_angle=-150)
-robot.turn(-55)
+forklift_motor.run_angle(speed=280, rotation_angle=-150)
+robot.turn(-75)
 robot.straight(150)
 forklift_motor.run_angle(speed=100, rotation_angle=650)
 forklift_motor.run_angle(speed=100, rotation_angle=-650)
 ev3.speaker.beep()
+
+
