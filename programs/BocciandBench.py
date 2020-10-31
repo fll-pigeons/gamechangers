@@ -26,10 +26,9 @@ robot.straight(490)
 forklift_motor.run_angle(speed=100, rotation_angle=150)
 robot.straight(-150)
 forklift_motor.run_angle(speed=280, rotation_angle=-150)
-robot.turn(-75)
+robot.turn(-60)
 robot.straight(150)
 forklift_motor.run_angle(speed=100, rotation_angle=650)
 forklift_motor.run_angle(speed=100, rotation_angle=-650)
 ev3.speaker.beep()
-
 
