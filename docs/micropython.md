@@ -75,6 +75,7 @@
     while robot.distance() < distance:
       angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
       robot.drive(drive_speed=200, turn_rate=angle_correction) 
+      wait(10)
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
@@ -86,11 +87,15 @@
 
     angle = 45 # degrees
     speed = 150 # mm/s
-
-    gyro_sensor.reset_angle()
-    while gyro_sensor.angle() < angle:
+    
+    if angle < 0: # reverse direction of motors if turning counter clockwise
+        speed = -speed
+        
+    gyro_sensor.reset_angle(0)
+    while abs(gyro_sensor.angle()) < abs(angle):
       motorA.run(speed=speed)
       motorB.run(speed=(-1 * speed))
+      wait(10)
     motorA.brake()
     motorB.brake()      
     ```
