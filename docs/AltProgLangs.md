@@ -23,7 +23,7 @@
 ## Pigeons' selection:
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3) install on bootable SD card on EV3 brick.
 * [Visual Studio Code](https://code.visualstudio.com/) and the [LEGO® MINDSTORMS® EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) extension 
-* [Lego EV3 Micropython (Pybricks) simulator](/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
+* [Lego EV3 Micropython (Pybricks) simulator](https://fll-pigeons.github.io/gamechangers/simulator/public/) (fork of QuirkyCort's [gearsbot](https://gears.aposteriori.com.sg/) )
 * Edimax N150 - WiFi Nano USB Adapter - for direct download from laptop to brick
 
 -------------------
