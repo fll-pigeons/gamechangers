@@ -68,6 +68,8 @@
 
 --------
 # Log
+> #### 29 & 31 Oct, 1 Nov - Fix old forklist attachment; start using Gyro sensor
+Trying to get old forklift attachment to work since it seems more stable; also worked on trying to stabilize current fork lift attachment - will pick whichever one works best.  Started on a new Gyro function - since our motors are reversed, took a while to figure out that we need to set our gyro with reverse direction too, otherwise angle error measurements are the opposite of what one would expect.
 > #### 22 & 24, 25 Oct - Finally figured out basketball hoop lift issue
 The basketball hoop was getting caught at junction between blue vertical beam and black vertical beam.  There were many, many varied attempts/modifications to correct the robot fork lift attachment, when it was the mission design/construction that was the problem.  Good lesson learned: make sure all mission pieces fit snuggly after every attempt at trying the mission.
 > #### 16 & 18 Oct - fixed problems which caused robot to drive erratically
