@@ -79,26 +79,33 @@
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
-    * Note: if running your motors counter counterclockwise, remember to set your gyro with it too: gyro_sensor = GyroSensor(Port.S3, Direction.COUNTERCLOCKWISE)
+    * Note: if your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
  
   * Spin Turn Using Gyro
 
     ```
-    gyro_sensor = GyroSensor(Port.S3)
-
-    angle = 45 # degrees
-    speed = 150 # mm/s
+    gyro_sensor = GyroSensor(Port.S3)    
     
-    if angle < 0: # reverse direction of motors if turning counter clockwise
-        speed = -speed
-        
+    angle = 90 # degrees
+    speed = 150 # mm/s
+
     gyro_sensor.reset_angle(0)
-    while abs(gyro_sensor.angle()) < abs(angle):
-      motorA.run(speed=speed)
-      motorB.run(speed=(-1 * speed))
-      wait(10)
+    if angle < 0:
+        while gyro_sensor.angle() > angle:
+            motorA.run(speed=(-1 * speed))
+            motorB.run(speed=speed)
+            wait(10)
+    elif angle > 0:  
+        while gyro_sensor.angle() < angle:
+            motorA.run(speed=speed)
+            motorB.run(speed=(-1 * speed))
+            wait(10)  
+    else:
+        print("Error: no angle chosen")
+
     motorA.brake()
-    motorB.brake()      
+    motorB.brake()    
+   
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
     * Note: abs turns a negative number into a positive, and doesn't change a positive number
