@@ -108,7 +108,6 @@
    
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
-    * Note: abs turns a negative number into a positive, and doesn't change a positive number
     
   * Gradual Turn Using Gyro:
 
