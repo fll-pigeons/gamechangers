@@ -79,7 +79,7 @@
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
-    * Note: if running your motors with Direction.COUNTERCLOCKWISE, remember to set your setup your GyroSensor class with it too: GyroSensor(Port.S3, Direction.COUNTERCLOCKWISE)
+    * Note: if running your motors counter counterclockwise, remember to set your gyro with it too: gyro_sensor = GyroSensor(Port.S3, Direction.COUNTERCLOCKWISE)
  
   * Spin Turn Using Gyro
 
