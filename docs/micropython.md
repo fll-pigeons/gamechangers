@@ -63,7 +63,8 @@
 ## Sensors
 
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-  * Drive Forward using Gyro:
+  * Drive Straight Using Gyro - Forward:
+  
     ```
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3
 
@@ -83,7 +84,8 @@
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
     * Note: if your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
  
-   * Drive Forward or Backwards using Gyro:
+   * Drive Straight Using Gyro - Forward or Backwards:
+   
     ```
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3    
     
@@ -110,7 +112,8 @@
     ---> 
     * Note:remember to call robot.reset() before using robot.distance() as a test in a loop
     
-   * Right-hand Spin Turn Using Gyro
+    
+   * Spin Turn Using Gyro - Right Turn Only
 
     ```
     gyro_sensor = GyroSensor(Port.S3)    
@@ -126,11 +129,10 @@
 
     motorA.brake()
     motorB.brake()    
-   
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
     
-  * Spin Turn (either direction) Using Gyro
+  * Spin Turn Using Gyro - Either Direction
 
     ```
     gyro_sensor = GyroSensor(Port.S3)    
@@ -154,8 +156,7 @@
 
     motorA.brake()
     motorB.brake()    
-   
-    ```
+    ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
     
   * Notes:
