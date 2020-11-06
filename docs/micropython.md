@@ -63,7 +63,7 @@
 ## Sensors
 
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-  * Drive Straight Using Gyro - Forward:
+  * **Drive Straight Using Gyro - Forward:**
   
     ```
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3
@@ -82,57 +82,57 @@
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
-    * Note: if your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
- 
-   * Drive Straight Using Gyro - Forward or Backwards:
-   
-    ```
-    gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3    
-    
-    distance = -1000 # millimetres
-    robotSpeed = 150 # mm/sec    
-    
-    robot.reset() 
-    gyro_sensor.reset_angle(0)
-  
-    PROPORTIONAL_GAIN = 1.1
-    if distance < 0: # move backwards
-        while robot.distance() > distance:
-            reverseSpeed = -1 * robotSpeed        
-            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-            robot.drive(reverseSpeed, angle_correction) 
-            wait(10)
-    elif distance > 0: # move forwards             
-        while robot.distance() < distance:
-            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-            robot.drive(robotSpeed, angle_correction) 
-            wait(10)            
-    robot.stop()
-    ``` 
-    ---> 
-    * Note:remember to call robot.reset() before using robot.distance() as a test in a loop
-    
-    
-   * Spin Turn Using Gyro - Right Turn Only
+    * Notes: 
+      * Remember to call robot.reset() before using robot.distance() as a test in a loop    
+      * If your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
 
-    ```
-    gyro_sensor = GyroSensor(Port.S3)    
+   * **Drive Straight Using Gyro - Forward or Backwards:**
+
+     ```
+     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3    
+
+     distance = -1000 # millimetres
+     robotSpeed = 150 # mm/sec    
+
+     robot.reset() 
+     gyro_sensor.reset_angle(0)
+
+     PROPORTIONAL_GAIN = 1.1
+     if distance < 0: # move backwards
+         while robot.distance() > distance:
+             reverseSpeed = -1 * robotSpeed        
+             angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+             robot.drive(reverseSpeed, angle_correction) 
+             wait(10)
+     elif distance > 0: # move forwards             
+         while robot.distance() < distance:
+             angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+             robot.drive(robotSpeed, angle_correction) 
+             wait(10)            
+     robot.stop()
+     ``` 
+    --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
     
-    angle = 90 # degrees
-    speed = 150 # mm/s
+   * **Spin Turn Using Gyro - Right Turn Only**
 
-    gyro_sensor.reset_angle(0)
-    while gyro_sensor.angle() < angle:
-        motorA.run(speed=speed)
-        motorB.run(speed=(-1 * speed))
-        wait(10)  
+     ```
+     gyro_sensor = GyroSensor(Port.S3)    
 
-    motorA.brake()
-    motorB.brake()    
-    ```
+     angle = 90 # degrees
+     speed = 150 # mm/s
+
+     gyro_sensor.reset_angle(0)
+     while gyro_sensor.angle() < angle:
+         motorA.run(speed=speed)
+         motorB.run(speed=(-1 * speed))
+         wait(10)  
+
+     motorA.brake()
+     motorB.brake()    
+     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
     
-  * Spin Turn Using Gyro - Either Direction
+  * **Spin Turn Using Gyro - Either Direction**
 
     ```
     gyro_sensor = GyroSensor(Port.S3)    
@@ -166,18 +166,18 @@
 * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
   * 3-level line follower using color sensor:
     
-  ```
-  color_sensor_in1 = ColorSensor(Port.S1)    
+    ```
+    color_sensor_in1 = ColorSensor(Port.S1)    
 
-  while True:
-      if color_sensor_in1.reflection()  > 95: # white
-          robot.drive(drive_speed=75, turn_rate=-60)
-      else: 
-          if color_sensor_in1.reflection()  < 10: # black
-              robot.drive(drive_speed=75, turn_rate=60)
-          else: #straight
-              robot.drive(drive_speed=75, turn_rate=0)
-  ```
+    while True:
+        if color_sensor_in1.reflection()  > 95: # white
+            robot.drive(drive_speed=75, turn_rate=-60)
+        else: 
+            if color_sensor_in1.reflection()  < 10: # black
+                robot.drive(drive_speed=75, turn_rate=60)
+            else: #straight
+                robot.drive(drive_speed=75, turn_rate=0)
+    ```
   --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
 
   * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
