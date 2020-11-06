@@ -63,7 +63,7 @@
 ## Sensors
 
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-  * Drive Straight Using Gyro:
+  * Drive Forward using Gyro:
     ```
     gyro_sensor = GyroSensor(Port.S3)
 
@@ -71,6 +71,7 @@
 
     robot.reset() 
     gyro_sensor.reset_angle(0)
+    
     PROPORTIONAL_GAIN = 1.1    
     while robot.distance() < distance:
       angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
@@ -81,7 +82,47 @@
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
     * Note: if your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
  
-  * Spin Turn Using Gyro
+   * Drive Forward and Backwards using Gyro:
+    ```
+    robot.reset() 
+    gyro_sensor.reset_angle(0)
+  
+    PROPORTIONAL_GAIN = 1.1
+    if distance < 0: # move backwards
+        while robot.distance() > distance:
+            speed = -1 * robotSpeed        
+            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+            robot.drive(drive_speed=speed, turn_rate=angle_correction) 
+            wait(10)
+    elif distance > 0: # move forwards             
+        while robot.distance() < distance:
+            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+            robot.drive(drive_speed=robotSpeed, turn_rate=angle_correction) 
+            wait(10)            
+    robot.stop()
+    ``` 
+    --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
+ 
+   * Right-hand Spin Turn Using Gyro
+
+    ```
+    gyro_sensor = GyroSensor(Port.S3)    
+    
+    angle = 90 # degrees
+    speed = 150 # mm/s
+
+    gyro_sensor.reset_angle(0)
+    while gyro_sensor.angle() < angle:
+        motorA.run(speed=speed)
+        motorB.run(speed=(-1 * speed))
+        wait(10)  
+
+    motorA.brake()
+    motorB.brake()    
+   
+    ```
+    --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
+  * Spin Turn (both  ways) Using Gyro
 
     ```
     gyro_sensor = GyroSensor(Port.S3)    
