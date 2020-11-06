@@ -68,22 +68,26 @@
     gyro_sensor = GyroSensor(Port.S3)
 
     distance = 1000 # millimetres
-
+    speed = 150 # mm/sec
+    
     robot.reset() 
     gyro_sensor.reset_angle(0)
     
     PROPORTIONAL_GAIN = 1.1    
     while robot.distance() < distance:
       angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-      robot.drive(drive_speed=200, turn_rate=angle_correction) 
+      robot.drive(drive_speed=speed, turn_rate=angle_correction) 
       wait(10)
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
     * Note: if your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
  
-   * Drive Forward and Backwards using Gyro:
+   * Drive Forward or Backwards using Gyro:
     ```
+    distance = -1000 # millimetres
+    speed = 150 # mm/sec    
+    
     robot.reset() 
     gyro_sensor.reset_angle(0)
   
@@ -102,7 +106,8 @@
     robot.stop()
     ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
- 
+    * Note:remember to call robot.reset() before using robot.distance() as a test in a loop
+    
    * Right-hand Spin Turn Using Gyro
 
     ```
@@ -122,12 +127,13 @@
    
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
-  * Spin Turn (both  ways) Using Gyro
+    
+  * Spin Turn (either direction) Using Gyro
 
     ```
     gyro_sensor = GyroSensor(Port.S3)    
     
-    angle = 90 # degrees
+    angle = -90 # degrees
     speed = 150 # mm/s
 
     gyro_sensor.reset_angle(0)
@@ -150,22 +156,6 @@
     ```
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
     
-  * Gradual Turn Using Gyro:
-
-    ```
-    gyro_sensor = GyroSensor(Port.S3)
-
-    angle = 90 # degrees
-    rotational_speed = 90 # degrees per second
-    speed = 150 # mm/s
-
-    gyro_sensor.reset_angle(0)
-    while gyro_sensor.angle() < angle:
-      robot.drive(drive_speed=speed, turn_rate=rotational_speed)
-    robot.stop()       
-    ```
-    --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste in under Python tab)
-
   * Notes:
     * [reset_angle(0)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.Motor.reset_angle) - remember to reset gyro angle before using it as a test in a loop
     * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
