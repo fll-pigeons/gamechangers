@@ -164,7 +164,8 @@
     * Gyro must be plugged to EV3 before power up.  Make sure brick does not move on power up.  Never plug in gyro to an already powered up EV3 brick - it messes up the calibration.
     
 * [classColorSensor(port)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.ColorSensor)
-  * 3-level line follower using color sensor:
+  * **3-level line follower using color sensor:**
+    * (not very accurate)
     
     ```
     color_sensor_in1 = ColorSensor(Port.S1)    
@@ -180,7 +181,7 @@
     ```
   --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/) (use Single Sensor Line Robot and select Line Following Challenges from Worlds, under the Simulator tab)
 
-  * [Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+  * **[Proportional line follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)**
 
     ```
     color_sensor_in1 = ColorSensor(Port.S1)
