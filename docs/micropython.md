@@ -68,7 +68,7 @@
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3
 
     distance = 1000 # millimetres
-    speed = 150 # mm/sec
+    robotSpeed = 150 # mm/sec
     
     robot.reset() 
     gyro_sensor.reset_angle(0)
@@ -76,7 +76,7 @@
     PROPORTIONAL_GAIN = 1.1    
     while robot.distance() < distance:
       angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-      robot.drive(drive_speed=speed, turn_rate=angle_correction) 
+      robot.drive(robotSpeed, angle_correction) 
       wait(10)
     robot.stop()
     ``` 
@@ -88,7 +88,7 @@
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3    
     
     distance = -1000 # millimetres
-    speed = 150 # mm/sec    
+    robotSpeed = 150 # mm/sec    
     
     robot.reset() 
     gyro_sensor.reset_angle(0)
@@ -96,14 +96,14 @@
     PROPORTIONAL_GAIN = 1.1
     if distance < 0: # move backwards
         while robot.distance() > distance:
-            speed = -1 * robotSpeed        
+            reverseSpeed = -1 * robotSpeed        
             angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-            robot.drive(drive_speed=speed, turn_rate=angle_correction) 
+            robot.drive(reverseSpeed, angle_correction) 
             wait(10)
     elif distance > 0: # move forwards             
         while robot.distance() < distance:
             angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-            robot.drive(drive_speed=robotSpeed, turn_rate=angle_correction) 
+            robot.drive(robotSpeed, angle_correction) 
             wait(10)            
     robot.stop()
     ``` 
