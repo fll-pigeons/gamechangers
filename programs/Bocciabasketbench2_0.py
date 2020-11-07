@@ -22,20 +22,6 @@ ev3.speaker.beep()
 
 gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
 
-def gyro_straight(distance, robotSpeed):
-    robot.reset() 
-    print("=====================================")
-    print("gyro_straight: distance: " + str(distance) + " robotSpeed: " + str(robotSpeed))    
-    gyro_sensor.reset_angle(0)
-    print("gyro reset" + str(gyro_sensor.angle()))        
-    PROPORTIONAL_GAIN = 1.3    
-    while robot.distance() < distance:
-        angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
-        robot.drive(speed=robotSpeed, turn_rate=angle_correction) 
-        print("gyro: " + str(gyro_sensor.angle()) + " angle_correction: " + str(angle_correction) )        
-        wait(10)
-    robot.stop()
-
 def gyro_turn(angle, speed):
     gyro_sensor.reset_angle(0)
     if angle < 0:
@@ -52,7 +38,27 @@ def gyro_turn(angle, speed):
         print("Error: no angle chosen")
 
     left_motor.brake()
-    right_motor.brake()    
+    right_motor.brake() 
+
+def gyro_straight(distance, robotSpeed):
+    robot.reset() 
+    gyro_sensor.reset_angle(0)
+
+    PROPORTIONAL_GAIN = 1.1
+    if distance < 0: # move backwards
+        while robot.distance() > distance:
+            reverseSpeed = -1 * robotSpeed        
+            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+            robot.drive(reverseSpeed, angle_correction) 
+            wait(10)
+    elif distance > 0: # move forwards             
+        while robot.distance() < distance:
+            angle_correction = -1 * PROPORTIONAL_GAIN * gyro_sensor.angle()
+            robot.drive(robotSpeed, angle_correction) 
+            wait(10)            
+    robot.stop()
+
+
 
 
 gyro_straight(50, 100)
@@ -63,8 +69,10 @@ wait(100)
 gyro_straight(280, 100)
 forklift_motor.run_angle(speed=100, rotation_angle=150)
 forklift_motor.run_angle(speed=280, rotation_angle=-150)
-gyro_straight(-80, 100)
-#forklift_motor.run_angle(speed=100, rotation_angle=650)
-#forklift_motor.run_angle(speed=100, rotation_angle=-650)
+gyro_straight(-70, 100)
+gyro_turn(75, 100)
+forklift_motor.run_angle(speed=100, rotation_angle=650)
+forklift_motor.run_angle(speed=100, rotation_angle=-650)
+
 
 ev3.speaker.beep()
