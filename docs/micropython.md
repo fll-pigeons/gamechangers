@@ -63,7 +63,7 @@
 ## Sensors
 
 * [classGyroSensor(port, positive_direction=Direction.CLOCKWISE)](https://pybricks.github.io/ev3-micropython/ev3devices.html#pybricks.ev3devices.GyroSensor)
-  * **Drive Straight Using Gyro - Forward:**
+  * **Drive Straight Using Gyro - Forward:** (Proportional algorithm)
   
     ```
     gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3
@@ -86,7 +86,7 @@
       * Remember to call robot.reset() before using robot.distance() as a test in a loop    
       * If your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
 
-   * **Drive Straight Using Gyro - Forward or Backwards:**
+   * **Drive Straight Using Gyro - Forward or Backwards:** (Proportional algorithm)
 
      ```
      gyro_sensor = GyroSensor(Port.S3) # Assumes gyro is connected to port 3    
