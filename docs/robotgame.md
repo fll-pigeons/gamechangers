@@ -68,7 +68,8 @@
 
 --------
 # Log
-> #### 5 & 7 Nov - Finished rebuild of forklist attachment; fixed gyro_straight() bug so that robot can now use gyro when going backwards in straight line. Robot more accurate on turns and travelling straight.
+> #### 5 & 7 Nov - Forklift and gyro code fix
+Finished rebuild of forklist attachment; fixed gyro_straight() bug so that robot can now use gyro when going backwards in straight line. Robot more accurate on turns and travelling straight.
 > #### 29 & 31 Oct, 1 Nov - Fix old forklist attachment; start using Gyro sensor and Python functions
 Trying to get old forklift attachment to work since it seems more stable; also worked on trying to stabilize current fork lift attachment - will pick whichever one works best.  Started on a new gyro_straight function - our gyro was reversed, took a while to figure out that we need to set our gyro with reverse direction (to fix angle error measurements were the opposite of what one would expect).
 > #### 22 & 24, 25 Oct - Finally figured out basketball hoop lift issue
