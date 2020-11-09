@@ -133,7 +133,7 @@ A. Navigation
   * [Squaring on lines (aligning on a line)](https://ev3lessons.com/en/ProgrammingLessons/advanced/Align.pdf)
 
 ## LP04d - combining line following and gyro
-* [LAGS Algorithm - Line Assisted Gyro Steering (Brickwolves Waring FLL)](https://www.youtube.com/watch?v=WQH720LQAB0)
+* [LAGS Algorithm - Light Assisted Gyro Steering (Brickwolves Waring FLL)](https://www.youtube.com/watch?v=WQH720LQAB0)
 
 ## LP05- Reliability and attachments
 * Reliability
