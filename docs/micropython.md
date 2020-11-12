@@ -22,7 +22,7 @@
      
       ```
       robot.reset()
-      # keep driving until either robot has travelled 100cm or turned 45degrees
+      # keep driving until either robot has travelled 100cm or turned 120degrees
       while robot.distance() < 1000 and robot.angle() < 120:
           robot.drive(300,30) # drive for 300mm/s, while turning left at 30deg/sec 
           wait(10) # wait for a short time or do something else
