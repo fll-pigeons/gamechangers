@@ -38,8 +38,9 @@
 <br/>
 
 # 3. Programing
-### [Lego EV3 Python Cheat Sheet](micropython.md)
-### [Lego EV3 Python (Pybricks) simulator (virtual robot)](/simulator/public/) 
+### Lego EV3 Python (Pybricks)
+* #### [Cheat Sheet](micropython.md)
+* #### [Virtual Robot Simulator](/simulator/public/) 
 
 * [Simulator Tutorial Videos](tutorial/simulatorIntro.md) (work in progress)
     
