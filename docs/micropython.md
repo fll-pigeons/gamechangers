@@ -1,4 +1,4 @@
-#  LEGO® EV3 MicroPython (Pybricks) Cheat sheet
+#  LEGO® EV3 Python (Pybricks) Cheat sheet
  
 ## Drive the Robot (Control two motors at same time)
 * **Move then stop** (drive straight or spin turn)
