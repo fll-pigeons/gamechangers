@@ -40,7 +40,7 @@
 # 3. Programing
 ### Lego EV3 Python (Pybricks)
 * #### [Cheat Sheet](micropython.md)
-* #### [Virtual Robot Simulator](/simulator/public/) 
+* #### [Virtual Robot Simulator](https://fll-pigeons.github.io/gamechangers/simulator/public/) 
 
 * [Simulator Tutorial Videos](tutorial/simulatorIntro.md) (work in progress)
     
