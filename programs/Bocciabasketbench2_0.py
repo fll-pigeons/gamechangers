@@ -76,12 +76,14 @@ forklift_motor.run_angle(speed=25198, rotation_angle=10000)
 forklift_motor.run_angle(speed=25198, rotation_angle=-10000)
 gyro_straight(-5, 100)
 gyro_turn(-75, 100)
+gyro_straight(70, 100)
+forklift_motor.run_angle(speed=25198, rotation_angle=9000)
+gyro_straight(90, 100)
+forklift_motor.run_angle(speed=25198, rotation_angle=-9000)
+gyro_straight(-90, 100)
+gyro_turn(100,100)
+gyro_straight(150, 100)
 ev3.speaker.beep()
 
 
-
-
-
-
-
-
+#RIP Hunter, Josh, and Zhongren, Who All Left The Group
