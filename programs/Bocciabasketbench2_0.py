@@ -17,7 +17,7 @@ forklift_motor = Motor(Port.D)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-ev3.screen.draw_text(50, 60, "robot go owen is a loser")
+ev3.screen.draw_text(50, 60, "bot go brrrrr")
 ev3.speaker.beep()
 
 gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
@@ -63,20 +63,25 @@ def gyro_straight(distance, robotSpeed):
 
 gyro_straight(50, 100)
 gyro_turn(15, 100)
-gyro_straight(620, 100)
+gyro_straight(610, 100)
 gyro_turn(-7, 100)
 wait(100)
-gyro_straight(235, 100)
-forklift_motor.run_angle(speed=25198, rotation_angle=650)
-forklift_motor.run_angle(speed=25198, rotation_angle=-650)
+gyro_straight(227, 100)
+forklift_motor.run_angle(speed=25198, rotation_angle=700)
+forklift_motor.run_angle(speed=25198, rotation_angle=-700)
 gyro_straight(-70, 100)
-gyro_turn(-50, 100)
+gyro_turn(-37, 100)
 gyro_straight(70, 100)
 forklift_motor.run_angle(speed=25198, rotation_angle=10000)
 forklift_motor.run_angle(speed=25198, rotation_angle=-10000)
-gyro_turn(-50, 100)
-gyro_straight(100, 100)
+gyro_straight(-5, 100)
+gyro_turn(-75, 100)
 ev3.speaker.beep()
 
 
-#Owen is a loser
+
+
+
+
+
+
