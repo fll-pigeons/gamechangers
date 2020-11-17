@@ -6,7 +6,11 @@
 
 We will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
 
-  * November 30 – December 5:  FIRST LEGO League Challenge Remote Practice events
+  * [FIRST LEGO League Challenge Remote Practice Tournament](https://drive.google.com/file/d/1r0kj3WJekACYdHOAu3Z_-qRU7YjFfBcE/view):
+    * Nov 27 (Frid) - Team intro slide; Recording of ONE (1) practice match
+    * Nov 29/30 (Sun/Mon) - Submit three (3) official matches, recorded within a 6-hour window (time-stamped), for scoring by referees
+    * Dec 1 (Tues) - Meet virtually with judges for robot design presentation
+    * Dec 2 (Wed) - Option to meet with referee to review scores
   * January 23 – February 13: FIRST LEGO League Challenge Remote Qualifying Events
 
 [Challenge Resources](challenge.md)
@@ -18,7 +22,7 @@ One 2.5 min video recorded remote competition match: [Remote Reffing Guidance](h
 ### B. Presentations:
 
 #### Team Welcome
-* Introductory conversation as team sets up any materials they have brought (2min)
+* Introductory conversation and to attend to any technical requirements (i.e. screen sharing) (2min)
 
 #### 1. [Innovation Project](project.md)
 * Presentation (5 min)
