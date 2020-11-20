@@ -1,29 +1,27 @@
-#!/usr/bin/env python3
+#!/usr/bin/env pybricks-micropython
 
-# Import the necessary libraries
-import math
-import time
-from pybricks.ev3devices import *
-from pybricks.parameters import *
-from pybricks.robotics import *
-from pybricks.tools import wait
 from pybricks.hubs import EV3Brick
+from pybricks.ev3devices import Motor, GyroSensor
+from pybricks.parameters import Port, Direction
+from pybricks.robotics import DriveBase
+from pybricks.tools import wait
 
+# Initialize the EV3 Brick.
 ev3 = EV3Brick()
-motorA = Motor(Port.A)
-motorB = Motor(Port.B)
-left_motor = motorA
-right_motor = motorB
-robot = DriveBase(left_motor, right_motor, wheel_diameter=56, axle_track=152)
-robot.settings(straight_speed=200, straight_acceleration=100, turn_rate=100)
 
-color_sensor_in1 = ColorSensor(Port.S1)
-obstacle_sensor = UltrasonicSensor(Port.S2)
-gyro_sensor= GyroSensor(Port.S3)
+# Initialize the motors.
+left_motor = Motor(Port.B,  positive_direction=Direction.COUNTERCLOCKWISE)
+right_motor = Motor(Port.C,  positive_direction=Direction.COUNTERCLOCKWISE)
+lift_motor = Motor(Port.A)
+forklift_motor = Motor(Port.D) 
 
-motorC = Motor(Port.C) # Magnet
+robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
+robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
+ev3.screen.draw_text(50, 60, "The Final Mission!")
+ev3.speaker.beep()
 
-# Here is where your code starts
+gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
+
 def gyro_turn(angle, speed):
     gyro_sensor.reset_angle(0)
     if angle < 0:
@@ -59,11 +57,17 @@ def gyro_straight(distance, robotSpeed):
             robot.drive(robotSpeed, angle_correction) 
             wait(10)            
     robot.stop()
-    
-gyro_straight(15, 50)
-gyro_turn(100, 100)
-gyro_straight(300, 100)
-gyro_turn(-10, 100)
-gyro_straight(450, 100)
-gyro_straight(150, 50)
-gyro_straight(-950, 300)
+
+gyro_straight(600, 100)
+gyro_straight(50, 25)
+robot.stop
+gyro_straight(50, 25)
+robot.stop
+gyro_straight(50, 25)
+robot.stop
+gyro_straight(50, 25)
+gyro_straight(50, 25)
+robot.stop
+gyro_straight(-800, 300)
+
+
