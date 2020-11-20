@@ -12,11 +12,12 @@
     * drive() then [wait(milliseconds)](https://pybricks.github.io/ev3-micropython/tools.html?highlight=wait#pybricks.tools.wait), then [stop()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.stop) 
 
       ```  
-      robot.drive(300, 0) # drive at 300mm/sec, in straight line (because turn_rate=0)
+      robot.drive(150, 0) # drive at 150mm/sec, in straight line (because turn_rate=0)
       wait(1000) # wait one second
       robot.stop() # not required if program ends after wait command 
       ```  
       --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
+      * Note: at faster speeds, the robot will not accurately drive in a straight line - you will need to use a sensor to fix this (e.g. gyro)
     
     * call drive() many times inside [while loop](https://pybricks.github.io/ev3-micropython/examples/robot_educator_ultrasonic.html) using [distance()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.distance) or [angle()](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.angle):
      
@@ -24,7 +25,7 @@
       robot.reset()
       # keep driving until either robot has travelled 100cm or turned 120degrees
       while robot.distance() < 1000 and robot.angle() < 120:
-          robot.drive(300,30) # drive for 300mm/s, while turning left at 30deg/sec 
+          robot.drive(150,30) # drive for 150mm/s, while turning left at 30deg/sec 
           wait(10) # wait for a short time or do something else
       robot.stop()
       ```
