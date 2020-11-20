@@ -61,7 +61,7 @@ def gyro_straight(distance, robotSpeed):
 
 
 gyro_straight(300, 50)
-gyro_turn(50, 100)
+gyro_turn(45, 100)
 gyro_straight(880, 100)
 boccia_motor.run_angle(speed=1000, rotation_angle=180)
 gyro_straight(-1200, 300)
