@@ -69,8 +69,8 @@
 
 --------
 # Log
-> #### 21 Nov - Basketball mission issues - inifinite tweaking of forklift code to work with Bocci, Basketball and bench missions
-Still not working correctly - no clear where the problem is.  Trying new program from scratch with fewer turns, and making sure any gyro_straight commands are for long enough distances for gyro to make corrections (e.g. 20mm distance is too short and gyro cannot make correction fast enough).
+> #### 21 Nov - Basketball mission issues - inifinite tweaking of forklift and code to work with Bocci, Basketball and bench missions
+Still not working correctly - no clear where the problem is.  Trying new program from scratch with fewer turns, and making sure any gyro_straight commands are for long enough distances for gyro to make corrections (e.g. 20mm distance is too short and gyro cannot make correction fast enough).  Finally figured out that hand tightening all the pieces on the forklift before every run, along with tightening the box portion of the robot is required for repeatable runs.
 > #### 19 Nov - Rewriting missions created with old robot design for use with new one - easier than adapting old code
 > #### 12 & 14 Nov - more work on Forklift
 > #### 5 & 7 Nov - Forklift and gyro code fix
