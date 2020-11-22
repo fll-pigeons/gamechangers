@@ -86,7 +86,7 @@
     * Notes: 
       * Remember to call robot.reset() before using robot.distance() as a test in a loop    
       * If your gyro is attached backwards on your robot, use Direction.COUNTERCLOCKWISE when setting up GyroSensor
-      * Distance travelled must be far enough so that Gyro code can make correction (e.g. 20mm distance is too short and gyro cannot make correction fast enough)
+      * Distance must be far enough so that Gyro code can make correction (e.g. 20mm distance is too short)
 
    * **Drive Straight Using Gyro - Forward or Backwards:** (Proportional algorithm)
 
