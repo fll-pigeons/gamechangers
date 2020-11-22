@@ -69,6 +69,10 @@
 
 --------
 # Log
+> #### 21 Nov - Basketball mission issues - inifinite tweaking of forklift code to work with Bocci, Basketball and bench missions
+Still not working correctly - no clear where the problem is.  Trying new program from scratch with fewer turns, and making sure any gyro_straight commands are for long enough distances for gyro to make corrections (e.g. 20mm distance is too short and gyro cannot make correction fast enough).
+> #### 19 Nov - Rewriting missions created with old robot design for use with new one - easier than adapting old code
+> #### 12 & 14 Nov - more work on Forklift
 > #### 5 & 7 Nov - Forklift and gyro code fix
 Finished rebuild of forklist attachment; fixed gyro_straight() bug so that robot can now use gyro when going backwards in straight line. Robot more accurate on turns and travelling straight.
 > #### 29 & 31 Oct, 1 Nov - Fix old forklist attachment; start using Gyro sensor and Python functions
