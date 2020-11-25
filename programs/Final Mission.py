@@ -73,10 +73,15 @@ gyro_turn(-44, 100)
 gyro_straight(-420, 150)
 gyro_turn(-45, 100)
 gyro_straight(-480, 150)
-gyro_straight(10, 100)
-gyro_straight(-10, 100)
+gyro_turn(-36, 100)
+count = 0
+while count < 10:
+    gyro_turn(25,100)
+    gyro_turn(-25, 100)
+    count = count + 1
 
 
 
 
-#FSL PIGEONS: Sam, Owen and Hunter.
+
+#FLL PIGEONS: Sam, Owen and Hunter.
