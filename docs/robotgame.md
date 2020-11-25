@@ -69,8 +69,7 @@
 
 --------
 # Log
-> #### 24 Nov - Boccia scoring update
-can score the 25 points for sending either a red or a blue cube from the share model, **but not both**.
+> #### 24 Nov - First complete run of all missions: 260 points, potential to make 275 if everythig works as planned (Inspection Area, M01-Innovation Project & M14-Health Units, M02-Step Counter, M04-Bench, M06-Pullup bar, M07-Robot Dance, M08-Boccia, M14-Health Units, M15-Precision.)  Boccia scoring update - can score the 25 points for sending either a red or a blue cube from the share model, **but not both**.
 > #### 21 Nov - Basketball mission issues - infinite tweaking of forklift and code to work with Bocci, Basketball and bench missions
 Still not working correctly - no clear where the problem is.  Trying new program from scratch with fewer turns, and making sure any gyro_straight commands are for long enough distances for gyro to make corrections (e.g. 20mm distance is too short and gyro cannot make correction fast enough).  Finally figured out that hand tightening all the pieces on the forklift before every run, along with tightening the box portion of the robot is required for repeatable runs.
 > #### 19 Nov - Rewriting missions created with old robot design for use with new one - easier than adapting old code
