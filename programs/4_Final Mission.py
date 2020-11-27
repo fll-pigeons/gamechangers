@@ -61,8 +61,8 @@ def gyro_straight(distance, robotSpeed):
 
 gyro_straight(-280, 150)
 gyro_turn(87, 100)
-gyro_straight(-550, 170)
-gyro_straight(300, 200)
+gyro_straight(-580, 170)
+gyro_straight(280, 200)
 gyro_turn(35, 150)
 gyro_straight(-350, 150)
 gyro_turn(-40, 100)
@@ -72,7 +72,7 @@ gyro_straight(-220, 150)
 gyro_turn(-44, 100)
 gyro_straight(-420, 150)
 gyro_turn(-45, 100)
-gyro_straight(-480, 150)
+gyro_straight(-475, 150)
 gyro_turn(-36, 100)
 count = 0
 while count < 10:
