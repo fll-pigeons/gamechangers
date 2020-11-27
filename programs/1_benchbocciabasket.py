@@ -63,9 +63,9 @@ def gyro_straight(distance, robotSpeed=150):
 #gyro_straight(20, 100)
 #gyro_turn(7, 100)
 #gyro_straight(860, 100)
-gyro_straight(880, 100)
-forklift_motor.run_angle(speed=25198, rotation_angle=1500)
-forklift_motor.run_angle(speed=25198, rotation_angle=-1500) 
+gyro_straight(890, 100)
+forklift_motor.run_angle(speed=25198, rotation_angle=2000)
+forklift_motor.run_angle(speed=25198, rotation_angle=-2000) 
 #move to basket
 gyro_straight(-10, 100)
 gyro_turn(-55, 100)
