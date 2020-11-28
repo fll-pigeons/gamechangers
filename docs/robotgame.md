@@ -69,8 +69,8 @@
 
 --------
 # Log
-> #### 25 Nov - Putting robot on its side for M00 Inspection
-From FLL game support: You can actually position your equipment any way you would like and even use your hands to hold stuff in place. As long as this fits in that volume (however you manage it), it would be allowed!
+> #### 25 Nov - Getting routine down for recording our 3 submissions
+Ran through the process of recording our mission runs.  Worked on the intro and running the actual missions and review of results.  We managed to get 290 points on one run.  Question asked to FLL Support re putting robot on its side for M00 Inspection... they said: You can actually position your equipment any way you would like and even use your hands to hold stuff in place. As long as this fits in that volume (however you manage it), it would be allowed!
 > #### 24 Nov - First complete run of all missions: 260 points
 Potential to make 275 if everythig works as planned (Inspection Area, M01-Innovation Project & M14-Health Units, M02-Step Counter, M04-Bench, M06-Pullup bar, M07-Robot Dance, M08-Boccia, M14-Health Units, M15-Precision.)  Boccia scoring update - can score the 25 points for sending either a red or a blue cube from the share model, **but not both**.
 > #### 22 Nov - Bocci/Basketball/Bench issues fixed
