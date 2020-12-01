@@ -69,7 +69,10 @@
 
 --------
 # Log
-> #### 25 Nov - Getting routine down for recording our 3 submissions
+> #### 28 Nov - FLL Challenge Practice Event - 3 submissions
+Robot not working the same as on Thursday - off just enough to cause problems with missions.  Possible cause: Batteries from different manufacturers - we use rechargeable batteries from two different manufacturers: Duracell and Eveready.  Everything worked fine on Thursday with the Duracells, after making minor tweaks to the programming.  Saturday a.m. switched to the Evereadys (since they were fully charged), and since they have sightly higher baseline voltage, it seemed like we were consistently overshooting our missions.  Going forward we are going to stick with same batteries, and recharge after every session.  No going back and forth.  Would like to order an EV3 battery pack, but the charger is no longer in stock.  In addition, because we were able to record as many sessions as we wanted within a 6 hour window, we cycled through many mission attempts.   The problem is that the removal of our forklift and bucket attachments was not always clean and this caused problems with reassembly and hurt our ability to reliably perfom the basketball/bocci/bench and bocci bucket missions.
+Feedback from judge: our M01 Innovation Project did not count because we have it on top of our health units (so they can be touching the logo) because it is not also touching logo.
+> #### 26 Nov - Getting routine down for recording our 3 submissions
 Ran through the process of recording our mission runs.  Worked on the intro and running the actual missions and review of results.  We managed to get 290 points on one run.  Question asked to FLL Support re putting robot on its side for M00 Inspection... they said: You can actually position your equipment any way you would like and even use your hands to hold stuff in place. As long as this fits in that volume (however you manage it), it would be allowed!
 > #### 24 Nov - First complete run of all missions: 260 points
 Potential to make 275 if everythig works as planned (Inspection Area, M01-Innovation Project & M14-Health Units, M02-Step Counter, M04-Bench, M06-Pullup bar, M07-Robot Dance, M08-Boccia, M14-Health Units, M15-Precision.)  Boccia scoring update - can score the 25 points for sending either a red or a blue cube from the share model, **but not both**.
