@@ -19,3 +19,9 @@ programming to the robot design judges!
 
 ## 2. Examples
 * [FLL Team Dwagon 2019 Robot Design presentation](https://www.youtube.com/watch?v=XtpxtWPwBHU)
+
+
+
+# Log
+> #### Dec 1 - Practice Session - Judge and Score Review Schedules
+The schedule for your team’s judging session on Tuesday, December 1 or on Wednesday, December 2 from 5:00 p.m. – 7:30 p.m. can be found at this [LINK](https://drive.google.com/file/d/1b7uDZqtoyGnsowdBteD88HgXhvPeIuIF/view?usp=sharing). Please note that team members and coaches should join 15 minutes prior to the start of their judging session. At this [LINK](https://drive.google.com/file/d/1b7uDZqtoyGnsowdBteD88HgXhvPeIuIF/view?usp=sharing), you will also find a schedule of your team’s score review session on Wednesday, December 2 from 5:00 p.m. – 7:30 p.m. This is an optional session in which your team can meet with referees to discuss their match scores, which will be shared with coaches no later than Tuesday, December 1. Please note the different joining links for judging and score review sessions. 
