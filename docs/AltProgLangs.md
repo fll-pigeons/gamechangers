@@ -30,9 +30,14 @@
 # Research
 ## A. Official Lego EV3 programming environments
 ### for Home/Retail Sets
-* [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
-  * [EV3 Software PC - Windows](https://go.api.education.lego.com/v1/lms-ev3_en-us_win32#noUrlRewrite)
-  * [EV3 Programmer Apps - Android](https://play.google.com/store/apps/details?id=com.lego.mindstorms.ev3programmer)
+* Original software (using [LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS):
+  * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) 
+  * [Download EV3 Software PC - Windows](https://go.api.education.lego.com/v1/lms-ev3_en-us_win32#noUrlRewrite)
+* Scratch based
+  * [MINDSTORMS® Home](https://www.lego.com/en-ca/themes/mindstorms/downloads) - for MacOS
+  * Apps - Android
+  * [EV3 Programmer Apps](https://play.google.com/store/apps/details?id=com.lego.mindstorms.ev3programmer)
+    * Scratch based
   
 ### for Education Sets (but can be used with Home version)
 * [EV3 Classroom App](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
