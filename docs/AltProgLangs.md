@@ -34,10 +34,9 @@
   * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) 
   * [Download EV3 Software PC - Windows](https://go.api.education.lego.com/v1/lms-ev3_en-us_win32#noUrlRewrite)
 * Scratch based
-  * [MINDSTORMS® Home](https://www.lego.com/en-ca/themes/mindstorms/downloads) - for MacOS
-  * Apps - Android
-  * [EV3 Programmer Apps](https://play.google.com/store/apps/details?id=com.lego.mindstorms.ev3programmer)
-    * Scratch based
+  * [MINDSTORMS® Home](https://www.lego.com/en-ca/themes/mindstorms/downloads) - currenlyt for MacOS; Windows support planned
+  * Apps - Android 
+    * [EV3 Programmer Apps](https://play.google.com/store/apps/details?id=com.lego.mindstorms.ev3programmer)
   
 ### for Education Sets (but can be used with Home version)
 * [EV3 Classroom App](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
