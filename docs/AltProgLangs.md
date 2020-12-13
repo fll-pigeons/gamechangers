@@ -31,9 +31,16 @@
 ## A. Official Lego EV3 programming environments
 ### for Home/Retail Sets
 * [LEGO MINDSTORMS Retail EV3](https://www.lego.com/en-ca/themes/mindstorms/downloads) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
-
+  * [EV3 Software PC - Windows](https://go.api.education.lego.com/v1/lms-ev3_en-us_win32#noUrlRewrite)
+  * [EV3 Programmer Apps](https://play.google.com/store/apps/details?id=com.lego.mindstorms.ev3programmer)
+  
 ### for Education Sets (but can be used with Home version)
-* [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
+* [EV3 Classroom App](https://education.lego.com/en-us/downloads/mindstorms-ev3/software)
+  * coding language based on Scratch
+  * MacOS, Windows, Android, Ipad
+  * called:
+    * EV3 Classroom (education) - includes teacher resources
+    * [Mindstorms Home (home set)](https://www.lego.com/en-ca/themes/mindstorms/downloads)
 
 * [LEGO EV3 MicroPython](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 Visual Studio Code version 1.31 or above with EV3 MicroPython extension installed
@@ -45,6 +52,10 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * Includes debugging
   * [EV3dev startup lag?](https://github.com/fll-pigeons/gamechangers/issues/6)
 
+* Deprecated (superseded by newer code)
+  * [LEGO MINDSTORMS Education EV3](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) ([LabVIEW](https://www.ni.com/en-ca/shop/labview.html) dialect with simplified UI, running on the Lego EV3-G OS)
+
+## B. 3rd party EV3 programming environments/languages
 * [MakeCode](https://makecode.mindstorms.com) - Microsoft MakeCode is an online block programming platform that can control the EV3 and others.  
   * [Documentation](https://makecode.mindstorms.com/about)
   * USB cable only, downloads directly to EV3; experimental support for Bluetooth
@@ -53,7 +64,6 @@ SD Card for EV3 Brick: Micro SDHC (min. 4GB, max. 32GB) with Application Perform
   * [How to Run Microsoft MakeCode in the Virtual Robotics Toolkit](https://www.youtube.com/watch?v=VOQLvFCIAdI)
   * powered by [Microsoft PXT](https://github.com/Microsoft/pxt)
 
-## B. 3rd party EV3 programming environments/languages
 * [EV3dev](http://www.ev3dev.org/) - debian Linux on EV3, bootable from SD card
     * [Demo - Programming Lego Mindstorms robots with Python](https://www.youtube.com/watch?v=kyfbYv6eZQQ) ([Jupyter Notebook on github](https://github.com/sshopov/pyconau2017)) - running Python directly on EV3 brick running Debian; creates Jupiter server on brick that is accessible from client browser on laptop)
   * [EV3DEV Python v2](https://sites.google.com/site/ev3devpython/) 
