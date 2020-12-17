@@ -7,7 +7,7 @@
 We will be participating in the [following events](https://www.firstroboticscanada.org/covid-3/):
 
   * [FIRST LEGO League Challenge Remote Practice Tournament](https://drive.google.com/file/d/1r0kj3WJekACYdHOAu3Z_-qRU7YjFfBcE/view) (Nov29-Dec2):
-  * FIRST LEGO League Challenge Remote Tournament - London (Feb22-Feb24)
+  * [FIRST LEGO League Challenge Remote Tournament - London (Feb22-Feb24)](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/)
   
   
 [Challenge Resources](challenge.md)
