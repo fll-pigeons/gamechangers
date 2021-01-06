@@ -69,7 +69,7 @@
 
 --------
 # Log
-> #### 5 Jan - troubleshooting reliability issues with 1_benchbocciabasket.py
+> #### 5 Jan, 2021 - troubleshooting reliability issues with 1_benchbocciabasket.py
 Trying to figure out why robot seems to jiggle as it makes its way to the basketball mission, sometimes missing the mission altogether... Tried to ramp-up to target speed, also tried tweeks to the robot movement code.  It does not seem to be a problem with the gyro_straight parameters or the starting angle of the robot (though a jig make sure that this is not the problem...)  Best solution seems to be to adjust the PROPORTIONAL_GAIN field in the gyro_straight function from 1.1 to 1,2 - need to experiment more with this.
 > #### Dec - break
 > #### 28 Nov - FLL Challenge Practice Event - 3 submissions
@@ -121,4 +121,4 @@ team discovered that this approach not the best because if you change the speed 
 > #### 13 Aug - working on combined M01_M14_M06_M07 missions; lots of problems with BlueTooth
 > #### 11 Aug - working on combined M01_innovation_project, M14_health_units, M06_pull_up_bar, M07_tobot_dance
 > #### 6 Aug - continued on mission M14_health_units and combined with M06_pull_up_bar
-> #### 4 Aug - watched kickoff; read mission rules; started mission M14_health_units 
+> #### 4 Aug, 2020 - watched kickoff; read mission rules; started mission M14_health_units 
