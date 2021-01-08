@@ -69,6 +69,8 @@
 
 --------
 # Log
+> #### 7 Jan, 2021 troubleshooting gyro_traight function
+robot seems to lean left when going straight - tested motors to make sure that they are both running at same speed (put lines on motor and ran for 5 secs and see if they remain parallel).
 > #### 5 Jan, 2021 - troubleshooting reliability issues with 1_benchbocciabasket.py
 Trying to figure out why robot seems to jiggle as it makes its way to the basketball mission, sometimes missing the mission altogether... Tried to ramp-up to target speed, also tried tweeks to the robot movement code.  It does not seem to be a problem with the gyro_straight parameters or the starting angle of the robot (though a jig make sure that this is not the problem...)  Best solution seems to be to adjust the PROPORTIONAL_GAIN field in the gyro_straight function from 1.1 to 1,2 - need to experiment more with this.
 > #### Dec - break
