@@ -2,17 +2,26 @@
 
 # Driving straight using a gyro and PID algorithm
 
-Most articles on Lego EV3 PID algorithms use the line follower to describe it.  This article will use the Gyro because it might be a conceptually simpler starting point for a new FLL student to understand.
+Most articles on Lego EV3 PID algorithms use the line follower (using the Lego Colour sensor) to describe it.  This article will use the Lego Gyro because it might be a conceptually easier for a new FLL student to understand.
 
 ## Proportional Controller
-For a P (proportional) controller, we use a sensor to measure something that you are trying to control, then convert that measurement to an error.  
 
-If your robot is driving straight, gyro.angle() should return a zero if there is no tracking error on the robot.  If the robot turns left, you should be a negative number, and if it turn right, it should be apositive number.
+### Intro
+For a P (proportional) controller, we use a sensor to measure something that you are trying to control, then convert that measurement to an error.  Then we multiply the error by a scaling factor called Kp.  The result is a correction for the system.  The correction in this case is can applied as an increase/decrease in the power level of the motors, or as the angle parameter in the Pybricks robot.drive(speed, angle) method. 
 
-We want the correction to be the opposite of the number given by the gyro.
+The scaling factor Kp is determined using a bit of educated guessing and then fine tuned by trial and error. 
 
-However, because of processing delays in getting the reading from the gyro, and the time for the EV3 brick to decide what to do, we need toa add a fudge (scaling) factor to the correction so that the robot will 
-For the Drive Straight Using Gyro Algorithm we did that by assigning the gyro sensor angle to an error variable (the gyro.angle() should return a zero if there is no tracking error on the robot). Then we multiply the error by a scaling factor called Kp. The result is a correction for the system. In our line follower example the correction is applied as an increase/decrease in the power level of the motors. The scaling factor Kp is determined using a bit of educated guessing and then fine tuned by trial and error. 
+For getting our robot to drive straight, we are using the gyro sensor to measure, in degrees, the amount the robot is off course (the error).  Then for the robot course correction, we want the robot to turn in the opposite direction of the error then multiply that by a scaling factor called Kp.
+
+### Background: Robot & Gyro
+If your robot is driving straight, gyro.angle() should return a zero if there is no tracking error on the robot.  If the robot turns off course, gyro.angle will return a positive or negative number depending on the number of degrees your robot is off course.  For example, if you tell you robot to drive straight, and it turns slightly to the left, gyro.angle() will return a negative value (-1 to -359) corresponding to the number of degrees your robot if off from going in a straight direction.
+
+### Algorithm Overview
+We want our robot to turn in the oppposite direction to the error that gyro.angle() returns - we want the correction to be the negative of the number given by the gyro... i.e. if the number returned by the gyro is 3, we want the robot to turn by at least -3 degrees in the opposit direction.
+
+Further, because of processing delays in getting the reading from the gyro, and the time for the EV3 brick to decide what to do, we also need to a add a scaling factor (Kp) to the correction so that the robot will turn in time.
+
+For the Drive Straight Using Gyro Algorithm we did that by assigning the gyro sensor angle to an error variable (the gyro.angle() should return a zero if there is no tracking error on the robot). 
 
 ### variables
 * Tp = Target Power
@@ -29,8 +38,7 @@ Tp = 500
 while (robot.distance() < Td):
    print("distance: " + str(robot.distance())) 
    error = gyro_sensor.angle()
-   correction = error * -1  # want robot to travel in opposite direction of angle error
-   Turn = Kp * correction                  # the "P term", how much we want to change the motors' power
+   Turn = Kp * error * -1                  # the "P term", how much we want to change the motors' power
    powerA = ((Tp + Turn) / top_speed) * 100    # the power level for the A motor, converted to dc range of -100 to 100
    powerB = ((Tp - Turn) / top_speed) * 100    # the power level for the B motor
    print("error " + str(error) + "; turn " + str(Turn) + "; powerA " + str(powerA) + "; powerB " + str(powerB))   
