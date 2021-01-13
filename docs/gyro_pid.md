@@ -11,22 +11,24 @@ Most articles on Lego EV3 PID algorithms use the line follower to describe the a
 ### Code
 
 ```  
-Td = 750 # target distance
+Td = 1000 # target distance
 top_speed = 900
 Kp = 10    
 offset = 45
-Tp = 300
+Tp = 500
 while (robot.distance() < Td):
    print("distance: " + str(robot.distance())) 
-   error = gyro_sensor.angle() * -1     
-   Turn = Kp * error                  # the "P term", how much we want to change the motors' power
+   error = gyro_sensor.angle()
+   correction = error * -1  # want robot to travel in opposite direction of angle error
+   Turn = Kp * correction                  # the "P term", how much we want to change the motors' power
    powerA = ((Tp + Turn) / top_speed) * 100    # the power level for the A motor, converted to dc range of -100 to 100
-   powerB = ((Tp - Turn) / top_speed) * 100    # the power level for the C motor
+   powerB = ((Tp - Turn) / top_speed) * 100    # the power level for the B motor
    print("error " + str(error) + "; turn " + str(Turn) + "; powerA " + str(powerA) + "; powerB " + str(powerB))   
 
    motorA.dc(powerA)                  # issue the command with the new power level in a MOTOR block
    motorB.dc(powerB)                  # same for the other motor but using the other power level
 robot.stop()
+
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
