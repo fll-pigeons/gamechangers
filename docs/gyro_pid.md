@@ -49,7 +49,7 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 #### Using drive.straight()
-(why use motor power levels rather than drive.straight? because drive.straight use its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm)
+(why use motor power levels rather than drive.straight? because drive.straight use its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works OK for your purposes)
 
 ```  
 Td = 1000 # target distance
