@@ -1,8 +1,18 @@
-# GYRO PID Algorithm
+# Very DRAFT
 
-Most articles on Lego EV3 PID algorithms use the line follower to describe the algortihm.  This article will use the Gyro because it should be a conceptually simpler starting for a new FLL student to understand.
+# Driving straight using a gyro and PID algorithm
 
-## Proportional
+Most articles on Lego EV3 PID algorithms use the line follower to describe it.  This article will use the Gyro because it might be a conceptually simpler starting point for a new FLL student to understand.
+
+## Proportional Controller
+For a P (proportional) controller, we use a sensor to measure something that you are trying to control, then convert that measurement to an error.  
+
+If your robot is driving straight, gyro.angle() should return a zero if there is no tracking error on the robot.  If the robot turns left, you should be a negative number, and if it turn right, it should be apositive number.
+
+We want the correction to be the opposite of the number given by the gyro.
+
+However, because of processing delays in getting the reading from the gyro, and the time for the EV3 brick to decide what to do, we need toa add a fudge (scaling) factor to the correction so that the robot will 
+For the Drive Straight Using Gyro Algorithm we did that by assigning the gyro sensor angle to an error variable (the gyro.angle() should return a zero if there is no tracking error on the robot). Then we multiply the error by a scaling factor called Kp. The result is a correction for the system. In our line follower example the correction is applied as an increase/decrease in the power level of the motors. The scaling factor Kp is determined using a bit of educated guessing and then fine tuned by trial and error. 
 
 ### variables
 * Tp = Target Power
