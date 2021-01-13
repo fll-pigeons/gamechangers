@@ -32,7 +32,7 @@ Further, because of processing delays in getting the reading from the gyro, and 
 Td = 1000 # target distance
 top_speed = 900
 Kp = 10    
-Tp = 500
+Tp = 500 # not same as speed - range: [-100, 100] !!!!! fix this
 while (robot.distance() < Td):
    print("distance: " + str(robot.distance())) 
    error = gyro_sensor.angle()
@@ -54,13 +54,12 @@ robot.stop()
 ```  
 Td = 1000 # target distance
 Kp = 1.2    
-Tp = 300 # target speed
+Ts = 300 # target speed
 
 while (robot.distance() < Td):
    error = gyro_sensor.angle()
-   turn = Kp * error * -1                  # the "P term", how much we want to change the motors' power
-   print("error " + str(error) + "; turn " + str(turn) + "; error " + str(error) )      
-   robot.drive(Tp, turn)
+   turn = Kp * error * -1  # the "P term", how much we want to change the robot's direction
+   robot.drive(Ts, turn)
 robot.stop()
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
