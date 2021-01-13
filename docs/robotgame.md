@@ -69,6 +69,8 @@
 
 --------
 # Log
+> #### 12 Jan, 2021 gyro issue solution; random robot start jiggle
+Finally figured out that the forklift attachment, was sometimes (not always), causing the robot to drift left - the opposite direction that the attachement was placed on the robot.  Our robot is a trike (3 wheel) robot with the caster wheel in the (centre) front.  Our forklist attachment was on the right-hand side.  This was causing the robot to sometimes drift left.  Options to fix: move forklist to centre, add counter-weight to robot on opposite side of forklift, add a second caster wheel, add a beam across the front of the robot so that caster is no longer being used.  Also addressed problem where robot would jiggle at start - lego motors have a bit of play (2-3mm of free motion when not engaged).  This may be causing random changes in direction when robot first started.  Solutions: make sure both motors/wheels are rolled forward, then placed on starting position - so they have equal play, implement ramping up code so that robot does not try to go to full speed immediately.
 > #### 7 Jan, 2021 troubleshooting gyro_traight function
 robot seems to lean left when going straight - tested motors to make sure that they are both running at same speed (put lines on motor and ran for 5 secs and see if they remain parallel).
 > #### 5 Jan, 2021 - troubleshooting reliability issues with 1_benchbocciabasket.py
