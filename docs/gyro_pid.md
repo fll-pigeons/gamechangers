@@ -1,6 +1,4 @@
-# Very DRAFT
-
-# Driving straight using a gyro and PID algorithm
+# Driving straight using a gyro and PID algorithm (draft)
 
 Most articles on Lego EV3 PID algorithms use the line follower (using the Lego Colour sensor) to describe it.  This article will use the Lego Gyro because it might be a conceptually easier for a new FLL participant to understand.
 
