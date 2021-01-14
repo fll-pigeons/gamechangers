@@ -307,11 +307,11 @@ If it can't follow the line and wanders off then increase Kp. If it oscillates w
 
 5. Determine how fast it is oscillating (using Kc as your Kp value).
 
-This can be tricky but fortunately the measurement doesn't have to be all that accurate. The oscillation period (Pc) is how long it takes the robot to swing from one side of the line to the other then back to the side where it started. For typical Lego robots Pc will probably be in the range of about 0.5 seconds to a second or two.
+This can be tricky but fortunately the measurement doesn't have to be all that accurate. The oscillation period (Pc) is how long it takes the robot to swing from one side of the line to the other then back to the side where it started. For typical Lego Ev3 robots Pc will probably be in the range of about 0.5 seconds to a second or two.
 
 6. Determine how fast the robot cycles through it's control loop. Here is a program that sets the loop to a fixed number of steps and times how long the robot takes to finish.
 
-The time per loop (dT) is the measured time divided by the number of loops. For a full PID controller, written in Lego EV3 Python, w the dT will be in the range of 0.020 to 0.030 seconds per loop. 
+The time per loop (dT) is the measured time divided by the number of loops. 
 
 ```  
 start = time.time()
@@ -355,15 +355,32 @@ print("time per loop (dT): " + str(time / count))
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
+For a full PID controller, written in Lego EV3 Python, w the dT will be in the range of 0.020 to 0.030 seconds per loop. 
 
 7. Use the table below to calculate a set of Kp, Ki, and Kc values.
+
+**Ziegler–Nichols method giving K' values**
 (loop times considered to be constant and equal to dT)
 
-| Ziegler–Nichols method giving K' values                |
 | ------------------------------------------------------ |
 | Control Type | Kp | Ki | Kd |    
 | --- | ---| --- | ---|
-| PID | 0.60 * Kc | 2Kp * dT / Pc | Kp * Pc / (8dT) |
+| PID | 0.60 * Kc | 2 * Kp * dT / Pc | Kp * Pc / (8 * dT) |
+
+### Sample calculation
+
+#### Inputs for our robot:
+
+* Kc = 3 # critical gain
+* dT = 0.239 secs # time per loop
+* Pc = 0.5 seconds # oscillation period
+
+#### calcualtions
+Kp = 0.6 * 3 = 1.8
+Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
+kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
+
+see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's PID article
 
 
 ## References
