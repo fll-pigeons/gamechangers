@@ -296,11 +296,19 @@ Tuning is the process of finding the best values for Kp, Ki and Kd.
     PID = (Kp*(error) + Ki*(integral) + Kd*derivative) 
 
 1. Makes the PID controller act like a simple P controller by setting the Ki and Kd values to zero
+
 2. Set the Tp (power) term to a smallish one 20% or Ts (speed) to 25 mm/s
+
 3. Set the Kp term to a "reasonable" value.
-4. Run the robot and watch what it does. If it can't follow the line and wanders off then increase Kp. If it oscillates wildly then decrease Kp. Keep changing the Kp value until you find one that follows the line and gives noticeable oscillation but not really wild ones. We will call this Kp value "Kc" ("critical gain" in the PID literature).
+
+4. Run the robot and watch what it does. 
+
+If it can't follow the line and wanders off then increase Kp. If it oscillates wildly then decrease Kp. Keep changing the Kp value until you find one that follows the line and gives noticeable oscillation but not really wild ones. We will call this Kp value "Kc" ("critical gain" in the PID literature).
+
 5. Determine how fast it is oscillating (using Kc as your Kp value).
+
 This can be tricky but fortunately the measurement doesn't have to be all that accurate. The oscillation period (Pc) is how long it takes the robot to swing from one side of the line to the other then back to the side where it started. For typical Lego robots Pc will probably be in the range of about 0.5 seconds to a second or two.
+
 6. Determine how fast the robot cycles through it's control loop. Here is a program that sets the loop to a fixed number of steps and times how long the robot takes to finish.
 
 The time per loop (dT) is the measured time divided by the number of loops. For a full PID controller, written in Lego EV3 Python, w the dT will be in the range of 0.020 to 0.030 seconds per loop. 
@@ -349,8 +357,13 @@ print("time per loop (dT): " + str(time / count))
 
 
 7. Use the table below to calculate a set of Kp, Ki, and Kc values.
+(loop times considered to be constant and equal to dT)
 
-
+| Ziegler–Nichols method giving K' values                |
+| ------------------------------------------------------ |
+| Control Type | Kp | Ki | Kd |    
+| --- | ---| --- | ---|
+| PID | 0.60 * Kc | 2Kp * dT / Pc | Kp * Pc / (8dT) |
 
 
 ## References
