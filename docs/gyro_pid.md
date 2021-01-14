@@ -358,28 +358,89 @@ For a full PID controller, written in Lego EV3 Python, w the dT will be in the r
 7. Use the table below to calculate a set of Kp, Ki, and Kc values.
 
 **Ziegler–Nichols method giving K' values**
+
 (loop times considered to be constant and equal to dT)
 
-| ------------------------------------------------------ |
 | Control Type | Kp | Ki | Kd |    
 | --- | ---| --- | ---|
 | PID | 0.60 * Kc | 2 * Kp * dT / Pc | Kp * Pc / (8 * dT) |
 
 ### Sample calculation
 
-#### Inputs for our robot:
+#### Inputs from our robot:
 
 * Kc = 3 # critical gain
 * dT = 0.239 secs # time per loop
 * Pc = 0.5 seconds # oscillation period
 
-#### calcualtions
+#### calculations
 Kp = 0.6 * 3 = 1.8
 Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
-kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
+Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
 
-see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's PID article
+see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's PID article for information on 
+how changes to each element affect the robot's movement
 
+
+### Program to calculate PID elements
+
+start = time.time()
+print("Loop start")
+
+Pc = 0.5 # oscillation period from previous run
+Ts = 150 # target speed of robot in mm/s
+
+Kp = 3 #  the Constant 'K' for the 'p' proportional controller
+
+integral = 0 # initialize
+Ki = 0.025 #  the Constant 'K' for the 'i' integral term
+
+derivative = 0 # initialize
+lastError = 0 # initialize
+Kd = 3 #  the Constant 'K' for the 'd' derivative term
+
+count = 0
+for count in range(200):    
+   error = gyro_sensor.angle() # proportional 
+   if (error == 0): # prevent the integral term from 'overshooting'
+       integral = 0
+   else:
+       integral = integral + error    
+   derivative = error - lastError  
+   
+   correction = (Kp*(error) + Ki*(integral) + + Kd*derivative) * -1
+   
+   robot.drive(Ts, correction)
+
+   lastError = error  
+   
+   count = count + 1
+
+robot.stop()
+
+end = time.time()
+time = end - start
+
+Kc = Kp
+dT = time / count
+
+print("Loop time: " + str(time))
+print("Loop iterations: " + str(count))
+print("time per loop (dT): " + str(dT))
+
+Kp = 0.60 * Kc 
+Ki =  2 * Kp * dT / Pc
+Kd = Kp * Pc / (8 * dT)
+
+print("recommended PID parms: Kp=" + str(Kp) + "; Ki=" + str(Ki) + "; Kd=" + str(Kd))
+'''
+
+results for our virutal robot:
+Loop start
+Loop time: 4.761999845504761
+Loop iterations: 200
+time per loop (dT): 0.0238099992275238
+recommended PID parms: Kp=1.8; Ki=0.1714319944381714; Kd=4.724905655181736
 
 ## References
   * J. Sluka's excellent article: [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html)
