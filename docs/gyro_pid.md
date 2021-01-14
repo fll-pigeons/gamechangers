@@ -95,7 +95,7 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 
-## Integral Controller - correct current errors
+## Integral Controller - correct past errors
 
 ### Intro
 To improve the response of our P controller we will add a new term to the equation. This term is called the integral, the "I" in PID.  The integral is simply the running sum of the error. 
@@ -147,7 +147,7 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 #### Using robot.drive() 
-using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, whic starts driving at the specified speed and turn rate.
+using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, which starts driving at the specified speed and turn rate.
 
 (why use motor power levels rather than drive.straight? because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works OK for your purposes)
 
