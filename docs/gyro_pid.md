@@ -49,12 +49,13 @@ Or, the correction is used as the angle parameter in the Pybricks robot.drive(sp
 
 ```  
 Td = 1000 # target distance
-Tp = 80 # Target power (power is also known as 'duty cycle') 
+Tp = 80 # Target power - percentage of max power of motor (power is also known as 'duty cycle' ) 
 
 Kp = 3 #  the Constant 'K' for the 'p' proportional controller
 
 while (robot.distance() < Td):
-   error = gyro_sensor.angle()
+   error = gyro_sensor.angle() # proportional
+   
    correction = Kp * error * -1   
    
    powerA = Tp + correction
@@ -82,7 +83,8 @@ Ts = 300 # target speed of robot in mm/s
 Kp = 5 #  the Constant 'K' for the 'p' proportional controller
 
 while (robot.distance() < Td):
-   error = gyro_sensor.angle()
+   error = gyro_sensor.angle() # proportional
+   
    correction = Kp * error * -1 
    
    robot.drive(Ts, correction)
@@ -115,7 +117,7 @@ Next, just like the P term, we will multiply the integral by a proportionality c
 
 ```  
 Td = 1000 # target distance
-Tp = 60 # Target power (power is also known as 'duty cycle') 
+Tp = 60 # Target power - percentage of max power of motor (power is also known as 'duty cycle' ) 
 
 Kp = 3 #  the Constant 'K' for the 'p' proportional controller
 
@@ -123,21 +125,20 @@ integral = 0 # initialize
 Ki = 0.025 #  the Constant 'K' for the 'i' integral term
 
 while (robot.distance() < Td):
-   error = gyro_sensor.angle()
-   
-   correction = (Kp*(error) + Ki*(integral)) * -1
-   
+   error = gyro_sensor.angle() # proportional
+   if (error == 0): # prevent the integral term from 'overshooting'
+       integral = 0
+   else:
+       integral = integral + error 
+       
+   correction = (Kp*(error) + Ki*(integral)) * -1       
+
    power_left = Tp + correction
    power_right = Tp - correction   
 
    left_motor.dc(power_left) 
    right_motor.dc(power_right) 
-   
-   if (error == 0): # prevent the integral term from 'overshooting'
-       integral = 0
-   else:
-       integral = integral + error 
-   
+
    print("error " + str(error) + "; correction " + str(correction)  + "; integral " + str(integral)+ "; power_left " + str(power_left) + "; power_right " + str(power_right))   
    wait(10)
    
@@ -160,18 +161,17 @@ integral = 0 # initialize
 Ki = 0.025 #  the Constant 'K' for the 'i' integral term
 
 while (robot.distance() < Td):
-   error = gyro_sensor.angle()
-   correction = (Kp*(error) + Ki*(integral)) * -1
-   
-   robot.drive(Ts, correction)
-
-   print("error " + str(error) + "; integral " + str(integral) + "; correction " + str(correction)  )    
-
+   error = gyro_sensor.angle() # proportional
    if (error == 0): # prevent the integral term from 'overshooting'
        integral = 0
    else:
        integral = integral + error 
        
+   correction = (Kp*(error) + Ki*(integral)) * -1
+   
+   robot.drive(Ts, correction)
+
+   print("error " + str(error) + "; integral " + str(integral) + "; correction " + str(correction)  )    
 robot.stop()
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
@@ -202,14 +202,12 @@ which for our numbers is 2 + (-3) = -1. So we predict the next error will be -1.
    Correction  = Kp*(error) + Ki*(integral) + **Kd*(derivative)**
 
 
-
-
 ### Code
 #### Using power level of the motors
 
 ```  
 Td = 10000 # target distance
-Tp = 60 # Target power (power is also known as 'duty cycle') 
+Tp = 60 # Target power - percentage of max power of motor (power is also known as 'duty cycle' ) 
 
 Kp = 3 #  the Constant 'K' for the 'p' proportional controller
 
@@ -221,8 +219,8 @@ lastError = 0 # initialize
 Kd = 3 #  the Constant 'K' for the 'd' derivative term
 
 while (robot.distance() < Td):
-   error = gyro_sensor.angle()
-   if (error == 0): # prevent the integral term from 'overshooting'
+   error = gyro_sensor.angle() # proportional
+   if (error == 0):
        integral = 0
    else:
        integral = integral + error 
@@ -265,13 +263,13 @@ Kd = 3 #  the Constant 'K' for the 'd' derivative term
 
 while (robot.distance() < Td):
    error = gyro_sensor.angle() # proportional 
-   if (error == 0): # prevent the integral term from 'overshooting'
+   if (error == 0):
        integral = 0
    else:
        integral = integral + error    
    derivative = error - lastError  
    
-   correction = (Kp*(error) + Ki*(integral) + + Kd*derivative) * -1
+   correction = (Kp*(error) + Ki*(integral) + Kd*derivative) * -1
    
    robot.drive(Ts, correction)
 
