@@ -372,9 +372,10 @@ For a full PID controller, written in Lego EV3 Python, w the dT will be in the r
 * Pc = 0.5 seconds # oscillation period
 
 #### calculations
-Kp = 0.6 * 3 = 1.8
-Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
-Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
+
+* Kp = 0.6 * 3 = 1.8
+* Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
+* Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
 
 see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's PID article for information on 
 how changes to each element affect the robot's movement
@@ -424,22 +425,23 @@ dT = time / count
 
 print("Loop time: " + str(time))
 print("Loop iterations: " + str(count))
-print("time per loop (dT): " + str(dT))
 
 Kp = 0.60 * Kc 
 Ki =  2 * Kp * dT / Pc
 Kd = Kp * Pc / (8 * dT)
 
+print("inputs: Kc=" + str(Kc) + "; dT=" + str(dT) + "; Pc=" + str(Pc))
 print("recommended PID parms: Kp=" + str(Kp) + "; Ki=" + str(Ki) + "; Kd=" + str(Kd))
 ```
 
 results for our virtual robot:
 ```
 Loop start
-Loop time: 4.761999845504761
+Loop time: 5.113999843597412
 Loop iterations: 200
-time per loop (dT): 0.0238099992275238
-recommended PID parms: Kp=1.8; Ki=0.1714319944381714; Kd=4.724905655181736
+time per loop (dT): 0.02556999921798706
+inputs: Kc=3; dT=0.02556999921798706; Pc=0.5
+recommended PID parms: Kp=1.8; Ki=0.1841039943695068; Kd=4.39968726791601
 ```
 
 ## References
