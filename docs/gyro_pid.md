@@ -181,21 +181,15 @@ robot.stop()
 
 We can look into the future by assuming that the next change in the error is the same as the last change in the error. 
 
-That means the next error is expected to be the current error plus the change in the error between the two preceding sensor samples. The change in the error between two consecutive points is called the derivative.
+That means the next error is expected to be the current error less the change in the error between the current and preceding sensor samples. The change in the error between the current and preceding points is called the derivative.
 
 ### Algorithm
 
-If the current error is 2 degrees and the error before that was 5 degrees. What would be the **next error**?  the change in error is the derivative which is:
+Each time we read the gyro sensor and calculate an error, we calculate the derivative as the difference between the current error and the last error: 
 
-(the current error) - (the previous error)
-
-which for our numbers is 2 - 5 = -3. The current derivative therefore is -3. 
-
-To use the derivative to predict the next error we would use
-
-(next error) = (the current error) + ( the current derivative)
-
-which for our numbers is 2 + (-3) = -1. So we predict the next error will be -1. 
+   derivative = error - lastError
+   
+Next, just like the P term, we will multiply the derivative by a proportionality constant. Since this proportionality constant goes with the derivative term we will call it Kd. Just like the proportional term we multiply the derivative by the constant (Kd) to get a correction. For our robot it is an addition to our correction variable:
 
    Correction  = Kp*(error) + Ki*(integral) + **Kd*(derivative)**
 
@@ -289,7 +283,7 @@ Tuning is the process of finding the best values for Kp, Ki and Kd.
 
 ### Steps
 
-Formula: **PID = (Kp*(error) + Ki*(integral) + Kd*derivative)**
+Formula: PID = (Kp*(error) + Ki*(integral) + Kd*derivative)
 
 1. Makes the PID controller act like a simple P controller by setting the Ki and Kd values to zero
 
