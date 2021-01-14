@@ -289,7 +289,7 @@ Tuning is the process of finding the best values for Kp, Ki and Kd.
 
 ### Steps
 
-Formula: **PID = (Kp*(error) + Ki*(integral) + Kd*derivative) **
+Formula: **PID = (Kp*(error) + Ki*(integral) + Kd*derivative)**
 
 1. Makes the PID controller act like a simple P controller by setting the Ki and Kd values to zero
 
@@ -381,7 +381,7 @@ how changes to each element affect the robot's movement
 
 
 ### Program to calculate PID elements
-
+```
 start = time.time()
 print("Loop start")
 
@@ -431,14 +431,16 @@ Ki =  2 * Kp * dT / Pc
 Kd = Kp * Pc / (8 * dT)
 
 print("recommended PID parms: Kp=" + str(Kp) + "; Ki=" + str(Ki) + "; Kd=" + str(Kd))
-'''
+```
 
-results for our virutal robot:
+results for our virtual robot:
+```
 Loop start
 Loop time: 4.761999845504761
 Loop iterations: 200
 time per loop (dT): 0.0238099992275238
 recommended PID parms: Kp=1.8; Ki=0.1714319944381714; Kd=4.724905655181736
+```
 
 ## References
   * J. Sluka's excellent article: [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html)
