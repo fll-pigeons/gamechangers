@@ -72,7 +72,7 @@ robot.stop()
 #### Using robot.drive() 
 Using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, which starts driving at the specified speed and turn rate.
 
-(why use motor power levels rather than drive.straight? Because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works for your purposes[^1])
+(why use motor power levels rather than drive.straight? Because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works for your purposes [^1] )
 
 ```  
 Td = 1000 # target distance
