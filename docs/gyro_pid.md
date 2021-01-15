@@ -450,6 +450,6 @@ recommended PID parms: Kp=1.8; Ki=0.1841039943695068; Kd=4.39968726791601
 ## References
   * J. Sluka's excellent article: [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html)
   * [PID Line Follower Code by Using MicroPython 2.0](https://thecodingfun.com/2020/06/16/lego-mindstorms-ev3-pid-line-follower-code-by-using-micropython-2-0/)
-  * [Pybricks Porportional Line Follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
+  * [Pybricks Proportional Line Follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
   * Mark Lucking's [MicroPython Tutorial XII](https://marklucking.medium.com/micropython-tutorial-xii-15b1cf4d7a51)
   * Builderdude35's [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
