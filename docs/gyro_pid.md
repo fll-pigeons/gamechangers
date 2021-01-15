@@ -438,13 +438,14 @@ recommended PID parms: Kp=1.8; Ki=0.1841039943695068; Kd=4.39968726791601
 
 8. Run the robot and see how it behaves.
 
-9. Tweak the Kp, Ki and Kd values to get the best performance you can. You can start with fairly big tweaks, say 30% then try smaller tweaks to get the optimal (or at least acceptable) performance.
+9. Modify the Kp, Ki and Kd values to improve perfomance. You can start with fairly big tweaks, say 30% then try smaller tweaks to get the acceptable performance.
 
-10. Once you have a good set of K's try to boost the Tp value, which controls the robot's straight speed.
+10. Once you have a good set of K's, increase the robot's straight speed by increasing the Tp value.
 
-11. Re-tweak the K's or perhaps even go back to step 1 and repeat the entire process for the new Tp value.
+11. Modify the K values, or if necessary, go back to step 1 and repeat the entire process for the new Tp value.
 
 12. Keep repeating until the robot's behavior is acceptable. 
+
 
 ## References
   * J. Sluka's excellent article: [A PID Controller For Lego Mindstorms Robots](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html)
