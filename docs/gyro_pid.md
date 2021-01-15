@@ -1,21 +1,21 @@
-# Driving straight using a gyro and PID algorithm (draft)
+# Driving straight using a gyro and PID algorithm
 
-Most articles on Lego EV3 PID algorithms use the line follower (using the Lego Colour sensor) to describe it.  This article will use the Lego Gyro because it might be a conceptually easier for a new FLL participant to understand.
+Most articles on Lego EV3 PID algorithms use a line follower example (using the Lego Colour sensor) to describe it.  This article will use the Lego Gyro because it might be a conceptually easier for new FLL participants to understand.
 
 # PID Overview
-A PID controller is a Proportional Integral Derivative controller:  It contains:
-  * a proportional (P) term that tries to correct the **current error**, 
-  * an integral (I) term that tries to correct **past errors**, and 
-  * a derivative (D) term that tries to tries to correct errors that hasn't even occurred yet (**future errors**). 
+A PID Controller is a common technique used to control a robot.  The term 'PID' is an acronym for Proportional Integral Derivative.  A complete mathematical description of a PID Controller is fairly complex, but the basics of the approach can be to control Lego EV3 robots.  At its core, each element of a PID controller deals with a specific type of tracking error:
+  * the proportional (P) term tries to correct the **current error**, 
+  * the integral (I) term that tries to correct **past errors**, and 
+  * the derivative (D) term that tries to tries to correct errors that hasn't even occurred yet (**future errors**). 
 
 ## Proportional Controller - correct current errors
 
 ### Intro
-For a P (proportional) controller, we use a sensor to measure something that you are trying to control, then convert that measurement to an error.  Then we multiply the error by a scaling factor called Kp.  The result is a correction for the system.  The correction in this case can applied as an increase/decrease in the power level of the motors, or as the angle parameter in the Pybricks robot.drive(speed, angle) function.
+For a P (proportional) controller, we use a sensor to measure something that you are trying to control and then convert that measurement to an **error**.  Then we multiply that error by a **scaling factor** called Kp.  The result is a **correction** for the system.  The correction in this case can applied as an increase/decrease in the power level of the motors, or as the angle parameter in the Pybricks robot.drive(speed, angle) function.
 
-The scaling factor Kp is first determined using a bit of educated guessing and then is fine tuned by trial and error. 
+The scaling factor Kp is first determined using a bit of educated guessing and then is **fine tuned by trial and error**. 
 
-In this particular case, to get our robot to drive straight, we are using the gyro sensor to measure (in degrees) the amount the robot is off course (the error).  Then for the robot course correction, we want the robot to turn in the opposite direction of the error, then multiply that number by a scaling factor called Kp.
+In this particular case, to get our robot to drive straight, we are using the gyro sensor to measure (in degrees) the amount the robot is off course (the error).  Then for the robot course correction, we want the robot to turn in the opposite direction of the error, by at least the amount of the error.  However, because of brick processing lag (Lego EV3 bricks are slow to run programs and process data from sensors), we also need to compensate for this by multiplying that correction by the scaling factor (Kp).
 
 ### Background: Robot & Gyro
 If your robot is driving straight, gyro.angle() should return zero degrees if there is no tracking error on the robot.  If the robot turns slightly off course, gyro.angle will return a positive or negative number depending on the direction and number of degrees your robot is off course.  For example, if you tell you robot to drive straight, and it turns slightly to the left, gyro.angle() will return a negative value corresponding to the number of degrees your robot is off course.
@@ -29,7 +29,7 @@ However, we want our robot to turn in the oppposite direction to the error that 
 
    correction = error * -1 
    
-Further, because of processing delays in getting the reading from the gyro, and the time for the EV3 brick to decide what to do, we also need to a add a scaling factor (Kp) to the correction so that the robot.  Otherwise, the robot may occillate (swing back and forth) as it is trying to get back to a straight line of travel:
+Further, because of processing delays in getting the reading from the gyro, and the time for the EV3 brick to decide what to do, we also need to a add a scaling factor (Kp) to the correction so that the robot.  Otherwise, the robot may occillate (swing back and forth) wildly as it is trying to get back to a straight line of travel:
 
    correction = Kp * error * -1 
 
@@ -38,7 +38,7 @@ The correction is then applied to increase/decrease in the power level of the mo
    powerA = Tp + correction
    powerB = Tp - correction 
 
-Or, the correction is used as the angle parameter in the Pybricks robot.drive(speed, angle) function:
+Or, if using the Pybricks robot.drive(speed, angle) function, the correction is used as the angle parameter:
 
    robot.drive(Ts, correction)
   
@@ -70,9 +70,9 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 #### Using robot.drive() 
-using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, whic starts driving at the specified speed and turn rate.
+Using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, which starts driving at the specified speed and turn rate.
 
-(why use motor power levels rather than drive.straight? because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works OK for your purposes)
+(why use motor power levels rather than drive.straight? Because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works for your purposes)
 
 ```  
 Td = 1000 # target distance
@@ -106,7 +106,7 @@ Each time we read the gyro sensor and calculate an error we will add that error 
 
    integral = integral + error
    
-Next, just like the P term, we will multiply the integral by a proportionality constant, that's another K. Since this proportionality constant goes with the integral term we will call it Ki. Just like the proportional term we multiply the integral by the constant (Ki) to get a correction. For our line following robot it is an addition to our correction variable.
+Next, just like the P term, we will multiply the integral by a proportionality constant, that's another K. Since this proportionality constant goes with the integral term we will call it Ki. Just like the proportional term we multiply the integral by the constant (Ki) to get a correction:
 
    correction = Kp*(error) + **Ki*(integral)**
 
@@ -146,9 +146,7 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 #### Using robot.drive() 
-using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, which starts driving at the specified speed and turn rate.
-
-(why use motor power levels rather than drive.straight? because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works OK for your purposes)
+using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function:
 
 ```  
 Td = 1000 # target distance
@@ -179,9 +177,9 @@ robot.stop()
 
 ### Intro
 
-We can look into the future by assuming that the next change in the error is the same as the last change in the error. 
+We can look into the future by assuming that the next change in the error is the same as the last change in the error.  This change in error is called the derivative.  To use the derivative to predict the next error we would use
 
-That means the next error is expected to be the current error less the change in the error between the current and preceding sensor samples. The change in the error between the current and preceding points is called the derivative.
+   (next error) = (current error) + (current derivative)   
 
 ### Algorithm
 
@@ -237,13 +235,11 @@ robot.stop()
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
 #### Using robot.drive() 
-using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, whic starts driving at the specified speed and turn rate.
-
-(why use motor power levels rather than drive.straight? because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works OK for your purposes)
+using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function:
 
 ```  
 Td = 1000 # target distance
-Ts = 150 # target speed of robot in mm/s
+Ts = 300 # target speed of robot in mm/s
 Kp = 3 #  the Constant 'K' for the 'p' proportional controller
 
 integral = 0 # initialize
@@ -273,31 +269,29 @@ robot.stop()
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
-
-
-
-
 ## Tuning
 
-Tuning is the process of finding the best values for Kp, Ki and Kd.
+Tuning a PID algorithm is the process of finding the best values for Kp, Ki and Kd.
 
 ### Steps
 
-Formula: PID = (Kp*(error) + Ki*(integral) + Kd*derivative)
+Formula: PID = (Kp*(error) + Ki*(integral) + Kd*(derivative))
 
 1. Makes the PID controller act like a simple P controller by setting the Ki and Kd values to zero
 
-2. Set the Tp (power) term to a smallish one 20% or Ts (speed) to 25 mm/s
+2. Set the Tp (power) term to a smallish one 20% (or Ts (speed) to 50 mm/s)
 
-3. Set the Kp term to a "reasonable" value.
+3. Set the Kp term to a "reasonable" value:
+  *  take the maximum value we want to send to the motor's power control (100) and divide by the maximum useable error value (5): 100 / 5 = 20; or
+  * set it to 1 and see waht happens
 
 4. Run the robot and watch what it does. 
 
-If it can't follow the line and wanders off then increase Kp. If it oscillates wildly then decrease Kp. Keep changing the Kp value until you find one that follows the line and gives noticeable oscillation but not really wild ones. We will call this Kp value "Kc" ("critical gain" in the PID literature).
+If it can't follow the line and wanders off then increase Kp. If it oscillates wildly then decrease Kp. Keep changing the Kp value until you find one that follows the line and gives noticeable oscillation but not really wild ones. We will call this Kp value "Kc" ("critical gain").
 
 5. Determine how fast it is oscillating (using Kc as your Kp value).
 
-This can be tricky but fortunately the measurement doesn't have to be all that accurate. The oscillation period (Pc) is how long it takes the robot to swing from one side of the line to the other then back to the side where it started. For typical Lego Ev3 robots Pc will probably be in the range of about 0.5 seconds to a second or two.
+This measurement doesn't have to be accurate. The oscillation period (Pc) is how long it takes the robot to swing from one side of the line to the other then back to the side where it started. For typical Lego Ev3 robots Pc will probably be in the range of about 0.5 seconds to a second or two.
 
 6. Determine how fast the robot cycles through it's control loop. Here is a program that sets the loop to a fixed number of steps and times how long the robot takes to finish.
 
@@ -345,7 +339,7 @@ print("time per loop (dT): " + str(time / count))
 ```  
 --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (copy code and paste it under Python tab)
 
-For a full PID controller, written in Lego EV3 Python, w the dT will be in the range of 0.020 to 0.030 seconds per loop. 
+For a full PID controller, written in Lego EV3 Python, the dT will be in the range of 0.020 to 0.030 seconds per loop. 
 
 7. Use the table below to calculate a set of Kp, Ki, and Kc values.
 
@@ -371,16 +365,17 @@ For a full PID controller, written in Lego EV3 Python, w the dT will be in the r
 * Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
 * Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
 
-see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's PID article for information on 
-how changes to each element affect the robot's movement
+see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's excellent PID article for information on how changes to each element affect the robot's movement
 
 
 ### Program to calculate PID elements
+(note: you need to update the 'Pc' variable with the actual oscillation period of you robot, and also update the 'Ns' variable to get the loop to run 10000 times when testing an actual robot)
 ```
 start = time.time()
 print("Loop start")
 
 Pc = 0.5 # oscillation period from previous run
+Ns = 200 # number of steps in loop
 Ts = 150 # target speed of robot in mm/s
 
 Kp = 3 #  the Constant 'K' for the 'p' proportional controller
@@ -393,7 +388,7 @@ lastError = 0 # initialize
 Kd = 3 #  the Constant 'K' for the 'd' derivative term
 
 count = 0
-for count in range(200):    
+for count in range(Ns):    
    error = gyro_sensor.angle() # proportional 
    if (error == 0): # prevent the integral term from 'overshooting'
        integral = 0
