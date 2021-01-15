@@ -367,10 +367,11 @@ For a full PID controller, written in Lego EV3 Python, the dT will be in the ran
     * Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
     * Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
 
-  see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's excellent PID article for information on how changes to each element affect the robot's movement
+see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's excellent PID article for information on how changes to each element affect the robot's movement
 
-  * program to calculate PID elements
+* program to calculate PID elements:
 (note: you need to update the 'Pc' variable with the actual oscillation period of you robot, and also update the 'Ns' variable to get the loop to run 10000 times when testing an actual robot)
+
 ```
 start = time.time()
 print("Loop start")
@@ -424,7 +425,7 @@ print("inputs: Kc=" + str(Kc) + "; dT=" + str(dT) + "; Pc=" + str(Pc))
 print("recommended PID parms: Kp=" + str(Kp) + "; Ki=" + str(Ki) + "; Kd=" + str(Kd))
 ```
 
-  * results for our virtual robot:
+* results for our virtual robot:
 
 ```
 Loop start
