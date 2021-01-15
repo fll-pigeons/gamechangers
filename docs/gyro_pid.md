@@ -297,6 +297,8 @@ This measurement doesn't have to be accurate. The oscillation period (Pc) is how
 
 The time per loop (dT) is the measured time divided by the number of loops. 
 
+* sample program:
+
 ```  
 start = time.time()
 print("Loop start")
@@ -351,24 +353,23 @@ For a full PID controller, written in Lego EV3 Python, the dT will be in the ran
 | --- | ---| --- | ---|
 | PID | 0.60 * Kc | 2 * Kp * dT / Pc | Kp * Pc / (8 * dT) |
 
-### Sample calculation
+* Sample calculation
 
-#### Inputs from our robot:
+  * Inputs from our robot:
 
-* Kc = 3 # critical gain
-* dT = 0.239 secs # time per loop
-* Pc = 0.5 seconds # oscillation period
+    * Kc = 3 # critical gain
+    * dT = 0.239 secs # time per loop
+    * Pc = 0.5 seconds # oscillation period
 
-#### calculations
+  * calculations
 
-* Kp = 0.6 * 3 = 1.8
-* Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
-* Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
+    * Kp = 0.6 * 3 = 1.8
+    * Ki = 2 * 1.8 * 0.239 / 0.5 = 1.72
+    * Kd = 1.8 * 0.5  / (8 * 0.239) = 0.4707
 
-see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's excellent PID article for information on how changes to each element affect the robot's movement
+  see section [How changes in Kp, Ki, and Kd affect the robots behavior](http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html) of J. Sluka's excellent PID article for information on how changes to each element affect the robot's movement
 
-
-### Program to calculate PID elements
+  * program to calculate PID elements
 (note: you need to update the 'Pc' variable with the actual oscillation period of you robot, and also update the 'Ns' variable to get the loop to run 10000 times when testing an actual robot)
 ```
 start = time.time()
@@ -423,7 +424,8 @@ print("inputs: Kc=" + str(Kc) + "; dT=" + str(dT) + "; Pc=" + str(Pc))
 print("recommended PID parms: Kp=" + str(Kp) + "; Ki=" + str(Ki) + "; Kd=" + str(Kd))
 ```
 
-results for our virtual robot:
+  * results for our virtual robot:
+
 ```
 Loop start
 Loop time: 5.113999843597412
