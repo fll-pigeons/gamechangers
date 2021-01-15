@@ -283,7 +283,7 @@ PID Formula: correction = (Kp*(error) + Ki*(integral) + Kd*(derivative))
 
 3. Set the Kp term to a "reasonable" value:
   *  take the maximum value we want to send to the motor's power control (100) and divide by the maximum useable error value (5): 100 / 5 = 20; or
-  * set it to 1 and see waht happens
+  * set it to 1 and see what happens
 
 4. Run the robot and watch what it does. 
 
