@@ -114,6 +114,9 @@
      robot.stop()
      ``` 
     --->[try it out](https://fll-pigeons.github.io/gamechangers/simulator/public/)  (use Single Sensor Line Robot and select Gyro Challenges from Worlds under the Simulator tab)
+
+   * See also: [Driving straight using a gyro and PID algorithm](gyro_pid.md)
+    
     
    * **Spin Turn Using Gyro - Right Turn Only**
 
