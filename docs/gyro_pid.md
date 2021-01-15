@@ -275,7 +275,7 @@ Tuning a PID algorithm is the process of finding the best values for Kp, Ki and 
 
 ### Steps
 
-Formula: PID = (Kp*(error) + Ki*(integral) + Kd*(derivative))
+PID Formula: correction = (Kp*(error) + Ki*(integral) + Kd*(derivative))
 
 1. Makes the PID controller act like a simple P controller by setting the Ki and Kd values to zero
 
