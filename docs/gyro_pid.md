@@ -72,7 +72,7 @@ robot.stop()
 #### Using robot.drive() 
 Using Pybrick's [robot.drive(drive_speed, turn_rate)](https://pybricks.github.io/ev3-micropython/robotics.html#pybricks.robotics.DriveBase.drive) function, which starts driving at the specified speed and turn rate.
 
-(why use motor power levels rather than drive.straight? Because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works for your purposes)
+(why use motor power levels rather than drive.straight? Because Pybrick's drive.straight uses its own internal PID algorithms for angle and distance that may cause subtle bugs with a user implemented PID algorithm - test the algorithm out to make sure it works for your purposes[^1])
 
 ```  
 Td = 1000 # target distance
@@ -453,3 +453,6 @@ recommended PID parms: Kp=1.8; Ki=0.1841039943695068; Kd=4.39968726791601
   * [Pybricks Proportional Line Follower](https://pybricks.github.io/ev3-micropython/examples/robot_educator_line.html)
   * Mark Lucking's [MicroPython Tutorial XII](https://marklucking.medium.com/micropython-tutorial-xii-15b1cf4d7a51)
   * Builderdude35's [PID Line Follower for EV3 - The Ultimate Line Follower!](https://www.youtube.com/watch?v=AMBWV_HGYj4)
+
+## Footnotes
+[^1]: Post from FLLShareandLearn on Facebook (Matt Hanson) The pybricks drivebase uses two PID controllers (written in C) to manage the drive motors. They do a great job at driving straight and turning smoothly using odometry. But if you don’t understand what they’re up to, they can really get in your way when trying to make a line follower. Have a look at this [discussion thread on pybricks support](https://github.com/pybricks/support/issues/18)
