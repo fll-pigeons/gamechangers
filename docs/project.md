@@ -61,4 +61,6 @@ For questions about the Project, visit the Judging FAQ on the FIRST LEGO League 
 
 --------
 # Log
-> #### 7 Jan, 2021 started Innovation project
+> #### 12,14 Jan - continuing work
+Got sidetracked in wanting to create web app/web site, now working on slides to describe how the app should work
+> #### 7 Jan, 2021 - started Innovation project
