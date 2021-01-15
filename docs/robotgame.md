@@ -45,7 +45,7 @@
 * [Simulator Tutorial Videos](tutorial/simulatorIntro.md) (work in progress)
     
 ### Docs
-
+* [Driving straight using a gyro and PID algorithm](gyro_pid.md)
 * [Lego's Documentation - html](https://pybricks.github.io/ev3-micropython/index.html)
 * [PyBrick's MicroPython Documentation - pdf](https://docs.pybricks.com/_/downloads/en/latest/pdf/)
 * [Lego EV3 Programming Language research](AltProgLangs.md)
