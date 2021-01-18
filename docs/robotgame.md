@@ -69,7 +69,7 @@
 --------
 # Log
 > #### 17 Jan, 2021 - Forklift updates
-Moved forklift to front  centre of robot, so it is more balanced (given that it is a trike robot with ball caster in front, having forklift on right had side caused many navigation problems) and no longer using worm gear - too slow and not as strong as one would expect - used Yoshishito Isogawa's [Lego Minstorms EV3 Idea book](https://www.amazon.ca/LEGO-MINDSTORMS-EV3-Idea-Book/dp/1593276001) to come up with better small-gear-to-small-gear change-of-direction solution; also reinforced and strengthened forklift so that it is more reliable and reinforced the box around the robot frame to improve robot navigation reliability - wobbly box around main robot frame may have caused issues with trying to drive in straight line, since wheel axles are attached to box walls.
+Moved forklift to front  centre of robot, so it is more balanced (given that it is a trike robot with ball caster in front, having forklift on right had side caused many navigation problems) and no longer using worm gear - too slow and not as strong as one would expect - used Yoshishito Isogawa's [Lego Minstorms EV3 Idea book](https://www.amazon.ca/LEGO-MINDSTORMS-EV3-Idea-Book/dp/1593276001) to come up with better small-gear-to-small-gear change-of-direction solution; reinforced and strengthened forklift so that it is more reliable; also reinforced the box around the robot frame to improve robot navigation reliability - wobbly box around main robot frame may have caused issues with trying to drive in straight line, since wheel axles are attached to box walls.
 > #### 14 Jan, 2021 - working on Forklift attachement fix
 WIP - moving forklift to centre of robot
 > #### 12 Jan, 2021 gyro issue solution; random robot start jiggle
