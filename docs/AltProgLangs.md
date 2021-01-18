@@ -96,6 +96,12 @@ Tiny Java Virtual Machine that supports Java.
 * [C4EV3](https://c4ev3.github.io/) 
 Native C/C++ Programming for the LEGO® EV3
 
+* [Robot JavaScript](https://www.microsoft.com/en-ca/p/robot-javascript/9nb6w06lpx68?activetab=pivot:overviewtab) 
+  * JavaScript compiler for LEGO EV3 robots.
+  * generates code for the EV3 robots using the default LEGO firmware - nothing to install on the EV3 brick. 
+  * The same robot can execute both EV3-G programs and Robot JavaScript programs.
+  * (Written in C# and makes extensive use of ANTLR 4 (from Terence Parr) to translate JavaScript into EV3 Bytecodes. )
+
 ### browser-based block programming IDE
   * [Browser-based IDE Disadvantages](https://thecodingfun.com/2020/05/28/is-it-a-good-alternative-to-use-microsoft-makecode-to-program-lego-mindstorms-ev3-part-2/) (browser based languages may make debugging more difficult)
   
