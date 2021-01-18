@@ -14,7 +14,6 @@
 
 * Points Calculators
   * [komurobo](http://komurobo.com/projets/fll/replay/)
-  * [FLL RePLAY Scorer](https://flltutorials.com/Resources/2020/scorer/index.html?lang=en)
   
 * Last Year
   * [Strategy Sheet - 2019](CityShaperStrategySheet.pdf)
@@ -69,6 +68,8 @@
 
 --------
 # Log
+> #### 17 Jan, 2021 - Forklift updates
+Moved forklift to front  centre of robot, so it is more balanced (given that it is a trike robot wirh ball cater in front, having forklift on right had side caused many navigation problems) and no longer using worm gear - too slow and not as strong as one would expect - used Yoshishito Isogawa's [Lego Minstorms EV3 Idea book](https://www.amazon.ca/LEGO-MINDSTORMS-EV3-Idea-Book/dp/1593276001) to come up with better small-gear-to-small-gear change-of-direction solution; also reinforced and strengthened forklift so that it is more reliable and reinforced the box around the robot frame to improve robot navigation reliability - wobly box around main robot frame may have caused issues with trying to drive in straight line.
 > #### 14 Jan, 2021 - working on Forklift attachement fix
 WIP - moving forklift to centre of robot
 > #### 12 Jan, 2021 gyro issue solution; random robot start jiggle
