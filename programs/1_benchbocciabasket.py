@@ -13,7 +13,7 @@ ev3 = EV3Brick()
 left_motor = Motor(Port.B,  positive_direction=Direction.COUNTERCLOCKWISE)
 right_motor = Motor(Port.C,  positive_direction=Direction.COUNTERCLOCKWISE)
 lift_motor = Motor(Port.A)
-forklift_motor = Motor(Port.D) 
+forklift_motor = Motor(Port.D,  positive_direction=Direction.COUNTERCLOCKWISE)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
@@ -44,7 +44,7 @@ def gyro_straight(distance, robotSpeed=150):
     robot.reset() 
     gyro_sensor.reset_angle(0)
 
-    PROPORTIONAL_GAIN = 1.2
+    PROPORTIONAL_GAIN = 1.1
     if distance < 0: # move backwards
         while robot.distance() > distance:
             reverseSpeed = -1 * robotSpeed        
@@ -60,18 +60,18 @@ def gyro_straight(distance, robotSpeed=150):
 
 
 # Go to boccia
-#gyro_straight(20, 100)
-#gyro_turn(7, 100)
-#gyro_straight(860, 100)
-gyro_straight(890, 100)
-forklift_motor.run_angle(speed=25198, rotation_angle=2000)
-forklift_motor.run_angle(speed=25198, rotation_angle=-2000)
-# Move to basket
+gyro_straight(460, 100)
+gyro_turn(-87, 100)
+gyro_straight(560, 100)
+forklift_motor.run_angle(speed=1000, rotation_angle=160)
 gyro_straight(-10, 100)
-gyro_turn(-55, 100)
-gyro_straight(10, 100)
-forklift_motor.run_angle(speed=25198, rotation_angle=10000)
-forklift_motor.run_angle(speed=25198, rotation_angle=-1000)
+# Move to basket
+forklift_motor.run_angle(speed=1000, rotation_angle=-160)
+gyro_straight(-10, 100)
+gyro_turn(-45, 100)
+gyro_straight(105, 100)
+forklift_motor.run_angle(speed=1000, rotation_angle=2*360)
+forklift_motor.run_angle(speed=1000, rotation_angle=-2*360)
 # Move to bench
 gyro_straight(-70, 100)
 gyro_turn(-70, 100)
