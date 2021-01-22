@@ -22,7 +22,7 @@ ev3.screen.draw_text(50, 60,"Testing!")
 ev3.speaker.beep()
 #forklift_motor.run_angle(speed=5005, rotation_angle=2*360)
 forklift_motor.run_angle(speed=5005, rotation_angle=-2*360)
-
+#owen is a loser
 
 
 #forklift_motor.run_angle(speed=25198, rotation_angle=10000)
