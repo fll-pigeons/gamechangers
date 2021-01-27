@@ -68,6 +68,10 @@
 
 --------
 # Log
+> #### 26 Jan, 2021 - Boccia bucket
+Recreated Boccia bucket attachement; Tried a few complete runs, now having problems with forklift again... reliability issues have been plaguing us from the start.
+> #### 19-21 Jan, 2021 - Forklift recentre and design change
+Gyro navigation much better with forklift now being centered; forklift move to centre-front of robot initiated a change gear design that improved the workings of the forklift; forklift now has speed and strength to lift the baskball easily; working through changes in code to get boccia/basketball/bench missions to work.
 > #### 17 Jan, 2021 - Forklift updates
 Moved forklift to front  centre of robot, so it is more balanced (given that it is a trike robot with ball caster in front, having forklift on right had side caused many navigation problems) and no longer using worm gear - too slow and not as strong as one would expect - used Yoshishito Isogawa's [Lego Minstorms EV3 Idea book](https://www.amazon.ca/LEGO-MINDSTORMS-EV3-Idea-Book/dp/1593276001) to come up with better small-gear-to-small-gear change-of-direction solution; reinforced and strengthened forklift so that it is more reliable; also reinforced the box around the robot frame to improve robot navigation reliability - wobbly box around main robot frame may have caused issues with trying to drive in straight line, since wheel axles are attached to box walls.
 > #### 14 Jan, 2021 - working on Forklift attachement fix
