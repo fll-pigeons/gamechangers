@@ -14,7 +14,7 @@ left_motor = Motor(Port.B,  positive_direction=Direction.COUNTERCLOCKWISE)
 right_motor = Motor(Port.C,  positive_direction=Direction.COUNTERCLOCKWISE)
 lift_motor = Motor(Port.A)
 forklift_motor = Motor(Port.D) 
-
+#owen is a loser and Sam is the best vjzkvcvnjfn
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
 ev3.screen.draw_text(50, 60, "Step by Step!")
@@ -68,6 +68,3 @@ gyro_straight(50, 25)
 gyro_straight(50, 25)
 robot.stop
 gyro_straight(-850, 300)
-
-
- 
