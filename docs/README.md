@@ -8,7 +8,7 @@ We will be participating in the [following events](https://www.firstroboticscana
 
   * [FIRST LEGO League Challenge Remote Practice Tournament](https://drive.google.com/file/d/1r0kj3WJekACYdHOAu3Z_-qRU7YjFfBcE/view) (Nov29-Dec2):
   * [FIRST LEGO League Challenge Remote Tournament - London, Ontario](https://www.eng.uwo.ca/outreach/first-robotics/lego-league/) (Feb22-Feb24)
-   * [Western Team Information Package](https://drive.google.com/file/d/1CBPlQyqS-cUpvE5I3Y-6UIPG8FO1QV8W/view)
+    * [Western Engineering FLLTeam Package](https://drive.google.com/file/d/1CBPlQyqS-cUpvE5I3Y-6UIPG8FO1QV8W/view)
   
 [Challenge Resources](challenge.md)
 
