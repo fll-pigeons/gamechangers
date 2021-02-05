@@ -79,5 +79,5 @@ gyro_straight(220, 200)
 # Go back to home base
 gyro_straight(-43, 100)
 gyro_turn(-45, 100)
-gyro_straight(575, 150)
+gyro_straight(705, 150)
 
