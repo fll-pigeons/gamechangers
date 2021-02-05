@@ -58,13 +58,13 @@ def gyro_straight(distance, robotSpeed):
             wait(10)            
     robot.stop()
 
-gyro_straight(650, 100)
+gyro_straight(650, 200)
 robot.stop
 gyro_straight(50, 25)
 robot.stop
 gyro_straight(50, 25)
 robot.stop
 gyro_straight(50, 25)
-gyro_straight(50, 25)
+gyro_straight(100, 25)
 robot.stop
 gyro_straight(-850, 300)
