@@ -61,7 +61,7 @@ def gyro_straight(distance, robotSpeed):
 
 gyro_straight(-280, 150)
 gyro_turn(87, 100)
-gyro_straight(-580, 170)
+gyro_straight(-600, 170)
 gyro_straight(280, 200)
 gyro_turn(35, 150)
 gyro_straight(-350, 150)
