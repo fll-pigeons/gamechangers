@@ -68,7 +68,11 @@
 
 --------
 # Log
-> #### 26 Jan, 2021 - Boccia bucket
+> #### 4 Feb, 2021 - switched to new Lego battery pack
+Robot worked very well for first 45 min, then had problems; thought it might be the gyro, but after rebooting a couple of times, tried cleaning wheels, mat and caster wheel, and this fixed things. 
+> #### 2 Feb, 2021 - reliability issues
+Robot not reliably working, not clear why.  Maybe gyro, maybe battery.
+> #### 26 & 28 Jan, 2021 - Boccia bucket
 Recreated Boccia bucket attachement; Tried a few complete runs, now having problems with forklift again... reliability issues have been plaguing us from the start.
 > #### 19-21 Jan, 2021 - Forklift recentre and design change
 Gyro navigation much better with forklift now being centered; forklift move to centre-front of robot initiated a change gear design that improved the workings of the forklift; forklift now has speed and strength to lift the baskball easily; working through changes in code to get boccia/basketball/bench missions to work.
