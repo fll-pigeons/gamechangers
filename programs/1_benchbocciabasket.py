@@ -6,7 +6,7 @@ from pybricks.parameters import Port, Direction
 from pybricks.robotics import DriveBase
 from pybricks.tools import wait
 
-# Initialize the EV3 Brick.
+# Initialize the EVexit3 Brick.
 ev3 = EV3Brick()
 
 # Initialize the motors.
@@ -17,7 +17,7 @@ forklift_motor = Motor(Port.D,  positive_direction=Direction.COUNTERCLOCKWISE)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-ev3.screen.draw_text(50, 60, "noot noot")
+ev3.screen.draw_text(50, 60, "Once Upon a time...")
 ev3.speaker.beep()
 
 gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
@@ -63,7 +63,7 @@ def gyro_straight(distance, robotSpeed=150):
 gyro_straight(460, 100)
 gyro_turn(-87, 100)
 gyro_straight(575, 100)
-forklift_motor.run_angle(speed=1000, rotation_angle=160)
+forklift_motor.run_angle(speed=400, rotation_angle=160)
 gyro_straight(-10, 100)
 # Move to basket
 forklift_motor.run_angle(speed=1000, rotation_angle=-160)
