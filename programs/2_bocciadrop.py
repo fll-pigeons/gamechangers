@@ -17,7 +17,7 @@ forklift_motor = Motor(Port.D)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-ev3.screen.draw_text(50, 60, "bot go brrrrr")
+ev3.screen.draw_text(50, 60, "Drop the blocks!")
 ev3.speaker.beep()
 
 gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
@@ -59,10 +59,11 @@ def gyro_straight(distance, robotSpeed):
     robot.stop()
 
 
-
+#go to boccia drop zone
 gyro_straight(300, 100)
 gyro_turn(-47, 100)
 gyro_straight(890, 100)
+#drop the cubes
 boccia_motor.run_angle(speed=150, rotation_angle=-180) 
-#gyro_turn(5, 100)
+#go back to home
 gyro_straight(-1450,  300)
