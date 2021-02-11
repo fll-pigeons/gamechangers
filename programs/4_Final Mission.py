@@ -58,22 +58,26 @@ def gyro_straight(distance, robotSpeed):
             wait(10)            
     robot.stop()
 
-
+#puts innovation project into replay logo
 gyro_straight(-280, 150)
 gyro_turn(87, 100)
-gyro_straight(-600, 170)
-gyro_straight(280, 200)
+gyro_straight(-610, 170)
+#backs up
+gyro_straight(290, 200)
+#goes through pull up bar
 gyro_turn(35, 150)
 gyro_straight(-350, 150)
 gyro_turn(-40, 100)
 gyro_straight(-200, 150)
 gyro_turn(-37, 100)
 gyro_straight(-220, 150)
+#go to the dance area
 gyro_turn(-44, 100)
 gyro_straight(-420, 150)
 gyro_turn(-45, 100)
 gyro_straight(-475, 150)
 gyro_turn(-36, 100)
+#dance dance dance!
 count = 0
 while count < 10:
     gyro_turn(25,100)
