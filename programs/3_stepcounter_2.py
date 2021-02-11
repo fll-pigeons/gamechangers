@@ -58,7 +58,9 @@ def gyro_straight(distance, robotSpeed):
             wait(10)            
     robot.stop()
 
+#go to step counter
 gyro_straight(650, 200)
+#start pushing the counter
 robot.stop
 gyro_straight(50, 25)
 robot.stop
@@ -67,4 +69,5 @@ robot.stop
 gyro_straight(50, 25)
 gyro_straight(100, 25)
 robot.stop
+#go back to home
 gyro_straight(-850, 300)
