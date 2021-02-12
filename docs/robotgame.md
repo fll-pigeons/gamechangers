@@ -1,5 +1,8 @@
 # Robot Game
 
+# Recording Video
+* [Robot GameVideo Recording](https://firstinspiresst01.blob.core.windows.net/first-game-changers/fll-challenge/robot-game-video-recording-doc.pdf)
+
 # 0. Programs saved on Github
 [Our MicroPython programs](https://github.com/tobedetermined123/gamechangers/tree/master/programs)
 
@@ -68,6 +71,8 @@
 
 --------
 # Log
+> #### 9 & 11 Feb, 2021 - practice; new mission
+More practicing; robot performs less accurately with time - need to remember to clean wheels, caster and challenge mat.  Added bench backrest lift mission.
 > #### 4 Feb, 2021 - switched to new Lego battery pack
 Robot worked very well for first 45 min, then had problems; thought it might be the gyro, but after rebooting a couple of times, tried cleaning wheels, mat and caster wheel, and this fixed things. 
 > #### 2 Feb, 2021 - reliability issues
