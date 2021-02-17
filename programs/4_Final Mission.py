@@ -79,7 +79,7 @@ gyro_straight(-475, 150)
 gyro_turn(-36, 100)
 #dance dance dance!
 count = 0
-while count < 10:
+while count < 25:
     gyro_turn(25,100)
     gyro_turn(-25, 100)
     count = count + 1
@@ -88,4 +88,5 @@ while count < 10:
 
 
 
-#FLL PIGEONS: Sam, Owen and Hunter.
+
+#FLL PIGEONS: Sam, Owen, Hunter and Josh.
