@@ -17,7 +17,7 @@ forklift_motor = Motor(Port.D,  positive_direction=Direction.COUNTERCLOCKWISE)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=94.2, axle_track=94)
 robot.settings(straight_speed=200 , straight_acceleration=50, turn_rate=150, turn_acceleration=200)
-ev3.screen.draw_text(50, 60, "Once Upon a time...")
+ev3.screen.draw_text(50, 60, "Alright, let's do this.")
 ev3.speaker.beep()
 
 gyro_sensor = GyroSensor(Port.S2, Direction.COUNTERCLOCKWISE)
@@ -60,9 +60,9 @@ def gyro_straight(distance, robotSpeed=150):
 
 
 # Go to boccia
-gyro_straight(460, 100)
-gyro_turn(-87, 100)
-gyro_straight(575, 100)
+gyro_straight(460, 75)
+gyro_turn(-87, 75)
+gyro_straight(575, 75)
 forklift_motor.run_angle(speed=400, rotation_angle=160)
 gyro_straight(-10, 100)
 # Move to basket
