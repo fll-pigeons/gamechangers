@@ -59,9 +59,9 @@ def gyro_straight(distance, robotSpeed):
     robot.stop()
 
 #puts innovation project into replay logo
-gyro_straight(-280, 150)
-gyro_turn(87, 100)
-gyro_straight(-610, 170)
+gyro_straight(-280, 50)
+gyro_turn(89, 100)
+gyro_straight(-610, 100)
 #backs up
 gyro_straight(290, 200)
 #goes through pull up bar
@@ -89,4 +89,4 @@ while count < 25:
 
 
 
-#FLL PIGEONS: Sam, Owen, Hunter and Josh.
+#FLL PIGEONS: Sam, Owen, Hunter and Josh. 
