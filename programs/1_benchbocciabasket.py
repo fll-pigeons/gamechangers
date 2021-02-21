@@ -61,7 +61,7 @@ def gyro_straight(distance, robotSpeed=150):
 
 # Go to boccia
 gyro_straight(460, 75)
-gyro_turn(-87, 75)
+gyro_turn(-88.7, 75)
 gyro_straight(575, 75)
 forklift_motor.run_angle(speed=400, rotation_angle=160)
 gyro_straight(-10, 100)
@@ -78,6 +78,7 @@ gyro_turn(-70, 100)
 gyro_straight(220, 200)
 # Go back to home base
 gyro_straight(-43, 100)
-gyro_turn(-45, 100)
+gyro_turn(20, 100)
+gyro_turn(-65, 100)
 gyro_straight(705, 150)
 
