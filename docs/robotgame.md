@@ -71,6 +71,8 @@
 
 --------
 # Log
+> #### 21 Feb, 2021 - competition recordings submitted - best score: 285
+> #### 16 & 18 Feb, 2021 - practice
 > #### 9 & 11 Feb, 2021 - practice; new mission
 More practicing; robot performs less accurately with time - need to remember to clean wheels, caster and challenge mat.  Added bench backrest lift mission.
 > #### 4 Feb, 2021 - switched to new Lego battery pack
