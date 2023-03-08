@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem "nokogiri", ">= 1.13.4"
-gem 'rack', '~> 2.0.1'
+gem 'rack', '~> 2.1.4.3'
 gem 'rspec'
 gem "jekyll", "~> 3.9.0"
 gem "jekyll-theme-leap-day"
