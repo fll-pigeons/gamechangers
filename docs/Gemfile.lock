@@ -276,7 +276,7 @@ DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-theme-leap-day
   nokogiri (>= 1.13.9)
-  rack (~> 2.2.6.4)
+  rack (~> 2.2.14)
   rspec
 
 BUNDLED WITH
