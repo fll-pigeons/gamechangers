@@ -221,7 +221,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
     racc (1.8.1)
-    rack (2.2.14)
+    rack (2.2.18)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -276,7 +276,7 @@ DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-theme-leap-day
   nokogiri (>= 1.13.9)
-  rack (~> 2.2.6.4)
+  rack (~> 2.2.18)
   rspec
 
 BUNDLED WITH
